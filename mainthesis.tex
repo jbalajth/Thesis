@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%% mainthesis.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for University of Maryland Thesis and Dissertation files  %
+% Written by   Michael Jarret                                        %
+%              Perimeter Institute of Theoretical Physics            %
+%              Waterloo, Ontario, Canada                             %
+%              June 25, 2017                                         %
+% First version written Feb, 2016 while a student at                 %
+%       Joint Center for Quantum Information and Computer Science    %
+%       University of Maryland, College Park                         %
+%       Feb, 2016                                                    %
+% Modified: June 25, 2017 by Michael Jarret                          %
+% Based upon: UMD Dissertation Template by Dorothea F Brosius        %
+%             Institute for Electronics and Applied Physics          %
+%             University of Maryland, College Park                   %
+%             Version from June 2015                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,12pt]{umd-thesis}  
+\usepackage{mathptmx} % This is a close match to Timesop New Roman, which is recommended by the grad school
+
+% hyperref automatically hyperlinks references
+\usepackage{hyperref,xcolor}
+
+% graphics packages
+\usepackage{graphicx,epstopdf}			
+
+% path to graphics files
+\graphicspath{{graphics/}} 
+
+% Some math packages
+\usepackage{amsmath,amsthm,amsfonts,amssymb,mathrsfs,dsfont,breqn} 
+
+% Cleveref MUST come after ams packages if AMS packages are used.
+\usepackage{cleveref}  
+
+% Natbib citation package is probably most elegant
+\usepackage[numbers,sort&compress]{natbib}
+
+
+
+\usepackage{times}
+\usepackage{enumitem}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+% These are my own custom latex commands, uncomment if unwanted
+\input{custom_commands.tex}
+
+% Custom formatting options
+\hypersetup{linktocpage, linkbordercolor=blue}  % Blue outlined hyperlinks in TOC
+
+% This changes the numbering style to (chapter).(equation/thm/etc.) 
+% Note that this is an amsmath command and depends upon the inclusion
+% of the amsmath pacakage
+\numberwithin{equation}{chapter}  
+\numberwithin{thm}{chapter}
+\numberwithin{lem}{chapter}
+\numberwithin{cor}{chapter}
+\numberwithin{definition}{chapter}
+
+% Plain is the standard choice
+\bibliographystyle{plain}
+
+% Everything here is reasonably obvious
+\title{Purity Considerations and Calibration Techniques for Xenon Dark Matter Detectors}
+\author{Jon Balajthy}
+\department{Department of Physics}
+\gradyear{2017}
+\degree{Doctor of Philosophy}
+
+% Your {advisor}[his department][his institution]
+\principaladvisor{Professor Carter Hall}[University of Maryland] 
+
+% Comment out if no co-advisor
+%\coadvisor{Professor Alexey Gorshkov}[Department of Physics]
+% Uncomment the following line if your co-advisor is your chair
+
+% Uncomment the following line if someone other than your principal advisor or co-advisor is your chair and add his/her details
+%\committeechair{}[Department of Computer Science]
+
+% Add any additional committee members in alphabetical order below
+% \reader{Name}[Department][Institution]. 
+% They will not be automatically ordered 
+% Department and Institution aren't implemented as of Feb. 2016.
+%\secondreader{}
+%\thirdreader{}[Department of Philosophy]
+%\fourthreader{Reader Four}
+%\fifthreader{Reader Five}
+%\sixthreader{Reader Six}
+
+
+
+% The options below should be self explanatory, uncomment as needed
+% \coadvisorischair % Only use this if you did not add a committee chair
+% \copyrightfalse
+% \tablespagefalse
+% \figurespagefalse
+% \contentspagefalse
+% \bibpagefalse
+
+\begin{document}
+
+% Type the abstract below
+\begin{abstract}
+
+\end{abstract} 
+
+% This is the frontmatter and can include the preface, foreword, dedication, and acknowledgements. Any
+% of these can be commented out if unwanted.
+\begin{preliminary}
+
+    \begin{preface}
+        \lipsum[1]
+    \end{preface}
+
+    \begin{foreword}
+        \lipsum[1]
+    \end{foreword}
+
+
+	\begin{dedication}
+		
+	\end{dedication}
+
+	\begin{acknowledgements}	
+		
+	\end{acknowledgements}
+%% if you need a "List of Symbols or Abbreviations" look into
+% gatech-thesis-gloss.sty.
+\end{preliminary}
+
+\include{chapters/Advancement_paper}
+\include{chapters/LXe_TPCs}
+\include{chapters/Sampling_Manual}
+\include{chapters/Post_Run04_Calibrations}
+\include{chapters/C14_Calibration}
+
+\bibliography{main.bib}
+
+\end{document}

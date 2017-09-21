@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mainthesis.aux
+The style file: plain.bst
+A level-1 auxiliary file: chapters/Advancement_paper.aux
+A level-1 auxiliary file: chapters/LXe_TPCs.aux
+A level-1 auxiliary file: chapters/Sampling_Manual.aux
+A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
+A level-1 auxiliary file: chapters/C14_Calibration.aux
+Database file #1: main.bib.bib
+I was expecting a `,' or a `}'---line 126 of file main.bib.bib
+ :   
+ :   howpublished = {\url{http://pruffle.mit.edu/~ccarter/8b/Lecture_08/Lecture_08.html#eq:ltde}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "planck2015"
+Warning--I didn't find a database entry for "ryden"
+Warning--I didn't find a database entry for "zwicky"
+Warning--I didn't find a database entry for "oort"
+Warning--I didn't find a database entry for "persic"
+Warning--I didn't find a database entry for "rubin"
+Warning--I didn't find a database entry for "weber"
+Warning--I didn't find a database entry for "navarro"
+Warning--I didn't find a database entry for "milgrom"
+Warning--I didn't find a database entry for "bekenstein"
+Warning--I didn't find a database entry for "chaichiana"
+Warning--I didn't find a database entry for "markevitch"
+Warning--I didn't find a database entry for "macho"
+Warning--I didn't find a database entry for "bbn"
+Warning--I didn't find a database entry for "nedm"
+Warning--I didn't find a database entry for "axion_DM"
+Warning--I didn't find a database entry for "peccei_quinn"
+Warning--I didn't find a database entry for "axion_photon"
+Warning--I didn't find a database entry for "ADMX"
+Warning--I didn't find a database entry for "susyDM"
+Warning--I didn't find a database entry for "wimp2"
+Warning--I didn't find a database entry for "wimp1"
+Warning--I didn't find a database entry for "lux2012"
+Warning--can't use both author and editor fields in nist
+Warning--empty year in nist
+Warning--empty journal in vac_eq
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            633 strings with 8136 characters,
+and the built_in function-call counts, 6676 in all, are:
+= -- 580
+> -- 569
+< -- 0
++ -- 227
+- -- 212
+* -- 620
+:= -- 1202
+add.period$ -- 44
+call.type$ -- 14
+change.case$ -- 145
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 148
+empty$ -- 341
+format.name$ -- 212
+if$ -- 1262
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 75
+num.names$ -- 28
+pop$ -- 134
+preamble$ -- 1
+purify$ -- 133
+quote$ -- 0
+skip$ -- 100
+stack$ -- 0
+substring$ -- 300
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 3
+while$ -- 42
+width$ -- 16
+write$ -- 156
+(There was 1 error message)
