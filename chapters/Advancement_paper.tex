@@ -242,18 +242,76 @@ Taking the current entropy density to be $s_{0}=4000 cm^{-3}$ yields the followi
 Plugging in a typical weak annihilation cross section of about $10^{-25} \ cm^{3} \ s^{-1}$ for $\langle \sigma_{A}v \rangle$ gives $\Omega_{\chi} h^{2} \approx 0.03 \ GeV \ s$ which is close enough to the expected value CDM, $\Omega_{CDM} h^{2} = 0.1188 \ GeV \ s$\cite{planck2015} to make WIMPs an extremely exciting candidate to explain much, if not all, of the non-baryonic dark matter in the universe\cite{susyDM,wimp2}.
 
 
-\chapter{Cosmology Overview}
-\section{WIMP Detection Experiments}
-The relic density of WIMPs is determined by the cross-section for annihilation into standard model particles. This interaction can be observed today by looking for high energy particles coming from high density regions of space. This interaction can also run in two other directions. Production of dark matter from standard model particles can be attempted in modern particle colliders such as the LHC at CERN, and the scattering of relic dark matter can be probed for using large, low-background detectors. These three methods of detection are referred to as `indirect detection', `production', and `direct detection' respectively. Direct detection is of particular interest because it probes the existing relic dark matter background that is postulated by the $\Lambda$-CDM model.
+\section{WIMP Direct Detection}
+The relic density of WIMPs is determined by the cross-section for annihilation into standard model particles, a process which might be observed today by looking for high energy particles coming from high density regions of space such as galactic nuclei. The hypothetical interaction between WIMPs and standard model particles can also be run in two other directions. Production of WIMP dark matter from standard model particles can be searched for using modern particle colliders such as the LHC at CERN, and the scattering of relic dark matter can be probed for using large, low-background detectors. These three methods of detection are referred to as ``indirect detection'', ``production'', and ``direct detection'' respectively. Direct detection is of particular interest because it probes the existing relic dark matter background that is postulated by the $\Lambda$-CDM model.
 
-\subsection{Direct Detection of WIMPs}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=150mm]{Figures/WIMP_interaction.pdf}
+\caption{Cartoon of the WIMP-standard model interaction. The green, red, and blue arrows indicate in which direction time is being run for production, scattering, and annihilation, respectively.}
+\label{fig:WIMP_SM} 
+\end{figure}
 
-Direct detection of WIMP dark matter is the process of scattering a standard model nucleus off of a dark matter particle from the galactic halo. The velocity of WIMPs in the halo is expected to be roughly the orbital velocity around the galactic center. For the sun, this is 230 km/s, which is highly non-relativistic so collisions inside of earth-bound detectors will be well modeled by classical elastic scattering. The recoil spectrum for this type of event is given by:
+\subsection{Recoil spectrum}
+Direct detection experiments look for the of scattering a standard model nucleus off of a dark matter particle from the galactic halo. The expected rate and energy spectrum of such an interaction can be estimated assuming you know the local density and velocity of the WIMP halo. In this section, we also make the assumptions of spin independence of the interaction, along with the elasticity of the recoil, although models which violate these assumptions do exist.
+
+The WIMP halo is expected to have only a small amount of bulk rotation; that is it is expected to be more akin to a gravitationally bound ideal gas than an accretion disk. The the expected velocity of a WIMP in such a halo would then be equal to $\vec{v_{\chi}}+\vec{v_E}$, with $\vec{v_{\chi}}$ being the expected velocity of a WIMP particle inside the halo, and $\vec{v_E}$ is the orbital velocity of the earth around the galactic center. The sun's orbital velocity is $v_s=230$ km/s.
+
+The velocity of a WIMP in the lab frame will be dominated by $v_s$, which is highly non-relativistic. This being the case, collisions between WIMPs and the target nuclei of earth-bound detectors can be well modeled by classical elastic scattering. The recoil spectrum for this type of event is given by:
 \begin{equation} \label{eq:recoilspec}
 \frac{dR}{dE_{r}}=\frac{R_{0}}{E_{0}r}e^{-E_{r}/E_{0}r},
 \end{equation}
-where $R$ is the event rate per unit mass, $E_{r}$ is the recoil energy, $R_{0}$ is the total event rate, and $E_{0}$ is the most common incident WIMP energy. In equation \ref{eq:recoilspec}, $r$ is  kinematic factor given by $4M_{\chi}M_{N}/(M_{\chi}+M_{N})^2$, where $M_{\chi}$ is the mass of the dark matter particle, and $M_{N}$ is the mass of the target nucleus. 
+where $R$ is the event rate per unit mass, $E_{r}$ is the recoil energy, $R_{0}$ is the total event rate, and $E_{0}$ is the most common incident WIMP energy. In equation \ref{eq:recoilspec}, $r$ is a kinematic factor given by $4M_{\chi}M_{N}/(M_{\chi}+M_{N})^2$, where $M_{\chi}$ is the mass of the dark matter particle, and $M_{N}$ is the mass of the target nucleus. 
 
 From measurements of the galactic rotation curve, the local dark matter density is expected to be approximately 0.2-0.4 GeV cm$^{-3}$, although could be as high as 0.7 GeV cm$^{-3}$ given a nonuniform halo density profile\cite{weber}. 
 
-%several more paragraphs on expected scattering rate are needed here
+
+\subsection{Cross Section}
+The last ingredient needed to calculate the expected interaction rate in a give experiment is the scattering cross section. The WIMP-nucleus scattering cross section will have some dependence on the momentum transfer, $q$, and can be written\cite{dmintro}:
+\begin{equation}
+\sigma(q)=\sigma_0F(q),
+\end{equation}
+where $\sigma_0$ is the energy independent, 0-momentum limit of the cross section, and $F(q)$ is an energy dependent form factor. The 0-momentum cross section can be broken into a spin dependent (SD) part and a spin independent (SI) part\cite{wimp_nucleon,dmintro}:
+\begin{equation}\label{eq:sisd_cs}
+\begin{split}
+\sigma_{0,SI}=& \frac{4\mu_A^2}{\pi}[Zf_p+(A-Z)f_n]^2 \\
+\sigma_{0,SD}=& \frac{32G_F^2\mu_A^2(J+1)}{\pi J}[a_p\langle S_p \rangle + a_n\langle S_n \rangle ]^2
+\end{split}
+\end{equation} 
+Here, $f_{p,n}$ and $a_{p,n}$ are the SI and SD coupling constants of WIMPs to protons and neutrons, $\mu_A$ is the reduced mass of the interaction, $Z$ is the atomic number, $A$ is the atomic mass, $J$ is the nuclear spin, and $\langle S_{p,n} \rangle$ is the average spin of protons or neutrons in the nucleus. It is typically assumed that $f_p \approx f_n$, so the SI cross section reduces to:
+\begin{equation}\label{eq:sics}
+\sigma_{0,SI}= \frac{4\mu_A^2}{\pi}f_n^2A^2. 
+\end{equation} 
+
+The $\mu_A^2A^2$ dependence in equation \ref{eq:sics} is a result of the non-relativistic nature of the interaction leading the incident WIMP to scatter coherently off of the nucleus as a whole as opposed to the individual nucleons. This is an important result because it indicates a large benefit to using heavy nuclei as experimental target media. For instance, a detector which uses xenon as its target medium (A$\approx$131) will be over 10 times more sensitive to a 100 GeV WIMP than an argon based detector (A$\approx$40) with the same mass of target material. 
+
+Another important result is that the SD cross section does not have the same $\mu_A^2A^2$ dependence, and in many nuclei the nucleon spins cancel entirely leaving that isotope insensitive to WIMP interactions. In the case of xenon, the only isotopes that have non-zero spin and a non-negligible natural abundance are $^{131}$Xe (J=3/2) and $^{129}$Xe (J=1/2), which together make up just under half of the natural xenon abundance. Since for xenon has an even number of protons, $\langle S_p \rangle$ is very close to zero (-0.009 for $^{131}$Xe and 0.028 for $^{129}$Xe). The neutron part of the SD cross section in $^{129}$Xe and $^{131}$Xe is about 2,000 and 400 times that of a single-neutron, respectively. We can compare this to the SI cross section of xenon, which is $>5\times 10^7$ times larger than the single-nucleon cross section. This suppression of the SD cross section in comparison with the SI cross section has led to much less stringent limits on spin independent interactions than on spin dependent interactions as can be seen in the results from the LUX detector in figure \ref{fig:wimplimits}.
+\begin{figure*}
+        \centering
+        \begin{subfigure}[b]{0.475\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figures/WIMP_nucleon.pdf}
+            \caption{} 
+            \label{fig:wimplimits_si}
+        \end{subfigure}
+        \hfill
+        \vskip\baselineskip
+        \begin{subfigure}[b]{0.475\textwidth}   
+            \centering 
+            \includegraphics[width=\textwidth]{Figures/WIMP_neutron.pdf}
+            \caption{}   
+            \label{fig:wimplimits_sdn}
+        \end{subfigure}
+        \quad
+        \begin{subfigure}[b]{0.475\textwidth}   
+            \centering 
+            \includegraphics[width=\textwidth]{Figures/WIMP_proton.pdf}
+            \caption{}
+            \label{fig:wimplimits_sdp}
+        \end{subfigure}
+        \caption{Limits on the SI single-nucleon (a), SD single neutron (b), and SD single proton (c) cross sections. This limits were take from the LUX experiment's full exposure (332 days). The SI limit is roughly 5 orders of magnitude better than the SD neutron limit, which itself is about 2 orders of magnitude better than the SD proton limit. The solid black lines show the experimentally measured limits, and the green and yellow regions show the 1- and 2-$\sigma$ expectations. Figures were taken from \cite{lux_2017} and \cite{lux_sd}.}
+        \label{fig:wimplimits}
+    \end{figure*}
+
+
+\section{Thesis Outline}

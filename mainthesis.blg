@@ -13,71 +13,63 @@ I was expecting a `,' or a `}'---line 126 of file main.bib.bib
  :   howpublished = {\url{http://pruffle.mit.edu/~ccarter/8b/Lecture_08/Lecture_08.html#eq:ltde}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "planck2015"
-Warning--I didn't find a database entry for "ryden"
-Warning--I didn't find a database entry for "zwicky"
-Warning--I didn't find a database entry for "oort"
-Warning--I didn't find a database entry for "persic"
-Warning--I didn't find a database entry for "rubin"
-Warning--I didn't find a database entry for "weber"
-Warning--I didn't find a database entry for "navarro"
-Warning--I didn't find a database entry for "milgrom"
-Warning--I didn't find a database entry for "bekenstein"
-Warning--I didn't find a database entry for "chaichiana"
-Warning--I didn't find a database entry for "markevitch"
-Warning--I didn't find a database entry for "macho"
-Warning--I didn't find a database entry for "bbn"
-Warning--I didn't find a database entry for "nedm"
-Warning--I didn't find a database entry for "axion_DM"
-Warning--I didn't find a database entry for "peccei_quinn"
-Warning--I didn't find a database entry for "axion_photon"
-Warning--I didn't find a database entry for "ADMX"
-Warning--I didn't find a database entry for "susyDM"
-Warning--I didn't find a database entry for "wimp2"
-Warning--I didn't find a database entry for "wimp1"
-Warning--I didn't find a database entry for "lux2012"
+I was expecting a `,' or a `}'---line 163 of file main.bib.bib
+ : 
+ : year= {2003}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 518 of file main.bib.bib
+ : 
+ : @article{wimp_nucleon,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in bekenstein
+Warning--can't use both author and editor fields in axion_photon
 Warning--can't use both author and editor fields in nist
 Warning--empty year in nist
 Warning--empty journal in vac_eq
-You've used 14 entries,
+Warning--empty year in ryden
+Warning--empty journal in persic
+Warning--empty journal in dmintro
+You've used 48 entries,
             2118 wiz_defined-function locations,
-            633 strings with 8136 characters,
-and the built_in function-call counts, 6676 in all, are:
-= -- 580
-> -- 569
-< -- 0
-+ -- 227
-- -- 212
-* -- 620
-:= -- 1202
-add.period$ -- 44
-call.type$ -- 14
-change.case$ -- 145
+            827 strings with 17087 characters,
+and the built_in function-call counts, 23442 in all, are:
+= -- 2016
+> -- 2040
+< -- 1
++ -- 814
+- -- 764
+* -- 2185
+:= -- 4222
+add.period$ -- 148
+call.type$ -- 48
+change.case$ -- 517
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 148
-empty$ -- 341
-format.name$ -- 212
-if$ -- 1262
+cite$ -- 56
+duplicate$ -- 530
+empty$ -- 1173
+format.name$ -- 764
+if$ -- 4429
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 13
-newline$ -- 75
-num.names$ -- 28
-pop$ -- 134
+int.to.str$ -- 48
+missing$ -- 49
+newline$ -- 247
+num.names$ -- 96
+pop$ -- 464
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 473
 quote$ -- 0
-skip$ -- 100
+skip$ -- 364
 stack$ -- 0
-substring$ -- 300
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 1021
+swap$ -- 55
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
-warning$ -- 3
-while$ -- 42
-width$ -- 16
-write$ -- 156
-(There was 1 error message)
+type$ -- 186
+warning$ -- 8
+while$ -- 146
+width$ -- 50
+write$ -- 526
+(There were 3 error messages)

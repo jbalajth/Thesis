@@ -1,5 +1,41 @@
 \begin{thebibliography}{10}
 
+\bibitem{planck2015}
+P.~A.~R. Ade et~al.
+\newblock {Planck 2015 results. XIII. Cosmological parameters}.
+\newblock {\em Astron. Astrophys.}, 594:A13, 2016.
+
+\bibitem{lux_2017}
+D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai}, A.~J. {Bailey},
+  J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard}, A.~{Bernstein}, T.~P.
+  {Biesiadzinski}, E.~M. {Boulton}, R.~{Bramante}, P.~{Br{\'a}s}, D.~{Byram},
+  S.~B. {Cahn}, M.~C. {Carmona-Benitez}, C.~{Chan}, A.~A. {Chiller},
+  C.~{Chiller}, A.~{Currie}, J.~E. {Cutter}, T.~J.~R. {Davison}, A.~{Dobi},
+  J.~E.~Y. {Dobson}, E.~{Druszkiewicz}, B.~N. {Edwards}, C.~H. {Faham},
+  S.~{Fiorucci}, R.~J. {Gaitskell}, V.~M. {Gehman}, C.~{Ghag}, K.~R. {Gibson},
+  M.~G.~D. {Gilchriese}, C.~R. {Hall}, M.~{Hanhardt}, S.~J. {Haselschwardt},
+  S.~A. {Hertel}, D.~P. {Hogan}, M.~{Horn}, D.~Q. {Huang}, C.~M. {Ignarra},
+  M.~{Ihm}, R.~G. {Jacobsen}, W.~{Ji}, K.~{Kamdin}, K.~{Kazkaz}, D.~{Khaitan},
+  R.~{Knoche}, N.~A. {Larsen}, C.~{Lee}, B.~G. {Lenardo}, K.~T. {Lesko},
+  A.~{Lindote}, M.~I. {Lopes}, A.~{Manalaysay}, R.~L. {Mannino}, M.~F.
+  {Marzioni}, D.~N. {McKinsey}, D.-M. {Mei}, J.~{Mock}, M.~{Moongweluwan},
+  J.~A. {Morad}, A.~S.~J. {Murphy}, C.~{Nehrkorn}, H.~N. {Nelson}, F.~{Neves},
+  K.~{O'Sullivan}, K.~C. {Oliver-Mallory}, K.~J. {Palladino}, E.~K. {Pease},
+  P.~{Phelps}, L.~{Reichhart}, C.~{Rhyne}, S.~{Shaw}, T.~A. {Shutt},
+  C.~{Silva}, M.~{Solmaz}, V.~N. {Solovov}, P.~{Sorensen}, S.~{Stephenson},
+  T.~J. {Sumner}, M.~{Szydagis}, D.~J. {Taylor}, W.~C. {Taylor}, B.~P.
+  {Tennyson}, P.~A. {Terman}, D.~R. {Tiedt}, W.~H. {To}, M.~{Tripathi},
+  L.~{Tvrznikova}, S.~{Uvarov}, J.~R. {Verbus}, R.~C. {Webb}, J.~T. {White},
+  T.~J. {Whitis}, M.~S. {Witherell}, F.~L.~H. {Wolfs}, J.~{Xu}, K.~{Yazdani},
+  S.~K. {Young}, C.~{Zhang}, and {LUX Collaboration}.
+\newblock {Results from a Search for Dark Matter in the Complete LUX Exposure}.
+\newblock {\em Physical Review Letters}, 118(2):021303, January 2017.
+
+\bibitem{lux2012}
+D.~S. Akerib et~al.
+\newblock {The Large Underground Xenon (LUX) Experiment}.
+\newblock {\em Nucl. Instrum. Meth.}, A704:111--126, 2013.
+
 \bibitem{C14_Borexino}
 G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
   S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
@@ -17,6 +53,18 @@ G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
   High-Energy Physics}, 422(1-4):349--358, 1998.
 \newblock cited By 73.
 
+\bibitem{nedm}
+C.~A. Baker et~al.
+\newblock {An Improved experimental limit on the electric dipole moment of the
+  neutron}.
+\newblock {\em Phys. Rev. Lett.}, 97:131801, 2006.
+
+\bibitem{bekenstein}
+Jacob~D. Bekenstein and Robert~H. Sanders.
+\newblock {A primer to relativistic MOND theory}.
+\newblock 2005.
+\newblock [EAS Publ. Ser.20,225(2006)].
+
 \bibitem{C14_Bergeron}
 Denis~E. Bergeron, Raphael Galea, Lizbeth Laureano-Pérez, and Brian~E.
   Zimmerman.
@@ -26,9 +74,36 @@ Denis~E. Bergeron, Raphael Galea, Lizbeth Laureano-Pérez, and Brian~E.
 \newblock Proceedings of the 20th International Conference on Radionuclide
   Metrology and its Applications 8–11 June 2015, Vienna, Austria.
 
+\bibitem{wimp1}
+Lars Bergstr�m.
+\newblock {Nonbaryonic dark matter: Observational evidence and detection
+  methods}.
+\newblock {\em Rept. Prog. Phys.}, 63:793, 2000.
+
+\bibitem{bethe}
+H.~A. Bethe and R.~F. Bacher.
+\newblock Nuclear physics a. stationary states of nuclei.
+\newblock {\em Rev. Mod. Phys.}, 8:82--229, Apr 1936.
+
+\bibitem{beta_Calaprice}
+F.~P. {Calaprice} and B.~R. {Holstein}.
+\newblock {Weak magnetism and the beta spectra of $^{12}$B and $^{12}$N}.
+\newblock {\em Nuclear Physics A}, 273:301--325, November 1976.
+
 \bibitem{laplace}
 W.~Craig Carter.
 \newblock 3.21 spring 2002: Lecture 08, February 2002.
+
+\bibitem{chaichiana}
+Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
+\newblock {Can TeVeS be a viable theory of gravity?}
+\newblock {\em Phys. Lett.}, B735:322--326, 2014.
+
+\bibitem{bbn}
+Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
+  Steidel.
+\newblock {Precision measures of the primordial abundance of deuterium}.
+\newblock {\em Astrophys. J.}, 781(1):31, 2014.
 
 \bibitem{sampling_EXO}
 A.~Dobi et~al.
@@ -41,11 +116,34 @@ Attila Dobi, Clayton~G Davis, Carter Hall, Thomas Langford, Simon Slutsky, and
 \newblock {Detection of krypton in xenon for dark matter applications}.
 \newblock {\em Nucl. Instrum. Meth.}, A665:1--6, 2011.
 
+\bibitem{axion_DM}
+Leanne~D Duffy and Karl van Bibber.
+\newblock Axions as dark matter particles.
+\newblock {\em New Journal of Physics}, 11(10):105008, 2009.
+
+\bibitem{beta_screening}
+Loyal Durand.
+\newblock Electron screening corrections to beta-decay spectra.
+\newblock {\em Phys. Rev.}, 135:B310--B313, Jul 1964.
+
+\bibitem{wimp2}
+Jonathan~L. Feng.
+\newblock Dark matter candidates from particle physics and methods of
+  detection.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 48(1):495--545,
+  2010.
+
 \bibitem{vaporpressure}
 A.G.M. Ferreira and L.Q. Lobo.
 \newblock The sublimation of argon, krypton, and xenon.
 \newblock {\em The Journal of Chemical Thermodynamics}, 40(12):1621 -- 1626,
   2008.
+
+\bibitem{axion_photon}
+A.~K. Ganguly.
+\newblock {\em Introduction to Axion Photon Interaction in Particle Physics and
+  Photon Dispersion in Magnetized Media}.
+\newblock Part.\ Phys.\, 2012.
 
 \bibitem{C14_Garcia}
 A.~Garc\'{\i}a and B.~A. Brown.
@@ -58,6 +156,17 @@ H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
   consistent description of beta decay observables.
 \newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341(1):9--24,
   Mar 1991.
+
+\bibitem{susyDM}
+Gerard Jungman, Marc Kamionkowski, and Kim Griest.
+\newblock {Supersymmetric dark matter}.
+\newblock {\em Phys. Rept.}, 267:195--373, 1996.
+
+\bibitem{wimp_nucleon}
+Andriy Kurylov and Marc Kamionkowski.
+\newblock {Generalized analysis of weakly interacting massive particle
+  searches}.
+\newblock {\em Phys. Rev.}, D69:063503, 2004.
 
 \bibitem{C14_Kuzminov}
 V.~V. Kuzminov and N.~Ja. Osetrova.
@@ -80,15 +189,125 @@ D.~S. Leonard, A.~Dobi, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
   gas}.
 \newblock {\em Nucl. Instrum. Meth.}, A621:678--684, 2010.
 
+\bibitem{lux_sd}
+{LUX Collaboration}, D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai},
+  A.~J. {Bailey}, J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard},
+  A.~{Bernstein}, T.~P. {Biesiadzinski}, E.~M. {Boulton}, P.~{Br{\'a}s},
+  D.~{Byram}, S.~B. {Cahn}, M.~C. {Carmona-Benitez}, C.~{Chan}, A.~A.
+  {Chiller}, C.~{Chiller}, A.~{Currie}, J.~E. {Cutter}, T.~J.~R. {Davison},
+  A.~{Dobi}, J.~E.~Y. {Dobson}, E.~{Druszkiewicz}, B.~N. {Edwards}, C.~H.
+  {Faham}, S.~R. {Fallon}, S.~{Fiorucci}, R.~J. {Gaitskell}, V.~M. {Gehman},
+  C.~{Ghag}, M.~G.~D. {Gilchriese}, C.~R. {Hall}, M.~{Hanhardt}, S.~J.
+  {Haselschwardt}, S.~A. {Hertel}, D.~P. {Hogan}, M.~{Horn}, D.~Q. {Huang},
+  C.~M. {Ignarra}, R.~G. {Jacobsen}, W.~{Ji}, K.~{Kamdin}, K.~{Kazkaz},
+  D.~{Khaitan}, R.~{Knoche}, N.~A. {Larsen}, C.~{Lee}, B.~G. {Lenardo}, K.~T.
+  {Lesko}, A.~{Lindote}, M.~I. {Lopes}, A.~{Manalaysay}, R.~L. {Mannino}, M.~F.
+  {Marzioni}, D.~N. {McKinsey}, D.~M. {Mei}, J.~{Mock}, M.~{Moongweluwan},
+  J.~A. {Morad}, A.~S.~J. {Murphy}, C.~{Nehrkorn}, H.~N. {Nelson}, F.~{Neves},
+  K.~{O'Sullivan}, K.~C. {Oliver-Mallory}, K.~J. {Palladino}, E.~K. {Pease},
+  L.~{Reichhart}, C.~{Rhyne}, S.~{Shaw}, T.~A. {Shutt}, C.~{Silva},
+  M.~{Solmaz}, V.~N. {Solovov}, P.~{Sorensen}, S.~{Stephenson}, T.~J. {Sumner},
+  M.~{Szydagis}, D.~J. {Taylor}, W.~C. {Taylor}, B.~P. {Tennyson}, P.~A.
+  {Terman}, D.~R. {Tiedt}, W.~H. {To}, M.~{Tripathi}, L.~{Tvrznikova},
+  S.~{Uvarov}, V.~{Velan}, J.~R. {Verbus}, R.~C. {Webb}, J.~T. {White}, T.~J.
+  {Whitis}, M.~S. {Witherell}, F.~L.~H. {Wolfs}, J.~{Xu}, K.~{Yazdani}, S.~K.
+  {Young}, and C.~{Zhang}.
+\newblock {Limits on spin-dependent WIMP-nucleon cross section obtained from
+  the complete LUX exposure}.
+\newblock {\em ArXiv e-prints}, May 2017.
+
+\bibitem{markevitch}
+Maxim Markevitch, A.~H. Gonzalez, D.~Clowe, A.~Vikhlinin, L.~David, W.~Forman,
+  C.~Jones, S.~Murray, and W.~Tucker.
+\newblock {Direct constraints on the dark matter self-interaction cross-section
+  from the merging galaxy cluster 1E0657-56}.
+\newblock {\em Astrophys. J.}, 606:819--824, 2004.
+
 \bibitem{vac_eq}
 N.~Marquardt.
 \newblock {Introduction to the principles of vacuum physics}.
 \newblock 1999.
 
+\bibitem{milgrom}
+M.~{Milgrom}.
+\newblock {A modification of the Newtonian dynamics as a possible alternative
+  to the hidden mass hypothesis}.
+\newblock {\em apj}, 270:365--370, July 1983.
+
+\bibitem{C14_Curran}
+A.~Moljk and S.~C. Curran.
+\newblock Beta spectra of ${\mathrm{c}}^{14}$ and ${\mathrm{s}}^{35}$.
+\newblock {\em Phys. Rev.}, 96:395--398, Oct 1954.
+
+\bibitem{navarro}
+Julio~F. Navarro, Carlos~S. Frenk, and Simon D.~M. White.
+\newblock {The Structure of cold dark matter halos}.
+\newblock {\em Astrophys. J.}, 462:563--575, 1996.
+
+\bibitem{oort}
+J.~H. {Oort}.
+\newblock {The force exerted by the stellar system in the direction
+  perpendicular to the galactic plane and some related problems}.
+\newblock {\em bain}, 6:249, August 1932.
+
+\bibitem{peccei_quinn}
+R.~D. Peccei and Helen~R. Quinn.
+\newblock $\mathrm{CP}$.
+\newblock {\em Phys. Rev. Lett.}, 38:1440--1443, Jun 1977.
+
 \bibitem{LNheatflux}
 Eric Roth.
 \newblock {\em Nucleation and Heat Transfer in Liquid Nitrogen}.
 \newblock PhD thesis, Portland State University, 1993.
+
+\bibitem{rubin}
+V.~C. {Rubin}, W.~K. {Ford}, Jr., and N.~{Thonnard}.
+\newblock {Rotational properties of 21 SC galaxies with a large range of
+  luminosities and radii, from NGC 4605 /R = 4kpc/ to UGC 2885 /R = 122 kpc/}.
+\newblock {\em apj}, 238:471--487, June 1980.
+
+\bibitem{ryden}
+B.~Ryden.
+\newblock {\em Introduction to cosmology}.
+\newblock Addison-Wesley, San Francisco, USA.
+
+\bibitem{persic}
+P.~Salucci and M.~Persic.
+\newblock {Dark matter halos around galaxies}.
+\newblock 1996.
+\newblock [ASP Conf. Ser.117,1(1997)].
+
+\bibitem{dmintro}
+Richard~W. Schnee.
+\newblock {Introduction to dark matter experiments}.
+\newblock pages 775--829, 2011.
+
+\bibitem{C14_Sonntag}
+Ch. Sonntag, H.~Rebel, B.~Ribbat, S.~K. Thio, and W.~R. Gramm.
+\newblock Experimental evidence for the nonstatistical shape of the beta
+  spectrum of14c.
+\newblock {\em Lettere al Nuovo Cimento (1969-1970)}, 4(15):717--719, Oct 1970.
+
+\bibitem{ADMX}
+Ian~P. Stern.
+\newblock {Axion Dark Matter Searches}.
+\newblock {\em AIP Conf. Proc.}, 1604:456--461, 2014.
+
+\bibitem{macho}
+P.~Tisserand et~al.
+\newblock {Limits on the Macho Content of the Galactic Halo from the EROS-2
+  Survey of the Magellanic Clouds}.
+\newblock {\em Astron. Astrophys.}, 469:387--404, 2007.
+
+\bibitem{beta_fermi}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock {\em Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
+\bibitem{weber}
+M.~{Weber} and W.~{de Boer}.
+\newblock {Determination of the local dark matter density in our Galaxy}.
+\newblock {\em aap}, 509:A25, January 2010.
 
 \bibitem{C14_Wietfeldt}
 F.~E. Wietfeldt, E.~B. Norman, Y.~D. Chan, M.~T.~F. da~Cruz, A.~Garc\'{\i}a,
@@ -97,5 +316,17 @@ F.~E. Wietfeldt, E.~B. Norman, Y.~D. Chan, M.~T.~F. da~Cruz, A.~Garc\'{\i}a,
 \newblock Further studies on the evidence for a 17-kev neutrino in a
   $^{14}\mathrm{doped}$ germanium detector.
 \newblock {\em Phys. Rev. C}, 52:1028--1040, Aug 1995.
+
+\bibitem{wilkinson}
+DH~Wilkinson.
+\newblock Evaluation of beta-decay: I. the traditional phase space factors.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  275(2):378--386, 1989.
+
+\bibitem{zwicky}
+F.~{Zwicky}.
+\newblock {On the Masses of Nebulae and of Clusters of Nebulae}.
+\newblock {\em apj}, 86:217, October 1937.
 
 \end{thebibliography}
