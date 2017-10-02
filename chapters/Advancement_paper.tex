@@ -252,24 +252,10 @@ The relic density of WIMPs is determined by the cross-section for annihilation i
 \label{fig:WIMP_SM} 
 \end{figure}
 
-\subsection{Recoil spectrum}
-Direct detection experiments look for the of scattering a standard model nucleus off of a dark matter particle from the galactic halo. The expected rate and energy spectrum of such an interaction can be estimated assuming you know the local density and velocity of the WIMP halo. In this section, we also make the assumptions of spin independence of the interaction, along with the elasticity of the recoil, although models which violate these assumptions do exist.
-
-The WIMP halo is expected to have only a small amount of bulk rotation; that is it is expected to be more akin to a gravitationally bound ideal gas than an accretion disk. The the expected velocity of a WIMP in such a halo would then be equal to $\vec{v_{\chi}}+\vec{v_E}$, with $\vec{v_{\chi}}$ being the expected velocity of a WIMP particle inside the halo, and $\vec{v_E}$ is the orbital velocity of the earth around the galactic center. The sun's orbital velocity is $v_s=230$ km/s.
-
-The velocity of a WIMP in the lab frame will be dominated by $v_s$, which is highly non-relativistic. This being the case, collisions between WIMPs and the target nuclei of earth-bound detectors can be well modeled by classical elastic scattering. The recoil spectrum for this type of event is given by:
-\begin{equation} \label{eq:recoilspec}
-\frac{dR}{dE_{r}}=\frac{R_{0}}{E_{0}r}e^{-E_{r}/E_{0}r},
-\end{equation}
-where $R$ is the event rate per unit mass, $E_{r}$ is the recoil energy, $R_{0}$ is the total event rate, and $E_{0}$ is the most common incident WIMP energy. In equation \ref{eq:recoilspec}, $r$ is a kinematic factor given by $4M_{\chi}M_{N}/(M_{\chi}+M_{N})^2$, where $M_{\chi}$ is the mass of the dark matter particle, and $M_{N}$ is the mass of the target nucleus. 
-
-From measurements of the galactic rotation curve, the local dark matter density is expected to be approximately 0.2-0.4 GeV cm$^{-3}$, although could be as high as 0.7 GeV cm$^{-3}$ given a nonuniform halo density profile\cite{weber}. 
-
-
 \subsection{Cross Section}
-The last ingredient needed to calculate the expected interaction rate in a give experiment is the scattering cross section. The WIMP-nucleus scattering cross section will have some dependence on the momentum transfer, $q$, and can be written\cite{dmintro}:
-\begin{equation}
-\sigma(q)=\sigma_0F(q),
+The first ingredient needed to calculate the expected interaction rate in a given experiment is the scattering cross section. The WIMP-nucleus scattering cross section will have some dependence on the momentum transfer, $q$, and can be written\cite{dmintro}:
+\begin{equation}\label{eq:cross_sec1}
+\sigma(q)=\sigma_0F^2(q),
 \end{equation}
 where $\sigma_0$ is the energy independent, 0-momentum limit of the cross section, and $F(q)$ is an energy dependent form factor. The 0-momentum cross section can be broken into a spin dependent (SD) part and a spin independent (SI) part\cite{wimp_nucleon,dmintro}:
 \begin{equation}\label{eq:sisd_cs}
@@ -313,5 +299,117 @@ Another important result is that the SD cross section does not have the same $\m
         \label{fig:wimplimits}
     \end{figure*}
 
+\subsection{Recoil spectrum}
+The WIMP halo is expected to have only a small amount of bulk rotation; that is it is expected to be more akin to a gravitationally bound ideal gas than an accretion disk. The velocities of WIMPs in such a halo roughly modelled by a Maxwellian distribution\cite{dmintro}:
+\begin{equation}\label{eq:veldist}
+f(\vec{v}_{halo})= e^{-v_{halo}^2/v_0^2}/k,
+\end{equation}
+with $v_0=220\pm 20$ km/s being the local circular velocity around the galactic center and $k$ being a normalization constant. In the lab frame the observed velocity of an incident WIMP will be $\vec{v}_i=\vec{v}_E+\vec{v}_{halo}$. Here, $\vec{v}_E$ is the velocity of the earth with respect to the galaxy which is the sum of $\vec{v}_0$, the sun's peculiar velocity, $\vec{v}_s$, and the orbital velocity of the earth around the sun, $\vec{u}_E(t)$\cite{dmvelocity,dmintro}:
+\begin{equation}
+\vec{v}_E(t)=\vec{v}_0+\vec{v}_{sun}+\vec{u}_E(t).
+\end{equation}
+The contribution  to $\vec{v}_E(t)$ from the velocity of the sun with respect to the galactic center ($|\vec{v}_0+\vec{v}_{sun}|$) is about 232 km/s, and $\vec{u}_E(t)$ acts to add a 6\% annual modulation. This modulation would presumably introduce a detectable effect in the scattering rate of WIMPs. The DAMA/LIBRA NaI scintillation detector\cite{dama} has observed with 9.3-$\sigma$ confidence annual modulation in their 2-6 keV, single-scatter event rate. This result, however, is in significant tension with other experimental limits (see for instance figure \ref{fig:wimplimits_sdp}).
+
+We can use this velocity distribution to write the scattering rate as a function incident velocity, $v_i$. This will give the total number of WIMP-nucleus scattering events per unit time per gram of material with atomic weight, $A$:
+\begin{equation}
+dR(v_i)=\frac{N_A}{A}n_{\chi}f(\vec{v}_i-\vec{v}_E)\sigma v_i d^3\vec{v}_i,
+\end{equation}
+with $N_A$ being Avagadro's number and $n_{\chi}$ being the local number density of WIMPS.
+
+The velocity of a WIMP in the lab frame is is about  highly non-relativistic. This being the case, collisions between WIMPs and the target nuclei of earth-bound detectors can be well modeled by classical elastic scattering. The recoil energy, $E_R$, for elastic scattering of a non-relativistic WIMP of mass $M_{\chi}$ off of a nucleus of mass $M_A$ is given by\cite{dmintro}:
+\begin{equation}\label{eq:recoilE}
+E_R=\frac{E_ir}{2}[1-cos(\theta)],
+\end{equation}
+where $E_i=\frac{1}{2}M_{\chi}v_i^2$ is the energy of the incident WIMP, $\theta$ is the recoil angle, and $r=4M_{\chi}M_{A}/(M_{\chi}+M_{A})^2$ is a kinematic factor. 
+
+For a WIMP with a given $v_i$, the nuclear recoil energy will be even distributed between 0 and $E_ir$. These uniform distributions can then be weighted by $dR(v_i)$ and then integrated over $v_i$ to give the total differential scattering rate:
+\begin{equation} \label{eq:recoilspec1}
+\frac{dR}{dE_{r}}=\int_{E_{min}}^{E_{max}}dR(v_i)/E_ir
+\end{equation}
+For the limits of integration we could take into account the escape velocity of the galaxy, but setting $E_{max}=\infty$ yields a good approximation and makes evaluation of the integral simpler. Only WIMPs with incident energy equal to or greater than $E_R/r$ will contribute to the scattering rate at $E_R$, so we will set $E_{min}=E_R/r$. Under this approximation, the normalization constant in equation \ref{eq:veldist} becomes $k=(\pi v_0^2)^{3/2}$. If we make the further assumption that $\vec{v}_E=0$, we can write:
+\begin{equation}
+\begin{split}
+dR(v_i)=&\frac{R_0}{2\pi v_0^4} e^{-v_i^2/v_0^2}v_i (4\pi v_i^2dv_i)\\
+=&\frac{2R_0}{v_0^4} e^{-v_i^2/v_0^2}v_i^3dv_i
+\end{split}
+\end{equation}
+where, 
+\begin{equation}
+R_0=\frac{2N_A}{\sqrt{\pi}A}n_{\chi}\sigma_0 v_0,
+\end{equation}
+for constant cross section. Equation \ref{eq:recoilspec1} then becomes:
+\begin{equation} \label{eq:recoilspec2}
+\frac{dR}{dE_{r}}= \frac{R_0}{E_0 r}\frac{2}{v_0^2} \int_{E_R/r}^{\infty}   e^{-v_i^2/v_0^2}v_idv_i.
+\end{equation}
+If make make a change of variables to energy space, this integral becomes:
+\begin{equation} \label{eq:recoilspec3}
+\frac{dR}{dE_{r}}= \frac{R_0}{E_0 r} \int_{E_R/r}^{\infty}   e^{-E_i/E_0}dE_i,
+\end{equation}
+which easily evaluates to:
+\begin{equation} \label{eq:recoilspec4}
+\frac{dR}{dE_{r}}=\frac{R_{0}}{E_{0}r}e^{-E_{r}/E_{0}r}
+\end{equation}
+Here we see that $R_0$ will give the total scattering rate.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=150mm]{Figures/DMprofiles.pdf}
+\caption{Various theoretical halo profiles. The sun is at about 8 kpc. The significant variance of $\rho_{\chi}$ for the different models limits the accuracy of scattering rate estimates for direct detection experiments. Figure from \cite{weber}.}
+\label{fig:WIMPprofiles} 
+\end{figure}
+From measurements of the galactic rotation curve, the local dark matter density is expected to be approximately 0.2-0.4 GeV cm$^{-3}$. This value is highly dependent on theoretical profile model and could be as high as 0.7 GeV cm$^{-3}$ given a nonuniform halo density\cite{weber}. Here we assume a middling value of 0.4 GeV cm$^{-3}$. If we take $M_{\chi}$ 100 GeV/c$^2$, and $M_A$=122 GeV/c$^2$ (xenon atomic mass), we have $r=0.99$ and $E_0=27$ keV. In this case the total scattering rate in counts$\cdot$ day$^{-1}\cdot$kg$^{-1}$ will be:
+\begin{equation}
+\begin{split}
+R_0=& \frac{2}{\sqrt{\pi}}\frac{(1000 \text{\ g/kg})\times (6.022\times 10^{23}\text{\ atoms/mole})}{131 \text{\ g/mole}}\frac{0.4 \text{\ GeV/cc}}{100 \text{\ GeV}/c^2}\sigma_0 (7.34 \times 10^{-4}c)\\
+\approx&\left( \frac{131}{A} \right)\left( \frac{\sigma_0}{1 \text{\ pb}} \right)(0.4 \text{\ counts/kg/day}).
+\end{split}
+\end{equation}
+So for a xenon detector and a WIMP-nucleus cross section of 1 picobarn, there would be about one event every 25 days per kilogram of detector material.
+
+The effect of the finite galactic escape velocity, $V_{esc}=540$ km/s, can me approximated by introducing a cutoff to equation \ref{eq:recoilspec4}. Very nearly all of the WIMPs with velocity greater than $V_{esc}$ should have left the halo, so maximum recoil energy will be $E_{max}=\frac{r}{2}M_{\chi}v_{esc}^2$. For xenon detectors:
+\begin{equation}
+E_{max}=\frac{1}{(1+M_A/M_{\chi})^2}(790 \text{\ keV}).
+\end{equation}
+Detectors which have energy thresholds greater than $E_{max}$ will be completely insensitive to WIMPS of that mass. In addition to the hard cut off at $E_{esc}r$, the exponential nature of equation \ref{eq:recoilspec4} means that detectors will be significantly less sensitive to WIMPs for $E_0r<E_{threshold}$. For xenon:
+\begin{equation}
+E_{0}r=\frac{1}{(1+M_A/M_{\chi})^2}(131 \text{\ keV}).
+\end{equation}
+This means that a xenon detector with a 20 keV threshold will begin to lose sensitivity for $M_{\chi}<20$ GeV$/c^2$, and will be completely insensitive to WIMPs with $M_{\chi}<3$ GeV/$c^2$. This places a large incentive for direct detection experiments to have a very low threshold.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=150mm]{Figures/helm.pdf}
+\caption{Helm approximation of the nucleon density. This approximation has the form of a solid sphere with a Gaussian falloff of thickness, S. Figure from \cite{carlos}.}
+\label{fig:helm} 
+\end{figure}
+In the derivation of equation \ref{eq:recoilspec4}, we assumed a constant scattering cross section. This, however, neglects the nuclear form factor, $F(q)$, which was introduced in equation \ref{eq:cross_sec1}. This form factor takes into account the nuclear wave-function, which becomes important at higher momentum transfers where coherent scattering begins to break down. Under the Born approximation and for spherically symmetric nucleon density, $\rho{r}$, the form factor is:
+\begin{equation}\label{eq:scatformfac1}
+F(q)=\frac{4\pi}{q}\int \rho(r)\sin(qr)rdr.
+\end{equation}
+The most common approximation for the nucleon distribution the Helm approximation- a solid sphere which convolved with gaussian to create a smooth fall off at the edge\cite{helm}. Plugging this into equation \ref{eq:scatformfac1} yields:
+\begin{equation}\label{eq:scatformfac2}
+F(q)=\frac{3[\sin(qr_n)-qr_n\cos(qr_n)]}{(qr_n)^3}e^{-(qs)^2/2},
+\end{equation}
+where $r_n$ is the nuclear radius and the skin width, $s$, is the width of the Gaussian fall off in the Helm approximation. The skin width is usually taken to be $s=0.9$ fm\cite{Lewin}, and the nuclear radius can be approximated $r_n\approx 1.14 A^{1/3}$.
+
+When the de Broglie wavelength, $h/q$, becomes comparable to the nuclear radius, $r_n$, coherent scattering will break down. This causes a drastic fall in the scattering rate. Xenon, for instance, will lose coherence at about 100 keV, while smaller elements will maintain the benefit of coherent scattering to significantly higher energies. This effect will compete against benefit from the $A^2$ dependence of $\sigma_{0,SI}$. Ultimately the low-momentum benefit of xenon as a target medium, together with self-shielding effects which will be described later, makes xenon the most popular and promising target material for direct detection experiments.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=150mm]{Figures/recoil_spec.pdf}
+\caption{WIMP scattering rate as a function of energy taking into account the nuclear form factor. Xenon's large size is a double edge sword. At low energy, the $A^2$ dependence of $\sigma_{0,SI}$ wins out and xenon has a significant advantage over competing media. At large momentum transfers, however, decoherence dominates, forcing xenon to fall much more quickly than argon, neon, or germanium. Figure from \cite{henrique}.}
+\label{fig:helm} 
+\end{figure}
+
+
+
 
 \section{Thesis Outline}
+In this chapter, we discussed the evidence for particulate cold dark matter in general. We then discussed the motivation and proposed detection techniques for Weakly interacting massive particles (WIMPS). In the next chapter, we will continue to narrow our focus to liquid xenon time projection chambers as WIMP detectors. This will include a discussion of the microphysics behind energy deposits in liquid xenon, as well as the design, construction, and operation of the LUX and LZ dark matter detectors.
+
+In chapter 3 we will discuss a technique for monitoring the purity of liquid xenon. We have improved on an existing technique using novel methods of optimization. We detail the empirical studies that went into this optimization, as well as the theoretical motivation behind them.
+
+Chapter 4 will describe the LUX post-run04 calibration campaign. There are several internal sources novel to the LUX detector which were injected during this timeframe. We will catalog these sources, and present signal corrections derived from them. We will also describe a systematic pathology in the charge signals, as well as our attempt to account for it. 
+
+Finally, chapter 5 will describe in detail the results from the novel $^{14}$C injection that occurred during the post run04 injection campaign. We will derive charge and light yields, as well as recombination fluctuations from energies ranging from 5-140 keV. We will also present a comparison to the theoretical spectrum.
+
+

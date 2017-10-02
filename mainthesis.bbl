@@ -80,6 +80,14 @@ Lars Bergström.
   methods}.
 \newblock {\em Rept. Prog. Phys.}, 63:793, 2000.
 
+\bibitem{dama}
+R.~Bernabei, P.~Belli, F.~Cappella, V.~Caracciolo, S.~Castellano, R.~Cerulli,
+  C.~J. Dai, A.~d'Angelo, S.~d'Angelo, A.~Di~Marco, H.~L. He, A.~Incicchitti,
+  H.~H. Kuang, X.~H. Ma, F.~Montecchia, D.~Prosperi, X.~D. Sheng, R.~G. Wang,
+  and Z.~P. Ye.
+\newblock Final model independent result of dama/libra--phase1.
+\newblock {\em The European Physical Journal C}, 73(12):2648, Nov 2013.
+
 \bibitem{bethe}
 H.~A. Bethe and R.~F. Bacher.
 \newblock Nuclear physics a. stationary states of nuclei.
@@ -93,11 +101,17 @@ F.~P. {Calaprice} and B.~R. {Holstein}.
 \bibitem{laplace}
 W.~Craig Carter.
 \newblock 3.21 spring 2002: Lecture 08, February 2002.
+\newblock Accessed: 2017-07-03.
 
 \bibitem{chaichiana}
 Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
 \newblock {Can TeVeS be a viable theory of gravity?}
 \newblock {\em Phys. Lett.}, B735:322--326, 2014.
+
+\bibitem{henrique}
+V~Chepel and H~AraÃºjo.
+\newblock Liquid noble gas detectors for low energy particle physics.
+\newblock {\em Journal of Instrumentation}, 8(04):R04001, 2013.
 
 \bibitem{bbn}
 Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
@@ -125,6 +139,13 @@ Leanne~D Duffy and Karl van Bibber.
 Loyal Durand.
 \newblock Electron screening corrections to beta-decay spectra.
 \newblock {\em Phys. Rev.}, 135:B310--B313, Jul 1964.
+
+\bibitem{carlos}
+Carlos~H. Faham.
+\newblock {\em Prototype, Surface Commissioning and Photomultiplier
+  sacterization for the Large Underground Xenon (LUX) Direct Dark Matter Search
+  Experiment}.
+\newblock PhD thesis, Brown University, Providence, Rhode Island, 2014.
 
 \bibitem{wimp2}
 Jonathan~L. Feng.
@@ -157,6 +178,12 @@ H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
 \newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341(1):9--24,
   Mar 1991.
 
+\bibitem{helm}
+Richard~H. Helm.
+\newblock {Inelastic and Elastic Scattering of 187-Mev Electrons from Selected
+  Even-Even Nuclei}.
+\newblock {\em Phys. Rev.}, 104:1466--1475, 1956.
+
 \bibitem{susyDM}
 Gerard Jungman, Marc Kamionkowski, and Kim Griest.
 \newblock {Supersymmetric dark matter}.
@@ -188,6 +215,12 @@ D.~S. Leonard, A.~Dobi, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
 \newblock {A simple high-sensitivity technique for purity analysis of xenon
   gas}.
 \newblock {\em Nucl. Instrum. Meth.}, A621:678--684, 2010.
+
+\bibitem{Lewin}
+John Lewin and P~F~Smith.
+\newblock Review of mathematics, numerical factors, and corrections for dark
+  matter experiments based on elastic nuclear recoil.
+\newblock 6, 12 1996.
 
 \bibitem{lux_sd}
 {LUX Collaboration}, D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai},
@@ -227,6 +260,12 @@ Maxim Markevitch, A.~H. Gonzalez, D.~Clowe, A.~Vikhlinin, L.~David, W.~Forman,
 N.~Marquardt.
 \newblock {Introduction to the principles of vacuum physics}.
 \newblock 1999.
+
+\bibitem{dmvelocity}
+Christopher McCabe.
+\newblock The earth's velocity for direct detection experiments.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2014(02):027,
+  2014.
 
 \bibitem{milgrom}
 M.~{Milgrom}.
@@ -269,7 +308,7 @@ V.~C. {Rubin}, W.~K. {Ford}, Jr., and N.~{Thonnard}.
 \bibitem{ryden}
 B.~Ryden.
 \newblock {\em Introduction to cosmology}.
-\newblock Addison-Wesley, San Francisco, USA.
+\newblock Addison-Wesley, San Francisco, USA, 2003.
 
 \bibitem{persic}
 P.~Salucci and M.~Persic.

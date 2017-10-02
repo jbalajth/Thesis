@@ -8,68 +8,53 @@ A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
 Database file #1: main.bib.bib
-I was expecting a `,' or a `}'---line 126 of file main.bib.bib
- :   
- :   howpublished = {\url{http://pruffle.mit.edu/~ccarter/8b/Lecture_08/Lecture_08.html#eq:ltde}},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 163 of file main.bib.bib
- : 
- : year= {2003}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 518 of file main.bib.bib
- : 
- : @article{wimp_nucleon,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--empty journal in bekenstein
 Warning--can't use both author and editor fields in axion_photon
 Warning--can't use both author and editor fields in nist
 Warning--empty year in nist
+Warning--empty journal in Lewin
 Warning--empty journal in vac_eq
-Warning--empty year in ryden
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 48 entries,
+You've used 54 entries,
             2118 wiz_defined-function locations,
-            827 strings with 17087 characters,
-and the built_in function-call counts, 23442 in all, are:
-= -- 2016
-> -- 2040
+            864 strings with 18270 characters,
+and the built_in function-call counts, 25579 in all, are:
+= -- 2211
+> -- 2185
 < -- 1
-+ -- 814
-- -- 764
-* -- 2185
-:= -- 4222
-add.period$ -- 148
-call.type$ -- 48
-change.case$ -- 517
++ -- 873
+- -- 816
+* -- 2362
+:= -- 4611
+add.period$ -- 167
+call.type$ -- 54
+change.case$ -- 560
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 530
-empty$ -- 1173
-format.name$ -- 764
-if$ -- 4429
+cite$ -- 62
+duplicate$ -- 593
+empty$ -- 1305
+format.name$ -- 816
+if$ -- 4843
 int.to.chr$ -- 0
-int.to.str$ -- 48
-missing$ -- 49
-newline$ -- 247
-num.names$ -- 96
-pop$ -- 464
+int.to.str$ -- 54
+missing$ -- 54
+newline$ -- 278
+num.names$ -- 108
+pop$ -- 496
 preamble$ -- 1
-purify$ -- 473
+purify$ -- 511
 quote$ -- 0
-skip$ -- 364
+skip$ -- 408
 stack$ -- 0
-substring$ -- 1021
-swap$ -- 55
+substring$ -- 1118
+swap$ -- 60
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
+type$ -- 210
 warning$ -- 8
-while$ -- 146
-width$ -- 50
-write$ -- 526
-(There were 3 error messages)
+while$ -- 162
+width$ -- 56
+write$ -- 595
+(There were 8 warnings)
