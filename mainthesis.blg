@@ -8,6 +8,8 @@ A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
 Database file #1: main.bib.bib
+Warning--empty journal in lux_dd2
+Warning--empty journal in lux_efield
 Warning--empty journal in bekenstein
 Warning--can't use both author and editor fields in axion_photon
 Warning--can't use both author and editor fields in nist
@@ -16,45 +18,45 @@ Warning--empty journal in Lewin
 Warning--empty journal in vac_eq
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 54 entries,
+You've used 63 entries,
             2118 wiz_defined-function locations,
-            864 strings with 18270 characters,
-and the built_in function-call counts, 25579 in all, are:
-= -- 2211
-> -- 2185
+            902 strings with 19484 characters,
+and the built_in function-call counts, 28510 in all, are:
+= -- 2487
+> -- 2360
 < -- 1
-+ -- 873
-- -- 816
-* -- 2362
-:= -- 4611
-add.period$ -- 167
-call.type$ -- 54
-change.case$ -- 560
++ -- 942
+- -- 876
+* -- 2584
+:= -- 5137
+add.period$ -- 194
+call.type$ -- 63
+change.case$ -- 612
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 593
-empty$ -- 1305
-format.name$ -- 816
-if$ -- 4843
+cite$ -- 73
+duplicate$ -- 688
+empty$ -- 1505
+format.name$ -- 876
+if$ -- 5423
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 54
-newline$ -- 278
-num.names$ -- 108
-pop$ -- 496
+int.to.str$ -- 63
+missing$ -- 62
+newline$ -- 323
+num.names$ -- 126
+pop$ -- 539
 preamble$ -- 1
-purify$ -- 511
+purify$ -- 555
 quote$ -- 0
-skip$ -- 408
+skip$ -- 478
 stack$ -- 0
-substring$ -- 1118
-swap$ -- 60
+substring$ -- 1275
+swap$ -- 67
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
-warning$ -- 8
-while$ -- 162
-width$ -- 56
-write$ -- 595
-(There were 8 warnings)
+type$ -- 246
+warning$ -- 10
+while$ -- 187
+width$ -- 65
+write$ -- 691
+(There were 10 warnings)

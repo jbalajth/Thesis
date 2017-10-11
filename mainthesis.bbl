@@ -36,6 +36,22 @@ D.~S. Akerib et~al.
 \newblock {The Large Underground Xenon (LUX) Experiment}.
 \newblock {\em Nucl. Instrum. Meth.}, A704:111--126, 2013.
 
+\bibitem{lux_dd2}
+D.~S. Akerib et~al.
+\newblock {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark
+  matter experiment using D-D neutron scattering kinematics}.
+\newblock 2016.
+
+\bibitem{lux_tritium}
+D.~S. Akerib et~al.
+\newblock {Tritium calibration of the LUX dark matter experiment}.
+\newblock {\em Phys. Rev.}, D93(7):072009, 2016.
+
+\bibitem{lux_efield}
+D.~S. Akerib et~al.
+\newblock {3D Modeling of Electric Fields in the LUX Detector}.
+\newblock 2017.
+
 \bibitem{C14_Borexino}
 G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
   S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
@@ -92,6 +108,13 @@ R.~Bernabei, P.~Belli, F.~Cappella, V.~Caracciolo, S.~Castellano, R.~Cerulli,
 H.~A. Bethe and R.~F. Bacher.
 \newblock Nuclear physics a. stationary states of nuclei.
 \newblock {\em Rev. Mod. Phys.}, 8:82--229, Apr 1936.
+
+\bibitem{pixey_ar37}
+E.M. Boulton, E.~Bernard, N.~Destefano, B.N.V. Edwards, M.~Gai, S.A. Hertel,
+  M.~Horn, N.A. Larsen, B.P. Tennyson, C.~Wahl, and D.N. McKinsey.
+\newblock Calibration of a two-phase xenon time projection chamber with a 37 ar
+  source.
+\newblock {\em Journal of Instrumentation}, 12(08):P08004, 2017.
 
 \bibitem{beta_Calaprice}
 F.~P. {Calaprice} and B.~R. {Holstein}.
@@ -178,6 +201,11 @@ H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
 \newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341(1):9--24,
   Mar 1991.
 
+\bibitem{ar371}
+W.~C. Haxton.
+\newblock $^{37}\mathrm{Ar}$.
+\newblock {\em Phys. Rev. C}, 38:2474--2477, Nov 1988.
+
 \bibitem{helm}
 Richard~H. Helm.
 \newblock {Inelastic and Elastic Scattering of 187-Mev Electrons from Selected
@@ -188,6 +216,24 @@ Richard~H. Helm.
 Gerard Jungman, Marc Kamionkowski, and Kim Griest.
 \newblock {Supersymmetric dark matter}.
 \newblock {\em Phys. Rept.}, 267:195--373, 1996.
+
+\bibitem{lux_kr1}
+L.~W. {Kastens}, S.~{Bedikian}, S.~B. {Cahn}, A.~{Manzur}, and D.~N.
+  {McKinsey}.
+\newblock {A $^{83}$Kr$^{m}$ source for use in low-background liquid Xenon time
+  projection chambers}.
+\newblock {\em Journal of Instrumentation}, 5:5006, May 2010.
+
+\bibitem{lux_kr2}
+L.~W. Kastens, S.~B. Cahn, A.~Manzur, and D.~N. McKinsey.
+\newblock {Calibration of a Liquid Xenon Detector with Kr-83m}.
+\newblock {\em Phys. Rev.}, C80:045809, 2009.
+
+\bibitem{richard}
+Richard Knoche.
+\newblock {\em Signal Corrections and Calibrations in the LUX Dark Matter
+  Detector}.
+\newblock PhD thesis, University of Maryland, College Park, Maryland, 2016.
 
 \bibitem{wimp_nucleon}
 Andriy Kurylov and Marc Kamionkowski.
@@ -342,6 +388,12 @@ P.~Tisserand et~al.
 P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
 \newblock A simple relation for the fermi function.
 \newblock {\em Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
+\bibitem{lux_dd1}
+J.~R. Verbus et~al.
+\newblock {Proposed low-energy absolute calibration of nuclear recoils in a
+  dual-phase noble element TPC using D-D neutron scattering kinematics}.
+\newblock {\em Nucl. Instrum. Meth.}, A851:68--81, 2017.
 
 \bibitem{weber}
 M.~{Weber} and W.~{de Boer}.
