@@ -7,7 +7,11 @@ A level-1 auxiliary file: chapters/LXe_TPCs.aux
 A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
+A level-1 auxiliary file: chapters/Appendix_Corrections.aux
+A level-1 auxiliary file: chapters/Appendix_Tails.aux
 Database file #1: main.bib.bib
+Warning--to sort, need author or key in nuclide
+Warning--to sort, need author or key in metropolis_2
 Warning--empty journal in lux_dd2
 Warning--empty journal in lux_efield
 Warning--empty journal in bekenstein
@@ -18,45 +22,45 @@ Warning--empty journal in Lewin
 Warning--empty journal in vac_eq
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 63 entries,
+You've used 67 entries,
             2118 wiz_defined-function locations,
-            902 strings with 19484 characters,
-and the built_in function-call counts, 28510 in all, are:
-= -- 2487
-> -- 2360
+            923 strings with 20173 characters,
+and the built_in function-call counts, 29477 in all, are:
+= -- 2582
+> -- 2397
 < -- 1
-+ -- 942
-- -- 876
-* -- 2584
-:= -- 5137
-add.period$ -- 194
-call.type$ -- 63
-change.case$ -- 612
++ -- 958
+- -- 888
+* -- 2643
+:= -- 5289
+add.period$ -- 206
+call.type$ -- 67
+change.case$ -- 629
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 688
-empty$ -- 1505
-format.name$ -- 876
-if$ -- 5423
+cite$ -- 79
+duplicate$ -- 722
+empty$ -- 1594
+format.name$ -- 888
+if$ -- 5632
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 62
-newline$ -- 323
-num.names$ -- 126
-pop$ -- 539
+int.to.str$ -- 67
+missing$ -- 63
+newline$ -- 343
+num.names$ -- 130
+pop$ -- 568
 preamble$ -- 1
-purify$ -- 555
+purify$ -- 569
 quote$ -- 0
-skip$ -- 478
+skip$ -- 501
 stack$ -- 0
-substring$ -- 1275
-swap$ -- 67
+substring$ -- 1322
+swap$ -- 71
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
-warning$ -- 10
-while$ -- 187
-width$ -- 65
-write$ -- 691
-(There were 10 warnings)
+type$ -- 262
+warning$ -- 12
+while$ -- 192
+width$ -- 69
+write$ -- 731
+(There were 12 warnings)

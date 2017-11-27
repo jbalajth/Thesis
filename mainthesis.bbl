@@ -1,5 +1,16 @@
 \begin{thebibliography}{10}
 
+\bibitem{nuclide}
+Live chart of nuclides.
+\newblock \url{https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html}.
+\newblock Accessed: 2017-11-21.
+
+\bibitem{metropolis_2}
+Mcmc and fitting models to data.
+\newblock
+  \url{https://sciencehouse.wordpress.com/2010/06/23/mcmc-and-fitting-models-to-data/}.
+\newblock Accessed: 2017-11-25.
+
 \bibitem{planck2015}
 P.~A.~R. Ade et~al.
 \newblock {Planck 2015 results. XIII. Cosmological parameters}.
@@ -132,7 +143,7 @@ Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
 \newblock {\em Phys. Lett.}, B735:322--326, 2014.
 
 \bibitem{henrique}
-V~Chepel and H~Araújo.
+V~Chepel and H~Araujo.
 \newblock Liquid noble gas detectors for low energy particle physics.
 \newblock {\em Journal of Instrumentation}, 8(04):R04001, 2013.
 
@@ -146,6 +157,12 @@ Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
 A.~Dobi et~al.
 \newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
 \newblock {\em Nucl. Instrum. Meth.}, A675:40--46, 2012.
+
+\bibitem{attila}
+Attila Dobi.
+\newblock {\em Measurement of the Electron Recoil Band of the LUX Dark Matter
+  Detector with a Tritium Calibration Source}.
+\newblock PhD thesis, Uniersity of Maryland, 2014.
 
 \bibitem{sampling_dm}
 Attila Dobi, Clayton~G Davis, Carter Hall, Thomas Langford, Simon Slutsky, and
@@ -312,6 +329,12 @@ Christopher McCabe.
 \newblock The earth's velocity for direct detection experiments.
 \newblock {\em Journal of Cosmology and Astroparticle Physics}, 2014(02):027,
   2014.
+
+\bibitem{metropolis_1}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
 
 \bibitem{milgrom}
 M.~{Milgrom}.

@@ -1,7 +1,39 @@
 \chapter{Detector Response to $^{14}$C Beta Decay}
 
+The carbon-14 calibration follows the same preparation and injection procedure as the tritium calibration, which has been described in previous papers.\cite{lux_tritium,richard,attila} Both of these calibration sources have half-lives greater than the lifetime of the experiment, so we rely on the LUX gas processing system to chemically remove the injected activity. We have previously characterized our ability to remove radio-labelled methane from the LUX detector and found that tritiated-methane (CH$_3$T) is removed with a decay time of about 7-10 hours, leaving no observed residual activity in the detector. Carbon-14 labelled methane ($^{14}$CH$_4$) is chemically identical to CH$_3$T and so we find it to have the same removal characteristics. The tritiated methane is removed with a time constant of 8.2 hours, and the carbon-14 labeled methane is removed with a time constant 9.1 hours. This variation in removal time is within reason given the variation in previous trials with tritiated methane.
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{Figures/H3_removal_time.pdf}
+  %\label{}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{Figures/C14_removal_time.pdf}
+  %\label{fig:intlin}
+\end{subfigure}
+\caption{Purification of methane radio-labeled with tritium (left), and carbon-14 (right). The tritiated methane is removed with a time constant of 8.2 hours, and the carbon-14 labeled methane is removed with a time constant 9.1 hours. }
+\label{fig:removaltime}
+\end{figure}
+
+
+
+
+The endpoint of the carbon-14 spectrum is obscured by the xenon-131m line. We don not assume that gammas and betas behave in the same way in liquid xenon, so we need to cut out the xenon-131m events in order to measure the energy deposition properties of carbon-14. At 145 keV, the xenon distribution falls to less than 5\% of the carbon-14 distribution, so we will only include events with reconstructed energy $<145$ keV in our measurement of the carbon-14 yields and recombination..
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=\textwidth]{Figures/C14_spec_init.pdf}
+\caption{Reconstructed energy spectrum of the carbon-14 calibration. The blue histogram was generated using all of the events in the dataset, including both carbon-14 and Xe-131m. Most of the events are in the smooth carbon-14 beta spectrum, which extends from 0 to 156 keV, but the Xe-131m line is clearly visible at 164 keV. The red curve shows a Gaussian fit to the xenon-131m spectrum, excluding the high energy side. The black line shows our energy cut at 145 keV.}
+\label{fig:c14Ecut}
+\end{figure}
+
+
+
 \section{The Theoretical $^{14}$C Beta-Spectrum}
-The shape of the theoretical spectrum of the carbon-14 beta decay has been of interest in the context neutrino mass experiments\cite{C14_Wietfeldt}, where the goal is to measure the precise endpoint, and in liquid scintillator experiments, which have $^{14}$C as a major background and so need to model the spectrum with high precision\cite{C14_Borexino, C14_Bergeron}. This  decay also is of interest in theoretical nuclear physics because it has an abnormally long half life\cite{C14_Kuzminov,C14_Genz,C14_Garcia}. This extended half life hints that there is some cancellation in the lowest order terms of the nuclear matrix element and higher order terms must be taken into consideration. This would also mean that there could be momentum-dependent deviations from the allowed spectral shape. There have been several experiments\cite{C14_Sonntag,C14_Wietfeldt,C14_Borexino,C14_Kuzminov,C14_Bergeron} which have shown deviations from the allowed shape. These results, however, are in some tension with each other, as well as with previous measurements which show a purely allowed spectral shape\cite{C14_Curran}.
+The shape of the theoretical spectrum of the carbon-14 beta decay has been of interest in the context neutrino mass experiments\cite{C14_Wietfeldt}, where the goal is to measure the precise endpoint, and in liquid scintillator experiments, which have $^{14}$C as a major background and so need to model the spectrum with high precision\cite{C14_Borexino, C14_Bergeron}. This  decay also is of interest in theoretical nuclear physics because it has an abnormally long half life\cite{C14_Kuzminov,C14_Genz,C14_Garcia}. The transition of $^{14}$C to the ground state of $^{14}$N is an allowed Gamow-Teller $(0^+ \rightarrow 1^+)$ transition. The 5730 year half-life, and corresponding comparative half life, $\log_{10}(f_t)=9.04$, makes it empirically consistent with second-forbidden transitions.\cite{C14_Kuzminov,C14_Wietfeldt}
+
+This extended half life indicates an anomalously small Gamow-Teller nuclear matrix element of $\langle GT \rangle \approx 2 \times 10^{-3}$. This points to cancellation in the lowest order terms of the nuclear matrix element and means that higher order terms must be taken into consideration. These higher-order terms may introduce momentum-dependent deviations from the allowed spectral shape. There have been several experiments\cite{C14_Sonntag, C14_Wietfeldt, C14_Borexino, C14_Kuzminov, C14_Bergeron} which have made measurements of the spectral shape which are consistent with non-statistical corrections to the allowed shape. These results are in some tension with each other, as well as with previous measurements which show a purely allowed spectral shape\cite{C14_Curran}. 
 
 \subsection{The Allowed Spectrum}
 Carbon-14 decays to the ground state of nitrogen-14 by way of an allowed Gamow-Teller, 0$^+$ to 1$^+$ transition. This decay has a Q-value of 156 keV and a half life of 5730 years. In general, the theoretical spectrum for this decay takes the form\cite{C14_Kuzminov}:
@@ -47,7 +79,7 @@ with $F_{NR}(Z,E)$ as defined in equation \ref{eq:fermifunc2} and $E'$ and $p'$ 
 \label{fig:C14_spec_corrs}
 \end{figure}
 
-\subsection{The Shape Factor}
+\subsection{The Shape Factor}\label{sec:shape_factor}
 For a typical allowed decay, the shape factor is dominated by interference between the Gammow-Teller axial matrix element, $\langle GT \rangle$ and the weak magnetism matrix element, $\langle WM \rangle$. Such a shape factor has the form\cite{C14_Kuzminov,C14_Garcia,C14_Wietfeldt,beta_Calaprice}:
 \begin{equation}\label{eq:shapefactor1}
 C(E)\approx1+\frac{4}{3M}\frac{\langle WM \rangle}{\langle GT \rangle}[E-E_0/2-m_e^2/E],
@@ -79,18 +111,19 @@ Most recently, V. Kuzminov and N. Osetrova measured the shape factor of then $^{
 
 
 \section{Measurement of Light and Charge Yields}
+\subsection{Previous Measurement of Beta Yields in LUX}
 
 
+\subsection{Accounting for Smearing of Continuous Beta Spectra}
+
+
+\subsection{Tuning NEST Yields to Post-Run04 Data}
 
 
 \section{Measurement of Recombination Fluctuations from $^{14}$C}
 
 
-
-
-
-
-
+\section{Results }
 
 
 \section{Measurement of the Shape of the $^{14}$C Beta-Spectrum}

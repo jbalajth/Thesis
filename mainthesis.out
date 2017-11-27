@@ -26,52 +26,58 @@
 \BOOKMARK [1][-]{section.2.2}{The LUX and LZ experiments}{chapter.2}% 26
 \BOOKMARK [2][-]{subsection.2.2.1}{Electric Field Model}{section.2.2}% 27
 \BOOKMARK [2][-]{subsection.2.2.2}{Efficiency Corrections}{section.2.2}% 28
-\BOOKMARK [0][-]{chapter.3}{Building, Optimizing, and Maintaining a Xenon Cold-Trap Sampling System}{}% 29
-\BOOKMARK [1][-]{section.3.1}{Technical Overview}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.1.1}{System Construction}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.1.2}{Operational Outline}{section.3.1}% 32
-\BOOKMARK [1][-]{section.3.2}{Idealized Cold Trap Response}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.2.1}{Vacuum Impedances}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.2}{Setting System Impedance}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.3}{Generalized Cold Trap System Response}{section.3.2}% 36
-\BOOKMARK [1][-]{section.3.3}{Actual Behavior of a Cold Trap System}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.1}{Cold Trap Geometry}{section.3.3}% 38
-\BOOKMARK [2][-]{subsection.3.3.2}{Formation of Xenon Ice}{section.3.3}% 39
-\BOOKMARK [2][-]{subsection.3.3.3}{Flow Rate Dependance}{section.3.3}% 40
-\BOOKMARK [2][-]{subsection.3.3.4}{Impedance Dependance}{section.3.3}% 41
-\BOOKMARK [2][-]{subsection.3.3.5}{Post Flow Behavior}{section.3.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.6}{Diffusion and Entrainment}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.7}{Model Overview}{section.3.3}% 44
-\BOOKMARK [1][-]{section.3.4}{Analysis Scheme}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.5}{System Parameters and Optimization}{chapter.3}% 46
-\BOOKMARK [2][-]{subsection.3.5.1}{RGA Parameters}{section.3.5}% 47
-\BOOKMARK [2][-]{subsection.3.5.2}{Impedance and Flow Rate Settings}{section.3.5}% 48
-\BOOKMARK [1][-]{section.3.6}{Preparation of Calibration Xenon}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.7}{Sensitivity Demonstration at SLAC}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.7.1}{Blank Runs}{section.3.7}% 51
-\BOOKMARK [2][-]{subsection.3.7.2}{Mixing of ppQ Level Samples}{section.3.7}% 52
-\BOOKMARK [2][-]{subsection.3.7.3}{Measurements of ppQ Level Samples}{section.3.7}% 53
-\BOOKMARK [0][-]{chapter.4}{LUX Post-Run 04 Calibration Campaign}{}% 54
-\BOOKMARK [1][-]{section.4.1}{Data Selection}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.2}{Argon 37}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.2.1}{Radial Selection Cut}{section.4.2}% 57
-\BOOKMARK [2][-]{subsection.4.2.2}{S2 Efficiency Correction from ^37Ar}{section.4.2}% 58
-\BOOKMARK [1][-]{section.4.3}{S1 corrections from ^131Xe_m+^83Kr_m Doke Plot}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.4}{CH_3T Calibrations}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.1}{Model of Pathological S2 Tails derived from ^131Xe_m and Tritium}{section.4.4}% 61
-\BOOKMARK [1][-]{section.4.5}{^14CH_4 Injection}{chapter.4}% 62
-\BOOKMARK [0][-]{chapter.5}{Detector Response to ^14C Beta Decay}{}% 63
-\BOOKMARK [1][-]{section.5.1}{The Theoretical ^14C Beta-Spectrum}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.1.1}{The Allowed Spectrum}{section.5.1}% 65
-\BOOKMARK [2][-]{subsection.5.1.2}{The Fermi Function}{section.5.1}% 66
-\BOOKMARK [2][-]{subsection.5.1.3}{The Shape Factor}{section.5.1}% 67
-\BOOKMARK [1][-]{section.5.2}{Measurement of Light and Charge Yields}{chapter.5}% 68
-\BOOKMARK [1][-]{section.5.3}{Measurement of Recombination Fluctuations from ^14C}{chapter.5}% 69
-\BOOKMARK [1][-]{section.5.4}{Measurement of the Shape of the ^14C Beta-Spectrum}{chapter.5}% 70
-\BOOKMARK [0][-]{appendix.A}{Alternate Doke-Plot Corrections}{}% 71
-\BOOKMARK [1][-]{section.A.1}{No ^37Ar}{appendix.A}% 72
-\BOOKMARK [1][-]{section.A.2}{Three Point Doke-Plot}{appendix.A}% 73
-\BOOKMARK [0][-]{appendix.B}{Alternate Tail Model}{}% 74
-\BOOKMARK [1][-]{section.B.1}{Flat}{appendix.B}% 75
-\BOOKMARK [1][-]{section.B.2}{Poisson}{appendix.B}% 76
-\BOOKMARK [0][-]{section*.78}{Bibliography}{}% 77
+\BOOKMARK [2][-]{subsection.2.2.3}{Electron Trains in LUX Run04}{section.2.2}% 29
+\BOOKMARK [0][-]{chapter.3}{Building, Optimizing, and Maintaining a Xenon Cold-Trap Sampling System}{}% 30
+\BOOKMARK [1][-]{section.3.1}{Technical Overview}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.1.1}{System Construction}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.2}{Operational Outline}{section.3.1}% 33
+\BOOKMARK [1][-]{section.3.2}{Idealized Cold Trap Response}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.2.1}{Vacuum Impedances}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.2}{Setting System Impedance}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.3}{Generalized Cold Trap System Response}{section.3.2}% 37
+\BOOKMARK [1][-]{section.3.3}{Actual Behavior of a Cold Trap System}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.1}{Cold Trap Geometry}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.2}{Formation of Xenon Ice}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.3}{Flow Rate Dependance}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.4}{Impedance Dependance}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.5}{Post Flow Behavior}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.6}{Diffusion and Entrainment}{section.3.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.7}{Model Overview}{section.3.3}% 45
+\BOOKMARK [1][-]{section.3.4}{Analysis Scheme}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.5}{System Parameters and Optimization}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.5.1}{RGA Parameters}{section.3.5}% 48
+\BOOKMARK [2][-]{subsection.3.5.2}{Impedance and Flow Rate Settings}{section.3.5}% 49
+\BOOKMARK [1][-]{section.3.6}{Preparation of Calibration Xenon}{chapter.3}% 50
+\BOOKMARK [1][-]{section.3.7}{Sensitivity Demonstration at SLAC}{chapter.3}% 51
+\BOOKMARK [2][-]{subsection.3.7.1}{Blank Runs}{section.3.7}% 52
+\BOOKMARK [2][-]{subsection.3.7.2}{Mixing of ppQ Level Samples}{section.3.7}% 53
+\BOOKMARK [2][-]{subsection.3.7.3}{Measurements of ppQ Level Samples}{section.3.7}% 54
+\BOOKMARK [0][-]{chapter.4}{LUX Post-Run 04 Calibration Campaign}{}% 55
+\BOOKMARK [1][-]{section.4.1}{Data Selection}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.1.1}{Single-Scatter Cut}{section.4.1}% 57
+\BOOKMARK [2][-]{subsection.4.1.2}{Radial Selection Cut}{section.4.1}% 58
+\BOOKMARK [1][-]{section.4.2}{Argon-37 Non-Gaussianities}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.3}{Signal Corrections fo Post-Run04 Data}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.3.1}{S2 Efficiency Correction from ^37Ar}{section.4.3}% 61
+\BOOKMARK [2][-]{subsection.4.3.2}{S1 corrections from Xenon-131m + Krypton-83m Doke Plot}{section.4.3}% 62
+\BOOKMARK [2][-]{subsection.4.3.3}{Applied Corrections}{section.4.3}% 63
+\BOOKMARK [1][-]{section.4.4}{Model of the Pathological S2 Tails}{chapter.4}% 64
+\BOOKMARK [0][-]{chapter.5}{Detector Response to ^14C Beta Decay}{}% 65
+\BOOKMARK [1][-]{section.5.1}{The Theoretical ^14C Beta-Spectrum}{chapter.5}% 66
+\BOOKMARK [2][-]{subsection.5.1.1}{The Allowed Spectrum}{section.5.1}% 67
+\BOOKMARK [2][-]{subsection.5.1.2}{The Fermi Function}{section.5.1}% 68
+\BOOKMARK [2][-]{subsection.5.1.3}{The Shape Factor}{section.5.1}% 69
+\BOOKMARK [1][-]{section.5.2}{Measurement of Light and Charge Yields}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.2.1}{Previous Measurement of Beta Yields in LUX}{section.5.2}% 71
+\BOOKMARK [2][-]{subsection.5.2.2}{Accounting for Smearing of Continuous Beta Spectra}{section.5.2}% 72
+\BOOKMARK [2][-]{subsection.5.2.3}{Tuning NEST Yields to Post-Run04 Data}{section.5.2}% 73
+\BOOKMARK [1][-]{section.5.3}{Measurement of Recombination Fluctuations from ^14C}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.4}{Results }{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.5}{Measurement of the Shape of the ^14C Beta-Spectrum}{chapter.5}% 76
+\BOOKMARK [0][-]{appendix.A}{Alternate Doke-Plot Corrections}{}% 77
+\BOOKMARK [1][-]{section.A.1}{No ^37Ar}{appendix.A}% 78
+\BOOKMARK [1][-]{section.A.2}{Three Point Doke-Plot}{appendix.A}% 79
+\BOOKMARK [0][-]{appendix.B}{Alternate Tail Model}{}% 80
+\BOOKMARK [1][-]{section.B.1}{Flat}{appendix.B}% 81
+\BOOKMARK [1][-]{section.B.2}{Poisson}{appendix.B}% 82
+\BOOKMARK [0][-]{section*.88}{Bibliography}{}% 83
