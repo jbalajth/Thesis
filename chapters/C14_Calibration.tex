@@ -1,6 +1,6 @@
 \chapter{Detector Response to $^{14}$C Beta Decay}
 
-The carbon-14 calibration follows the same preparation and injection procedure as the tritium calibration, which has been described in previous papers.\cite{lux_tritium,richard,attila} Both of these calibration sources have half-lives greater than the lifetime of the experiment, so we rely on the LUX gas processing system to chemically remove the injected activity. We have previously characterized our ability to remove radio-labelled methane from the LUX detector and found that tritiated-methane (CH$_3$T) is removed with a decay time of about 7-10 hours, leaving no observed residual activity in the detector. Carbon-14 labelled methane ($^{14}$CH$_4$) is chemically identical to CH$_3$T and so we find it to have the same removal characteristics. The tritiated methane is removed with a time constant of 8.2 hours, and the carbon-14 labeled methane is removed with a time constant 9.1 hours. This variation in removal time is within reason given the variation in previous trials with tritiated methane.
+The carbon-14 calibration follows the same preparation and injection procedure as the tritium calibration, which has been described in previous papers\cite{lux_tritium,richard,attila}. Both of these calibration sources have half-lives greater than the lifetime of the experiment, so we rely on the LUX gas processing system to chemically remove the injected activity. We have previously characterized our ability to remove radio-labelled methane from the LUX detector and found that tritiated-methane (CH$_3$T) is removed with a decay time of about 7-10 hours, leaving no observed residual activity in the detector. Carbon-14 labelled methane ($^{14}$CH$_4$) is chemically identical to CH$_3$T and so we find it to have the same removal characteristics. The tritiated methane is removed with a time constant of 8.2 hours, and the carbon-14 labeled methane is removed with a time constant 9.1 hours. This variation in removal time is within reason given the variation in previous trials with tritiated methane.
 \begin{figure}[h!]
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -31,7 +31,7 @@ The endpoint of the carbon-14 spectrum is obscured by the xenon-131m line. We do
 
 
 \section{The Theoretical $^{14}$C Beta-Spectrum}
-The shape of the theoretical spectrum of the carbon-14 beta decay has been of interest in the context neutrino mass experiments\cite{C14_Wietfeldt}, where the goal is to measure the precise endpoint, and in liquid scintillator experiments, which have $^{14}$C as a major background and so need to model the spectrum with high precision\cite{C14_Borexino, C14_Bergeron}. This  decay also is of interest in theoretical nuclear physics because it has an abnormally long half life\cite{C14_Kuzminov,C14_Genz,C14_Garcia}. The transition of $^{14}$C to the ground state of $^{14}$N is an allowed Gamow-Teller $(0^+ \rightarrow 1^+)$ transition. The 5730 year half-life, and corresponding comparative half life, $\log_{10}(f_t)=9.04$, makes it empirically consistent with second-forbidden transitions.\cite{C14_Kuzminov,C14_Wietfeldt}
+The shape of the theoretical spectrum of the carbon-14 beta decay has been of interest in the context neutrino mass experiments\cite{C14_Wietfeldt}, where the goal is to measure the precise endpoint, and in liquid scintillator experiments, which have $^{14}$C as a major background and so need to model the spectrum with high precision\cite{C14_Borexino, C14_Bergeron}. This  decay also is of interest in theoretical nuclear physics because it has an abnormally long half life\cite{C14_Kuzminov,C14_Genz,C14_Garcia}. The transition of $^{14}$C to the ground state of $^{14}$N is an allowed Gamow-Teller $(0^+ \rightarrow 1^+)$ transition. The 5730 year half-life, and corresponding comparative half life, $\log_{10}(f_t)=9.04$, makes it empirically consistent with second-forbidden transitions\cite{C14_Kuzminov,C14_Wietfeldt}.
 
 This extended half life indicates an anomalously small Gamow-Teller nuclear matrix element of $\langle GT \rangle \approx 2 \times 10^{-3}$. This points to cancellation in the lowest order terms of the nuclear matrix element and means that higher order terms must be taken into consideration. These higher-order terms may introduce momentum-dependent deviations from the allowed spectral shape. There have been several experiments\cite{C14_Sonntag, C14_Wietfeldt, C14_Borexino, C14_Kuzminov, C14_Bergeron} which have made measurements of the spectral shape which are consistent with non-statistical corrections to the allowed shape. These results are in some tension with each other, as well as with previous measurements which show a purely allowed spectral shape\cite{C14_Curran}. 
 
@@ -110,20 +110,62 @@ Most recently, V. Kuzminov and N. Osetrova measured the shape factor of then $^{
 
 
 
-\section{Measurement of Light and Charge Yields}
-\subsection{Previous Measurement of Beta Yields in LUX}
+\section{Preliminary Measurement of Light and Charge Yields}
+The carbon-14 injection was based on the tritium calibration, which was first performed in August of 2013, after the first LUX data run was completed. The data from this calibration was used to calculate the energy deposition properties of electronic recoils in liquid xenon. To this end, a method was developed by Attila Dobi which deconvolved the effects of detector-resolution from the interesting physics involved in the process\cite{lux_tritium,attila}. 
+
+Unfortunately this method, which we will refer to as the Dobi method, is largely irrelevant to the post-Run04 data. It relies on a robust understanding of the detector resolution and uses a Gaussian model of the energy smearing to obtain the necessary corrections. The S2 tails described in section \ref{sec:s2tails} were not present in the LUX Run03 data and mean both that our understanding of the energy-dependent detector resolution is limited and that the Gaussian model will not apply. To address these issues, we will develop a numerical version of the Dobi method using our modified version of libNEST which includes the empirical model of the S2 tails. 
 
 
-\subsection{Accounting for Smearing of Continuous Beta Spectra}
+\subsection{Accounting for Gaussian Smearing of Continuous Beta Spectra}
+This deconvolution of detector resolution is necessary because of the continuous nature of beta spectra. We do not know the true deposition energy, $E_{true}$, of any given event and therefore only have access to the reconstructed energy, $E_{rec}$. In the Run03 measurements, the reconstructed energy of any event would be drawn from a Gaussian distribution centered at the true deposition energy, with the width of this distribution being the energy resolution, $\sigma_{E}$. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{Figures/toy_smearing.pdf}
+\caption{Smearing of a discrete, linearly falling spectrum. The true energy of the events is distributed at ( 10, 20, 30, ... ,150 ) keV, as indicated by the solid black lines. The number of events at each energy decreases linearly. We then apply Gaussian smearing with a flat resolution of 6 keV to the true energy (dashed lines). The reconstructed energy (red histogram) shows the resulting spectrum. The average true energy of events in a slice from 79.75 keV $<E_{rec}<$ 80.25 keV (green area) is 70.65 $\pm$0.09 keV. This average is offset from the selected energy due to smearing.}
+\label{fig:toysmear}
+\end{figure}
 
+When this Gaussian smearing is applied to a continuous spectrum with a non-zero slope, it will create a systematic offset the measured reconstructed energy from the true energy. We take the spectrum shown in figure \ref{fig:toysmear} as an example. The true energy of the events is distributed at discrete energies, 10, 20, 30, up to 150 keV. We apply Gaussian smearing with a constant resolution of $\sigma_{E}$= 6 keV to give us our reconstructed energy spectrum. When we take a small slice in reconstructed energy, from 79.75 to 80.25 keV, we find that the average true energy of events in this slice is systematically offset to 79.53 $\pm$0.09 keV. This offset is due to the negative slope of the true energy spectrum. The lower energy bins are more prominent than the higher energy ones, and therefore will have more events smear into our reconstructed energy slice.
 
-\subsection{Tuning NEST Yields to Post-Run04 Data}
+It is possible to calculate this offset explicitly by integrating the contribution from each individual Gaussian. The number of events contributed to our reconstructed energy slice by the $i^{th}$ true energy bin will be given by:
+\begin{equation}\label{eq:smear1}
+\begin{split}
+A_i&=\int_{79.75}^{80.25}dx\frac{N_i}{\sqrt{2\pi \sigma_{E}^{2}}} e^{-(x-E_{true,i})^2/2\sigma_{E}^{2}}\\
+&=\frac{N_i}{2} \Bigg(\text{erf} \bigg(\frac{80.25-E_{true,i}}{\sqrt{2\sigma_E^2}}\bigg)-\text{erf} \bigg(\frac{79.75-E_{true,i}}{\sqrt{2\sigma_E^2}}\bigg)\Bigg)
+\end{split}
+\end{equation}
+where, $N_i=C(16-i)$ is the number of events in the $i^{th}$ bin, and $C$ is a scaling constant. The expected mean true energy, $\nu_{slice}$, of events in the slice will then be given by:
+\begin{equation}\label{eq:smear2}
+\nu_{80}=\frac{\sum_i E_{true,i}A_i}{\sum_i A_i}
+\end{equation}
+For the stated values of $N_i$, $E_{true,i}$, and $\sigma_E$, equation \ref{eq:smear} yields $\nu_{80}=79.56$ keV, which is consistent with the result found in the previous paragraph.  
+
+Equation \ref{eq:smear} can be used to recenter an arbitrary reconstructed energy bin. This correction will be most important for energy regions where the spectrum in question is steeply changing and at its endpoints. For instance, if we take a reconstructed energy slice of our toy spectrum from 149.75 to 150.25 keV, the predicted low-energy bias goes from 0.44 keV as it was for the 80 keV slice, to 3.5 keV. This prediction is consistent with the measured bias of 3.4 $\pm$0.2 keV.
+
+We can generalize equations \ref{eq:smear1} and \ref{eq:smear2} to apply to decays with continuous energy spectra. If the energy resolution of the detector, $\sigma_E(E)$, and the shape of the spectrum, $\frac{dN}{dE}$, are both known, equations \ref{eq:smear1} and \ref{eq:smear2} can be rewritten:
+\begin{equation}\label{eq:smear3}
+A(B_1,B_2)=\frac{1}{2}\frac{dN}{dE} \Bigg(\text{erf} \bigg(\frac{B_2-E}{\sqrt{2\sigma_E(E)^2}}\bigg)-\text{erf}\bigg(\frac{B_1-E}{\sqrt{2\sigma_E(E)^2}}\bigg)\Bigg),
+\end{equation}
+and:
+\begin{equation}\label{eq:smear4}
+\nu(B_1,B_2)=\frac{\int A(B_1,B_2)EdE}{\int A(B_1,B_2)dE},
+\end{equation}
+where $B_1$ and $B_2$ are the edges of the reconstructed energy slice. The calculated $\nu(B_1,B_2)$ can then be used to recenter the arbitrary reconstructed energy bin to the average true energy of events in that bin.
+
+\subsection{Accounting for Non-Gaussian Smearing }
+The results from the previous section, shown in equations \ref{eq:smear3} and \ref{eq:smear4} provide a powerful correction method for experiments with Gaussian detector resolution. Unfortunately, the resolution of LUX Run04 and post-Run4 data is not Gaussian. The pathological S2 tails make the resolutions approximately exponential to the high-energy side while leaving it roughly Gaussian on the low-energy side. 
+
+The asymmetry combined with the extended range of the resolution severely limit the effectiveness of equations \ref{eq:smear3} and \ref{eq:smear4}. For this reason, we move from an analytical approach to a numerical one. The libNEST model has been fine-tuned to replicate the LUX detector resolution, so we will combine it with the model of the S2 tails described in section \ref{sec:s2tails} to un-smear the data. 
 
 
 \section{Measurement of Recombination Fluctuations from $^{14}$C}
 
+\begin{equation}
+\sigma_{R}^2=R(1-R)\cdot N_i +\bigg(F_0\exp \Big(\frac{-(Y-F_1)^2}{2F_2^2}\Big)\bigg)^2N_i^2
+\end{equation}
 
-\section{Results }
+
+\section{Yields and Recombination from Updated NEST Model}
 
 
 \section{Measurement of the Shape of the $^{14}$C Beta-Spectrum}

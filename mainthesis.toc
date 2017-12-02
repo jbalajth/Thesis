@@ -67,17 +67,16 @@
 \contentsline {subsection}{\numberline {5.1.1}The Allowed Spectrum}{139}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}The Fermi Function}{139}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}The Shape Factor}{141}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Measurement of Light and Charge Yields}{145}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Previous Measurement of Beta Yields in LUX}{145}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Accounting for Smearing of Continuous Beta Spectra}{145}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Tuning NEST Yields to Post-Run04 Data}{145}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Measurement of Recombination Fluctuations from $^{14}$C}{145}{section.5.3}
-\contentsline {section}{\numberline {5.4}Results }{145}{section.5.4}
-\contentsline {section}{\numberline {5.5}Measurement of the Shape of the $^{14}$C Beta-Spectrum}{145}{section.5.5}
-\contentsline {chapter}{\numberline {A}Alternate Doke-Plot Corrections}{146}{appendix.A}
-\contentsline {section}{\numberline {A.1}No $^{37}$Ar}{146}{section.A.1}
-\contentsline {section}{\numberline {A.2}Three Point Doke-Plot}{146}{section.A.2}
-\contentsline {chapter}{\numberline {B}Alternate Tail Model}{147}{appendix.B}
-\contentsline {section}{\numberline {B.1}Flat}{147}{section.B.1}
-\contentsline {section}{\numberline {B.2}Poisson}{147}{section.B.2}
-\contentsline {chapter}{Bibliography}{148}{section*.88}
+\contentsline {section}{\numberline {5.2}Preliminary Measurement of Light and Charge Yields}{145}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Accounting for Gaussian Smearing of Continuous Beta Spectra}{145}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Accounting for Non-Gaussian Smearing }{148}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Measurement of Recombination Fluctuations from $^{14}$C}{149}{section.5.3}
+\contentsline {section}{\numberline {5.4}Yields and Recombination from Updated NEST Model}{149}{section.5.4}
+\contentsline {section}{\numberline {5.5}Measurement of the Shape of the $^{14}$C Beta-Spectrum}{149}{section.5.5}
+\contentsline {chapter}{\numberline {A}Alternate Doke-Plot Corrections}{150}{appendix.A}
+\contentsline {section}{\numberline {A.1}No $^{37}$Ar}{150}{section.A.1}
+\contentsline {section}{\numberline {A.2}Three Point Doke-Plot}{150}{section.A.2}
+\contentsline {chapter}{\numberline {B}Alternate Tail Model}{151}{appendix.B}
+\contentsline {section}{\numberline {B.1}Flat}{151}{section.B.1}
+\contentsline {section}{\numberline {B.2}Poisson}{151}{section.B.2}
+\contentsline {chapter}{Bibliography}{152}{section*.89}

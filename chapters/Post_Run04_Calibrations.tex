@@ -33,7 +33,7 @@ The first novel calibration performed was a modification to the DD NR calibratio
 \begin{equation}
 E_R=\frac{E_nr}{2}[1-\cos(\theta)],
 \end{equation}
-where $\theta$ is the scattering angle in the center of mass frame, and $r=4M_AM_n/(M_A+M_n)^2$. The scattering angle in the lab frame can be easily measured for events where the scattered neutron interacts with a second xenon atom before exiting the detector, and for large nuclei such as xenon, the approximation $\theta_{CM}\approx \theta_{LF}$ can be made. The result of this procedure is a continuous NR recoil spectrum where the energy of each event is precisely known. These events will be located along the beam line, so will all be at roughly the same drift time. By moving the conduit up and down, the detector NR response as a function of drift time can be mapped out.\cite{lux_dd1,lux_dd2}
+where $\theta$ is the scattering angle in the center of mass frame, and $r=4M_AM_n/(M_A+M_n)^2$. The scattering angle in the lab frame can be easily measured for events where the scattered neutron interacts with a second xenon atom before exiting the detector, and for large nuclei such as xenon, the approximation $\theta_{CM}\approx \theta_{LF}$ can be made. The result of this procedure is a continuous NR recoil spectrum where the energy of each event is precisely known. These events will be located along the beam line, so will all be at roughly the same drift time. By moving the conduit up and down, the detector NR response as a function of drift time can be mapped out\cite{lux_dd1,lux_dd2}.
 \begin{figure}[h!]
 \centering
 \begin{subfigure}{0.5\textwidth}
@@ -50,7 +50,7 @@ where $\theta$ is the scattering angle in the center of mass frame, and $r=4M_AM
 \label{fig:ddplot}
 \end{figure}
 
-The novel modification to the DD calibration in the post-run 04 campaign was to first scatter the neutrons off of a D$_2$O target before sending them into the conduit. The only neutrons of a single, known, scattering angle will pass through the conduit, so this procedure effectively converts the 2.45 MeV mono-energetic neutron source to a 272 keV mono-energetic neutron source. The main portion of the post-Run4 DD campaign ended on August 7$^{th}$, although there was a final brief period of testing between August 22$^{nd}$ and 23$^{rd}$.\cite{lux_dd1}
+The novel modification to the DD calibration in the post-run 04 campaign was to first scatter the neutrons off of a D$_2$O target before sending them into the conduit. The only neutrons of a single, known, scattering angle will pass through the conduit, so this procedure effectively converts the 2.45 MeV mono-energetic neutron source to a 272 keV mono-energetic neutron source. The main portion of the post-Run4 DD campaign ended on August 7$^{th}$, although there was a final brief period of testing between August 22$^{nd}$ and 23$^{rd}$\cite{lux_dd1}.
 
 
 On August 9$^{th}$, $^{131m}$Xe became the first of the non-standard, post-Run4 ER sources to be injected. Xenon-131m is a gamma-emitter with an energy of 163.93 keV and a half life of 11.84 days.\cite{nuclide}. The xenon-131m was collected from an iodine-131 pill in an otherwise empty stainless steel bottle and was injected using the tritium injection described in \cite{lux_tritium}. The 12 day half life of this source meant that all subsequent sources in the month long campaign have the $^{131m}$Xe line as a background. The $^{131m}$Xe line is sufficiently separated in energy from most of the other sources, so that this background will not have a significant effect. However, the $^{131m}$Xe line is only 8 keV above the $^{14}$C Q value of 156 keV and so obscures the highest-energy portion of the $^{14}C$ beta spectrum. This has two major effects on our analysis of the carbon-14 data. First, it limits us from probing the energy deposition properties of liquid xenon near the endpoint of the spectrum, and second, it provides an extremely useful reference point which can be used in energy calibration, efficiency corrections, and characterization of detector pathologies.
@@ -133,7 +133,7 @@ We would like to be able to eliminate events close to the wall from our analysis
 
 
 \section{Argon-37 Non-Gaussianities}
-Argon-37 provides three useful low-energy ER calibration lines. It decays through electron capture to $^{37}$Cl with a half life of 35 days. The long half life, combined with the fact that argon is chemically inert means that once injected, it will be on the order of a year before it has been sufficiently removed. That being the case, it was only injected immediately prior to LUX decommissioning.\cite{ar371,pixey_ar37}
+Argon-37 provides three useful low-energy ER calibration lines. It decays through electron capture to $^{37}$Cl with a half life of 35 days. The long half life, combined with the fact that argon is chemically inert means that once injected, it will be on the order of a year before it has been sufficiently removed. That being the case, it was only injected immediately prior to LUX decommissioning\cite{ar371,pixey_ar37}.
 
 The $^{37}$Ar source was produced through stimulated $\alpha$ emission of a $^{40}$Ca target using a neutron beam. The $^{37}$Ar sample used in LUX was produced by irradiating an aqueous solution of CaCl$_2$ with neutrons from an AmBe source. The gas above this solution was then collected and purified to obtain the gaseous sample of $^{37}$Ar\cite{pixey_ar37}. This sample was injected into the LUX xenon circulation using the same system as the $^{83m}$Kr calibrations\cite{lux_kr2}.
 
@@ -298,7 +298,7 @@ Interestingly, the ``gfdcm'' corrections produce significantly narrower spectra 
 
 
 
-\section{Model of the Pathological S2 Tails}
+\section{Model of the Pathological S2 Tails}\label{sec:s2tails}
 The energy spectra shown in figures \ref{fig:E_spec_Ar}, \ref{fig:E_spec_Kr}, and \ref{fig:E_spec_Xe} all have a clear non-Gaussian tail toward high energy. These tails are propagated from a pathological effect in the S2 signals and are thought to be caused by the electron-trains described in section \ref{sec:etrain}. The S2 tails are present both during the LUX Run04 WIMP-search and in the post-Run04 calibration campaign. 
 
 We look for insight into this issue by comparing the S2 spectra of argon-37, xenon-131m, and krypton-83m at different drift times, as in figure \ref{fig:E_spec_tails}. We find that the relative amplitude and slope of the tails do not change significantly at different energies or drift bins. From this we conclude that the tails will be approximately proportional to the initial S2 size. This is good news because it means that the combined energy model presented in section \ref{sec:nest} will still be expected to hold. We also see from figure \ref{fig:E_spec_tails_ar} that the shape and size of the argon-37 tails do not change when additional activity, in the form of krypton-83m events, is added to the detector.
@@ -394,7 +394,7 @@ We use our argon-37 and xenon-131m spectra as reference, calculating the $\chi^2
 \label{fig:s2bestfit_spec_gfdcm}
 \end{figure}
 
-After the grid scan locates the approximate minimum, we then apply the Metropolis algorithm to fine tune the fit.\cite{metropolis_1,metropolis_2} For this algorithm, we use the model as we initially described it. For each iteration, we draw a new set test parameters from a normal distribution centered at the values of the previous iteration. These normal distributions have standard deviations of  0.005 for $b_{tail}$, 0.01 for $P_{tail}$, and 0.05 for $G2_{true}$. We then accept the new values of the parameters with a probability of $P_{accept}=\min(1,\exp(-(\chi_i^2-\chi_{i-1}^2)/2))$. We run at least 1000 iterations and allow for a burn-in period of 200 iterations. We take the best-fit values of the parameters to be equal mean of the iterations excluding the burn-in period.
+After the grid scan locates the approximate minimum, we then apply the Metropolis algorithm to fine tune the fit\cite{metropolis_1,metropolis_2}. For this algorithm, we use the model as we initially described it. For each iteration, we draw a new set test parameters from a normal distribution centered at the values of the previous iteration. These normal distributions have standard deviations of  0.005 for $b_{tail}$, 0.01 for $P_{tail}$, and 0.05 for $G2_{true}$. We then accept the new values of the parameters with a probability of $P_{accept}=\min(1,\exp(-(\chi_i^2-\chi_{i-1}^2)/2))$. We run at least 1000 iterations and allow for a burn-in period of 200 iterations. We take the best-fit values of the parameters to be equal mean of the iterations excluding the burn-in period.
 
 \begin{table}[h!]
 \centering
