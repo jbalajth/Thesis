@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{dahl}
+PhD thesis.
+
 \bibitem{nuclide}
 Live chart of nuclides.
 \newblock \url{https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html}.
@@ -63,6 +66,24 @@ D.~S. Akerib et~al.
 \newblock {3D Modeling of Electric Fields in the LUX Detector}.
 \newblock 2017.
 
+\bibitem{Evanyields}
+D.~S. Akerib et~al.
+\newblock {Signal yields, energy resolution, and recombination fluctuations in
+  liquid xenon}.
+\newblock {\em Phys. Rev.}, D95(1):012008, 2017.
+
+\bibitem{DQyields}
+D.~S. Akerib et~al.
+\newblock {Ultra-Low Energy Calibration of LUX Detector using $^{127}$Xe
+  Electron Capture}.
+\newblock 2017.
+
+\bibitem{akimov}
+D.~{\relax Yu}. Akimov et~al.
+\newblock {Experimental study of ionization yield of liquid xenon for electron
+  recoils in the energy range 2.8 - 80 keV}.
+\newblock {\em JINST}, 9(11):P11014, 2014.
+
 \bibitem{C14_Borexino}
 G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
   S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
@@ -80,11 +101,25 @@ G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
   High-Energy Physics}, 422(1-4):349--358, 1998.
 \newblock cited By 73.
 
+\bibitem{zerofield2}
+E.~Aprile, R.~Budnik, B.~Choi, H.~A. Contreras, K.-L. Giboni, L.~W. Goetzke,
+  J.~E. Koglin, R.~F. Lang, K.~E. Lim, A.~J. Melgarejo~Fernandez, R.~Persiani,
+  G.~Plante, and A.~Rizzo.
+\newblock Measurement of the scintillation yield of low-energy electrons in
+  liquid xenon.
+\newblock {\em Phys. Rev. D}, 86:112004, Dec 2012.
+
 \bibitem{nedm}
 C.~A. Baker et~al.
 \newblock {An Improved experimental limit on the electric dipole moment of the
   neutron}.
 \newblock {\em Phys. Rev. Lett.}, 97:131801, 2006.
+
+\bibitem{zerofield1}
+Laura Baudis, Hrvoje Dujmovic, Christopher Geis, Andreas James, Alexander Kish,
+  Aaron Manalaysay, Teresa Marrodan~Undagoitia, and Marc Schumann.
+\newblock {Response of liquid xenon to Compton electrons down to 1.5 keV}.
+\newblock {\em Phys. Rev.}, D87(11):115015, 2013.
 
 \bibitem{bekenstein}
 Jacob~D. Bekenstein and Robert~H. Sanders.
@@ -153,6 +188,11 @@ Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
 \newblock {Precision measures of the primordial abundance of deuterium}.
 \newblock {\em Astrophys. J.}, 781(1):31, 2014.
 
+\bibitem{alternatecrystalball}
+Souvik Das.
+\newblock {A simple alternative to the Crystal Ball function}.
+\newblock 2016.
+
 \bibitem{sampling_EXO}
 A.~Dobi et~al.
 \newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
@@ -170,6 +210,13 @@ Attila Dobi, Clayton~G Davis, Carter Hall, Thomas Langford, Simon Slutsky, and
 \newblock {Detection of krypton in xenon for dark matter applications}.
 \newblock {\em Nucl. Instrum. Meth.}, A665:1--6, 2011.
 
+\bibitem{doke2002}
+Tadayoshi Doke, Akira Hitachi, Jun Kikuchi, Kimiaki Masuda, Hiroyuki Okada, and
+  Eido Shibamura.
+\newblock Absolute scintillation yields in liquid argon and xenon for various
+  particles.
+\newblock {\em Japanese Journal of Applied Physics}, 41(3R):1538, 2002.
+
 \bibitem{axion_DM}
 Leanne~D Duffy and Karl van Bibber.
 \newblock Axions as dark matter particles.
@@ -179,6 +226,19 @@ Leanne~D Duffy and Karl van Bibber.
 Loyal Durand.
 \newblock Electron screening corrections to beta-decay spectra.
 \newblock {\em Phys. Rev.}, 135:B310--B313, Jul 1964.
+
+\bibitem{pixey_extraction}
+B.~N.~V. Edwards et~al.
+\newblock {Extraction efficiency of drifting electrons in a two-phase xenon
+  time projection chamber}.
+\newblock 2017.
+
+\bibitem{DPE}
+C.~H. Faham, V.~M. Gehman, A.~Currie, A.~Dobi, P.~Sorensen, and R.~J.
+  Gaitskell.
+\newblock {Measurements of wavelength-dependent double photoelectron emission
+  from single photons in VUV-sensitive photomultiplier tubes}.
+\newblock {\em JINST}, 10(09):P09010, 2015.
 
 \bibitem{carlos}
 Carlos~H. Faham.
@@ -218,6 +278,12 @@ H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
 \newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341(1):9--24,
   Mar 1991.
 
+\bibitem{nerix}
+L.~W. Goetzke, E.~Aprile, M.~Anthony, G.~Plante, and M.~Weber.
+\newblock Measurement of light and charge yield of low-energy electronic
+  recoils in liquid xenon.
+\newblock {\em Phys. Rev. D}, 96:103007, Nov 2017.
+
 \bibitem{ar371}
 W.~C. Haxton.
 \newblock $^{37}\mathrm{Ar}$.
@@ -228,6 +294,10 @@ Richard~H. Helm.
 \newblock {Inelastic and Elastic Scattering of 187-Mev Electrons from Selected
   Even-Even Nuclei}.
 \newblock {\em Phys. Rev.}, 104:1466--1475, 1956.
+
+\bibitem{scipy}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
 
 \bibitem{susyDM}
 Gerard Jungman, Marc Kamionkowski, and Kim Griest.
@@ -358,6 +428,12 @@ J.~H. {Oort}.
   perpendicular to the galactic plane and some related problems}.
 \newblock {\em bain}, 6:249, August 1932.
 
+\bibitem{crystalball}
+M.~Oreglia.
+\newblock {\em {A Study of the Reactions $\psi^\prime \to \gamma \gamma
+  \psi$}}.
+\newblock PhD thesis, SLAC, 1980.
+
 \bibitem{peccei_quinn}
 R.~D. Peccei and Helen~R. Quinn.
 \newblock $\mathrm{CP}$.
@@ -400,6 +476,10 @@ Ch. Sonntag, H.~Rebel, B.~Ribbat, S.~K. Thio, and W.~R. Gramm.
 Ian~P. Stern.
 \newblock {Axion Dark Matter Searches}.
 \newblock {\em AIP Conf. Proc.}, 1604:456--461, 2014.
+
+\bibitem{matthew}
+Matthew Szydagis.
+\newblock personal communication.
 
 \bibitem{macho}
 P.~Tisserand et~al.

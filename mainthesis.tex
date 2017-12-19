@@ -37,12 +37,28 @@
 \usepackage[numbers,sort&compress]{natbib}
 
 
-
+\usepackage{afterpage}
 \usepackage{times}
 \usepackage{enumitem}
 \usepackage{subcaption}
 \usepackage{amsmath}
+\usepackage{mathrsfs}
 \usepackage{mathtools}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}}
 
 % These are my own custom latex commands, uncomment if unwanted
 \input{custom_commands.tex}
@@ -137,8 +153,7 @@
 \include{chapters/C14_Calibration}
 
 \appendix
-\include{chapters/Appendix_Corrections}
-\include{chapters/Appendix_Tails}
+\include{chapters/Appendix_results}
 
 \bibliography{main.bib}
 

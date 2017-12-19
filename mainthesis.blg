@@ -7,14 +7,33 @@ A level-1 auxiliary file: chapters/LXe_TPCs.aux
 A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
-A level-1 auxiliary file: chapters/Appendix_Corrections.aux
-A level-1 auxiliary file: chapters/Appendix_Tails.aux
+A level-1 auxiliary file: chapters/Appendix_results.aux
 Database file #1: main.bib.bib
+You're missing a field part---line 1221 of file main.bib.bib
+ :       pages = 
+ :               ''184''
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1307 of file main.bib.bib
+ :  author=
+ :         ''Carl Eric Dahl'',
+I'm skipping whatever remains of this entry
+Repeated entry---line 1314 of file main.bib.bib
+ : @article{nerix
+ :               ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in nuclide
 Warning--to sort, need author or key in metropolis_2
+Warning--to sort, need author or key in dahl
+Warning--empty author in dahl
+Warning--empty title in dahl
+Warning--empty school in dahl
+Warning--empty year in dahl
 Warning--empty journal in lux_dd2
 Warning--empty journal in lux_efield
+Warning--empty journal in DQyields
 Warning--empty journal in bekenstein
+Warning--empty journal in alternatecrystalball
+Warning--empty journal in pixey_extraction
 Warning--can't use both author and editor fields in axion_photon
 Warning--can't use both author and editor fields in nist
 Warning--empty year in nist
@@ -22,45 +41,45 @@ Warning--empty journal in Lewin
 Warning--empty journal in vac_eq
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 67 entries,
+You've used 81 entries,
             2118 wiz_defined-function locations,
-            923 strings with 20173 characters,
-and the built_in function-call counts, 29477 in all, are:
-= -- 2582
-> -- 2397
+            982 strings with 22210 characters,
+and the built_in function-call counts, 34003 in all, are:
+= -- 2984
+> -- 2699
 < -- 1
-+ -- 958
-- -- 888
-* -- 2643
-:= -- 5289
-add.period$ -- 206
-call.type$ -- 67
-change.case$ -- 629
++ -- 1078
+- -- 994
+* -- 3001
+:= -- 6092
+add.period$ -- 244
+call.type$ -- 81
+change.case$ -- 716
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 722
-empty$ -- 1594
-format.name$ -- 888
-if$ -- 5632
+cite$ -- 101
+duplicate$ -- 861
+empty$ -- 1896
+format.name$ -- 994
+if$ -- 6518
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 63
-newline$ -- 343
-num.names$ -- 130
-pop$ -- 568
+int.to.str$ -- 81
+missing$ -- 73
+newline$ -- 409
+num.names$ -- 156
+pop$ -- 665
 preamble$ -- 1
-purify$ -- 569
+purify$ -- 645
 quote$ -- 0
-skip$ -- 501
+skip$ -- 607
 stack$ -- 0
-substring$ -- 1322
-swap$ -- 71
+substring$ -- 1512
+swap$ -- 81
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 262
-warning$ -- 12
-while$ -- 192
-width$ -- 69
-write$ -- 731
-(There were 12 warnings)
+type$ -- 318
+warning$ -- 20
+while$ -- 225
+width$ -- 83
+write$ -- 866
+(There were 3 error messages)

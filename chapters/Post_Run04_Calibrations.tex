@@ -26,7 +26,7 @@ After the LUX Run4 WIMP-search was completed in June of 2016, the response of th
     \hline
     \hline
     \end{tabular}
-    \caption{Table sources which were used during the post-Run04 calibration campaign.}
+    \caption{Table of sources which were used during the post-Run04 calibration campaign.}
 \end{table}
 
 The first novel calibration performed was a modification to the DD NR calibration. The rest of these new calibrations were to the ER response and will be the primary focus of this chapter, but we will pause here briefly to discuss the DD calibrations. The NR response of the LUX detector was measured using a beam of neutrons which was directed into the cryostat. These neutrons were generated using a commercially available DD generator, and were collimated using a gas filled conduit which was suspended in the water tank. Because the neutrons entering the detector have a known energy and direction, it is then possible to calculate the precise recoil energy of a neutron from the beam scattering off of a xenon nucleus, assuming the scattering angle is known. The calculation is the same for neutron-nucleus scattering as for WIMP-nucleus scattering:
@@ -74,7 +74,7 @@ The rest of this chapter will focus on the $^{131m}$Xe, $^{37}$Ar, and $^{14}$C 
 There were several preliminary data selection cuts applied to isolate the $^{37}$Ar K-capture, $^{131m}$Xe, $^{83m}$Kr, $^{3}$H, and $^{14}$C events. The time interval which these events were drawn from is  August 17$^{th}$ until September 3$^{rd}$. In figure \ref{fig:DAQrate} this corresponds to the third krypton injection at T=16.6 days, until the end of data taking. The periods of DD generator and $^{220}$Rn activity were excluded (from T=21.4 to 22.3 days and T= 26.8 to 30.5 days, respectively). There was also a period of time after the $^{14}$C calibration, from T=24.5 to 26.8 days, where one of the PMT's was misbehaving. This time period, which included the fourth krypton injection, was also rejected.
 
 
-\subsection{Single-Scatter Cut}
+\subsection{Single-Scatter Cut}\label{sec:sscut}
 The fully processed LUX data is organized into events. These events span a 500 microsecond window on either side of an initial trigger and is subdivided into ten ``pulses'' which are categorized as S1, S2, single-liquid-electron, single-photoelectron, or other. We would like to make a selection cut on single scatter events; events in which there is exactly one interaction within the detector which is located at a point position. The simplest cut one can make to this end is to keep only those events which contain exactly one S1, which is followed by exactly one S2. This cut, however, turns out to have an energy dependence, especially above 100 keV, which will alter the shape of our continuous spectra. 
 
 We can quantify this energy dependence by looking at the Xe-131m peak. A cut on single-S1 events will only accept about about 77\% of Xe-131m events, while a cut on single-S2 will accept only about 68\%. Combining these cuts forms a naive single scatter cut, and accepts only about 61\% of the xenon-131m events. Conversely, the single scatter cut for carbon-14 events from threshold up to about 50 keV has greater than 90\% acceptance.
@@ -126,10 +126,65 @@ We would like to be able to eliminate events close to the wall from our analysis
 \begin{figure}[h!]
 \centering
   \includegraphics[width=\textwidth]{Figures/xycut_xy.png}
-\caption{Selected 5 $\mu$s drift time slices used in the $^{37}$Ar drift time section cut. The greyscale map show the data without any position cuts, while the heat-map shows the selected by the radial cuts. From top left to bottom right, the drift time of the cots are 20 $\mu$s, 50 $\mu$s, 100 $\mu$s, 150 $\mu$s, 200 $\mu$s, 250 $\mu$s, 300 $\mu$s, and 350 $\mu$s. The linear diagonal lines that can be seen in the heat-maps are physical features created by the grids.}
+\caption{Selected 5 $\mu$s drift time slices used in the $^{37}$Ar drift time section cut. The greyscale maps show the data without any position cuts, while the heat-map shows the selected by the radial cuts. From top left to bottom right, the drift time of the cots are 20 $\mu$s, 50 $\mu$s, 100 $\mu$s, 150 $\mu$s, 200 $\mu$s, 250 $\mu$s, 300 $\mu$s, and 350 $\mu$s. The linear diagonal lines that can be seen in the heat-maps are physical features created by the grids.}
 \label{fig:xycut_xy}
 \end{figure}
 
+\subsection{Electric Field Selection Cut}\label{sec:fieldbins}
+In the next chapter, we will be interest in making measurements as a function of field. To that end, we have divided the detector into 13 electric field bins. To construct these bins, we first assign an electric field value to each event by using the SciPy ``LinearNDInterpolator'' tool\cite{scipy} on the the field-map described in section \ref{sec:efield}. We select electric-field bins such that the assigned field of each event, $\mathcal{E}$, is within 10\% of the center of some field bin, $\mathcal{E}_{ctr}$. The electric field cut applied to the  $i^{th}$ bin would then be:
+\begin{equation}\label{eq:ebin_e}
+0.9\cdot \mathcal{E}_{ctr,i}< \mathcal{E} < 1.1\cdot \mathcal{E}_{ctr,i}.
+\end{equation}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{Figures/field_cut.pdf}
+\caption{Electric field selection bins. } 
+\label{fig:fieldbins}
+\end{figure}
+
+For any given drift time slice there will be a wide range of mapped field values. These will be near their minimum at the center of the detector and will increase dramatically as they approach the wall. Another way of saying this is that events in a given electric field slice will be drawn from a large range of drift times We would like to limit the range of drift times that events in an electric field slice, so we institute a further cut on our electric field bins. We find the overall trend in electric field by fitting a Gaussian to the electric field distribution in a series of drift time slices. We then interpolate between these fits to find a function, $F_{dT}(\mathcal{E}_{peak})$ which gives the drift time value associated with a given peak electric field. For each $i^{th}$ electric field bin we can now impose the following drift time cut:
+\begin{equation}\label{eq:ebin_dt}
+F_{dT}(1.1\cdot \mathcal{E}_{ctr,i}) < dT < F_{dT}(0.9\cdot \mathcal{E}_{ctr,i}) 
+\end{equation}
+\begin{table}
+\centering
+    \begin{tabular}{ c | c | c | c | c }
+    \hline
+    $\mathcal{E}_{ctr}$ & $dT_{min}$ & $dT_{max}$  & $\langle \mathcal{E} \rangle$ & $\sigma_{\mathcal{E}}$ \\ 
+    \hline \hline
+    43 & 291 & 330 & 43.2 & 2.5  \\
+    \hline
+    53 & 266 & 322 & 52.6 & 2.9  \\
+    \hline
+    65 & 240 & 290 & 64.8 & 3.7  \\
+    \hline
+    80 & 214 & 265 & 79.8 & 4.6  \\
+    \hline
+    98 & 191 & 239 & 97.8 & 5.6  \\
+    \hline
+    120 & 170 & 214 & 119.6 & 6.9  \\
+    \hline
+    147 & 148 & 191 & 146.7 & 8.3  \\
+    \hline
+    180 & 127 & 170 & 180 & 10  \\
+    \hline
+    220 & 107 & 148 & 219 & 13  \\
+    \hline
+    269 & 88 & 127 & 268 & 15  \\
+    \hline
+    329 & 64 & 107 & 329 & 19  \\
+    \hline
+    403 & 10 & 88 & 405 & 22  \\
+    \hline
+    491 & 10 & 65 & 484 & 28  \\ 
+    \hline
+    \hline
+    \end{tabular}
+    \caption{Selected electric field bin centers, along with the maximum and minimum drift time allowed for each bin. Also shown is the mean and standard deviation of electric fields for events in each bin.}
+    \label{tan:fieldbins}
+\end{table}
+
+The selection of the various $\mathcal{E}_{ctr,i}$ began with the LUX Run03 average electric field of 180 V/cm. We then worked up in steps of 22.2\% and down in steps of 18.8\% to generate a set of non-overlapping bins that satisfied equation  \label{eq:ebin_e}. We do allow different bins to overlap in drift time, but the separation in field ensures that each bin is made up of an independent set of events. We did not include events above 10 microseconds or below 330 microseconds in drift time. The selected bins are shown in figure \ref{fig:fieldbins}, and the selected bin centers, along with the mean field value and its standard deviation is shown in table \ref{tab:fieldbins}.
 
 
 \section{Argon-37 Non-Gaussianities}
@@ -157,7 +212,7 @@ The three lines in the $^{37}$Ar decay are from the capture K-shell, L-shell, an
 The high rate and long lifetime of the argon-37 injection also meant that there was a huge number of events. From the injection on August 31$^{st}$ until the end of data-taking on September 3$^{rd}$ there were about 8.8 million argon-37 events. The fact that we have such a high-statistics dataset, combined with the spatially uniform nature of injection sources means that we can very finely probe the position-dependence of the detector response. This feature will be used to measure the S2 efficiency corrections and in defining our radial cut.
 
 
-\section{Signal Corrections fo Post-Run04 Data}
+\section{Signal Corrections fo Post-Run04 Data}\label{sec:corrections}
 
 \subsection{S2 Efficiency Correction from $^{37}$Ar}\label{sec:s2corr}
 In Run4, the position-dependent efficiency corrections for the LUX S1 and S2 signals were obtained from a combination of tritium and $^{83m}$Kr calibration data. This method which was described in section \ref{sec:krypcal}, relies, in part, on the fact that the S2 yields for small energy deposits have a minimal dependence on electric field. The first step in the KrypCal procedure is to measure the position dependence of the tritium peak S2 value. In order to derive the detector efficiency part of the position dependence, the field effect must first be removed. This field dependence is itself dependent on the energy of the events that contribute to the S2 peak. Since tritium is a beta spectrum, events with many energies will contribute to this peak, so an approximation is made that all of these events occur at 2.5 keV.
@@ -210,7 +265,7 @@ Figure \ref{fig:S2corr_dt} shows a comparison of the S2 corrections measured usi
 
 We test this by looking at simulated tritium events which were generated using charge and light yields which will be presented in the next chapter. We take the mean input energy of events in a 200 phd window centered on the maximum of the uncorrected S2 spectrum. At the top of the detector, where electric field equals 491 V/cm, the energy of events in the peak of the S2 spectrum is 4.0 keV. At the bottom of the detector where the electric field is 43 V/cm, the energy of the S2 peak is 20\% higher at 4.8 keV. At these energies, the charge yield has a steep dependence with energy, so there will likely be non-negligible systematic effects introduced by assuming the tritium S2 dependence can be approximated using a constant energy. This clearly highlights the advantage of using the mono-energetic Ar-37 peak to measure the S2 position-dependent efficiency.
 
-\subsection{S1 corrections from Xenon-131m + Krypton-83m Doke Plot}
+\subsection{S1 corrections from Xenon-131m + Krypton-83m Doke Plot}\label{sec:s1dokeplot}
 In a detector with a non-uniform electric field, the S1 efficiency correction is more complicated to measure than the S2 correction. In order to limit the effects of electric field variation, we would like to use a low-energy calibration source because the field dependence of charge and light yields is smallest at low energies. This is also the energy scale with the lowest light yield and combined with the typically low light-collection efficiency of liquid xenon TPC's (roughly 9-10\% for LUX), these low-energy sources suffer from threshold effects in their S1 spectra. The KrypCal procedure feeds the S2 efficiency correction measured using tritium data into the krypton-83m S2 spectrum. This yields a field-dependent S2 spectrum which is used to measure the position-dependent recombination of krypton-83m data. This recombination measurement is then fed into the krypton-83m S1 spectrum in order to get a measurement of the S1 position-dependent efficiency.
 
 Here we test an alternate method for measuring the S1 efficiency corrections which utilizes both the xenon-131m and krypton-83m calibration data. This method takes advantage of the fact that the field dependence of the charge and light yields is completely contained in the recombination probability. This means that when the data is plotted on a Doke-style plot, variation in the electric field will only work to move points along a line and will not change the line's parameters. The aim of this method, then, is to use a Doke-style plot to directly measure the light correction efficiency (G1) in each of our (x, y, dT) bins which were described in the previous section. This method relies on the same recombination model the KrypCal assumes but, unlike KrypCal, does not require prior knowledge of the initial exciton to ion ratio, $\alpha$.
@@ -255,26 +310,34 @@ Now that we have measured a new set of corrections we would like to apply them t
 \begin{figure}[h!]
 \centering
 \includegraphics[width=150mm]{Figures/dt_doke_plot.pdf}
-\caption{}
+\caption{Doke-style plot for the various corrections methods considered. See text for explanation of the various lines.}
 \label{fig:dt_doke_plot} 
 \end{figure}
 
 In order to ensure that there is no out-of-bounds interpolation error, we set the corrections values of any empty bins equal to that of their nearest non-empty neighbor. For each drift time bin we apply a bivariate spline in x and y, taking $C_{S2,ijk}$ and $C{S1,ijk}$ to be located at the center of their respective bins. After that we apply a linear interpolation in drift time between the values of the x-y splines. Again we assume the values are located at the centers of their respective drift time bins.
-\begin{figure}[h!]
-\centering
-  \includegraphics[width=\textwidth]{Figures/E_spec_Ar.pdf}
-  \caption{Reconstructed energy spectrum for the 2.8224 keV argon-37 spectrum. The $\mu$ indicates the peak location and is in units of keV. $\sigma$ indicates the width/energy of the spectrum.}
-\label{fig:E_spec_Ar} 
-\end{figure}
 
 With the newly corrected data in hand, we now check to see how we did. We first need to measure the final G1 and G2 for both types of corrections to do this we finely slice the detector in drift time and generate a Doke-style plot using the same procedure as in the previous section. This time we include the krypton-83m and xenon-131m points from all of the drift time slices when fitting our line, and we allow both G1 and G2 to float. We do not include the argon-37 point in the fit because they are too close to threshold and are not expected to lie on the Doke-plot line. 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=150mm]{Figures/NEST_g1g2_dcm.pdf}
+\caption{Simulated version of figure \ref{fig:dt_doke_plot} generated using the libNEST code. We set G1=0.0928 and G2=17.49 in this plot. This plot was generated without the model of the S2 tail, which will be introduced in the next section.}
+\label{fig:dt_doke_plot_libnest} 
+\end{figure}
 
-The results of these fits are shown in figure \ref{fig:dt_doke_plot}. In this plot the lines labeled ``z'' and ``xyz'' are KrypCal corrections. The line labeled ``dcm'' is using the corrections derived in the previous two sections. The ``dc'' in ``dcm'' is shorthand for ``Doke-corrected'', and the ``m'' indicates that the S1 and S2 averages in the various bins were calculated by arithmetic mean. We also generated a set of corrections which fit a Gaussian peak to the S1 and S2 distributions in the individual bins, but the two methods yielded equivalent results, so we discarded the latter for the sake of simplicity.  
+The results of these fits are shown in figure \ref{fig:dt_doke_plot}. In this plot the lines labeled ``z'' and ``xyz'' are KrypCal corrections. The line labeled ``dcm'' is using the corrections derived in the previous two sections. The ``dc'' in ``dcm'' is shorthand for ``Doke-corrected'', and the ``m'' indicates that the S1 and S2 averages in the various bins were calculated by arithmetic mean. We also generated a set of corrections which fit a Gaussian peak to the S1 and S2 distributions in the individual bins, but the two methods yielded equivalent results, so we discarded the latter for the sake of simplicity. The newly derived corrections do improve the fit to a Doke line. The rms offset of the fitting points from their best fit lines is 5.6\% and 5.2\% for ``z'' and ``xyz'', respectively, and is 4.3\% for both ``dcm'' and ``gfdcm''. This improvement indicates that the corrections method laid out in the previous sections does a better job at flattening out the position dependence of the detector efficiency.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=\textwidth]{Figures/E_spec_Kr.pdf}
   \caption{Reconstructed energy spectrum for the 41.5 keV krypton-83m spectrum. The $\mu$ indicates the peak location and is in units of keV. $\sigma$ indicates the width/energy of the spectrum.}
 \label{fig:E_spec_Kr} 
+\end{figure}
+
+Figure \ref{fig:dt_doke_plot_libnest} shows a simulation of the plots in figure \ref{fig:dt_doke_plot}. The G1 and G2 values used for this simulation were G1=0.0928 and G2=17.49. The best-fit line in \ref{fig:dt_doke_plot_libnest} is able to reproduce these values within about 0.1\%, yielding G1=0.0926 $\pm0.0001$, and G2=17.48 $\pm0.04$. The measured G1 is off of the true value by about 2-sigma; this is likely due to a small systematic effect in the libNEST code. This 0.1\% effect is is highly subdominant to other uncertainties in our measurements, so we will neglect it. The argon-37 K-capture points are systematically below the best fit line by, on average 4.5\%. For comparison, the argon-37 points in figure \ref{fig:dt_doke_plot} are below their best fit lines by 8\% for ``z'' corrections, 1\% for ``gfdcm'' corrections, and 9\% for ``dcm'' corrections. 
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=\textwidth]{Figures/E_spec_Ar.pdf}
+  \caption{Reconstructed energy spectrum for the 2.8224 keV argon-37 spectrum. The $\mu$ indicates the peak location and is in units of keV. $\sigma$ indicates the width/energy of the spectrum.}
+\label{fig:E_spec_Ar} 
 \end{figure}
 
 The line in figure \ref{fig:dt_doke_plot} labeled ``gfdcm'' also uses the corrections derived in the previous two sections. The difference between this data and the ``dcm'' data is that it uses a different measure of S2. The ``dcm'' data, along with ``z'' and ``xyz'', uses the ``pulse-finder'' area as the measure of S2. This is just a raw sum of the S2 waveform. The ``gfdcm'' data uses the area under a Gaussian function (hence the ``gf'') which has been fit to the S2 waveform as the measure of S2 size.   
@@ -289,10 +352,10 @@ The first observation we take from figure \ref{fig:dt_doke_plot} is that there i
 
 We use the G1 and G2 values taken from to generate reconstructed energy spectra for xenon-131m, krypton-83m, and argon-37. We find that ``z'', ``xyz'', and ``dcm'' generate a roughly equivalent energy spectrum for argon-37 and krypton-83m, both in the peak location and resolution. For xenon-131m, ``dcm'' and ``xyz'' are roughly equivalent and ``z'' produces a spectrum which is wider by about 7.5\%. 
 
-Interestingly, the ``gfdcm'' corrections produce significantly narrower spectra than any of the others, for all three calibration lines. Additionally, it produces the only argon-37 spectrum whose energy is higher than the true value of 2.8224 keV. This is important because the reconstructed energy for argon-37 should be artificially high because the low energy side of the spectrum is hidden by threshold. Moving forward, we will focus on the following three corrections methods: 
+Interestingly, the ``gfdcm'' corrections produce significantly narrower spectra than any of the others, for all three calibration lines. Additionally, it produces the only argon-37 spectrum whose energy is higher than the true value of 2.8224 keV. This is important because the reconstructed energy for argon-37 should be artificially high because the low energy side of the spectrum is hidden by threshold. TMoving forward, we will focus on the following three corrections methods: 
 \begin{itemize}
 \item ``dcm'', because it produces ever-so-slightly better Doke plot and energy spectra than ``z'' and ``xyz''
-\item ``gfdcm'', because it produces the best energy spectra and Doke plot
+\item ``gfdcm'', because it produces the straightest Doke-plot and best energy spectra out of any of the methods tested
 \item ``z'', in order to be consistent with, and to create applicable results for existing LUX analysis
 \end{itemize}
 
@@ -360,7 +423,7 @@ where $\epsilon$ is the extraction efficiency, $C_{S2}(x,y,dT)$ is the efficienc
 \label{fig:s2bestfit}
 \end{figure}
 
- We have a few observations in hand that help to motivate the development of a model of the S2 tails. First, it appears that not all events possess additional tail area, so we will try a model that assigns some probability, $P_{tail}$, that an event will be given additional area. We see from figure \ref{fig:E_spec_tails} that the size of the tails approximately follows an exponential distribution, and that the amplitude of the distribution is roughly proportional to the S2 size. With these observations we develop the model of S2 tails as follows:
+We have a few observations in hand that help to motivate the development of a model of the S2 tails. First, it appears that not all events possess additional tail area, so we will try a model that assigns some probability, $P_{tail}$, that an event will be given additional area. We see from figure \ref{fig:E_spec_tails} that the size of the tails approximately follows an exponential distribution, and that the amplitude of the distribution is roughly proportional to the S2 size. With these observations we develop the model of S2 tails as follows:
 \begin{enumerate}
 \item Generate a random test variable, $T$, uniformly distributed between 0 and 1.
 \item If $T>P_{tail}$, we set $N'_{e,extr}$=$N_{e,extr}$
@@ -390,7 +453,7 @@ We use our argon-37 and xenon-131m spectra as reference, calculating the $\chi^2
   \centering
   \includegraphics[width=\textwidth]{Figures/S2tail_hists_gfdcm.pdf}
   %\label{fig:intlin}
-\caption{Best-fit spectra for ``gfdcm'' corrected data. The top plots are for the xenon-131m data, and the lower plots are for the argon-37 data. The green histogram, labeled ``NEST'', is the libNEST simulation with no S2 tail model added. The orange histogram. labeled ``NEST+tail'' is the libNEST model, plus the model of the S2 tails described in this section. The blue histogram shows what is observed in data. The spectra are calculated for 50 to 300 microseconds drift time.  }
+\caption{Best-fit spectra for ``gfdcm'' corrected data. The top plots are for the xenon-131m data, and the lower plots are for the argon-37 data. The green histogram, labeled ``NEST'', is the libNEST simulation with no S2 tail model added. The orange histogram. labeled ``NEST+tail'' is the libNEST model, plus the model of the S2 tails described in this section. The blue histogram shows what is observed in data. The spectra are calculated for 50 to 300 microseconds drift time. In order to account for an error in the yields, the peak location of the simulated S2 spectrum is adjusted to match that of the data spectrum.}
 \label{fig:s2bestfit_spec_gfdcm}
 \end{figure}
 
