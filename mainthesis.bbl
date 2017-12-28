@@ -414,6 +414,12 @@ E.W. Lemmon, M.O. McLinden, and D.G. Friend.
   20899.
 \newblock Accessed: 2017-07-13.
 
+\bibitem{lenardo}
+B.~Lenardo, K.~Kazkaz, A.~Manalaysay, J.~Mock, M.~Szydagis, and M.~Tripathi.
+\newblock A global analysis of light and charge yields in liquid xenon.
+\newblock {\em IEEE Transactions on Nuclear Science}, 62(6):3387--3396, Dec
+  2015.
+
 \bibitem{sampling_doug}
 D.~S. Leonard, A.~Dobi, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
   Yen.
@@ -593,9 +599,21 @@ Ian~P. Stern.
 \newblock {Axion Dark Matter Searches}.
 \newblock {\em AIP Conf. Proc.}, 1604:456--461, 2014.
 
+\bibitem{nest1}
+M~Szydagis, N~Barry, K~Kazkaz, J~Mock, D~Stolp, M~Sweany, M~Tripathi, S~Uvarov,
+  N~Walsh, and M~Woods.
+\newblock Nest: a comprehensive model for scintillation yield in liquid xenon.
+\newblock {\em Journal of Instrumentation}, 6(10):P10002, 2011.
+
 \bibitem{matthew}
 Matthew Szydagis.
 \newblock personal communication.
+
+\bibitem{nest2}
+Matthew Szydagis, Adalyn Fyhrie, Daniel Thorngren, and Mani Tripathi.
+\newblock Enhancement of nest capabilities for simulating low-energy recoils in
+  liquid xenon.
+\newblock {\em Journal of Instrumentation}, 8(10):C10003, 2013.
 
 \bibitem{macho}
 P.~Tisserand et~al.

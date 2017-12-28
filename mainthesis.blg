@@ -54,45 +54,45 @@ Warning--empty journal in vac_eq
 Warning--empty journal in lz_tdr
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 95 entries,
+You've used 98 entries,
             2118 wiz_defined-function locations,
-            1051 strings with 27540 characters,
-and the built_in function-call counts, 45185 in all, are:
-= -- 3839
-> -- 4014
+            1064 strings with 28097 characters,
+and the built_in function-call counts, 46586 in all, are:
+= -- 3961
+> -- 4123
 < -- 1
-+ -- 1603
-- -- 1504
-* -- 4217
-:= -- 8154
-add.period$ -- 284
-call.type$ -- 95
-change.case$ -- 1010
++ -- 1647
+- -- 1544
+* -- 4353
+:= -- 8400
+add.period$ -- 293
+call.type$ -- 98
+change.case$ -- 1039
 chr.to.int$ -- 0
-cite$ -- 118
-duplicate$ -- 1009
-empty$ -- 2237
-format.name$ -- 1504
-if$ -- 8506
+cite$ -- 121
+duplicate$ -- 1042
+empty$ -- 2318
+format.name$ -- 1544
+if$ -- 8776
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 86
-newline$ -- 477
-num.names$ -- 182
-pop$ -- 947
+int.to.str$ -- 98
+missing$ -- 89
+newline$ -- 492
+num.names$ -- 188
+pop$ -- 970
 preamble$ -- 1
-purify$ -- 926
+purify$ -- 952
 quote$ -- 0
-skip$ -- 714
+skip$ -- 735
 stack$ -- 0
-substring$ -- 1801
-swap$ -- 93
+substring$ -- 1880
+swap$ -- 96
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 374
+type$ -- 386
 warning$ -- 23
-while$ -- 264
-width$ -- 97
-write$ -- 1009
+while$ -- 273
+width$ -- 100
+write$ -- 1042
 (There were 5 error messages)
