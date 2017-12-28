@@ -99,7 +99,11 @@ Wietfeldt et. al. found their data to be consistent with a shape factor of $C(E)
 The Borexino collaboration attempted to measure the shape of the $^{14}$C beta spectrum using their counting test facility (CTF). They assumed the same functional form as the Wietfeldt paper and excluded all $a<-0.72 \text{ \ MeV}^{-1}$ with 90\% confidence\cite{C14_Borexino}. 
 
 
-Most recently, V. Kuzminov and N. Osetrova measured the shape factor of then $^{14}$C beta decay using a wall-less proportional counter\cite{C14_Kuzminov}. They assumed a shape factor with the form, $C(E)=1+\beta(Q-T)$, with $Q$ being the endpoint energy and $T$ being the kinetic energy of the electron. They measured $\beta=1.24 \pm0.04 \text{ \ MeV}^{-1}$, which is in agreement with a theoretical calculation by Genz et. al.\cite{C14_Genz}. This result is equivalent to $a=-0.68 \pm0.02 \text{ \ MeV}^{-1}$ in a Wietfeldt-style shape factor and is very close to both the Borexino measured limit, as well as the second Wietfeldt measurement.
+Most recently, V. Kuzminov and N. Osetrova measured the shape factor of then $^{14}$C beta decay using a wall-less proportional counter\cite{C14_Kuzminov}. They assumed a shape factor with the form, $C_{Kuz}(T=E-m_ec^c)=1+\beta(Q-T)$, with $Q$ being the endpoint energy and $T$ being the kinetic energy of the electron. This form of the shape factor is quite convenient because it is in terms of the measureable quantity, $T$, and its evaluation at a given value $T_1$ will give the net fractional change in the spectral shape as compared to the endpoint:
+\begin{equation}
+C_{Kuz}(T_1)=\frac{C_{Kuz}(T_1)}{C_{Kuz}(Q)}
+\end{equation}
+They measured $\beta=1.24 \pm0.04 \text{ \ MeV}^{-1}$, which is in agreement with a theoretical calculation by Genz et. al.\cite{C14_Genz}. This result is equivalent to $a=-0.68 \pm0.02 \text{ \ MeV}^{-1}$ in a Wietfeldt-style shape factor and is very close to both the Borexino measured limit, as well as the second Wietfeldt measurement.
 
 \begin{figure}[h!]
 \centering
@@ -1096,22 +1100,46 @@ We again apply a Metropolis-style fit, as was described for measuring the S2 tai
 \begin{equation}
 P_{accept}=\min(1,\exp(-(\chi_i^2-\chi_{i-1}^2)/2))
 \end{equation}
+We compare make the comparison from 25 to 125 keV. We found in section \ref{sec:sscut} the the acceptance of our single-scatter cut has a dependance on energy. In the energy range we have chosen, this dependence is approximately linear, and so can be compensated for by adding an offset of 0.17 MeV$^{-1}$ to $\beta$.
 
-Looking at all of the available data from 50 to 300 microseconds drift time we find that the most likely slope is -0.24 $\pm$3.7 $\pm$1.7 MeV$^{-1}$, where the statistical error is 3.7 MeV$^{-1}$ The systematic error of 1.7 MeV$^{-1}$ comes from the slope of the acceptance of our selection cut in section \ref{sec:sscut}. We further analyze our systematics by dividing the data by drift time and event rate. We select five drift time slices ranging from 50 to 300 microseconds, and with width of 50 microseconds each. The best-fit slope for each of these bins is consistent with zero, and we find no significant variation between them.The results for the drift time slices are shown in table \ref{tab:shape_dt}. 
+Fitting to all of the available data from 50 to 300 microseconds drift time, and without accounting for the single-scatter slope, we find that the most likely slope is -0.08 MeV$^{-1}$ with a fitting error of $\pm$0.34 MeV$^{-1}$. We look for any systematic effects by dividing the data by drift time and event rate. We select five drift time slices ranging from 50 to 300 microseconds, and with width of 50 microseconds each. The best-fit slopes found in these bins are consistent with zero, and have a standard deviation of 0.17 MeV$^{-1}$. This deviation is within the fitting error, but we will accept it as a systematic error in order to be conservative. The results for the drift time slices are shown in table \ref{tab:shape_dt}. 
+\begin{table}
+\centering
+\begin{tabular}{c | c | c}
+\hline
+drift time cut & $\beta$ (MeV$^{-1}$) & $\pm$\\
+\hline\hline
+$50<dT<100$ & -0.14 & 0.33\\
+$100<dT<150$ & -0.13 & 0.26\\
+$150<dT<200$ & -0.09 & 0.28\\
+$200<dT<250$ & 0.26 & 0.31\\
+$250<dT<300$ & 0.25 & 0.26\\
+\hline
+\end{tabular}
+\caption{Measurements of shape factor slope in different drift time bins.}
+\label{tab:shape_dt}
+\end{table}
 
-To divide the data by rate, we select two groups of events, one before the median event time and the other after the median event time. Since the radio-labeled methane is being purified away at a constant rate, the first group will have a maximum event rate that is double that of the second group. We find that there is a small systematic effect due to event rate. The high event rate grouping had a best fit slope of -0.07 $\pm$3.8 MeV$^{-1}$, while the low event rate grouping had a best fit slope of -0.51 $\pm$3.8 MeV$^{-1}$. The most likely source of this systematic is a rate dependence of our acceptance cut. Regardless of its origin, we accept an additional systematic error of $\pm$0.29 on our measurement of $\beta$. 
 
-Combining statistical and systematic errors, our best fit shape factor is:
+To divide the data by event rate, we select two groups of events, one before the median event time and the other after the median event time. Since the radio-labeled methane is being purified away at a constant rate, the first group will have a maximum event rate that is double that of the second group. We find that there is a small systematic effect due to event rate. The high event rate grouping had a best fit slope of 0.16 $\pm$0.36 MeV$^{-1}$ while the low event rate grouping had a best fit slope of -0.36 $\pm$0.31 MeV$^{-1}$, a separation of about 1.5 times the fitting error. The most likely source of this systematic is a rate dependence in either the single-scatter cut or the S2 tails. Regardless of its origin, we accept an additional systematic error equal to $\frac{1}{2}|\beta_{low \ rate}-\beta_{high \ rate}|=0.26$ MeV$^{-1}$. 
+
+We would also like to characterize the size of the systematic effect due to the S2 tails. We turn off the tail parameters in libNEST and again float $\beta$ to find the effective slope induced by our tail model. We find that the the best fit value of $\beta$ when no model of the S2 tails is included is -0.85 $\pm$0.24 Mev$^{-1}$. We see from this that, if not accounted for correctly, the S2 tails will seriously degrade the measurement of the non-statistical shape factor. To put a conservative limit on our measurement, we well accept half of this induced slope (0.43 MeV$^{-1}$) as a systematic error.
+
+Combining all of our statistical and systematic errors in quadrature, our best fit shape factor is:
 \begin{equation}
-C(T)=1+(-0.07 \ \pm0.50 \ \text{MeV}^{-1})\cdot(Q-T),
+C(T)=1+(0.09 \ \pm0.57 \ \text{MeV}^{-1})\cdot(Q-T),
 \end{equation}
 Where we have adjusted our measurement in the full dataset by the slope of the cut acceptance, as well as including it in the systematic error. This result is not in agreement with the Kuzminov result of $\beta=1.24 \ \pm0.04$ MeV$^{-1}$. 
 
-We would like to check that this disagreement is not due to error in our S2 tail model. To do this, we refit the tail parameters using the carbon-14 spectrum itself. We assume a shape factor equal to the Kuzminov result when generating the libNEST spectrum. We include a simulation of the xenon-131m line, and accept only results for which the peak of the simulated spectrum is within 1 keV of the data. This puts a constraint on our fit to G2$_{true}$. The resulting best-fit spectrum does not match the data nearly as well as the spectrum generated assuming a purely statistical spectral shape. The reduced chi-squared for the Kuzminov carbon-14 spectrum is double that of the  spectrum generated with no shape factor (4.4 and 2.2, respectively). This is despite the fact that the former was tuned specifically to the carbon-14 spectrum, while the latter was tuned using only argon-37 and xenon-131m data. Additionally, the xenon-131m line generated using the Kuzminov best-fit parameters is significantly wider than what is observed in the data.
+We would like to further test that this disagreement is not due to error in our S2 tail model. To do this we again fit a libNEST model of the carbon-14 spectrum to the spectrum measured in data. For this fit, we float the tail parameters and hold the shape factor constant at the value measured by Kuzminov, accounting for the slope of the single scatter cut ($\beta = \ 1.24-0.17$ MeV$^{-1}$). We also include the xenon-131m line in our simulation. We do not fit to xenon-131m spectrum but instead use it to constrain G2$_{true}$ by only accepting parameters for which the peak of the simulated xenon-131m spectrum is within 1 keV of the data. 
+
+We compare the resulting best-fit carbon-14 spectrum to one generated using the existing tail parameters and assuming a purely statistical spectral shape. The reduced chi-squared difference between data and the Kuzminov best-fit spectrum is 1.16, which gives a p-value of 0.05. This is roughly equivalent to the comparison to the statistical spectrum with standard tail parameters, which yields a chi-square of 1.12 and a p-value of 0.09. The fact that we are not able to find a set of tail parameters for which the Kuzminov spectrum outperforms the statistical spectrum is notable because while the former is tuned specifically to the carbon-14 spectrum itself, the latter was generated using parameters that were only fit to the argon-37 and xenon-131m lines. This, together with the fact that the Kuzminov parameters do not reproduce the shape xenon-131m peak tells us that our data is not consistent with $\beta = \ 1.24$ MeV$^{-1}$.
+
+In conclusion, we have characterized the systematic effects due to the S2 tails, as well as the energy-dependence of our selection cut. Using conservative estimates for our systematic errors we find that our data disagrees with the shape factor measured by Kuzminov by about 2-$\sigma$. In fact, we find that our data is consistent with a purely statistical shape. 
 \begin{figure}[!h]
 \centering
   \includegraphics[width=\textwidth]{Figures/C14_spectrum_shapecomp.pdf}
-\caption{Comparison of simulated spectra to that measured by data. The Kuzminov spectrum uses a shape factor slope of $\beta=1.24$ MeV$^{-1}$, and tunes the S2 tail parameters to best fit the carbon-14 data spectrum. The ``no shape'' spectrum assumes $\beta=0$ MeV$^{-1}$, and uses the tail parameters obtained from argon-37 and xenon-131m.}
+\caption{Comparison of simulated spectra to that measured by data. The Kuzminov spectrum uses a shape factor slope of $\beta=1.24-0.17$ MeV$^{-1}$, and tunes the S2 tail parameters to best fit the carbon-14 data spectrum. The ``no shape'' spectrum assumes $\beta=-0.17$ MeV$^{-1}$, and uses the tail parameters obtained from argon-37 and xenon-131m. The $-0.17$ in these shape factors comes from the induced slope created by the single scatter cut.}
 \label{fig:C14_shape}
 \end{figure}
 

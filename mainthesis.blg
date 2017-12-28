@@ -7,23 +7,34 @@ A level-1 auxiliary file: chapters/LXe_TPCs.aux
 A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
+Case mismatch error between cite keys C14_kuzminov and C14_Kuzminov
+---line 306 of file chapters/C14_Calibration.aux
+ : \citation{C14_kuzminov
+ :                       }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/Appendix_results.aux
 Database file #1: main.bib.bib
-You're missing a field part---line 1221 of file main.bib.bib
+You're missing a field part---line 1207 of file main.bib.bib
  :       pages = 
  :               ''184''
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1307 of file main.bib.bib
+You're missing a field part---line 1293 of file main.bib.bib
  :  author=
  :         ''Carl Eric Dahl'',
 I'm skipping whatever remains of this entry
-Repeated entry---line 1314 of file main.bib.bib
+Repeated entry---line 1300 of file main.bib.bib
  : @article{nerix
  :               ,
 I'm skipping whatever remains of this entry
+You're missing a field part---line 1587 of file main.bib.bib
+ :  author= 
+ :          ''{SAES Pure Gas, Inc}'',
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "henriquae"
+Warning--to sort, need author or key in dahl
+Warning--to sort, need author or key in getter
 Warning--to sort, need author or key in nuclide
 Warning--to sort, need author or key in metropolis_2
-Warning--to sort, need author or key in dahl
 Warning--empty author in dahl
 Warning--empty title in dahl
 Warning--empty school in dahl
@@ -32,6 +43,7 @@ Warning--empty journal in lux_dd2
 Warning--empty journal in lux_efield
 Warning--empty journal in DQyields
 Warning--empty journal in bekenstein
+Warning--empty journal in clean1
 Warning--empty journal in alternatecrystalball
 Warning--empty journal in pixey_extraction
 Warning--can't use both author and editor fields in axion_photon
@@ -39,47 +51,48 @@ Warning--can't use both author and editor fields in nist
 Warning--empty year in nist
 Warning--empty journal in Lewin
 Warning--empty journal in vac_eq
+Warning--empty journal in lz_tdr
 Warning--empty journal in persic
 Warning--empty journal in dmintro
-You've used 81 entries,
+You've used 95 entries,
             2118 wiz_defined-function locations,
-            982 strings with 22210 characters,
-and the built_in function-call counts, 34003 in all, are:
-= -- 2984
-> -- 2699
+            1051 strings with 27540 characters,
+and the built_in function-call counts, 45185 in all, are:
+= -- 3839
+> -- 4014
 < -- 1
-+ -- 1078
-- -- 994
-* -- 3001
-:= -- 6092
-add.period$ -- 244
-call.type$ -- 81
-change.case$ -- 716
++ -- 1603
+- -- 1504
+* -- 4217
+:= -- 8154
+add.period$ -- 284
+call.type$ -- 95
+change.case$ -- 1010
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 861
-empty$ -- 1896
-format.name$ -- 994
-if$ -- 6518
+cite$ -- 118
+duplicate$ -- 1009
+empty$ -- 2237
+format.name$ -- 1504
+if$ -- 8506
 int.to.chr$ -- 0
-int.to.str$ -- 81
-missing$ -- 73
-newline$ -- 409
-num.names$ -- 156
-pop$ -- 665
+int.to.str$ -- 95
+missing$ -- 86
+newline$ -- 477
+num.names$ -- 182
+pop$ -- 947
 preamble$ -- 1
-purify$ -- 645
+purify$ -- 926
 quote$ -- 0
-skip$ -- 607
+skip$ -- 714
 stack$ -- 0
-substring$ -- 1512
-swap$ -- 81
+substring$ -- 1801
+swap$ -- 93
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 318
-warning$ -- 20
-while$ -- 225
-width$ -- 83
-write$ -- 866
-(There were 3 error messages)
+type$ -- 374
+warning$ -- 23
+while$ -- 264
+width$ -- 97
+write$ -- 1009
+(There were 5 error messages)

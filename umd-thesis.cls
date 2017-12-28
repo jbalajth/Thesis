@@ -616,6 +616,13 @@ of the requirements for the degree of \\
   
   	\ifcontentspage
   		\tableofcontents
+	\fi
+	\iffigurespage
+		\renewcommand*\listfigurename{\begin{center} List of Figures \end{center}}
+		\listoffigures
+  	\fi
+	\iftablespage
+		\listoftables
   	\fi
   	\newpage
 	\setlength{\parskip}{0em}
