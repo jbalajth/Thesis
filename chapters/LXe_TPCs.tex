@@ -303,19 +303,49 @@ The energy resolution is therefore dominated by the $S1_c$ fluctuations. Assumin
 
 
 \subsection{LibNEST: The Model Applied to LUX}\label{sec:libnest}
-The Noble Element Simulation Technique (NEST) attempts to consolidate the various world measurements of energy deposition properties in liquid xenon\cite{nest1,nest2,lenardo}. The current version of NEST relies on a model or recombination probability known as the ``Thomas-Imel Box'' model for low energy events\cite{nest1}:
+The Noble Element Simulation Technique (NEST) attempts to consolidate the various world measurements of energy deposition properties in liquid xenon into a single set of predictions\cite{nest1,nest2,lenardo}. The average charge and light signals measured experimentally are often reported using quantities referred to as light and charge yields:
 \begin{equation}
+\begin{split}
+LY=\frac{\langle N_{\gamma}\rangle}{E}\\[1em]
+QY=\frac{\langle N_e\rangle}{E}
+\end{split}
+\end{equation}
+The number of photons and electrons for an event with energy $E$ can be calculated using the recombination model described in section \ref{sec:combE}:
+\begin{equation}
+\begin{split}
+\langle N_{\gamma} \rangle=N_q\frac{\alpha +P_R}{1+\alpha}\\[1em]
+\langle N_{e} \rangle=N_q\frac{1-P_R}{1+\alpha},
+\end{split}
+\end{equation}
+where $P_R$ is the expected recombination fraction for the event, and is determined by the type of event, energy of the event, and applied drift field. The total number of quanta, $N_q$, is given by:
+\begin{equation}
+N_q=\frac{E}{W}=N_{i}+N_{*}=N_{\gamma}+N_{e}
+\end{equation}
+The equations for $LY$ and $QY$ can then be rewritten in terms of the recombination probability an exciton-ion ratio, $\alpha$:
+\begin{equation}
+\begin{split}
+LY=\frac{1}{W}\frac{\alpha +P_R}{1+\alpha}\\[1em]
+QY=\frac{1}{W}\frac{1-P_R}{1+\alpha}
+\end{split}
+\end{equation}
+
+The current version of NEST relies on a model or recombination probability known as the ``Thomas-Imel Box'' model for low energy events\cite{nest1,tib1,tib2}:
+\begin{equation}\label{eq:tib}
 P_R=1-\frac{\text{ln}(1+\xi)}{\xi} \text{, } \xi \equiv \frac{N_i \alpha'}{4a^2\nu}
 \end{equation}
-Here, $\alpha'$ characterizes the dielectric properties of liquid xenon, $a$ is a characteristic length scale of ion density, and $\nu$ is the mean ionization velocity of electrons. This model requires that the ions are tightly packed into a small area (or ``box''). High energy events have extended ionization tracks, and so the Thomas-Imel models will not be valid. For these events, a model derived from Birk's Law is used\cite{nest1}:
-\begin{equation}
+Here, $\alpha'$ characterizes the dielectric properties of liquid xenon, $a$ is a characteristic length scale of ion density, and $\nu$ is the mean ionization velocity of electrons. A more traditional model derived from Birk's Law is\cite{nest1}:
+\begin{equation}\label{eq:birk}
 P_R=\frac{A\frac{dE}{dx}}{1+B\frac{dE}{dx}}+C , \ B=A/(1-C)
 \end{equation}
-For ER energies less than 18.6 keV, the Thomas-Imel model is tuned to the LUX Run03 tritium data\cite{lux_tritium}. Above 122 keV, the Birk model is also tuned to data such as xenon activation line measurements. Between these values, however, very little data currently exists, so the light and charge yields must be interpolated.
+The quantity $\frac{dE}{dx}$ tends to increase with decreasing energy, so as $E$ goes to zero equation \ref{eq:birk} predicts that $P_R$ should approach unity. This would correspond $LY=1/W$ and $QY=0$. It has been observed, however, that for energies below about 20 keV, $LY$ begins to decrease, and $QY$ increases. This is the point at which the Thomas-Imel box model starts to become relevant. This corresponds to the point at which the track length of the energy deposit drops below the mean ionization distance in liquid xenon, about 4.6 microns. Equation \ref{eq:tib} does not depend on $\frac{dE}{dx}$ but rather $N_i$, and so it predicts the observed downward trend in $P_R$.  
 
-The recombination fluctuations are known to be greater than what would be expected for a binomial process. They have, in fact, been measured to grow approximately proportional to $N_i$\cite{attila}. NEST, therefore, models the recombination fluctuations using a Poissonian distribution, modified by a Fano-like factor, $F_R$\cite{Evanyields}:
+Conceptually, this result is not too surprising and indicates that the probability that an electron will recombine with its parent ion is very small. This is referred to as geminate recombination, and its probability corresponds to $C$ in equation \ref{eq:birk}. If we consider a very low energy event in which only one ion is created, the only ion that the electron can recombine with is its parent so $P_R$ is identical to the geminate recombination probability. Therefore, the statement that $P_R$ goes to 0 at low energies also means that the geminate recombination probability is small.
+
+For ER energies less than 18.6 keV, NEST uses a Thomas-Imel model that is tuned to the LUX Run03 tritium data\cite{lux_tritium}. Above 122 keV, the Birk model is also tuned to data such as xenon activation line measurements. Measurements between these values have historically been sparse, so the light and charge yields are interpolated in this region.
+
+The recombination fluctuations are known to be greater than what would be expected for a binomial process. They have, in fact, been measured to grow approximately proportional to $N_i$\cite{attila}. NEST, therefore, models the recombination fluctuations using a Poissonian distribution, modified by a Fano-like factor, $F_RN_i$\cite{Evanyields}:
 \begin{equation}
-\sigma_R^2=F_RN_iN_e
+\sigma_R^2=(F_RN_i)\cdot (P_RN_i)
 \end{equation}
 
 The libNEST code is a package developed for use with the LUX detector. It is designed to generate simulated LUX $S1$ and $S2$ signals given an input energy. It models the field and energy dependence of $N_{\gamma}$ and $N_e$ using the recombination model laid out in section \ref{sec:combE} and the NEST prediction of $P_R$ and $\sigma_R$. It then applies detector resolutions as described in section \ref{sec:detres} in order to generate the simulated $S1$ and $S2$ signals. The values of the parameters input into libNEST are shown in table \ref{tab:libnestparms}

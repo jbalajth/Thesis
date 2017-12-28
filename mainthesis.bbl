@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{dahl}
 PhD thesis.
@@ -594,6 +594,12 @@ Ch. Sonntag, H.~Rebel, B.~Ribbat, S.~K. Thio, and W.~R. Gramm.
   spectrum of14c.
 \newblock {\em Lettere al Nuovo Cimento (1969-1970)}, 4(15):717--719, Oct 1970.
 
+\bibitem{tib2}
+Peter Sorensen and Carl~Eric Dahl.
+\newblock {Nuclear recoil energy scale in liquid xenon with application to the
+  direct detection of dark matter}.
+\newblock {\em Phys. Rev.}, D83:063501, 2011.
+
 \bibitem{ADMX}
 Ian~P. Stern.
 \newblock {Axion Dark Matter Searches}.
@@ -614,6 +620,11 @@ Matthew Szydagis, Adalyn Fyhrie, Daniel Thorngren, and Mani Tripathi.
 \newblock Enhancement of nest capabilities for simulating low-energy recoils in
   liquid xenon.
 \newblock {\em Journal of Instrumentation}, 8(10):C10003, 2013.
+
+\bibitem{tib1}
+J.~Thomas and D.~A. Imel.
+\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
+\newblock {\em Phys. Rev. A}, 36:614--616, Jul 1987.
 
 \bibitem{macho}
 P.~Tisserand et~al.

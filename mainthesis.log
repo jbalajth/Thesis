@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 DEC 2017 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 DEC 2017 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,7 +1375,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [49 <./Figures/Doke_plot_run03.pdf>] [50 <./Figures/ER_diagram.pdf> <./Figures/
 NR_diagram.pdf>] [51
 
-] [52] [53]) [54]
+] [52] [53] [54]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [55] [56]
 \openout2 = `chapters/Sampling_Manual.aux'.
 
  (./chapters/Sampling_Manual.tex
@@ -1386,7 +1390,7 @@ Overfull \hbox (9.75177pt too wide) in paragraph at lines 1--1
 rap Sam-
  []
 
-<Figures/Cold_Trap_cartoon.png, id=1639, 1353.055pt x 790.955pt>
+<Figures/Cold_Trap_cartoon.png, id=1660, 1353.055pt x 790.955pt>
 File: Figures/Cold_Trap_cartoon.png Graphic file (type png)
 
 <use Figures/Cold_Trap_cartoon.png>
@@ -1396,12 +1400,12 @@ Package pdftex.def Info: Figures/Cold_Trap_cartoon.png used on input line 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55
+[57
 
 
 
 
-] <Figures/ColdTrap_diagram.png, id=1646, 585.18625pt x 359.3425pt>
+] <Figures/ColdTrap_diagram.png, id=1668, 585.18625pt x 359.3425pt>
 File: Figures/ColdTrap_diagram.png Graphic file (type png)
 
 <use Figures/ColdTrap_diagram.png>
@@ -1413,26 +1417,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-[56 <./Figures/Cold_Trap_cartoon.png>] [57 <./Figures/ColdTrap_diagram.png>]
+[58 <./Figures/Cold_Trap_cartoon.png>] [59 <./Figures/ColdTrap_diagram.png>]
 
-LaTeX Warning: Reference `ap:procedures' on page 58 undefined on input line 45.
+LaTeX Warning: Reference `ap:procedures' on page 60 undefined on input line 45.
 
 
-[58] [59] [60] [61]
+[60] [61] [62] [63]
 
-LaTeX Warning: Reference `sec:calibrations' on page 62 undefined on input line 
+LaTeX Warning: Reference `sec:calibrations' on page 64 undefined on input line 
 107.
 
 
-LaTeX Warning: Reference `sec:impedance' on page 62 undefined on input line 109
+LaTeX Warning: Reference `sec:impedance' on page 64 undefined on input line 109
 .
 
-[62] [63]
+[64] [65]
 
-LaTeX Warning: Reference `sec:impedance' on page 64 undefined on input line 127
+LaTeX Warning: Reference `sec:impedance' on page 66 undefined on input line 127
 .
 
-[64] <Figures/impedance_adjust.png, id=1729, 501.875pt x 401.5pt>
+[66] <Figures/impedance_adjust.png, id=1749, 501.875pt x 401.5pt>
 File: Figures/impedance_adjust.png Graphic file (type png)
 
 <use Figures/impedance_adjust.png>
@@ -1442,8 +1446,8 @@ Package pdftex.def Info: Figures/impedance_adjust.png used on input line 141.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[65] [66 <./Figures/impedance_adjust.png (PNG copy)>] [67] [68]
-<Figures/RGATrace_fit_fast.png, id=1767, 501.875pt x 401.5pt>
+[67] [68 <./Figures/impedance_adjust.png (PNG copy)>] [69] [70]
+<Figures/RGATrace_fit_fast.png, id=1788, 501.875pt x 401.5pt>
 File: Figures/RGATrace_fit_fast.png Graphic file (type png)
 
 <use Figures/RGATrace_fit_fast.png>
@@ -1453,15 +1457,15 @@ Package pdftex.def Info: Figures/RGATrace_fit_fast.png used on input line 238.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69] [70 <./Figures/RGATrace_fit_fast.png (PNG copy)>]
-<Figures/cold_trap_geometries.png, id=1783, 688.5725pt x 388.45125pt>
+[71] [72 <./Figures/RGATrace_fit_fast.png (PNG copy)>]
+<Figures/cold_trap_geometries.png, id=1803, 688.5725pt x 388.45125pt>
 File: Figures/cold_trap_geometries.png Graphic file (type png)
 
 <use Figures/cold_trap_geometries.png>
 Package pdftex.def Info: Figures/cold_trap_geometries.png used on input line 26
 2.
 (pdftex.def)             Requested size: 433.62001pt x 244.6248pt.
- [71]
+ [73]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1470,55 +1474,55 @@ Package caption Warning: \label without proper \caption on input line 269.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:geo' on page 72 undefined on input line 267.
+LaTeX Warning: Reference `tab:geo' on page 74 undefined on input line 267.
 
 
 Package caption Warning: \label without proper \caption on input line 269.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:geo' on page 72 undefined on input line 281.
+LaTeX Warning: Reference `tab:geo' on page 74 undefined on input line 281.
 
-[72] [73 <./Figures/cold_trap_geometries.png>]
-<Figures/ice_plug_start.png, id=1803, 943.525pt x 852.18375pt>
+[74] [75 <./Figures/cold_trap_geometries.png>]
+<Figures/ice_plug_start.png, id=1824, 943.525pt x 852.18375pt>
 File: Figures/ice_plug_start.png Graphic file (type png)
 
 <use Figures/ice_plug_start.png>
 Package pdftex.def Info: Figures/ice_plug_start.png used on input line 295.
 (pdftex.def)             Requested size: 195.12767pt x 176.23317pt.
 
-<Figures/ice_plug_full.png, id=1804, 2802.47pt x 2811.50375pt>
+<Figures/ice_plug_full.png, id=1825, 2802.47pt x 2811.50375pt>
 File: Figures/ice_plug_full.png Graphic file (type png)
 
 <use Figures/ice_plug_full.png>
 Package pdftex.def Info: Figures/ice_plug_full.png used on input line 301.
 (pdftex.def)             Requested size: 195.12767pt x 195.75287pt.
- [74]
-<Figures/xenon_breakthrough.png, id=1811, 501.875pt x 401.5pt>
+ [76]
+<Figures/xenon_breakthrough.png, id=1831, 501.875pt x 401.5pt>
 File: Figures/xenon_breakthrough.png Graphic file (type png)
 
 <use Figures/xenon_breakthrough.png>
 Package pdftex.def Info: Figures/xenon_breakthrough.png used on input line 312.
 
 (pdftex.def)             Requested size: 433.62001pt x 346.91287pt.
- [75 <./Figures/ice_plug_start.png> <./Figures/ice_plug_full.png>]
+ [77 <./Figures/ice_plug_start.png> <./Figures/ice_plug_full.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/RGA_noise_correlation.png, id=1819, 578.16pt x 433.62pt>
+<Figures/RGA_noise_correlation.png, id=1839, 578.16pt x 433.62pt>
 File: Figures/RGA_noise_correlation.png Graphic file (type png)
 
 <use Figures/RGA_noise_correlation.png>
 Package pdftex.def Info: Figures/RGA_noise_correlation.png used on input line 3
 22.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
- [76]
+ [78]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77 <./Figures/xenon_breakthrough.png (PNG copy)>] [78 <./Figures/RGA_noise_cor
+[79 <./Figures/xenon_breakthrough.png (PNG copy)>] [80 <./Figures/RGA_noise_cor
 relation.png (PNG copy)>]
-<Figures/ice_form_Krloss.png, id=1832, 501.875pt x 401.5pt>
+<Figures/ice_form_Krloss.png, id=1853, 501.875pt x 401.5pt>
 File: Figures/ice_form_Krloss.png Graphic file (type png)
 
 <use Figures/ice_form_Krloss.png>
@@ -1528,8 +1532,8 @@ Package pdftex.def Info: Figures/ice_form_Krloss.png used on input line 338.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79] [80 <./Figures/ice_form_Krloss.png (PNG copy)>]
-<Figures/SLAC_flow_turnover.png, id=1844, 501.875pt x 401.5pt>
+[81] [82 <./Figures/ice_form_Krloss.png (PNG copy)>]
+<Figures/SLAC_flow_turnover.png, id=1864, 501.875pt x 401.5pt>
 File: Figures/SLAC_flow_turnover.png Graphic file (type png)
 
 <use Figures/SLAC_flow_turnover.png>
@@ -1537,7 +1541,7 @@ Package pdftex.def Info: Figures/SLAC_flow_turnover.png used on input line 352.
 
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_flow_turnover_1p5in.png, id=1845, 501.875pt x 401.5pt>
+<Figures/SLAC_flow_turnover_1p5in.png, id=1865, 501.875pt x 401.5pt>
 File: Figures/SLAC_flow_turnover_1p5in.png Graphic file (type png)
 
 <use Figures/SLAC_flow_turnover_1p5in.png>
@@ -1545,7 +1549,7 @@ Package pdftex.def Info: Figures/SLAC_flow_turnover_1p5in.png used on input lin
 e 358.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_FlowResponse_15x.png, id=1848, 501.875pt x 401.5pt>
+<Figures/SLAC_FlowResponse_15x.png, id=1868, 501.875pt x 401.5pt>
 File: Figures/SLAC_FlowResponse_15x.png Graphic file (type png)
 
 <use Figures/SLAC_FlowResponse_15x.png>
@@ -1553,7 +1557,7 @@ Package pdftex.def Info: Figures/SLAC_FlowResponse_15x.png used on input line 3
 71.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_FlowResponse_15x_1p5in.png, id=1849, 501.875pt x 401.5pt>
+<Figures/SLAC_FlowResponse_15x_1p5in.png, id=1869, 501.875pt x 401.5pt>
 File: Figures/SLAC_FlowResponse_15x_1p5in.png Graphic file (type png)
 
 <use Figures/SLAC_FlowResponse_15x_1p5in.png>
@@ -1561,7 +1565,7 @@ Package pdftex.def Info: Figures/SLAC_FlowResponse_15x_1p5in.png used on input
 line 377.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/FlowResponse.png, id=1850, 562.1pt x 421.575pt>
+<Figures/FlowResponse.png, id=1870, 562.1pt x 421.575pt>
 File: Figures/FlowResponse.png Graphic file (type png)
 
 <use Figures/FlowResponse.png>
@@ -1574,18 +1578,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/turn_over.png, id=1852, 501.875pt x 401.5pt>
+<Figures/turn_over.png, id=1872, 501.875pt x 401.5pt>
 File: Figures/turn_over.png Graphic file (type png)
 
 <use Figures/turn_over.png>
 Package pdftex.def Info: Figures/turn_over.png used on input line 392.
 (pdftex.def)             Requested size: 433.62001pt x 346.91287pt.
- [81 <./Figures/SLAC_flow_turnover.png (PNG copy)> <./Figures/SLAC_flow_turnove
+ [83 <./Figures/SLAC_flow_turnover.png (PNG copy)> <./Figures/SLAC_flow_turnove
 r_1p5in.png (PNG copy)>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/SLAC_FlowResponse_1x_linfit.png, id=1860, 501.875pt x 401.5pt>
+<Figures/SLAC_FlowResponse_1x_linfit.png, id=1880, 501.875pt x 401.5pt>
 File: Figures/SLAC_FlowResponse_1x_linfit.png Graphic file (type png)
 
 <use Figures/SLAC_FlowResponse_1x_linfit.png>
@@ -1593,35 +1597,35 @@ Package pdftex.def Info: Figures/SLAC_FlowResponse_1x_linfit.png used on input
 line 402.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_FlowResponse_15x_linplot.png, id=1861, 501.875pt x 401.5pt>
+<Figures/SLAC_FlowResponse_15x_linplot.png, id=1881, 501.875pt x 401.5pt>
 File: Figures/SLAC_FlowResponse_15x_linplot.png Graphic file (type png)
 
 <use Figures/SLAC_FlowResponse_15x_linplot.png>
 Package pdftex.def Info: Figures/SLAC_FlowResponse_15x_linplot.png used on inpu
 t line 408.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
- [82 <./Figures/SLAC_FlowResponse_15x.png (PNG copy)> <./Figures/SLAC_FlowRespo
+ [84 <./Figures/SLAC_FlowResponse_15x.png (PNG copy)> <./Figures/SLAC_FlowRespo
 nse_15x_1p5in.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83 <./Figures/FlowResponse.png (PNG copy)>]
+[85 <./Figures/FlowResponse.png (PNG copy)>]
 
-LaTeX Warning: Reference `fig:CTresponse' on page 84 undefined on input line 42
+LaTeX Warning: Reference `fig:CTresponse' on page 86 undefined on input line 42
 2.
 
-<Figures/RGAtrace_fit_slow_wexp.png, id=1875, 501.875pt x 401.5pt>
+<Figures/RGAtrace_fit_slow_wexp.png, id=1895, 501.875pt x 401.5pt>
 File: Figures/RGAtrace_fit_slow_wexp.png Graphic file (type png)
 
 <use Figures/RGAtrace_fit_slow_wexp.png>
 Package pdftex.def Info: Figures/RGAtrace_fit_slow_wexp.png used on input line 
 425.
 (pdftex.def)             Requested size: 433.62001pt x 346.91287pt.
- [84 <./Figures/turn_over.png (PNG copy)>]
+ [86 <./Figures/turn_over.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/SLAC_imp_response_linfit.png, id=1880, 501.875pt x 401.5pt>
+<Figures/SLAC_imp_response_linfit.png, id=1901, 501.875pt x 401.5pt>
 File: Figures/SLAC_imp_response_linfit.png Graphic file (type png)
 
 <use Figures/SLAC_imp_response_linfit.png>
@@ -1629,7 +1633,7 @@ Package pdftex.def Info: Figures/SLAC_imp_response_linfit.png used on input lin
 e 435.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_imp_response_1p5in_linfit.png, id=1881, 501.875pt x 401.5pt>
+<Figures/SLAC_imp_response_1p5in_linfit.png, id=1902, 501.875pt x 401.5pt>
 File: Figures/SLAC_imp_response_1p5in_linfit.png Graphic file (type png)
 
 <use Figures/SLAC_imp_response_1p5in_linfit.png>
@@ -1640,9 +1644,9 @@ ut line 440.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[85 <./Figures/SLAC_FlowResponse_1x_linfit.png (PNG copy)> <./Figures/SLAC_Flow
+[87 <./Figures/SLAC_FlowResponse_1x_linfit.png (PNG copy)> <./Figures/SLAC_Flow
 Response_15x_linplot.png (PNG copy)>]
-<Figures/SLAC_alpha.png, id=1888, 501.875pt x 401.5pt>
+<Figures/SLAC_alpha.png, id=1910, 501.875pt x 401.5pt>
 File: Figures/SLAC_alpha.png Graphic file (type png)
 
 <use Figures/SLAC_alpha.png>
@@ -1658,25 +1662,25 @@ Overfull \hbox (11.84926pt too wide) in paragraph at lines 457--458
 is re-duced at higher impedances,
  []
 
-[86 <./Figures/RGAtrace_fit_slow_wexp.png (PNG copy)>] [87 <./Figures/SLAC_imp_
+[88 <./Figures/RGAtrace_fit_slow_wexp.png (PNG copy)>] [89 <./Figures/SLAC_imp_
 response_linfit.png (PNG copy)> <./Figures/SLAC_imp_response_1p5in_linfit.png (
-PNG copy)>] [88 <./Figures/SLAC_alpha.png (PNG copy)>] [89]
-<Figures/SLAC_imp_response.png, id=1931, 501.875pt x 401.5pt>
+PNG copy)>] [90 <./Figures/SLAC_alpha.png (PNG copy)>] [91]
+<Figures/SLAC_imp_response.png, id=1951, 501.875pt x 401.5pt>
 File: Figures/SLAC_imp_response.png Graphic file (type png)
 
 <use Figures/SLAC_imp_response.png>
 Package pdftex.def Info: Figures/SLAC_imp_response.png used on input line 526.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/SLAC_imp_response_1p5in.png, id=1932, 501.875pt x 401.5pt>
+<Figures/SLAC_imp_response_1p5in.png, id=1952, 501.875pt x 401.5pt>
 File: Figures/SLAC_imp_response_1p5in.png Graphic file (type png)
 
 <use Figures/SLAC_imp_response_1p5in.png>
 Package pdftex.def Info: Figures/SLAC_imp_response_1p5in.png used on input line
  531.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
- [90]
-<Figures/post_flow_transient_nobottle.png, id=1943, 501.875pt x 401.5pt>
+ [92]
+<Figures/post_flow_transient_nobottle.png, id=1964, 501.875pt x 401.5pt>
 File: Figures/post_flow_transient_nobottle.png Graphic file (type png)
 
 <use Figures/post_flow_transient_nobottle.png>
@@ -1684,44 +1688,45 @@ Package pdftex.def Info: Figures/post_flow_transient_nobottle.png used on input
  line 546.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/post_flow_transient_wbottle.png, id=1944, 501.875pt x 401.5pt>
+<Figures/post_flow_transient_wbottle.png, id=1965, 501.875pt x 401.5pt>
 File: Figures/post_flow_transient_wbottle.png Graphic file (type png)
 
 <use Figures/post_flow_transient_wbottle.png>
 Package pdftex.def Info: Figures/post_flow_transient_wbottle.png used on input 
 line 551.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
- [91 <./Figures/SLAC_imp_response.png (PNG copy)> <./Figures/SLAC_imp_response_
-1p5in.png (PNG copy)>] [92 <./Figures/post_flow_transient_nobottle.png (PNG cop
+ [93 <./Figures/SLAC_imp_response.png (PNG copy)> <./Figures/SLAC_imp_response_
+1p5in.png (PNG copy)>] [94 <./Figures/post_flow_transient_nobottle.png (PNG cop
 y)> <./Figures/post_flow_transient_wbottle.png (PNG copy)>]
-<Figures/cyrano_pvt_1x.png, id=1955, 501.875pt x 401.5pt>
+<Figures/cyrano_pvt_1x.png, id=1975, 501.875pt x 401.5pt>
 File: Figures/cyrano_pvt_1x.png Graphic file (type png)
 
 <use Figures/cyrano_pvt_1x.png>
 Package pdftex.def Info: Figures/cyrano_pvt_1x.png used on input line 565.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/cyrano_pvt_15x.png, id=1956, 501.875pt x 401.5pt>
+<Figures/cyrano_pvt_15x.png, id=1976, 501.875pt x 401.5pt>
 File: Figures/cyrano_pvt_15x.png Graphic file (type png)
 
 <use Figures/cyrano_pvt_15x.png>
 Package pdftex.def Info: Figures/cyrano_pvt_15x.png used on input line 571.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/diffusion_pdrop.png, id=1957, 501.875pt x 401.5pt>
+<Figures/diffusion_pdrop.png, id=1977, 501.875pt x 401.5pt>
 File: Figures/diffusion_pdrop.png Graphic file (type png)
 
 <use Figures/diffusion_pdrop.png>
 Package pdftex.def Info: Figures/diffusion_pdrop.png used on input line 582.
 (pdftex.def)             Requested size: 433.62001pt x 346.91287pt.
- [93 <./Figures/cyrano_pvt_1x.png (PNG copy)> <./Figures/cyrano_pvt_15x.png (PN
-G copy)>] [94 <./Figures/diffusion_pdrop.png (PNG copy)>]
+ [95 <./Figures/cyrano_pvt_1x.png (PNG copy)> <./Figures/cyrano_pvt_15x.png (PN
+G copy)>] [96 <./Figures/diffusion_pdrop.png (PNG copy)>]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 600.
 
-[95] [96] [97] [98] [99] <Figures/RGA_trace.png, id=2024, 501.875pt x 401.5pt>
+[97] [98] [99] [100] [101]
+<Figures/RGA_trace.png, id=2044, 501.875pt x 401.5pt>
 File: Figures/RGA_trace.png Graphic file (type png)
 
 <use Figures/RGA_trace.png>
@@ -1731,34 +1736,34 @@ Package pdftex.def Info: Figures/RGA_trace.png used on input line 689.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[100] [101 <./Figures/RGA_trace.png (PNG copy)>] [102]
-<Figures/Lin_avg_Attila.png, id=2048, 736.7525pt x 507.8975pt>
+[102] [103 <./Figures/RGA_trace.png (PNG copy)>] [104]
+<Figures/Lin_avg_Attila.png, id=2069, 736.7525pt x 507.8975pt>
 File: Figures/Lin_avg_Attila.png Graphic file (type png)
 
 <use Figures/Lin_avg_Attila.png>
 Package pdftex.def Info: Figures/Lin_avg_Attila.png used on input line 726.
 (pdftex.def)             Requested size: 433.62001pt x 298.9207pt.
- [103 <./Figures/Lin_avg_Attila.png>] [104]
+ [105 <./Figures/Lin_avg_Attila.png>] [106]
 
-LaTeX Warning: Reference `sec:calibrations' on page 105 undefined on input line
+LaTeX Warning: Reference `sec:calibrations' on page 107 undefined on input line
  764.
 
-<Figures/RGATrace_int.png, id=2076, 501.875pt x 401.5pt>
+<Figures/RGATrace_int.png, id=2096, 501.875pt x 401.5pt>
 File: Figures/RGATrace_int.png Graphic file (type png)
 
 <use Figures/RGATrace_int.png>
 Package pdftex.def Info: Figures/RGATrace_int.png used on input line 770.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
 
-<Figures/LinPlot0217.png, id=2077, 501.875pt x 401.5pt>
+<Figures/LinPlot0217.png, id=2097, 501.875pt x 401.5pt>
 File: Figures/LinPlot0217.png Graphic file (type png)
 
 <use Figures/LinPlot0217.png>
 Package pdftex.def Info: Figures/LinPlot0217.png used on input line 776.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
- [105 <./Figures/RGATrace_int.png (PNG copy)> <./Figures/LinPlot0217.png (PNG c
+ [107 <./Figures/RGATrace_int.png (PNG copy)> <./Figures/LinPlot0217.png (PNG c
 opy)>]
-<Figures/RGA_Noise_v_PP.png, id=2087, 501.875pt x 401.5pt>
+<Figures/RGA_Noise_v_PP.png, id=2107, 501.875pt x 401.5pt>
 File: Figures/RGA_Noise_v_PP.png Graphic file (type png)
 
 <use Figures/RGA_Noise_v_PP.png>
@@ -1768,8 +1773,8 @@ Package pdftex.def Info: Figures/RGA_Noise_v_PP.png used on input line 796.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[106] [107 <./Figures/RGA_Noise_v_PP.png (PNG copy)>]
-<Figures/CDEM_gain_noise.png, id=2099, 501.875pt x 401.5pt>
+[108] [109 <./Figures/RGA_Noise_v_PP.png (PNG copy)>]
+<Figures/CDEM_gain_noise.png, id=2119, 501.875pt x 401.5pt>
 File: Figures/CDEM_gain_noise.png Graphic file (type png)
 
 <use Figures/CDEM_gain_noise.png>
@@ -1779,22 +1784,22 @@ Package pdftex.def Info: Figures/CDEM_gain_noise.png used on input line 815.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[108]
+[110]
 Overfull \hbox (7.63864pt too wide) in paragraph at lines 827--829
 \OT1/ptm/m/n/12 The width of this pulse will be given by the amount of xenon us
 ed in the anal-y-sis ($\OML/ztmcm/m/it/12 V[]\OT1/ztmcm/m/n/12 ^^A\OML/ztmcm/m/
 it/12 P[]$\OT1/ptm/m/n/12 )
  []
 
-[109 <./Figures/CDEM_gain_noise.png (PNG copy)>]
-<Figures/RGAtrace_ideal.png, id=2111, 501.875pt x 401.5pt>
+[111 <./Figures/CDEM_gain_noise.png (PNG copy)>]
+<Figures/RGAtrace_ideal.png, id=2132, 501.875pt x 401.5pt>
 File: Figures/RGAtrace_ideal.png Graphic file (type png)
 
 <use Figures/RGAtrace_ideal.png>
 Package pdftex.def Info: Figures/RGAtrace_ideal.png used on input line 834.
 (pdftex.def)             Requested size: 433.62001pt x 346.91287pt.
- [110 <./Figures/RGAtrace_ideal.png (PNG copy)>] <Figures/Adjusted_impedance_st
-udy.png, id=2121, 578.16pt x 433.62pt>
+ [112 <./Figures/RGAtrace_ideal.png (PNG copy)>] <Figures/Adjusted_impedance_st
+udy.png, id=2142, 578.16pt x 433.62pt>
 File: Figures/Adjusted_impedance_study.png Graphic file (type png)
 
 <use Figures/Adjusted_impedance_study.png>
@@ -1805,7 +1810,7 @@ e 843.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/SLAC_flowimpedance_response_plot.png, id=2122, 501.875pt x 401.5pt>
+<Figures/SLAC_flowimpedance_response_plot.png, id=2143, 501.875pt x 401.5pt>
 File: Figures/SLAC_flowimpedance_response_plot.png Graphic file (type png)
 
 <use Figures/SLAC_flowimpedance_response_plot.png>
@@ -1816,9 +1821,9 @@ nput line 850.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[111] [112 <./Figures/Adjusted_impedance_study.png (PNG copy)>] [113 <./Figures
+[113] [114 <./Figures/Adjusted_impedance_study.png (PNG copy)>] [115 <./Figures
 /SLAC_flowimpedance_response_plot.png (PNG copy)>]
-<Figures/Mixing_diagram.png, id=2139, 397.485pt x 210.7875pt>
+<Figures/Mixing_diagram.png, id=2159, 397.485pt x 210.7875pt>
 File: Figures/Mixing_diagram.png Graphic file (type png)
 
 <use Figures/Mixing_diagram.png>
@@ -1828,8 +1833,8 @@ Package pdftex.def Info: Figures/Mixing_diagram.png used on input line 877.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[114] [115 <./Figures/Mixing_diagram.png>] [116] [117] [118]
-<Figures/BlankHist0217.png, id=2176, 562.1pt x 421.575pt>
+[116] [117 <./Figures/Mixing_diagram.png>] [118] [119] [120]
+<Figures/BlankHist0217.png, id=2196, 562.1pt x 421.575pt>
 File: Figures/BlankHist0217.png Graphic file (type png)
 
 <use Figures/BlankHist0217.png>
@@ -1839,14 +1844,14 @@ Package pdftex.def Info: Figures/BlankHist0217.png used on input line 929.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/SLAC_ColdTrap_diagram_wvols.pdf, id=2178, 418.56375pt x 388.45125pt>
+<Figures/SLAC_ColdTrap_diagram_wvols.pdf, id=2198, 418.56375pt x 388.45125pt>
 File: Figures/SLAC_ColdTrap_diagram_wvols.pdf Graphic file (type pdf)
 
 <use Figures/SLAC_ColdTrap_diagram_wvols.pdf>
 Package pdftex.def Info: Figures/SLAC_ColdTrap_diagram_wvols.pdf used on input 
 line 940.
 (pdftex.def)             Requested size: 433.62001pt x 402.42088pt.
- [119]
+ [121]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1855,32 +1860,32 @@ Package caption Warning: \label without proper \caption on input line 948.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:SLACvols' on page 120 undefined on input line 945
+LaTeX Warning: Reference `tab:SLACvols' on page 122 undefined on input line 945
 .
 
-[120 <./Figures/BlankHist0217.png (PNG copy)>]
+[122 <./Figures/BlankHist0217.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[121 <./Figures/SLAC_ColdTrap_diagram_wvols.pdf>]
+[123 <./Figures/SLAC_ColdTrap_diagram_wvols.pdf>]
 
 Package caption Warning: \label without proper \caption on input line 971.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:concentrations' on page 122 undefined on input li
+LaTeX Warning: Reference `tab:concentrations' on page 124 undefined on input li
 ne 995.
 
-[122]
+[124]
 
 Package caption Warning: \label without proper \caption on input line 971.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:concentrations' on page 123 undefined on input li
+LaTeX Warning: Reference `tab:concentrations' on page 125 undefined on input li
 ne 1002.
 
 Package epstopdf Info: Source file: <Figures/SensPlot0217.eps>
@@ -1894,7 +1899,7 @@ Package epstopdf Info: Source file: <Figures/SensPlot0217.eps>
 onverted-to.pdf Figures/SensPlot0217.eps>
 (epstopdf)             \includegraphics on input line 1007.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/SensPlot0217-eps-converted-to.pdf, id=2223, 501.875pt x 401.5pt>
+<Figures/SensPlot0217-eps-converted-to.pdf, id=2243, 501.875pt x 401.5pt>
 File: Figures/SensPlot0217-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/SensPlot0217-eps-converted-to.pdf>
@@ -1912,39 +1917,39 @@ nverted-to.pdf Figures/LinPlot0217.eps>
 (epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/LinPlot0217-eps-converted-to.pdf, id=2224, 501.875pt x 401.5pt>
+<Figures/LinPlot0217-eps-converted-to.pdf, id=2244, 501.875pt x 401.5pt>
 File: Figures/LinPlot0217-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/LinPlot0217-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/LinPlot0217-eps-converted-to.pdf used on input
  line 1013.
 (pdftex.def)             Requested size: 216.81pt x 173.4503pt.
- [123 <./Figures/SensPlot0217-eps-converted-to.pdf> <./Figures/LinPlot0217-eps-
+ [125 <./Figures/SensPlot0217-eps-converted-to.pdf> <./Figures/LinPlot0217-eps-
 converted-to.pdf>]
-<Figures/SLAC_PvT_ppq_sensitivity.png, id=2248, 578.16pt x 433.62pt>
+<Figures/SLAC_PvT_ppq_sensitivity.png, id=2269, 578.16pt x 433.62pt>
 File: Figures/SLAC_PvT_ppq_sensitivity.png Graphic file (type png)
 
 <use Figures/SLAC_PvT_ppq_sensitivity.png>
 Package pdftex.def Info: Figures/SLAC_PvT_ppq_sensitivity.png used on input lin
 e 1025.
 (pdftex.def)             Requested size: 433.62001pt x 325.2142pt.
-) [124 <./Figures/SLAC_PvT_ppq_sensitivity.png (PNG copy)>]
+) [126 <./Figures/SLAC_PvT_ppq_sensitivity.png (PNG copy)>]
 \openout2 = `chapters/Post_Run04_Calibrations.aux'.
 
  (./chapters/Post_Run04_Calibrations.tex
 Chapter 4.
-[125
+[127
 
 
 
 
-] <Figures/DDband.pdf, id=2267, 848.16875pt x 620.3175pt>
+] <Figures/DDband.pdf, id=2287, 848.16875pt x 620.3175pt>
 File: Figures/DDband.pdf Graphic file (type pdf)
 
 <use Figures/DDband.pdf>
 Package pdftex.def Info: Figures/DDband.pdf used on input line 41.
 (pdftex.def)             Requested size: 216.81pt x 158.56221pt.
- <Figures/DDbeam.pdf, id=2268, 859.21pt x 698.61pt>
+ <Figures/DDbeam.pdf, id=2288, 859.21pt x 698.61pt>
 File: Figures/DDbeam.pdf Graphic file (type pdf)
 
 <use Figures/DDbeam.pdf>
@@ -1954,7 +1959,7 @@ Package pdftex.def Info: Figures/DDbeam.pdf used on input line 46.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[126] [127 <./Figures/DDband.pdf> <./Figures/DDbeam.pdf>]
+[128] [129 <./Figures/DDband.pdf> <./Figures/DDbeam.pdf>]
 Package epstopdf Info: Source file: <Figures/post_Run4_DAQrate.eps>
 (epstopdf)                    date: 2017-10-03 13:52:37
 (epstopdf)                    size: 96850 bytes
@@ -1967,7 +1972,7 @@ eps-converted-to.pdf Figures/post_Run4_DAQrate.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/post_Run4_DAQrate-eps-converted-to.pdf, id=2300, 622.325pt x 401.5pt>
+<Figures/post_Run4_DAQrate-eps-converted-to.pdf, id=2321, 622.325pt x 401.5pt>
 File: Figures/post_Run4_DAQrate-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/post_Run4_DAQrate-eps-converted-to.pdf>
@@ -1978,8 +1983,8 @@ Package pdftex.def Info: Figures/post_Run4_DAQrate-eps-converted-to.pdf used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[128] [129 <./Figures/post_Run4_DAQrate-eps-converted-to.pdf>]
-<Figures/DataSelection_singlescatter.pdf, id=2320, 578.16pt x 505.89pt>
+[130] [131 <./Figures/post_Run4_DAQrate-eps-converted-to.pdf>]
+<Figures/DataSelection_singlescatter.pdf, id=2340, 578.16pt x 505.89pt>
 File: Figures/DataSelection_singlescatter.pdf Graphic file (type pdf)
 
 <use Figures/DataSelection_singlescatter.pdf>
@@ -1987,20 +1992,20 @@ Package pdftex.def Info: Figures/DataSelection_singlescatter.pdf used on input
 line 85.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/DataSelection_multiS1S2.pdf, id=2321, 578.16pt x 505.89pt>
+<Figures/DataSelection_multiS1S2.pdf, id=2341, 578.16pt x 505.89pt>
 File: Figures/DataSelection_multiS1S2.pdf Graphic file (type pdf)
 
 <use Figures/DataSelection_multiS1S2.pdf>
 Package pdftex.def Info: Figures/DataSelection_multiS1S2.pdf used on input line
  90.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
- [130 <./Figures/DataSelection_singlescatter.pdf> <./Figures/DataSelection_mult
+ [132 <./Figures/DataSelection_singlescatter.pdf> <./Figures/DataSelection_mult
 iS1S2.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/DataSelection_mult
 iS1S2.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
->] <Figures/DataSelection_singlescatter_new.pdf, id=2374, 578.16pt x 505.89pt>
+>] <Figures/DataSelection_singlescatter_new.pdf, id=2394, 578.16pt x 505.89pt>
 File: Figures/DataSelection_singlescatter_new.pdf Graphic file (type pdf)
 
 <use Figures/DataSelection_singlescatter_new.pdf>
@@ -2008,7 +2013,7 @@ Package pdftex.def Info: Figures/DataSelection_singlescatter_new.pdf used on in
 put line 104.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/DataSelection_multiS1S2_new.pdf, id=2375, 578.16pt x 505.89pt>
+<Figures/DataSelection_multiS1S2_new.pdf, id=2395, 578.16pt x 505.89pt>
 File: Figures/DataSelection_multiS1S2_new.pdf Graphic file (type pdf)
 
 <use Figures/DataSelection_multiS1S2_new.pdf>
@@ -2016,20 +2021,20 @@ Package pdftex.def Info: Figures/DataSelection_multiS1S2_new.pdf used on input
 line 109.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/xycut_dt.png, id=2379, 578.16pt x 505.89pt>
+<Figures/xycut_dt.png, id=2399, 578.16pt x 505.89pt>
 File: Figures/xycut_dt.png Graphic file (type png)
 
 <use Figures/xycut_dt.png>
 Package pdftex.def Info: Figures/xycut_dt.png used on input line 122.
 (pdftex.def)             Requested size: 433.62001pt x 379.41655pt.
 
-<Figures/xycut_xy.png, id=2380, 1011.78pt x 505.89pt>
+<Figures/xycut_xy.png, id=2400, 1011.78pt x 505.89pt>
 File: Figures/xycut_xy.png Graphic file (type png)
 
 <use Figures/xycut_xy.png>
 Package pdftex.def Info: Figures/xycut_xy.png used on input line 128.
 (pdftex.def)             Requested size: 433.62001pt x 216.81056pt.
- [131 <./Figures/DataSelection_singlescatter_new.pdf> <./Figures/DataSelection_
+ [133 <./Figures/DataSelection_singlescatter_new.pdf> <./Figures/DataSelection_
 multiS1S2_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/DataSelection_mult
@@ -2042,7 +2047,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[132] <Figures/field_cut.pdf, id=2426, 578.16pt x 505.89pt>
+[134] <Figures/field_cut.pdf, id=2447, 578.16pt x 505.89pt>
 File: Figures/field_cut.pdf Graphic file (type pdf)
 
 <use Figures/field_cut.pdf>
@@ -2052,26 +2057,26 @@ Package pdftex.def Info: Figures/field_cut.pdf used on input line 140.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[133 <./Figures/xycut_dt.png>]
+[135 <./Figures/xycut_dt.png>]
 
-LaTeX Warning: Reference `tab:fieldbins' on page 134 undefined on input line 18
+LaTeX Warning: Reference `tab:fieldbins' on page 136 undefined on input line 18
 7.
 
-[134 <./Figures/xycut_xy.png>] [135 <./Figures/field_cut.pdf>]
-<Figures/Ar37_S1spec.pdf, id=2466, 578.16pt x 505.89pt>
+[136 <./Figures/xycut_xy.png>] [137 <./Figures/field_cut.pdf>]
+<Figures/Ar37_S1spec.pdf, id=2486, 578.16pt x 505.89pt>
 File: Figures/Ar37_S1spec.pdf Graphic file (type pdf)
 
 <use Figures/Ar37_S1spec.pdf>
 Package pdftex.def Info: Figures/Ar37_S1spec.pdf used on input line 200.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/Ar37_S2spec.pdf, id=2467, 578.16pt x 505.89pt>
+<Figures/Ar37_S2spec.pdf, id=2487, 578.16pt x 505.89pt>
 File: Figures/Ar37_S2spec.pdf Graphic file (type pdf)
 
 <use Figures/Ar37_S2spec.pdf>
 Package pdftex.def Info: Figures/Ar37_S2spec.pdf used on input line 205.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
- [136] [137 <./Figures/Ar37_S1spec.pdf> <./Figures/Ar37_S2spec.pdf
+ [138] [139 <./Figures/Ar37_S1spec.pdf> <./Figures/Ar37_S2spec.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Ar37_S2spec.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
@@ -2087,7 +2092,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 217.
 
-<Figures/pixey_Ar_v_ef.png, id=2499, 578.16pt x 505.89pt>
+<Figures/pixey_Ar_v_ef.png, id=2520, 578.16pt x 505.89pt>
 File: Figures/pixey_Ar_v_ef.png Graphic file (type png)
 
 <use Figures/pixey_Ar_v_ef.png>
@@ -2097,7 +2102,7 @@ Package pdftex.def Info: Figures/pixey_Ar_v_ef.png used on input line 222.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2map_xy.png, id=2502, 1011.78pt x 578.16pt>
+<Figures/S2map_xy.png, id=2523, 1011.78pt x 578.16pt>
 File: Figures/S2map_xy.png Graphic file (type png)
 
 <use Figures/S2map_xy.png>
@@ -2107,7 +2112,7 @@ Package pdftex.def Info: Figures/S2map_xy.png used on input line 229.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2trend_dt.png, id=2503, 578.16pt x 505.89pt>
+<Figures/S2trend_dt.png, id=2524, 578.16pt x 505.89pt>
 File: Figures/S2trend_dt.png Graphic file (type png)
 
 <use Figures/S2trend_dt.png>
@@ -2117,8 +2122,8 @@ Package pdftex.def Info: Figures/S2trend_dt.png used on input line 237.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[138] [139 <./Figures/pixey_Ar_v_ef.png>]
-<Figures/S2corr_dt.png, id=2514, 578.16pt x 505.89pt>
+[140] [141 <./Figures/pixey_Ar_v_ef.png>]
+<Figures/S2corr_dt.png, id=2535, 578.16pt x 505.89pt>
 File: Figures/S2corr_dt.png Graphic file (type png)
 
 <use Figures/S2corr_dt.png>
@@ -2128,7 +2133,7 @@ Package pdftex.def Info: Figures/S2corr_dt.png used on input line 246.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2corr_xy.png, id=2516, 1011.78pt x 578.16pt>
+<Figures/S2corr_xy.png, id=2537, 1011.78pt x 578.16pt>
 File: Figures/S2corr_xy.png Graphic file (type png)
 
 <use Figures/S2corr_xy.png>
@@ -2138,9 +2143,9 @@ Package pdftex.def Info: Figures/S2corr_xy.png used on input line 254.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[140 <./Figures/S2map_xy.png>] [141 <./Figures/S2trend_dt.png>] [142 <./Figures
-/S2corr_dt.png>] [143 <./Figures/S2corr_xy.png>]
-<Figures/S1corr_singlebin.png, id=2541, 578.16pt x 505.89pt>
+[142 <./Figures/S2map_xy.png>] [143 <./Figures/S2trend_dt.png>] [144 <./Figures
+/S2corr_dt.png>] [145 <./Figures/S2corr_xy.png>]
+<Figures/S1corr_singlebin.png, id=2561, 578.16pt x 505.89pt>
 File: Figures/S1corr_singlebin.png Graphic file (type png)
 
 <use Figures/S1corr_singlebin.png>
@@ -2150,22 +2155,22 @@ Package pdftex.def Info: Figures/S1corr_singlebin.png used on input line 274.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[144] [145 <./Figures/S1corr_singlebin.png>]
-<Figures/S1corr_xy.png, id=2554, 1011.78pt x 578.16pt>
+[146] [147 <./Figures/S1corr_singlebin.png>]
+<Figures/S1corr_xy.png, id=2575, 1011.78pt x 578.16pt>
 File: Figures/S1corr_xy.png Graphic file (type png)
 
 <use Figures/S1corr_xy.png>
 Package pdftex.def Info: Figures/S1corr_xy.png used on input line 289.
 (pdftex.def)             Requested size: 426.79134pt x 243.88419pt.
- [146 <./Figures/S1corr_xy.png>]
-<Figures/S1corr_dt.png, id=2563, 578.16pt x 505.89pt>
+ [148 <./Figures/S1corr_xy.png>]
+<Figures/S1corr_dt.png, id=2583, 578.16pt x 505.89pt>
 File: Figures/S1corr_dt.png Graphic file (type png)
 
 <use Figures/S1corr_dt.png>
 Package pdftex.def Info: Figures/S1corr_dt.png used on input line 301.
 (pdftex.def)             Requested size: 426.79134pt x 373.44185pt.
- [147 <./Figures/S1corr_dt.png>]
-<Figures/dt_doke_plot.pdf, id=2570, 578.16pt x 505.89pt>
+ [149 <./Figures/S1corr_dt.png>]
+<Figures/dt_doke_plot.pdf, id=2590, 578.16pt x 505.89pt>
 File: Figures/dt_doke_plot.pdf Graphic file (type pdf)
 
 <use Figures/dt_doke_plot.pdf>
@@ -2175,7 +2180,7 @@ Package pdftex.def Info: Figures/dt_doke_plot.pdf used on input line 312.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/NEST_g1g2_dcm.pdf, id=2571, 578.16pt x 505.89pt>
+<Figures/NEST_g1g2_dcm.pdf, id=2591, 578.16pt x 505.89pt>
 File: Figures/NEST_g1g2_dcm.pdf Graphic file (type pdf)
 
 <use Figures/NEST_g1g2_dcm.pdf>
@@ -2185,51 +2190,51 @@ Package pdftex.def Info: Figures/NEST_g1g2_dcm.pdf used on input line 322.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/E_spec_Kr.pdf, id=2575, 578.16pt x 505.89pt>
+<Figures/E_spec_Kr.pdf, id=2595, 578.16pt x 505.89pt>
 File: Figures/E_spec_Kr.pdf Graphic file (type pdf)
 
 <use Figures/E_spec_Kr.pdf>
 Package pdftex.def Info: Figures/E_spec_Kr.pdf used on input line 330.
 (pdftex.def)             Requested size: 433.62001pt x 379.41655pt.
- [148] [149 <./Figures/dt_doke_plot.pdf>]
+ [150] [151 <./Figures/dt_doke_plot.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/E_spec_Ar.pdf, id=2617, 578.16pt x 505.89pt>
+<Figures/E_spec_Ar.pdf, id=2637, 578.16pt x 505.89pt>
 File: Figures/E_spec_Ar.pdf Graphic file (type pdf)
 
 <use Figures/E_spec_Ar.pdf>
 Package pdftex.def Info: Figures/E_spec_Ar.pdf used on input line 338.
 (pdftex.def)             Requested size: 433.62001pt x 379.41655pt.
- [150 <./Figures/NEST_g1g2_dcm.pdf>]
+ [152 <./Figures/NEST_g1g2_dcm.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/E_spec_Xe.pdf, id=2640, 578.16pt x 505.89pt>
+<Figures/E_spec_Xe.pdf, id=2662, 578.16pt x 505.89pt>
 File: Figures/E_spec_Xe.pdf Graphic file (type pdf)
 
 <use Figures/E_spec_Xe.pdf>
 Package pdftex.def Info: Figures/E_spec_Xe.pdf used on input line 346.
 (pdftex.def)             Requested size: 433.62001pt x 379.41655pt.
- [151 <./Figures/E_spec_Kr.pdf>]
+ [153 <./Figures/E_spec_Kr.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152 <./Figures/E_spec_Ar.pdf>] [153 <./Figures/E_spec_Xe.pdf>]
+[154 <./Figures/E_spec_Ar.pdf>] [155 <./Figures/E_spec_Xe.pdf>]
 
-LaTeX Warning: Reference `sec:nest' on page 154 undefined on input line 367.
+LaTeX Warning: Reference `sec:nest' on page 156 undefined on input line 367.
 
-<Figures/S2_tail_spec_all.pdf, id=2714, 578.16pt x 505.89pt>
+<Figures/S2_tail_spec_all.pdf, id=2734, 578.16pt x 505.89pt>
 File: Figures/S2_tail_spec_all.pdf Graphic file (type pdf)
 
 <use Figures/S2_tail_spec_all.pdf>
 Package pdftex.def Info: Figures/S2_tail_spec_all.pdf used on input line 370.
 (pdftex.def)             Requested size: 433.62001pt x 379.41655pt.
- [154]
+ [156]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2_tail_spec_Ar_rate.pdf, id=2719, 578.16pt x 505.89pt>
+<Figures/S2_tail_spec_Ar_rate.pdf, id=2739, 578.16pt x 505.89pt>
 File: Figures/S2_tail_spec_Ar_rate.pdf Graphic file (type pdf)
 
 <use Figures/S2_tail_spec_Ar_rate.pdf>
@@ -2240,28 +2245,28 @@ Package pdftex.def Info: Figures/S2_tail_spec_Ar_rate.pdf used on input line 37
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2tail_g2fit_z.pdf, id=2720, 722.7pt x 578.16pt>
+<Figures/S2tail_g2fit_z.pdf, id=2740, 722.7pt x 578.16pt>
 File: Figures/S2tail_g2fit_z.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_g2fit_z.pdf>
 Package pdftex.def Info: Figures/S2tail_g2fit_z.pdf used on input line 394.
 (pdftex.def)             Requested size: 216.81pt x 173.44933pt.
 
-<Figures/S2tail_heatmap_z.pdf, id=2721, 722.7pt x 578.16pt>
+<Figures/S2tail_heatmap_z.pdf, id=2741, 722.7pt x 578.16pt>
 File: Figures/S2tail_heatmap_z.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_heatmap_z.pdf>
 Package pdftex.def Info: Figures/S2tail_heatmap_z.pdf used on input line 399.
 (pdftex.def)             Requested size: 216.81pt x 173.44933pt.
 
-<Figures/S2tail_g2fit_dcm.pdf, id=2722, 722.7pt x 578.16pt>
+<Figures/S2tail_g2fit_dcm.pdf, id=2742, 722.7pt x 578.16pt>
 File: Figures/S2tail_g2fit_dcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_g2fit_dcm.pdf>
 Package pdftex.def Info: Figures/S2tail_g2fit_dcm.pdf used on input line 404.
 (pdftex.def)             Requested size: 216.81pt x 173.44933pt.
 
-<Figures/S2tail_heatmap_dcm.pdf, id=2723, 722.7pt x 578.16pt>
+<Figures/S2tail_heatmap_dcm.pdf, id=2743, 722.7pt x 578.16pt>
 File: Figures/S2tail_heatmap_dcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_heatmap_dcm.pdf>
@@ -2269,7 +2274,7 @@ Package pdftex.def Info: Figures/S2tail_heatmap_dcm.pdf used on input line 409.
 
 (pdftex.def)             Requested size: 216.81pt x 173.44933pt.
 
-<Figures/S2tail_g2fit_gfdcm.pdf, id=2724, 722.7pt x 578.16pt>
+<Figures/S2tail_g2fit_gfdcm.pdf, id=2744, 722.7pt x 578.16pt>
 File: Figures/S2tail_g2fit_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_g2fit_gfdcm.pdf>
@@ -2277,7 +2282,7 @@ Package pdftex.def Info: Figures/S2tail_g2fit_gfdcm.pdf used on input line 414.
 
 (pdftex.def)             Requested size: 216.81pt x 173.44933pt.
 
-<Figures/S2tail_heatmap_gfdcm.pdf, id=2725, 722.7pt x 578.16pt>
+<Figures/S2tail_heatmap_gfdcm.pdf, id=2745, 722.7pt x 578.16pt>
 File: Figures/S2tail_heatmap_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_heatmap_gfdcm.pdf>
@@ -2288,8 +2293,8 @@ Package pdftex.def Info: Figures/S2tail_heatmap_gfdcm.pdf used on input line 41
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[155] [156 <./Figures/S2_tail_spec_all.pdf>]
-<Figures/S2tail_hists_z.pdf, id=2758, 1084.05pt x 722.7pt>
+[157] [158 <./Figures/S2_tail_spec_all.pdf>]
+<Figures/S2tail_hists_z.pdf, id=2780, 1084.05pt x 722.7pt>
 File: Figures/S2tail_hists_z.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_hists_z.pdf>
@@ -2299,7 +2304,7 @@ Package pdftex.def Info: Figures/S2tail_hists_z.pdf used on input line 434.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S2tail_hists_dcm.pdf, id=2760, 1084.05pt x 722.7pt>
+<Figures/S2tail_hists_dcm.pdf, id=2782, 1084.05pt x 722.7pt>
 File: Figures/S2tail_hists_dcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_hists_dcm.pdf>
@@ -2309,11 +2314,11 @@ Package pdftex.def Info: Figures/S2tail_hists_dcm.pdf used on input line 443.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[157 <./Figures/S2_tail_spec_Ar_rate.pdf>]
+[159 <./Figures/S2_tail_spec_Ar_rate.pdf>]
 
-LaTeX Warning: Text page 158 contains only floats.
+LaTeX Warning: Text page 160 contains only floats.
 
-[158 <./Figures/S2tail_g2fit_z.pdf> <./Figures/S2tail_heatmap_z.pdf
+[160 <./Figures/S2tail_g2fit_z.pdf> <./Figures/S2tail_heatmap_z.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/S2tail_heatmap_z.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
@@ -2334,7 +2339,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/S2tail_g2fit_gfdcm
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/S2tail_heatmap_gfd
 cm.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
->] <Figures/S2tail_hists_gfdcm.pdf, id=2855, 1084.05pt x 722.7pt>
+>] <Figures/S2tail_hists_gfdcm.pdf, id=2876, 1084.05pt x 722.7pt>
 File: Figures/S2tail_hists_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/S2tail_hists_gfdcm.pdf>
@@ -2345,11 +2350,11 @@ Package pdftex.def Info: Figures/S2tail_hists_gfdcm.pdf used on input line 454.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[159 <./Figures/S2tail_hists_z.pdf>]
+[161 <./Figures/S2tail_hists_z.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[160 <./Figures/S2tail_hists_dcm.pdf>]) [161 <./Figures/S2tail_hists_gfdcm.pdf>
+[162 <./Figures/S2tail_hists_dcm.pdf>]) [163 <./Figures/S2tail_hists_gfdcm.pdf>
 ]
 \openout2 = `chapters/C14_Calibration.aux'.
 
@@ -2363,14 +2368,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Figures/H3_removal_time.pdf, id=2920, 578.16pt x 505.89pt>
+<Figures/H3_removal_time.pdf, id=2940, 578.16pt x 505.89pt>
 File: Figures/H3_removal_time.pdf Graphic file (type pdf)
 
 <use Figures/H3_removal_time.pdf>
 Package pdftex.def Info: Figures/H3_removal_time.pdf used on input line 8.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/C14_removal_time.pdf, id=2921, 578.16pt x 505.89pt>
+<Figures/C14_removal_time.pdf, id=2941, 578.16pt x 505.89pt>
 File: Figures/C14_removal_time.pdf Graphic file (type pdf)
 
 <use Figures/C14_removal_time.pdf>
@@ -2380,7 +2385,7 @@ Package pdftex.def Info: Figures/C14_removal_time.pdf used on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/C14_spec_init.pdf, id=2922, 578.16pt x 505.89pt>
+<Figures/C14_spec_init.pdf, id=2942, 578.16pt x 505.89pt>
 File: Figures/C14_spec_init.pdf Graphic file (type pdf)
 
 <use Figures/C14_spec_init.pdf>
@@ -2398,22 +2403,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 33.
 
-[162
+[164
 
 
 
 
-] [163 <./Figures/H3_removal_time.pdf> <./Figures/C14_removal_time.pdf
+] [165 <./Figures/H3_removal_time.pdf> <./Figures/C14_removal_time.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/C14_removal_time.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] [164 <./Figures/C14_spec_init.pdf>] [165]
+>] [166 <./Figures/C14_spec_init.pdf>] [167]
 Overfull \hbox (53.04375pt too wide) in paragraph at lines 51--52
 []\OT1/ptm/m/n/12 There is also a much sim-pler closed-form so-lu-tion in the l
 ow-Z, non-relativistic approximation[[]]:
  []
 
-[166] <Figures/FermiFunc_compare.pdf, id=3028, 578.16pt x 505.89pt>
+[168] <Figures/FermiFunc_compare.pdf, id=3048, 578.16pt x 505.89pt>
 File: Figures/FermiFunc_compare.pdf Graphic file (type pdf)
 
 <use Figures/FermiFunc_compare.pdf>
@@ -2423,8 +2428,8 @@ Package pdftex.def Info: Figures/FermiFunc_compare.pdf used on input line 77.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[167] [168 <./Figures/FermiFunc_compare.pdf>] [169]
-<Figures/ShapeFac_compare.pdf, id=3087, 578.16pt x 505.89pt>
+[169] [170 <./Figures/FermiFunc_compare.pdf>] [171]
+<Figures/ShapeFac_compare.pdf, id=3108, 578.16pt x 505.89pt>
 File: Figures/ShapeFac_compare.pdf Graphic file (type pdf)
 
 <use Figures/ShapeFac_compare.pdf>
@@ -2434,7 +2439,7 @@ Package pdftex.def Info: Figures/ShapeFac_compare.pdf used on input line 110.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/toy_smearing.pdf, id=3102, 578.16pt x 505.89pt>
+<Figures/toy_smearing.pdf, id=3123, 578.16pt x 505.89pt>
 File: Figures/toy_smearing.pdf Graphic file (type pdf)
 
 <use Figures/toy_smearing.pdf>
@@ -2444,8 +2449,8 @@ Package pdftex.def Info: Figures/toy_smearing.pdf used on input line 125.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[170] [171 <./Figures/ShapeFac_compare.pdf>] [172 <./Figures/toy_smearing.pdf>]
-[173] <Figures/toy_smearing_2d_Rflat.pdf, id=3165, 578.16pt x 505.89pt>
+[172] [173 <./Figures/ShapeFac_compare.pdf>] [174 <./Figures/toy_smearing.pdf>]
+[175] <Figures/toy_smearing_2d_Rflat.pdf, id=3185, 578.16pt x 505.89pt>
 File: Figures/toy_smearing_2d_Rflat.pdf Graphic file (type pdf)
 
 <use Figures/toy_smearing_2d_Rflat.pdf>
@@ -2456,8 +2461,8 @@ Package pdftex.def Info: Figures/toy_smearing_2d_Rflat.pdf used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[174] [175 <./Figures/toy_smearing_2d_Rflat.pdf>] [176] [177] [178] [179]
-[180] <Figures/crystalball.png, id=3245, 660.4675pt x 610.28pt>
+[176] [177 <./Figures/toy_smearing_2d_Rflat.pdf>] [178] [179] [180] [181]
+[182] <Figures/crystalball.png, id=3266, 660.4675pt x 610.28pt>
 File: Figures/crystalball.png Graphic file (type png)
 
 <use Figures/crystalball.png>
@@ -2467,8 +2472,8 @@ Package pdftex.def Info: Figures/crystalball.png used on input line 280.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[181] [182 <./Figures/crystalball.png>] [183]
-<Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prelim.pdf, id=3275, 1084.05
+[183] [184 <./Figures/crystalball.png>] [185]
+<Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prelim.pdf, id=3295, 1084.05
 pt x 505.89pt>
 File: Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prelim.pdf Graphic file
  (type pdf)
@@ -2478,7 +2483,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prel
 im.pdf used on input line 312.
 (pdftex.def)             Requested size: 433.62001pt x 202.3524pt.
 
-<Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_prelim.pdf, id=3278, 578.
+<Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_prelim.pdf, id=3298, 578.
 16pt x 505.89pt>
 File: Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_prelim.pdf Graphic f
 ile (type pdf)
@@ -2488,7 +2493,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_p
 relim.pdf used on input line 324.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_E_correction_gfdcm_180Vcm_prelim.pdf, id=3279, 
+<Figures/yields_corrections/C14_E_correction_gfdcm_180Vcm_prelim.pdf, id=3299, 
 578.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_E_correction_gfdcm_180Vcm_prelim.pdf Graph
 ic file (type pdf)
@@ -2498,18 +2503,18 @@ Package pdftex.def Info: Figures/yields_corrections/C14_E_correction_gfdcm_180V
 cm_prelim.pdf used on input line 330.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-[184 <./Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prelim.pdf>]
+[186 <./Figures/yields_corrections/C14_eFcut_gfdcm_180Vcm_prelim.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[185 <./Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_prelim.pdf> <./Fig
+[187 <./Figures/yields_corrections/C14_spectrum_gfdcm_180Vcm_prelim.pdf> <./Fig
 ures/yields_corrections/C14_E_correction_gfdcm_180Vcm_prelim.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
 /C14_E_correction_gfdcm_180Vcm_prelim.pdf): PDF inclusion: multiple pdfs with p
 age group included in a single page
 >]
-<Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm_prelim.pdf, id=3346, 57
+<Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm_prelim.pdf, id=3366, 57
 8.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm_prelim.pdf Graphic
  file (type pdf)
@@ -2519,7 +2524,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm
 _prelim.pdf used on input line 358.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_QN_heatmap_gfdcm_180Vcm_prelim.pdf, id=3347, 57
+<Figures/yields_corrections/C14_QN_heatmap_gfdcm_180Vcm_prelim.pdf, id=3367, 57
 8.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_QN_heatmap_gfdcm_180Vcm_prelim.pdf Graphic
  file (type pdf)
@@ -2534,14 +2539,14 @@ Overfull \hbox (1.30365pt too wide) in paragraph at lines 353--369
 ke the spline well-conditioned
  []
 
-[186 <./Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm_prelim.pdf> <./F
+[188 <./Figures/yields_corrections/C14_LN_heatmap_gfdcm_180Vcm_prelim.pdf> <./F
 igures/yields_corrections/C14_QN_heatmap_gfdcm_180Vcm_prelim.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
 /C14_QN_heatmap_gfdcm_180Vcm_prelim.pdf): PDF inclusion: multiple pdfs with pag
 e group included in a single page
 >]
-<Figures/yields_corrections/C14_LN_correction_gfdcm_180Vcm_prelim.pdf, id=3388,
+<Figures/yields_corrections/C14_LN_correction_gfdcm_180Vcm_prelim.pdf, id=3409,
  578.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_LN_correction_gfdcm_180Vcm_prelim.pdf Grap
 hic file (type pdf)
@@ -2551,7 +2556,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_LN_correction_gfdcm_180
 Vcm_prelim.pdf used on input line 383.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_QN_correction_gfdcm_180Vcm_prelim.pdf, id=3389,
+<Figures/yields_corrections/C14_QN_correction_gfdcm_180Vcm_prelim.pdf, id=3410,
  578.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_QN_correction_gfdcm_180Vcm_prelim.pdf Grap
 hic file (type pdf)
@@ -2567,14 +2572,14 @@ ed to cal-cu-late $\OMS/ztmcm/m/n/12 h\OML/ztmcm/m/it/12 n[]\OMS/ztmcm/m/n/12 i
 []$
  []
 
-[187 <./Figures/yields_corrections/C14_LN_correction_gfdcm_180Vcm_prelim.pdf> <
+[189 <./Figures/yields_corrections/C14_LN_correction_gfdcm_180Vcm_prelim.pdf> <
 ./Figures/yields_corrections/C14_QN_correction_gfdcm_180Vcm_prelim.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
 /C14_QN_correction_gfdcm_180Vcm_prelim.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
 >]
-<Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_180Vcm_prelim.pdf, id=3428
+<Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_180Vcm_prelim.pdf, id=3449
 , 578.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_180Vcm_prelim.pdf Gra
 phic file (type pdf)
@@ -2584,7 +2589,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_18
 0Vcm_prelim.pdf used on input line 404.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_QN_heatmap_dat_gfdcm_180Vcm_prelim.pdf, id=3429
+<Figures/yields_corrections/C14_QN_heatmap_dat_gfdcm_180Vcm_prelim.pdf, id=3450
 , 578.16pt x 505.89pt>
 File: Figures/yields_corrections/C14_QN_heatmap_dat_gfdcm_180Vcm_prelim.pdf Gra
 phic file (type pdf)
@@ -2594,7 +2599,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_QN_heatmap_dat_gfdcm_18
 0Vcm_prelim.pdf used on input line 409.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_LY_final_gfdcm_180Vcm_prelim.pdf, id=3430, 578.
+<Figures/yields_corrections/C14_LY_final_gfdcm_180Vcm_prelim.pdf, id=3451, 578.
 16pt x 505.89pt>
 File: Figures/yields_corrections/C14_LY_final_gfdcm_180Vcm_prelim.pdf Graphic f
 ile (type pdf)
@@ -2604,7 +2609,7 @@ Package pdftex.def Info: Figures/yields_corrections/C14_LY_final_gfdcm_180Vcm_p
 relim.pdf used on input line 414.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/yields_corrections/C14_QY_final_gfdcm_180Vcm_prelim.pdf, id=3431, 578.
+<Figures/yields_corrections/C14_QY_final_gfdcm_180Vcm_prelim.pdf, id=3452, 578.
 16pt x 505.89pt>
 File: Figures/yields_corrections/C14_QY_final_gfdcm_180Vcm_prelim.pdf Graphic f
 ile (type pdf)
@@ -2617,7 +2622,7 @@ relim.pdf used on input line 419.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/C14_QY_prelim.pdf, id=3433, 1011.78pt x 1228.59pt>
+<Figures/C14_QY_prelim.pdf, id=3454, 1011.78pt x 1228.59pt>
 File: Figures/C14_QY_prelim.pdf Graphic file (type pdf)
 
 <use Figures/C14_QY_prelim.pdf>
@@ -2627,7 +2632,7 @@ Package pdftex.def Info: Figures/C14_QY_prelim.pdf used on input line 433.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[188] <Figures/C14_CE_prelim.pdf, id=3443, 1011.78pt x 1228.59pt>
+[190] <Figures/C14_CE_prelim.pdf, id=3463, 1011.78pt x 1228.59pt>
 File: Figures/C14_CE_prelim.pdf Graphic file (type pdf)
 
 <use Figures/C14_CE_prelim.pdf>
@@ -2637,7 +2642,7 @@ Package pdftex.def Info: Figures/C14_CE_prelim.pdf used on input line 441.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/C14_Ce_prelim.pdf, id=3444, 1011.78pt x 1228.59pt>
+<Figures/C14_Ce_prelim.pdf, id=3464, 1011.78pt x 1228.59pt>
 File: Figures/C14_Ce_prelim.pdf Graphic file (type pdf)
 
 <use Figures/C14_Ce_prelim.pdf>
@@ -2647,7 +2652,7 @@ Package pdftex.def Info: Figures/C14_Ce_prelim.pdf used on input line 447.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[189 <./Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_180Vcm_prelim.pdf> 
+[191 <./Figures/yields_corrections/C14_LN_heatmap_dat_gfdcm_180Vcm_prelim.pdf> 
 <./Figures/yields_corrections/C14_QN_heatmap_dat_gfdcm_180Vcm_prelim.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
@@ -2665,22 +2670,22 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
 group included in a single page
 >]
 
-LaTeX Warning: Text page 190 contains only floats.
+LaTeX Warning: Text page 192 contains only floats.
 
 
 Overfull \vbox (4.79817pt too high) has occurred while \output is active []
 
 
-[190 <./Figures/C14_QY_prelim.pdf>]
+[192 <./Figures/C14_QY_prelim.pdf>]
 
-LaTeX Warning: Text page 191 contains only floats.
+LaTeX Warning: Text page 193 contains only floats.
 
-[191 <./Figures/C14_CE_prelim.pdf>]
+[193 <./Figures/C14_CE_prelim.pdf>]
 
-LaTeX Warning: Text page 192 contains only floats.
+LaTeX Warning: Text page 194 contains only floats.
 
-[192 <./Figures/C14_Ce_prelim.pdf>]
-<Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_prelim.pdf, id=3694, 578.1
+[194 <./Figures/C14_Ce_prelim.pdf>]
+<Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_prelim.pdf, id=3715, 578.1
 6pt x 505.89pt>
 File: Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_prelim.pdf Graphic fi
 le (type pdf)
@@ -2690,7 +2695,7 @@ Package pdftex.def Info: Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_pr
 elim.pdf used on input line 457.
 (pdftex.def)             Requested size: 195.12767pt x 170.73436pt.
 
-<Figures/yields_corrections/H3_E_correction_gfdcm_180Vcm_prelim.pdf, id=3695, 5
+<Figures/yields_corrections/H3_E_correction_gfdcm_180Vcm_prelim.pdf, id=3716, 5
 78.16pt x 505.89pt>
 File: Figures/yields_corrections/H3_E_correction_gfdcm_180Vcm_prelim.pdf Graphi
 c file (type pdf)
@@ -2700,7 +2705,7 @@ Package pdftex.def Info: Figures/yields_corrections/H3_E_correction_gfdcm_180Vc
 m_prelim.pdf used on input line 462.
 (pdftex.def)             Requested size: 195.12767pt x 170.73436pt.
 
-<Figures/yields_corrections/H3_LN_correction_gfdcm_180Vcm_prelim.pdf, id=3696, 
+<Figures/yields_corrections/H3_LN_correction_gfdcm_180Vcm_prelim.pdf, id=3717, 
 578.16pt x 505.89pt>
 File: Figures/yields_corrections/H3_LN_correction_gfdcm_180Vcm_prelim.pdf Graph
 ic file (type pdf)
@@ -2710,7 +2715,7 @@ Package pdftex.def Info: Figures/yields_corrections/H3_LN_correction_gfdcm_180V
 cm_prelim.pdf used on input line 467.
 (pdftex.def)             Requested size: 195.12767pt x 170.73436pt.
 
-<Figures/yields_corrections/H3_QN_correction_gfdcm_180Vcm_prelim.pdf, id=3697, 
+<Figures/yields_corrections/H3_QN_correction_gfdcm_180Vcm_prelim.pdf, id=3718, 
 578.16pt x 505.89pt>
 File: Figures/yields_corrections/H3_QN_correction_gfdcm_180Vcm_prelim.pdf Graph
 ic file (type pdf)
@@ -2720,7 +2725,7 @@ Package pdftex.def Info: Figures/yields_corrections/H3_QN_correction_gfdcm_180V
 cm_prelim.pdf used on input line 472.
 (pdftex.def)             Requested size: 195.12767pt x 170.73436pt.
 
-<Figures/yields_corrections/H3_LY_final_gfdcm_180Vcm_prelim.pdf, id=3698, 578.1
+<Figures/yields_corrections/H3_LY_final_gfdcm_180Vcm_prelim.pdf, id=3719, 578.1
 6pt x 505.89pt>
 File: Figures/yields_corrections/H3_LY_final_gfdcm_180Vcm_prelim.pdf Graphic fi
 le (type pdf)
@@ -2730,7 +2735,7 @@ Package pdftex.def Info: Figures/yields_corrections/H3_LY_final_gfdcm_180Vcm_pr
 elim.pdf used on input line 477.
 (pdftex.def)             Requested size: 195.12767pt x 170.73436pt.
 
-<Figures/yields_corrections/H3_QY_final_gfdcm_180Vcm_prelim.pdf, id=3699, 578.1
+<Figures/yields_corrections/H3_QY_final_gfdcm_180Vcm_prelim.pdf, id=3720, 578.1
 6pt x 505.89pt>
 File: Figures/yields_corrections/H3_QY_final_gfdcm_180Vcm_prelim.pdf Graphic fi
 le (type pdf)
@@ -2743,7 +2748,7 @@ elim.pdf used on input line 482.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/H3_QY_prelim.pdf, id=3702, 1011.78pt x 1228.59pt>
+<Figures/H3_QY_prelim.pdf, id=3723, 1011.78pt x 1228.59pt>
 File: Figures/H3_QY_prelim.pdf Graphic file (type pdf)
 
 <use Figures/H3_QY_prelim.pdf>
@@ -2753,7 +2758,7 @@ Package pdftex.def Info: Figures/H3_QY_prelim.pdf used on input line 506.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/H3_CE_prelim.pdf, id=3705, 1011.78pt x 1228.59pt>
+<Figures/H3_CE_prelim.pdf, id=3726, 1011.78pt x 1228.59pt>
 File: Figures/H3_CE_prelim.pdf Graphic file (type pdf)
 
 <use Figures/H3_CE_prelim.pdf>
@@ -2763,7 +2768,7 @@ Package pdftex.def Info: Figures/H3_CE_prelim.pdf used on input line 516.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/H3_Ce_prelim.pdf, id=3706, 1011.78pt x 1228.59pt>
+<Figures/H3_Ce_prelim.pdf, id=3727, 1011.78pt x 1228.59pt>
 File: Figures/H3_Ce_prelim.pdf Graphic file (type pdf)
 
 <use Figures/H3_Ce_prelim.pdf>
@@ -2773,8 +2778,8 @@ Package pdftex.def Info: Figures/H3_Ce_prelim.pdf used on input line 522.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[193]
-<Figures/Yields_fit_old/NEST_m10_fit_old.pdf, id=3711, 433.62pt x 361.35pt>
+[195]
+<Figures/Yields_fit_old/NEST_m10_fit_old.pdf, id=3732, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m10_fit_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m10_fit_old.pdf>
@@ -2782,7 +2787,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m10_fit_old.pdf used on in
 put line 542.
 (pdftex.def)             Requested size: 195.12767pt x 162.60599pt.
 
-<Figures/Yields_fit_old/NEST_m4_fit_old.pdf, id=3712, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m4_fit_old.pdf, id=3733, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m4_fit_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m4_fit_old.pdf>
@@ -2790,7 +2795,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m4_fit_old.pdf used on inp
 ut line 547.
 (pdftex.def)             Requested size: 195.12767pt x 162.60599pt.
 
-<Figures/Yields_fit_old/NEST_m1_fit_old.pdf, id=3713, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m1_fit_old.pdf, id=3734, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m1_fit_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m1_fit_old.pdf>
@@ -2798,7 +2803,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m1_fit_old.pdf used on inp
 ut line 552.
 (pdftex.def)             Requested size: 195.12767pt x 162.60599pt.
 
-<Figures/Yields_fit_old/NEST_m7_fit_old.pdf, id=3714, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m7_fit_old.pdf, id=3735, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m7_fit_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m7_fit_old.pdf>
@@ -2810,7 +2815,7 @@ ut line 557.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf, id=3716, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf, id=3737, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf>
@@ -2822,10 +2827,10 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf used on
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `sec:NESTNESTbeta' on page 194 undefined on input line
+LaTeX Warning: Reference `sec:NESTNESTbeta' on page 196 undefined on input line
  572.
 
-<Figures/Yields_fit_old/NEST_fit_43Vcm_old.pdf, id=3724, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_43Vcm_old.pdf, id=3745, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_43Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_43Vcm_old.pdf>
@@ -2833,7 +2838,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_43Vcm_old.pdf used on
 input line 577.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_53Vcm_old.pdf, id=3725, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_53Vcm_old.pdf, id=3746, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_53Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_53Vcm_old.pdf>
@@ -2841,7 +2846,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_53Vcm_old.pdf used on
 input line 582.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_65Vcm_old.pdf, id=3726, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_65Vcm_old.pdf, id=3747, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_65Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_65Vcm_old.pdf>
@@ -2849,7 +2854,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_65Vcm_old.pdf used on
 input line 587.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_80Vcm_old.pdf, id=3727, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_80Vcm_old.pdf, id=3748, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_80Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_80Vcm_old.pdf>
@@ -2857,7 +2862,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_80Vcm_old.pdf used on
 input line 592.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_98Vcm_old.pdf, id=3728, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_98Vcm_old.pdf, id=3749, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_98Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_98Vcm_old.pdf>
@@ -2865,7 +2870,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_98Vcm_old.pdf used on
 input line 597.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_120Vcm_old.pdf, id=3729, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_120Vcm_old.pdf, id=3750, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_120Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_120Vcm_old.pdf>
@@ -2876,12 +2881,12 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_120Vcm_old.pdf used on
 
 LaTeX Warning: Float too large for page by 36.56702pt on input line 607.
 
-[194]
+[196]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf, id=3739, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf, id=3759, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf>
@@ -2889,7 +2894,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf used on
  input line 613.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_220Vcm_old.pdf, id=3740, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_220Vcm_old.pdf, id=3760, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_220Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_220Vcm_old.pdf>
@@ -2897,7 +2902,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_220Vcm_old.pdf used on
  input line 618.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_269Vcm_old.pdf, id=3741, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_269Vcm_old.pdf, id=3761, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_269Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_269Vcm_old.pdf>
@@ -2905,7 +2910,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_269Vcm_old.pdf used on
  input line 623.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_329Vcm_old.pdf, id=3742, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_329Vcm_old.pdf, id=3762, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_329Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_329Vcm_old.pdf>
@@ -2913,7 +2918,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_329Vcm_old.pdf used on
  input line 628.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_403Vcm_old.pdf, id=3743, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_403Vcm_old.pdf, id=3763, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_403Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_403Vcm_old.pdf>
@@ -2921,7 +2926,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_403Vcm_old.pdf used on
  input line 633.
 (pdftex.def)             Requested size: 216.81pt x 180.67456pt.
 
-<Figures/Yields_fit_old/NEST_fit_491Vcm_old.pdf, id=3744, 433.62pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_fit_491Vcm_old.pdf, id=3764, 433.62pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_fit_491Vcm_old.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_fit_491Vcm_old.pdf>
@@ -2936,7 +2941,7 @@ LaTeX Warning: Float too large for page by 36.56702pt on input line 643.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf, id=3751, 505.89pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf, id=3771, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf>
@@ -2944,7 +2949,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf used on
  input line 652.
 (pdftex.def)             Requested size: 195.12767pt x 139.37657pt.
 
-<Figures/Yields_fit_old/NEST_m1_fit_old_dcm.pdf, id=3752, 505.89pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m1_fit_old_dcm.pdf, id=3772, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m1_fit_old_dcm.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m1_fit_old_dcm.pdf>
@@ -2952,7 +2957,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m1_fit_old_dcm.pdf used on
  input line 657.
 (pdftex.def)             Requested size: 195.12767pt x 139.37657pt.
 
-<Figures/Yields_fit_old/NEST_m7_fit_old_dcm.pdf, id=3753, 505.89pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m7_fit_old_dcm.pdf, id=3773, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m7_fit_old_dcm.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m7_fit_old_dcm.pdf>
@@ -2960,7 +2965,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m7_fit_old_dcm.pdf used on
  input line 662.
 (pdftex.def)             Requested size: 195.12767pt x 139.37657pt.
 
-<Figures/Yields_fit_old/NEST_m4_fit_old_dcm.pdf, id=3754, 505.89pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m4_fit_old_dcm.pdf, id=3774, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m4_fit_old_dcm.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_old/NEST_m4_fit_old_dcm.pdf>
@@ -2968,7 +2973,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_m4_fit_old_dcm.pdf used on
  input line 667.
 (pdftex.def)             Requested size: 195.12767pt x 139.37657pt.
 
-<Figures/Yields_fit_old/NEST_m10_fit_old_dcm.pdf, id=3755, 505.89pt x 361.35pt>
+<Figures/Yields_fit_old/NEST_m10_fit_old_dcm.pdf, id=3775, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_old/NEST_m10_fit_old_dcm.pdf Graphic file (type pdf)
 <use Figures/Yields_fit_old/NEST_m10_fit_old_dcm.pdf>
 Package pdftex.def Info: Figures/Yields_fit_old/NEST_m10_fit_old_dcm.pdf used o
@@ -2979,7 +2984,7 @@ n input line 672.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_fit_180Vcm_old_dcm.pdf, id=3756, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_180Vcm_old_dcm.pdf, id=3776, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_180Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -2992,7 +2997,7 @@ d on input line 682.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_fit_43Vcm_old_dcm.pdf, id=3759, 505.89pt x 361.35p
+<Figures/Yields_fit_old/NEST_fit_43Vcm_old_dcm.pdf, id=3779, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_old/NEST_fit_43Vcm_old_dcm.pdf Graphic file (type pdf)
 
@@ -3001,7 +3006,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_43Vcm_old_dcm.pdf used
  on input line 692.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_53Vcm_old_dcm.pdf, id=3760, 505.89pt x 361.35p
+<Figures/Yields_fit_old/NEST_fit_53Vcm_old_dcm.pdf, id=3780, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_old/NEST_fit_53Vcm_old_dcm.pdf Graphic file (type pdf)
 
@@ -3010,7 +3015,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_53Vcm_old_dcm.pdf used
  on input line 697.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_65Vcm_old_dcm.pdf, id=3761, 505.89pt x 361.35p
+<Figures/Yields_fit_old/NEST_fit_65Vcm_old_dcm.pdf, id=3781, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_old/NEST_fit_65Vcm_old_dcm.pdf Graphic file (type pdf)
 
@@ -3019,7 +3024,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_65Vcm_old_dcm.pdf used
  on input line 702.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_80Vcm_old_dcm.pdf, id=3762, 505.89pt x 361.35p
+<Figures/Yields_fit_old/NEST_fit_80Vcm_old_dcm.pdf, id=3782, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_old/NEST_fit_80Vcm_old_dcm.pdf Graphic file (type pdf)
 
@@ -3028,7 +3033,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_80Vcm_old_dcm.pdf used
  on input line 707.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_98Vcm_old_dcm.pdf, id=3763, 505.89pt x 361.35p
+<Figures/Yields_fit_old/NEST_fit_98Vcm_old_dcm.pdf, id=3783, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_old/NEST_fit_98Vcm_old_dcm.pdf Graphic file (type pdf)
 
@@ -3037,7 +3042,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_98Vcm_old_dcm.pdf used
  on input line 712.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_120Vcm_old_dcm.pdf, id=3764, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_120Vcm_old_dcm.pdf, id=3784, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_120Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3050,7 +3055,7 @@ d on input line 717.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf, id=3767, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf, id=3787, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3059,7 +3064,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf use
 d on input line 728.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_220Vcm_old_dcm.pdf, id=3768, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_220Vcm_old_dcm.pdf, id=3788, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_220Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3068,7 +3073,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_220Vcm_old_dcm.pdf use
 d on input line 733.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_269Vcm_old_dcm.pdf, id=3769, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_269Vcm_old_dcm.pdf, id=3789, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_269Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3077,7 +3082,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_269Vcm_old_dcm.pdf use
 d on input line 738.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_329Vcm_old_dcm.pdf, id=3770, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_329Vcm_old_dcm.pdf, id=3790, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_329Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3086,7 +3091,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_329Vcm_old_dcm.pdf use
 d on input line 743.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_403Vcm_old_dcm.pdf, id=3771, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_403Vcm_old_dcm.pdf, id=3791, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_403Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3095,7 +3100,7 @@ Package pdftex.def Info: Figures/Yields_fit_old/NEST_fit_403Vcm_old_dcm.pdf use
 d on input line 748.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_old/NEST_fit_491Vcm_old_dcm.pdf, id=3772, 505.89pt x 361.35
+<Figures/Yields_fit_old/NEST_fit_491Vcm_old_dcm.pdf, id=3792, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_old/NEST_fit_491Vcm_old_dcm.pdf Graphic file (type pdf
 )
@@ -3107,7 +3112,7 @@ d on input line 753.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[195] [196 <./Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_prelim.pdf> <
+[197] [198 <./Figures/yields_corrections/H3_spectrum_gfdcm_180Vcm_prelim.pdf> <
 ./Figures/yields_corrections/H3_E_correction_gfdcm_180Vcm_prelim.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
@@ -3133,8 +3138,8 @@ roup included in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/yields_corrections
 /H3_QY_final_gfdcm_180Vcm_prelim.pdf): PDF inclusion: multiple pdfs with page g
 roup included in a single page
->] [197 <./Figures/H3_QY_prelim.pdf>] [198 <./Figures/H3_CE_prelim.pdf>]
-[199 <./Figures/H3_Ce_prelim.pdf>] [200 <./Figures/Yields_fit_old/NEST_m10_fit_
+>] [199 <./Figures/H3_QY_prelim.pdf>] [200 <./Figures/H3_CE_prelim.pdf>]
+[201 <./Figures/H3_Ce_prelim.pdf>] [202 <./Figures/Yields_fit_old/NEST_m10_fit_
 old.pdf> <./Figures/Yields_fit_old/NEST_m4_fit_old.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
@@ -3150,7 +3155,7 @@ ingle page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
 T_m7_fit_old.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
->] [201 <./Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf>] [202 <./Figures/Yie
+>] [203 <./Figures/Yields_fit_old/NEST_fit_180Vcm_old.pdf>] [204 <./Figures/Yie
 lds_fit_old/NEST_fit_43Vcm_old.pdf> <./Figures/Yields_fit_old/NEST_fit_53Vcm_ol
 d.pdf
 
@@ -3177,7 +3182,7 @@ a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
 T_fit_120Vcm_old.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
->] [203 <./Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf> <./Figures/Yields_fi
+>] [205 <./Figures/Yields_fit_old/NEST_fit_147Vcm_old.pdf> <./Figures/Yields_fi
 t_old/NEST_fit_220Vcm_old.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
@@ -3203,7 +3208,7 @@ T_fit_403Vcm_old.pdf): PDF inclusion: multiple pdfs with page group included in
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
 T_fit_491Vcm_old.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
->] [204 <./Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf> <./Figures/Yields_fi
+>] [206 <./Figures/Yields_fit_old/NEST_m3_fit_old_dcm.pdf> <./Figures/Yields_fi
 t_old/NEST_m1_fit_old_dcm.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
@@ -3224,7 +3229,7 @@ T_m4_fit_old_dcm.pdf): PDF inclusion: multiple pdfs with page group included in
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
 T_m10_fit_old_dcm.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] [205 <./Figures/Yields_fit_old/NEST_fit_180Vcm_old_dcm.pdf>] [206 <./Figures
+>] [207 <./Figures/Yields_fit_old/NEST_fit_180Vcm_old_dcm.pdf>] [208 <./Figures
 /Yields_fit_old/NEST_fit_43Vcm_old_dcm.pdf> <./Figures/Yields_fit_old/NEST_fit_
 53Vcm_old_dcm.pdf
 
@@ -3251,7 +3256,7 @@ T_fit_98Vcm_old_dcm.pdf): PDF inclusion: multiple pdfs with page group included
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
 T_fit_120Vcm_old_dcm.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
->] [207 <./Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf> <./Figures/Yield
+>] [209 <./Figures/Yields_fit_old/NEST_fit_147Vcm_old_dcm.pdf> <./Figures/Yield
 s_fit_old/NEST_fit_220Vcm_old_dcm.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_old/NES
@@ -3286,7 +3291,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 761.
 
-[208
+[210
 
 ]
 
@@ -3313,7 +3318,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 800.
 
-[209] <Figures/Attila_chi_reconly.pdf, id=4760, 1065.9825pt x 795.97375pt>
+[211] <Figures/Attila_chi_reconly.pdf, id=4780, 1065.9825pt x 795.97375pt>
 File: Figures/Attila_chi_reconly.pdf Graphic file (type pdf)
 
 <use Figures/Attila_chi_reconly.pdf>
@@ -3321,15 +3326,15 @@ Package pdftex.def Info: Figures/Attila_chi_reconly.pdf used on input line 817.
 
 (pdftex.def)             Requested size: 216.81pt x 161.88824pt.
 
-<Figures/Attila_chi_norec.pdf, id=4761, 1052.93375pt x 792.9625pt>
+<Figures/Attila_chi_norec.pdf, id=4781, 1052.93375pt x 792.9625pt>
 File: Figures/Attila_chi_norec.pdf Graphic file (type pdf)
 
 <use Figures/Attila_chi_norec.pdf>
 Package pdftex.def Info: Figures/Attila_chi_norec.pdf used on input line 822.
 (pdftex.def)             Requested size: 216.81pt x 163.27223pt.
- [210 <./Figures/Attila_chi_reconly.pdf> <./Figures/Attila_chi_norec.pdf>] [211
+ [212 <./Figures/Attila_chi_reconly.pdf> <./Figures/Attila_chi_norec.pdf>] [213
 ]
-<Figures/toysigR_ellipse_graphic.pdf, id=4792, 578.16pt x 578.16pt>
+<Figures/toysigR_ellipse_graphic.pdf, id=4813, 578.16pt x 578.16pt>
 File: Figures/toysigR_ellipse_graphic.pdf Graphic file (type pdf)
 
 <use Figures/toysigR_ellipse_graphic.pdf>
@@ -3340,8 +3345,8 @@ Package pdftex.def Info: Figures/toysigR_ellipse_graphic.pdf used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[212] [213 <./Figures/toysigR_ellipse_graphic.pdf>] [214] [215]
-<Figures/toysigR_heatmap_notail.pdf, id=4842, 578.16pt x 578.16pt>
+[214] [215 <./Figures/toysigR_ellipse_graphic.pdf>] [216] [217]
+<Figures/toysigR_heatmap_notail.pdf, id=4862, 578.16pt x 578.16pt>
 File: Figures/toysigR_heatmap_notail.pdf Graphic file (type pdf)
 
 <use Figures/toysigR_heatmap_notail.pdf>
@@ -3349,7 +3354,7 @@ Package pdftex.def Info: Figures/toysigR_heatmap_notail.pdf used on input line
 926.
 (pdftex.def)             Requested size: 216.81pt x 216.80946pt.
 
-<Figures/toysigR_heatmap_wtail.pdf, id=4843, 578.16pt x 578.16pt>
+<Figures/toysigR_heatmap_wtail.pdf, id=4863, 578.16pt x 578.16pt>
 File: Figures/toysigR_heatmap_wtail.pdf Graphic file (type pdf)
 
 <use Figures/toysigR_heatmap_wtail.pdf>
@@ -3357,20 +3362,20 @@ Package pdftex.def Info: Figures/toysigR_heatmap_wtail.pdf used on input line 9
 26.
 (pdftex.def)             Requested size: 216.81pt x 216.80946pt.
 
-<Figures/toysigR_notail.pdf, id=4844, 505.89pt x 433.62pt>
+<Figures/toysigR_notail.pdf, id=4864, 505.89pt x 433.62pt>
 File: Figures/toysigR_notail.pdf Graphic file (type pdf)
 
 <use Figures/toysigR_notail.pdf>
 Package pdftex.def Info: Figures/toysigR_notail.pdf used on input line 926.
 (pdftex.def)             Requested size: 216.81pt x 185.83763pt.
 
-<Figures/toysigR_wtail.pdf, id=4845, 505.89pt x 433.62pt>
+<Figures/toysigR_wtail.pdf, id=4865, 505.89pt x 433.62pt>
 File: Figures/toysigR_wtail.pdf Graphic file (type pdf)
 
 <use Figures/toysigR_wtail.pdf>
 Package pdftex.def Info: Figures/toysigR_wtail.pdf used on input line 926.
 (pdftex.def)             Requested size: 216.81pt x 185.83763pt.
- [216 <./Figures/toysigR_heatmap_notail.pdf> <./Figures/toysigR_heatmap_wtail.p
+ [218 <./Figures/toysigR_heatmap_notail.pdf> <./Figures/toysigR_heatmap_wtail.p
 df
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/toysigR_heatmap_wt
@@ -3393,24 +3398,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 928.
 
-<Figures/sigR_wRun03pDahl_gfdcm.pdf, id=4916, 1011.78pt x 505.89pt>
+<Figures/sigR_wRun03pDahl_gfdcm.pdf, id=4937, 1011.78pt x 505.89pt>
 File: Figures/sigR_wRun03pDahl_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/sigR_wRun03pDahl_gfdcm.pdf>
 Package pdftex.def Info: Figures/sigR_wRun03pDahl_gfdcm.pdf used on input line 
 941.
 (pdftex.def)             Requested size: 433.62001pt x 216.81056pt.
- [217
+ [219
 
-] [218 <./Figures/sigR_wRun03pDahl_gfdcm.pdf>] <Figures/sigR_fit_gfdcm.pdf, id=
-4957, 1011.78pt x 505.89pt>
+] [220 <./Figures/sigR_wRun03pDahl_gfdcm.pdf>] <Figures/sigR_fit_gfdcm.pdf, id=
+4977, 1011.78pt x 505.89pt>
 File: Figures/sigR_fit_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/sigR_fit_gfdcm.pdf>
 Package pdftex.def Info: Figures/sigR_fit_gfdcm.pdf used on input line 959.
 (pdftex.def)             Requested size: 433.62001pt x 216.81056pt.
- [219 <./Figures/sigR_fit_gfdcm.pdf>] [220]
-<Figures/sigR_fieldvar_gfdcm.pdf, id=4987, 867.24pt x 1156.32pt>
+ [221 <./Figures/sigR_fit_gfdcm.pdf>] [222]
+<Figures/sigR_fieldvar_gfdcm.pdf, id=5007, 867.24pt x 1156.32pt>
 File: Figures/sigR_fieldvar_gfdcm.pdf Graphic file (type pdf)
 
 <use Figures/sigR_fieldvar_gfdcm.pdf>
@@ -3424,7 +3429,7 @@ LaTeX Warning: Float too large for page by 3.43417pt on input line 997.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/sigR_fieldvar_dcm.pdf, id=4988, 867.24pt x 1156.32pt>
+<Figures/sigR_fieldvar_dcm.pdf, id=5008, 867.24pt x 1156.32pt>
 File: Figures/sigR_fieldvar_dcm.pdf Graphic file (type pdf)
 
 <use Figures/sigR_fieldvar_dcm.pdf>
@@ -3438,7 +3443,7 @@ LaTeX Warning: Float too large for page by 1.21678pt on input line 1003.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[221] [222 <./Figures/sigR_fieldvar_gfdcm.pdf>] [223 <./Figures/sigR_fieldvar_d
+[223] [224 <./Figures/sigR_fieldvar_gfdcm.pdf>] [225 <./Figures/sigR_fieldvar_d
 cm.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -3456,31 +3461,31 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1007.
 
-[224
+[226
 
 ]
 
-LaTeX Warning: Reference `tab:ebins_c14' on page 225 undefined on input line 10
+LaTeX Warning: Reference `tab:ebins_c14' on page 227 undefined on input line 10
 42.
 
-[225] <Figures/rho_ratio_final.pdf, id=5092, 578.16pt x 505.89pt>
+[227] <Figures/rho_ratio_final.pdf, id=5112, 578.16pt x 505.89pt>
 File: Figures/rho_ratio_final.pdf Graphic file (type pdf)
 
 <use Figures/rho_ratio_final.pdf>
 Package pdftex.def Info: Figures/rho_ratio_final.pdf used on input line 1066.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
 
-<Figures/QY_ratio_final.pdf, id=5093, 578.16pt x 505.89pt>
+<Figures/QY_ratio_final.pdf, id=5113, 578.16pt x 505.89pt>
 File: Figures/QY_ratio_final.pdf Graphic file (type pdf)
 
 <use Figures/QY_ratio_final.pdf>
 Package pdftex.def Info: Figures/QY_ratio_final.pdf used on input line 1071.
 (pdftex.def)             Requested size: 216.81pt x 189.70827pt.
- [226 <./Figures/rho_ratio_final.pdf> <./Figures/QY_ratio_final.pdf
+ [228 <./Figures/rho_ratio_final.pdf> <./Figures/QY_ratio_final.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/QY_ratio_final.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->] <Figures/C14_rho_final.pdf, id=5138, 867.24pt x 1156.32pt>
+>] <Figures/C14_rho_final.pdf, id=5158, 867.24pt x 1156.32pt>
 File: Figures/C14_rho_final.pdf Graphic file (type pdf)
 
 <use Figures/C14_rho_final.pdf>
@@ -3493,7 +3498,7 @@ LaTeX Warning: Float too large for page by 30.63419pt on input line 1085.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/H3_rho_final.pdf, id=5139, 867.24pt x 1156.32pt>
+<Figures/H3_rho_final.pdf, id=5159, 867.24pt x 1156.32pt>
 File: Figures/H3_rho_final.pdf Graphic file (type pdf)
 
 <use Figures/H3_rho_final.pdf>
@@ -3506,7 +3511,7 @@ LaTeX Warning: Float too large for page by 30.63419pt on input line 1091.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[227] [228 <./Figures/C14_rho_final.pdf>] [229 <./Figures/H3_rho_final.pdf>]
+[229] [230 <./Figures/C14_rho_final.pdf>] [231 <./Figures/H3_rho_final.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1094.
@@ -3516,12 +3521,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1094.
 
 
-Package natbib Warning: Citation `C14_kuzminov' on page 230 undefined on input 
+Package natbib Warning: Citation `C14_kuzminov' on page 232 undefined on input 
 line 1095.
 
-[230
+[232
 
-] [231] <Figures/C14_spectrum_shapecomp.pdf, id=5281, 578.16pt x 433.62pt>
+] [233] <Figures/C14_spectrum_shapecomp.pdf, id=5301, 578.16pt x 433.62pt>
 File: Figures/C14_spectrum_shapecomp.pdf Graphic file (type pdf)
 
 <use Figures/C14_spectrum_shapecomp.pdf>
@@ -3532,8 +3537,8 @@ Package pdftex.def Info: Figures/C14_spectrum_shapecomp.pdf used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[232] [233 <./Figures/C14_spectrum_shapecomp.pdf>]
-<Figures/Yields_fit_new/PIXeY_interp.pdf, id=5312, 505.89pt x 361.35pt>
+[234] [235 <./Figures/C14_spectrum_shapecomp.pdf>]
+<Figures/Yields_fit_new/PIXeY_interp.pdf, id=5332, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/PIXeY_interp.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/PIXeY_interp.pdf>
@@ -3544,10 +3549,10 @@ line 1155.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[234
+[236
 
-] [235 <./Figures/Yields_fit_new/PIXeY_interp.pdf>] [236]
-<Figures/Yields_fit_new/NEST_m3_fit_new.pdf, id=5361, 433.62pt x 289.08pt>
+] [237 <./Figures/Yields_fit_new/PIXeY_interp.pdf>] [238]
+<Figures/Yields_fit_new/NEST_m3_fit_new.pdf, id=5381, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m3_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m3_fit_new.pdf>
@@ -3555,7 +3560,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m3_fit_new.pdf used on inp
 ut line 1191.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m4_fit_new.pdf, id=5362, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m4_fit_new.pdf, id=5382, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m4_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m4_fit_new.pdf>
@@ -3563,7 +3568,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m4_fit_new.pdf used on inp
 ut line 1195.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m5_fit_new.pdf, id=5363, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m5_fit_new.pdf, id=5383, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m5_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m5_fit_new.pdf>
@@ -3571,7 +3576,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m5_fit_new.pdf used on inp
 ut line 1199.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m10_fit_new.pdf, id=5364, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m10_fit_new.pdf, id=5384, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m10_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m10_fit_new.pdf>
@@ -3579,7 +3584,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m10_fit_new.pdf used on in
 put line 1203.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m2_fit_new.pdf, id=5365, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m2_fit_new.pdf, id=5385, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m2_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m2_fit_new.pdf>
@@ -3587,7 +3592,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m2_fit_new.pdf used on inp
 ut line 1207.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m8_fit_new.pdf, id=5366, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m8_fit_new.pdf, id=5386, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m8_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m8_fit_new.pdf>
@@ -3595,7 +3600,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m8_fit_new.pdf used on inp
 ut line 1211.
 (pdftex.def)             Requested size: 143.09538pt x 95.39668pt.
 
-<Figures/Yields_fit_new/NEST_m9_fit_new.pdf, id=5367, 433.62pt x 289.08pt>
+<Figures/Yields_fit_new/NEST_m9_fit_new.pdf, id=5387, 433.62pt x 289.08pt>
 File: Figures/Yields_fit_new/NEST_m9_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m9_fit_new.pdf>
@@ -3606,7 +3611,7 @@ ut line 1216.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Yields_fit_new/NEST_m1_fit_new.pdf, id=5369, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_m1_fit_new.pdf, id=5389, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_m1_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m1_fit_new.pdf>
@@ -3614,18 +3619,18 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_m1_fit_new.pdf used on inp
 ut line 1227.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_m7_fit_new.pdf, id=5370, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_m7_fit_new.pdf, id=5390, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_m7_fit_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_m7_fit_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_m7_fit_new.pdf used on inp
 ut line 1231.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [237]
+ [239]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Yields_fit_new/NEST_fit_1Vcm_new.pdf, id=5376, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_1Vcm_new.pdf, id=5397, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_1Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_1Vcm_new.pdf>
@@ -3633,14 +3638,14 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_1Vcm_new.pdf used on i
 nput line 1242.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_876Vcm_new.pdf, id=5377, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_876Vcm_new.pdf, id=5398, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_876Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_876Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_876Vcm_new.pdf used on
  input line 1246.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [238 <./Figures/Yields_fit_new/NEST_m3_fit_new.pdf> <./Figures/Yields_fit_new/
+ [240 <./Figures/Yields_fit_new/NEST_m3_fit_new.pdf> <./Figures/Yields_fit_new/
 NEST_m4_fit_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3672,14 +3677,14 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_m9_fit_new.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
-<Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf, id=5494, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf, id=5515, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf used on 
 input line 1256.
 (pdftex.def)             Requested size: 433.62001pt x 309.7349pt.
- [239 <./Figures/Yields_fit_new/NEST_m1_fit_new.pdf> <./Figures/Yields_fit_new/
+ [241 <./Figures/Yields_fit_new/NEST_m1_fit_new.pdf> <./Figures/Yields_fit_new/
 NEST_m7_fit_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3696,7 +3701,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_fit_876Vcm_new.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
 >]
-<Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf, id=5565, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf, id=5585, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf>
@@ -3704,20 +3709,20 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf used on
 input line 1265.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_180Vcm_new.pdf, id=5566, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_180Vcm_new.pdf, id=5586, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_180Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_180Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_180Vcm_new.pdf used on
  input line 1269.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [240 <./Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf>]
+ [242 <./Figures/Yields_fit_new/NEST_fit_25Vcm_new.pdf>]
 
-LaTeX Warning: Reference `figbetamod_run03comp_dcm' on page 241 undefined on in
+LaTeX Warning: Reference `figbetamod_run03comp_dcm' on page 243 undefined on in
 put line 1276.
 
 
-<Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf, id=5590, 505.89pt x 361.35p
+<Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf, id=5611, 505.89pt x 361.35p
 t>
 File: Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf Graphic file (type pdf)
 
@@ -3726,7 +3731,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf used
  on input line 1280.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_180Vcm_new_dcm.pdf, id=5591, 505.89pt x 361.35
+<Figures/Yields_fit_new/NEST_fit_180Vcm_new_dcm.pdf, id=5612, 505.89pt x 361.35
 pt>
 File: Figures/Yields_fit_new/NEST_fit_180Vcm_new_dcm.pdf Graphic file (type pdf
 )
@@ -3739,7 +3744,7 @@ d on input line 1284.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf, id=5594, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf, id=5615, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf>
@@ -3747,14 +3752,14 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf used on
  input line 1295.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_491Vcm_new.pdf, id=5595, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_491Vcm_new.pdf, id=5616, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_491Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_491Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_491Vcm_new.pdf used on
  input line 1299.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [241 <./Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf> <./Figures/Yields_fit_n
+ [243 <./Figures/Yields_fit_new/NEST_fit_98Vcm_new.pdf> <./Figures/Yields_fit_n
 ew/NEST_fit_180Vcm_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3765,7 +3770,7 @@ T_fit_180Vcm_new.pdf): PDF inclusion: multiple pdfs with page group included in
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_new/NEST_fit_fieldvar_new.pdf, id=5645, 505.89pt x 361.35pt
+<Figures/Yields_fit_new/NEST_fit_fieldvar_new.pdf, id=5666, 505.89pt x 361.35pt
 >
 File: Figures/Yields_fit_new/NEST_fit_fieldvar_new.pdf Graphic file (type pdf)
  <use Figures/Yields_fit_new/NEST_fit_fieldvar_new.pdf>
@@ -3773,7 +3778,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_fieldvar_new.pdf used
 on input line 1310.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_fieldvar_new_rel.pdf, id=5646, 505.89pt x 361.
+<Figures/Yields_fit_new/NEST_fit_fieldvar_new_rel.pdf, id=5667, 505.89pt x 361.
 35pt>
 File: Figures/Yields_fit_new/NEST_fit_fieldvar_new_rel.pdf Graphic file (type p
 df)
@@ -3781,14 +3786,14 @@ df)
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_fieldvar_new_rel.pdf u
 sed on input line 1314.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [242 <./Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf> <./Figures/Yields_f
+ [244 <./Figures/Yields_fit_new/NEST_fit_98Vcm_new_dcm.pdf> <./Figures/Yields_f
 it_new/NEST_fit_180Vcm_new_dcm.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_fit_180Vcm_new_dcm.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
 >]
-<Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf, id=5694, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf, id=5714, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf>
@@ -3796,7 +3801,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf used on
 input line 1326.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_53Vcm_new.pdf, id=5695, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_53Vcm_new.pdf, id=5715, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_53Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_53Vcm_new.pdf>
@@ -3804,7 +3809,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_53Vcm_new.pdf used on
 input line 1330.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_65Vcm_new.pdf, id=5696, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_65Vcm_new.pdf, id=5716, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_65Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_65Vcm_new.pdf>
@@ -3812,7 +3817,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_65Vcm_new.pdf used on
 input line 1334.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_80Vcm_new.pdf, id=5697, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_80Vcm_new.pdf, id=5717, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_80Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_80Vcm_new.pdf>
@@ -3824,7 +3829,7 @@ input line 1338.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf, id=5698, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf, id=5718, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf>
@@ -3832,7 +3837,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf used on
  input line 1347.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_147Vcm_new.pdf, id=5699, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_147Vcm_new.pdf, id=5719, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_147Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_147Vcm_new.pdf>
@@ -3840,7 +3845,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_147Vcm_new.pdf used on
  input line 1351.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_220Vcm_new.pdf, id=5700, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_220Vcm_new.pdf, id=5720, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_220Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_220Vcm_new.pdf>
@@ -3848,7 +3853,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_220Vcm_new.pdf used on
  input line 1355.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_329Vcm_new.pdf, id=5701, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_329Vcm_new.pdf, id=5721, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_329Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_329Vcm_new.pdf>
@@ -3856,7 +3861,7 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_329Vcm_new.pdf used on
  input line 1359.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_403Vcm_new.pdf, id=5702, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_403Vcm_new.pdf, id=5722, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_403Vcm_new.pdf Graphic file (type pdf)
 
 <use Figures/Yields_fit_new/NEST_fit_403Vcm_new.pdf>
@@ -3868,21 +3873,21 @@ Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_403Vcm_new.pdf used on
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf, id=5703, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf, id=5723, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf Graphic file (type pdf)
 <use Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf used o
 n input line 1373.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_2320Vcm_new.pdf, id=5704, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_2320Vcm_new.pdf, id=5724, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_2320Vcm_new.pdf Graphic file (type pdf)
 <use Figures/Yields_fit_new/NEST_fit_2320Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_2320Vcm_new.pdf used o
 n input line 1377.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
 
-<Figures/Yields_fit_new/NEST_fit_3750Vcm_new.pdf, id=5705, 505.89pt x 361.35pt>
+<Figures/Yields_fit_new/NEST_fit_3750Vcm_new.pdf, id=5725, 505.89pt x 361.35pt>
 File: Figures/Yields_fit_new/NEST_fit_3750Vcm_new.pdf Graphic file (type pdf)
 <use Figures/Yields_fit_new/NEST_fit_3750Vcm_new.pdf>
 Package pdftex.def Info: Figures/Yields_fit_new/NEST_fit_3750Vcm_new.pdf used o
@@ -3892,7 +3897,7 @@ n input line 1382.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[243 <./Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf> <./Figures/Yields_fit_n
+[245 <./Figures/Yields_fit_new/NEST_fit_250Vcm_new.pdf> <./Figures/Yields_fit_n
 ew/NEST_fit_491Vcm_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3908,7 +3913,7 @@ in a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_fit_fieldvar_new_rel.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
->] [244 <./Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf> <./Figures/Yields_fit
+>] [246 <./Figures/Yields_fit_new/NEST_fit_43Vcm_new.pdf> <./Figures/Yields_fit
 _new/NEST_fit_53Vcm_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3924,7 +3929,7 @@ a single page
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_fit_80Vcm_new.pdf): PDF inclusion: multiple pdfs with page group included in 
 a single page
->] [245 <./Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf> <./Figures/Yields_fi
+>] [247 <./Figures/Yields_fit_new/NEST_fit_120Vcm_new.pdf> <./Figures/Yields_fi
 t_new/NEST_fit_147Vcm_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3945,7 +3950,7 @@ T_fit_329Vcm_new.pdf): PDF inclusion: multiple pdfs with page group included in
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
 T_fit_403Vcm_new.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
->] [246 <./Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf> <./Figures/Yields_f
+>] [248 <./Figures/Yields_fit_new/NEST_fit_1020Vcm_new.pdf> <./Figures/Yields_f
 it_new/NEST_fit_2320Vcm_new.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/Yields_fit_new/NES
@@ -3992,14 +3997,14 @@ Overfull \hbox (43.36629pt too wide) in paragraph at lines 359--529
  [][] 
  []
 
-[247
+[249
 
 
 
 
 
 
-] [248] [249] [250]
+] [250] [251] [252]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 536.
@@ -4020,7 +4025,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 536.
 
-[251
+[253
 
 ]
 
@@ -4033,7 +4038,7 @@ Overfull \hbox (61.41765pt too wide) in paragraph at lines 542--610
  [][] 
  []
 
-[252
+[254
 
 ]
 
@@ -4046,7 +4051,7 @@ Overfull \hbox (61.43912pt too wide) in paragraph at lines 616--684
  [][] 
  []
 
-[253
+[255
 
 
 ]
@@ -4060,7 +4065,7 @@ Overfull \hbox (61.43912pt too wide) in paragraph at lines 690--740
  [][] 
  []
 
-[254
+[256
 
 
 ]
@@ -4074,7 +4079,7 @@ Overfull \hbox (61.41765pt too wide) in paragraph at lines 747--815
  [][] 
  []
 
-[255
+[257
 
 
 ]
@@ -4088,7 +4093,7 @@ Overfull \hbox (61.41765pt too wide) in paragraph at lines 822--890
  [][] 
  []
 
-[256
+[258
 
 
 ]
@@ -4102,7 +4107,7 @@ Overfull \hbox (61.41765pt too wide) in paragraph at lines 897--947
  [][] 
  []
 
-[257
+[259
 
 
 ]
@@ -4116,7 +4121,7 @@ Overfull \hbox (61.41765pt too wide) in paragraph at lines 953--1021
  [][] 
  []
 
-[258
+[260
 
 
 ]
@@ -4130,7 +4135,7 @@ Overfull \hbox (61.44446pt too wide) in paragraph at lines 1026--1094
  [][] 
  []
 
-[259
+[261
 
 
 ]
@@ -4144,7 +4149,7 @@ Overfull \hbox (61.43912pt too wide) in paragraph at lines 1099--1149
  [][] 
  []
 
-[260
+[262
 
 
 ]
@@ -4179,10 +4184,10 @@ Overfull \hbox (43.35971pt too wide) in paragraph at lines 1344--1430
  [][] 
  []
 
-[261
+[263
 
 
-] [262] [263] [264]
+] [264] [265] [266]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1435.
@@ -4203,7 +4208,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1435.
 
-[265
+[267
 
 ]
 
@@ -4216,7 +4221,7 @@ Overfull \hbox (12.30713pt too wide) in paragraph at lines 1439--1525
  [][] 
  []
 
-[266
+[268
 
 ]
 
@@ -4229,7 +4234,7 @@ Overfull \hbox (30.71478pt too wide) in paragraph at lines 1532--1618
  [][] 
  []
 
-[267
+[269
 
 
 ]
@@ -4238,7 +4243,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1711.
 See the caption package documentation for explanation.
 
-[268
+[270
 
 
 ]) (./mainthesis.bbl
@@ -4252,34 +4257,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--13
 []nds . iaea . org / relnsd /
  []
 
-
-Underfull \hbox (badness 1248) in paragraph at lines 26--45
-[]\OT1/ptm/m/n/12 R. Ag-nese, A. J. An-der-son, T. Ara-maki, I. Arn-quist, W. B
-aker, D. Barker,
- []
-
-[269
+[271
 
 
 
 
 
-] [270]
+] [272]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
+
+Underfull \hbox (badness 1077) in paragraph at lines 140--155
+\OT1/ptm/m/n/12 S. Bonetti, L. Cado-nati, F.P. Calaprice, G. Cec-chet, M. Chen,
+ N. Darn-ton,
+ []
+
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [271]
+[273]
 Missing character: There is no ö in font ptmr7t!
- [272] [273] [274] [275] [276])
+ [274] [275] [276] [277] [278] [279])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-[277]
+[280]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./mainthesis.aux (./chapters/Advancement_paper.aux)
 (./chapters/LXe_TPCs.aux) (./chapters/Sampling_Manual.aux)
@@ -4299,13 +4304,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 22214 strings out of 493089
- 398884 string characters out of 6134842
- 1060455 words of memory out of 5000000
- 24219 multiletter control sequences out of 15000+600000
+ 22233 strings out of 493089
+ 399102 string characters out of 6134842
+ 1060680 words of memory out of 5000000
+ 24229 multiletter control sequences out of 15000+600000
  58585 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,19n,77p,10361b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,19n,77p,10361b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -4322,10 +4327,10 @@ ymbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mainthesis.pdf (300 pages, 21146343 bytes).
+Output written on mainthesis.pdf (303 pages, 21150133 bytes).
 PDF statistics:
- 6391 PDF objects out of 7423 (max. 8388607)
- 5155 compressed objects within 52 object streams
- 884 named destinations out of 1000 (max. 500000)
+ 6417 PDF objects out of 7423 (max. 8388607)
+ 5178 compressed objects within 52 object streams
+ 893 named destinations out of 1000 (max. 500000)
  1878 words of extra memory for PDF output out of 10000 (max. 10000000)
 
