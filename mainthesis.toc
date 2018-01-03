@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {1.5.1}Cross Section}{19}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Recoil spectrum}{21}{subsection.1.5.2}
 \contentsline {section}{\numberline {1.6}Thesis Outline}{28}{section.1.6}
-\contentsline {chapter}{\numberline {2}The LUX and LZ Detectors}{30}{chapter.2}
+\contentsline {chapter}{\numberline {2}Liquid Xenon Dark Matter Detectors}{30}{chapter.2}
 \contentsline {section}{\numberline {2.1}Xenon as a Detector Medium}{30}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Noble Gasses}{30}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Xenon Density}{32}{subsection.2.1.2}
@@ -28,72 +28,77 @@
 \contentsline {subsection}{\numberline {2.2.4}Data Structure}{41}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Electric Field Model}{42}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Efficiency Corrections}{43}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}Signals in Liquid Xenon and their Variations}{46}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}The Combined Energy Model}{46}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}Signals in Liquid Xenon and their Variations}{47}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}The Combined Energy Model}{47}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Detector Resolution for Charge and Light Signals}{51}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}LibNEST: The Model Applied to LUX}{53}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}Building, Optimizing, and Maintaining a Xenon Cold-Trap Sampling System}{57}{chapter.3}
-\contentsline {section}{\numberline {3.1}Technical Overview}{57}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}System Construction}{58}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Operational Outline}{60}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Idealized Cold Trap Response}{62}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Vacuum Impedances}{63}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Setting System Impedance}{66}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Generalized Cold Trap System Response}{67}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Actual Behavior of a Cold Trap System}{72}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Cold Trap Geometry}{73}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Formation of Xenon Ice}{76}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Flow Rate Dependance}{82}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Impedance Dependance}{85}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Post Flow Behavior}{93}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Diffusion and Entrainment}{97}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Model Overview}{101}{subsection.3.3.7}
-\contentsline {section}{\numberline {3.4}Analysis Scheme}{102}{section.3.4}
-\contentsline {section}{\numberline {3.5}System Parameters and Optimization}{108}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}RGA Parameters}{108}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Impedance and Flow Rate Settings}{111}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Preparation of Calibration Xenon}{116}{section.3.6}
-\contentsline {section}{\numberline {3.7}Sensitivity Demonstration at SLAC}{119}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Blank Runs}{120}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Mixing of ppQ Level Samples}{121}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Measurements of ppQ Level Samples}{125}{subsection.3.7.3}
-\contentsline {chapter}{\numberline {4}LUX Post-Run 04 Calibration Campaign}{127}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data Selection}{130}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Single-Scatter Cut}{131}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Radial Selection Cut}{134}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Electric Field Selection Cut}{134}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Argon-37 Non-Gaussianities}{138}{section.4.2}
-\contentsline {section}{\numberline {4.3}Signal Corrections fo Post-Run04 Data}{140}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}S2 Efficiency Correction from $^{37}$Ar}{140}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}S1 corrections from Xenon-131m + Krypton-83m Doke Plot}{146}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Applied Corrections}{150}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Model of the Pathological S2 Tails}{156}{section.4.4}
-\contentsline {chapter}{\numberline {5}Detector Response to $^{14}$C Beta Decay}{164}{chapter.5}
-\contentsline {section}{\numberline {5.1}The Theoretical $^{14}$C Beta-Spectrum}{165}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}The Allowed Spectrum}{167}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}The Fermi Function}{167}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}The Shape Factor}{169}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Accounting for Finite Detector Resolution}{172}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Gaussian Energy Resolution and Continuous Beta Spectra}{172}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Gaussian Smearing in the Combined Energy Model}{176}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Detector Resolution in Post-Run04}{181}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Non-Gaussian Smearing}{182}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Numerical De-Smearing with libNEST}{183}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Preliminary Measurement of QY}{187}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Preliminary Energy- and Field-Dependent Charge Yield Model}{196}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Measurement of Recombination Fluctuations from $^{14}$C}{210}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Separating $\sigma _R$ from $\sigma _{det}$ in a Continuous Spectrum}{211}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Recombination Fluctuations with S2 Tails}{216}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Modelling $^{14}$C Recombination Fluctuations in libNEST}{219}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Results from Post-Run04 $^{14}$C and $^{3}$H Calibrations}{226}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Yields and Recombination}{226}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Measurement of the Shape of the $^{14}$C Beta-Spectrum}{232}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Charge-Yield Model for Beta and Compton Interactions}{236}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}World Data}{236}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}QY Model Fits}{238}{subsection.5.6.2}
-\contentsline {chapter}{\numberline {A}Yields Results}{249}{appendix.A}
-\contentsline {section}{\numberline {A.1}Carbon-14 $\langle E_{true} \rangle $}{249}{section.A.1}
-\contentsline {section}{\numberline {A.2}Carbon-14 $\langle \rho \rangle $}{253}{section.A.2}
-\contentsline {section}{\numberline {A.3}Tritium $\langle E_{true} \rangle $}{263}{section.A.3}
-\contentsline {section}{\numberline {A.4}Tritium $\langle \rho \rangle $}{267}{section.A.4}
-\contentsline {chapter}{Bibliography}{271}{section*.155}
+\contentsline {chapter}{\numberline {3}Building, Optimizing, and Maintaining a Xenon Cold-Trap Sampling System}{58}{chapter.3}
+\contentsline {section}{\numberline {3.1}Technical Overview}{58}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}System Construction}{59}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Operational Outline}{62}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Idealized Cold Trap Response}{64}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Vacuum Impedances}{65}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Setting System Impedance}{67}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Generalized Cold Trap System Response}{68}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Actual Behavior of a Cold Trap System}{73}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Cold Trap Geometry}{75}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Formation of Xenon Ice}{77}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Flow Rate Dependance}{83}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Impedance Dependance}{86}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Post Flow Behavior}{94}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Diffusion and Entrainment}{99}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Model Overview}{102}{subsection.3.3.7}
+\contentsline {section}{\numberline {3.4}Analysis Scheme}{103}{section.3.4}
+\contentsline {section}{\numberline {3.5}System Parameters and Optimization}{109}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}RGA Parameters}{110}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Impedance and Flow Rate Settings}{113}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Preparation of Calibration Xenon}{117}{section.3.6}
+\contentsline {section}{\numberline {3.7}Sensitivity Demonstration at SLAC}{120}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Blank Runs}{121}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Mixing of ppQ Level Samples}{122}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Measurements of ppQ Level Samples}{126}{subsection.3.7.3}
+\contentsline {chapter}{\numberline {4}Calibration of the LUX $S1$ and $S2$ Signals}{129}{chapter.4}
+\contentsline {section}{\numberline {4.1}LUX Post-Run 04 Calibration Campaign}{129}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Selection}{134}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Single-Scatter Cut}{134}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Radial Selection Cut}{136}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Electric Field Selection Cut}{137}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Signal Corrections for Post-Run04 Data}{140}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}$^{37}$Ar Non-Gaussianities}{140}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}$S2$ Efficiency Correction from $^{37}$Ar}{142}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}$S1$ corrections from $^{131m}$Xe + $^{83m}$Kr Doke Plot}{148}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Evaluation of the Corrections}{153}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Empirical Model of the Pathological $S2$ Tails}{159}{section.4.4}
+\contentsline {section}{\numberline {4.5}Summary}{167}{section.4.5}
+\contentsline {chapter}{\numberline {5}Detector Response to $^{14}$C Beta Decay}{168}{chapter.5}
+\contentsline {section}{\numberline {5.1}$^{14}$CH$_4$ Injection}{169}{section.5.1}
+\contentsline {section}{\numberline {5.2}The Theoretical $^{14}$C Beta-Spectrum}{171}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The Allowed Spectrum}{171}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}The Fermi Function}{172}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}The Shape Factor}{175}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Accounting for Finite Detector Resolution}{178}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Gaussian Energy Resolution and Continuous Beta Spectra}{178}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Gaussian Smearing in the Combined Energy Model}{181}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Detector Resolution in Post-Run04}{186}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Non-Gaussian Smearing}{187}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Numerical De-Smearing with libNEST}{188}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Preliminary Measurement of QY}{192}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Preliminary Energy- and Field-Dependent Charge Yield Model}{201}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Measurement of Recombination Fluctuations from $^{14}$C}{215}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Separating $\sigma _R$ from $\sigma _{det}$ in a Continuous Spectrum}{216}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Recombination Fluctuations with S2 Tails}{221}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Modelling $^{14}$C Recombination Fluctuations in libNEST}{224}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Results from Post-Run04 $^{14}$C and $^{3}$H Calibrations}{231}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Yields and Recombination}{231}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Measurement of the Shape of the $^{14}$C Beta-Spectrum}{237}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Charge-Yield Model for Beta and Compton Interactions}{241}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}World Data}{241}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}QY Model Fits}{243}{subsection.5.7.2}
+\contentsline {section}{\numberline {5.8}Summary}{254}{section.5.8}
+\contentsline {chapter}{\numberline {6}Conclusions}{255}{chapter.6}
+\contentsline {chapter}{\numberline {A}Yields Results}{258}{appendix.A}
+\contentsline {section}{\numberline {A.1}Carbon-14 $\langle E_{true} \rangle $}{258}{section.A.1}
+\contentsline {section}{\numberline {A.2}Carbon-14 $\langle \rho \rangle $}{262}{section.A.2}
+\contentsline {section}{\numberline {A.3}Tritium $\langle E_{true} \rangle $}{272}{section.A.3}
+\contentsline {section}{\numberline {A.4}Tritium $\langle \rho \rangle $}{276}{section.A.4}
+\contentsline {chapter}{Bibliography}{280}{section*.157}

@@ -16,7 +16,7 @@
 \BOOKMARK [2][-]{subsection.1.5.1}{Cross Section}{section.1.5}% 16
 \BOOKMARK [2][-]{subsection.1.5.2}{Recoil spectrum}{section.1.5}% 17
 \BOOKMARK [1][-]{section.1.6}{Thesis Outline}{chapter.1}% 18
-\BOOKMARK [0][-]{chapter.2}{The LUX and LZ Detectors}{}% 19
+\BOOKMARK [0][-]{chapter.2}{Liquid Xenon Dark Matter Detectors}{}% 19
 \BOOKMARK [1][-]{section.2.1}{Xenon as a Detector Medium}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.1.1}{Noble Gasses}{section.2.1}% 21
 \BOOKMARK [2][-]{subsection.2.1.2}{Xenon Density}{section.2.1}% 22
@@ -57,43 +57,48 @@
 \BOOKMARK [2][-]{subsection.3.7.1}{Blank Runs}{section.3.7}% 57
 \BOOKMARK [2][-]{subsection.3.7.2}{Mixing of ppQ Level Samples}{section.3.7}% 58
 \BOOKMARK [2][-]{subsection.3.7.3}{Measurements of ppQ Level Samples}{section.3.7}% 59
-\BOOKMARK [0][-]{chapter.4}{LUX Post-Run 04 Calibration Campaign}{}% 60
-\BOOKMARK [1][-]{section.4.1}{Data Selection}{chapter.4}% 61
-\BOOKMARK [2][-]{subsection.4.1.1}{Single-Scatter Cut}{section.4.1}% 62
-\BOOKMARK [2][-]{subsection.4.1.2}{Radial Selection Cut}{section.4.1}% 63
-\BOOKMARK [2][-]{subsection.4.1.3}{Electric Field Selection Cut}{section.4.1}% 64
-\BOOKMARK [1][-]{section.4.2}{Argon-37 Non-Gaussianities}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.3}{Signal Corrections fo Post-Run04 Data}{chapter.4}% 66
-\BOOKMARK [2][-]{subsection.4.3.1}{S2 Efficiency Correction from ^37Ar}{section.4.3}% 67
-\BOOKMARK [2][-]{subsection.4.3.2}{S1 corrections from Xenon-131m + Krypton-83m Doke Plot}{section.4.3}% 68
-\BOOKMARK [2][-]{subsection.4.3.3}{Applied Corrections}{section.4.3}% 69
-\BOOKMARK [1][-]{section.4.4}{Model of the Pathological S2 Tails}{chapter.4}% 70
-\BOOKMARK [0][-]{chapter.5}{Detector Response to ^14C Beta Decay}{}% 71
-\BOOKMARK [1][-]{section.5.1}{The Theoretical ^14C Beta-Spectrum}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.1.1}{The Allowed Spectrum}{section.5.1}% 73
-\BOOKMARK [2][-]{subsection.5.1.2}{The Fermi Function}{section.5.1}% 74
-\BOOKMARK [2][-]{subsection.5.1.3}{The Shape Factor}{section.5.1}% 75
-\BOOKMARK [1][-]{section.5.2}{Accounting for Finite Detector Resolution}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.2.1}{Gaussian Energy Resolution and Continuous Beta Spectra}{section.5.2}% 77
-\BOOKMARK [2][-]{subsection.5.2.2}{Gaussian Smearing in the Combined Energy Model}{section.5.2}% 78
-\BOOKMARK [1][-]{section.5.3}{Detector Resolution in Post-Run04}{chapter.5}% 79
-\BOOKMARK [2][-]{subsection.5.3.1}{Non-Gaussian Smearing}{section.5.3}% 80
-\BOOKMARK [2][-]{subsection.5.3.2}{Numerical De-Smearing with libNEST}{section.5.3}% 81
-\BOOKMARK [2][-]{subsection.5.3.3}{Preliminary Measurement of QY}{section.5.3}% 82
-\BOOKMARK [2][-]{subsection.5.3.4}{Preliminary Energy- and Field-Dependent Charge Yield Model}{section.5.3}% 83
-\BOOKMARK [1][-]{section.5.4}{Measurement of Recombination Fluctuations from ^14C}{chapter.5}% 84
-\BOOKMARK [2][-]{subsection.5.4.1}{Separating _R from _det in a Continuous Spectrum}{section.5.4}% 85
-\BOOKMARK [2][-]{subsection.5.4.2}{Recombination Fluctuations with S2 Tails}{section.5.4}% 86
-\BOOKMARK [2][-]{subsection.5.4.3}{Modelling ^14C Recombination Fluctuations in libNEST}{section.5.4}% 87
-\BOOKMARK [1][-]{section.5.5}{Results from Post-Run04 ^14C and ^3H Calibrations}{chapter.5}% 88
-\BOOKMARK [2][-]{subsection.5.5.1}{Yields and Recombination}{section.5.5}% 89
-\BOOKMARK [2][-]{subsection.5.5.2}{Measurement of the Shape of the ^14C Beta-Spectrum}{section.5.5}% 90
-\BOOKMARK [1][-]{section.5.6}{Charge-Yield Model for Beta and Compton Interactions}{chapter.5}% 91
-\BOOKMARK [2][-]{subsection.5.6.1}{World Data}{section.5.6}% 92
-\BOOKMARK [2][-]{subsection.5.6.2}{QY Model Fits}{section.5.6}% 93
-\BOOKMARK [0][-]{appendix.A}{Yields Results}{}% 94
-\BOOKMARK [1][-]{section.A.1}{Carbon-14 E_true }{appendix.A}% 95
-\BOOKMARK [1][-]{section.A.2}{Carbon-14 }{appendix.A}% 96
-\BOOKMARK [1][-]{section.A.3}{Tritium E_true }{appendix.A}% 97
-\BOOKMARK [1][-]{section.A.4}{Tritium }{appendix.A}% 98
-\BOOKMARK [0][-]{section*.155}{Bibliography}{}% 99
+\BOOKMARK [0][-]{chapter.4}{Calibration of the LUX S1 and S2 Signals}{}% 60
+\BOOKMARK [1][-]{section.4.1}{LUX Post-Run 04 Calibration Campaign}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.2}{Data Selection}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.2.1}{Single-Scatter Cut}{section.4.2}% 63
+\BOOKMARK [2][-]{subsection.4.2.2}{Radial Selection Cut}{section.4.2}% 64
+\BOOKMARK [2][-]{subsection.4.2.3}{Electric Field Selection Cut}{section.4.2}% 65
+\BOOKMARK [1][-]{section.4.3}{Signal Corrections for Post-Run04 Data}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.3.1}{^37Ar Non-Gaussianities}{section.4.3}% 67
+\BOOKMARK [2][-]{subsection.4.3.2}{S2 Efficiency Correction from ^37Ar}{section.4.3}% 68
+\BOOKMARK [2][-]{subsection.4.3.3}{S1 corrections from ^131mXe + ^83mKr Doke Plot}{section.4.3}% 69
+\BOOKMARK [2][-]{subsection.4.3.4}{Evaluation of the Corrections}{section.4.3}% 70
+\BOOKMARK [1][-]{section.4.4}{Empirical Model of the Pathological S2 Tails}{chapter.4}% 71
+\BOOKMARK [1][-]{section.4.5}{Summary}{chapter.4}% 72
+\BOOKMARK [0][-]{chapter.5}{Detector Response to ^14C Beta Decay}{}% 73
+\BOOKMARK [1][-]{section.5.1}{^14CH_4 Injection}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.2}{The Theoretical ^14C Beta-Spectrum}{chapter.5}% 75
+\BOOKMARK [2][-]{subsection.5.2.1}{The Allowed Spectrum}{section.5.2}% 76
+\BOOKMARK [2][-]{subsection.5.2.2}{The Fermi Function}{section.5.2}% 77
+\BOOKMARK [2][-]{subsection.5.2.3}{The Shape Factor}{section.5.2}% 78
+\BOOKMARK [1][-]{section.5.3}{Accounting for Finite Detector Resolution}{chapter.5}% 79
+\BOOKMARK [2][-]{subsection.5.3.1}{Gaussian Energy Resolution and Continuous Beta Spectra}{section.5.3}% 80
+\BOOKMARK [2][-]{subsection.5.3.2}{Gaussian Smearing in the Combined Energy Model}{section.5.3}% 81
+\BOOKMARK [1][-]{section.5.4}{Detector Resolution in Post-Run04}{chapter.5}% 82
+\BOOKMARK [2][-]{subsection.5.4.1}{Non-Gaussian Smearing}{section.5.4}% 83
+\BOOKMARK [2][-]{subsection.5.4.2}{Numerical De-Smearing with libNEST}{section.5.4}% 84
+\BOOKMARK [2][-]{subsection.5.4.3}{Preliminary Measurement of QY}{section.5.4}% 85
+\BOOKMARK [2][-]{subsection.5.4.4}{Preliminary Energy- and Field-Dependent Charge Yield Model}{section.5.4}% 86
+\BOOKMARK [1][-]{section.5.5}{Measurement of Recombination Fluctuations from ^14C}{chapter.5}% 87
+\BOOKMARK [2][-]{subsection.5.5.1}{Separating _R from _det in a Continuous Spectrum}{section.5.5}% 88
+\BOOKMARK [2][-]{subsection.5.5.2}{Recombination Fluctuations with S2 Tails}{section.5.5}% 89
+\BOOKMARK [2][-]{subsection.5.5.3}{Modelling ^14C Recombination Fluctuations in libNEST}{section.5.5}% 90
+\BOOKMARK [1][-]{section.5.6}{Results from Post-Run04 ^14C and ^3H Calibrations}{chapter.5}% 91
+\BOOKMARK [2][-]{subsection.5.6.1}{Yields and Recombination}{section.5.6}% 92
+\BOOKMARK [2][-]{subsection.5.6.2}{Measurement of the Shape of the ^14C Beta-Spectrum}{section.5.6}% 93
+\BOOKMARK [1][-]{section.5.7}{Charge-Yield Model for Beta and Compton Interactions}{chapter.5}% 94
+\BOOKMARK [2][-]{subsection.5.7.1}{World Data}{section.5.7}% 95
+\BOOKMARK [2][-]{subsection.5.7.2}{QY Model Fits}{section.5.7}% 96
+\BOOKMARK [1][-]{section.5.8}{Summary}{chapter.5}% 97
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 98
+\BOOKMARK [0][-]{appendix.A}{Yields Results}{}% 99
+\BOOKMARK [1][-]{section.A.1}{Carbon-14 E_true }{appendix.A}% 100
+\BOOKMARK [1][-]{section.A.2}{Carbon-14 }{appendix.A}% 101
+\BOOKMARK [1][-]{section.A.3}{Tritium E_true }{appendix.A}% 102
+\BOOKMARK [1][-]{section.A.4}{Tritium }{appendix.A}% 103
+\BOOKMARK [0][-]{section*.157}{Bibliography}{}% 104

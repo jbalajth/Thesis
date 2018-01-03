@@ -1,5 +1,9 @@
-\chapter{Detector Response to $^{14}$C Beta Decay}
+\chapter{Detector Response to $^{14}$C Beta Decay}\label{chap:5}
+In this chapter we will present a method for extracting the charge and light yields from the $^{14}$C efficiency-corrected calibration data. We will use the field bins described in section \ref{sec:fieldbins}, and the efficiency corrections described in sections \ref{sec:s2corr} and \ref{sec:corrections} in order to measure these values as functions of electric field. By using the recombination model laid out in section \ref{sec:combE}, the measured yields can also be used to calculate the recombination probability and fluctuations. 
 
+Sections \ref{sec:c14inj} will present an overview of the $^{14}$C injection and section \ref{sec:c14spec} will describe how to calculate the shape of the beta spectrum. After that, section \ref{sec:desmearing} will describe a method for removing the smearing effects of finite detector resolution from the reconstructed energy, $S1$, and $S2$ spectra of beta sources in order to measure the yields. In section \ref{sec:sigr} we will conduct a similar analysis in order measure the recombination fluctuations and will present an empirical model of these fluctuations as a function of energy and field. Section \ref{sec:finalresults} contains our final results from the post-Run04 $^{14}$C and tritium calibrations. Along with the measurement of the yields, we also present an analysis of the carbon-14 non-statistical shape factor, which will be described in section \ref{sec:shape_factor}. Finally, in section \ref{sec:NESTbeta}, we will compare our yields measurements to existing measurements by developing an empirical model of QY as a function of electric field and energy.
+
+\section{$^{14}$CH$_4$ Injection}\label{sec:c14inj}
 The carbon-14 calibration follows the same preparation and injection procedure as the tritium calibration, which has been described in previous papers\cite{lux_tritium,richard,attila}. Both of these calibration sources have half-lives greater than the lifetime of the experiment, so we rely on the LUX gas processing system to chemically remove the injected activity. We have previously characterized our ability to remove radio-labelled methane from the LUX detector and found that tritiated-methane (CH$_3$T) is removed with a decay time of about 7-10 hours, leaving no observed residual activity in the detector. Carbon-14 labelled methane ($^{14}$CH$_4$) is chemically identical to CH$_3$T and so we find it to have the same removal characteristics. The tritiated methane is removed with a time constant of 8.2 hours, and the carbon-14 labeled methane is removed with a time constant 9.1 hours. This variation in removal time is within reason given the variation in previous trials with tritiated methane.
 \begin{figure}[h!]
 \centering
@@ -30,7 +34,7 @@ The endpoint of the carbon-14 spectrum is obscured by the xenon-131m line. We do
 
 
 
-\section{The Theoretical $^{14}$C Beta-Spectrum}
+\section{The Theoretical $^{14}$C Beta-Spectrum}\label{sec:c14spec}
 The shape of the theoretical spectrum of the carbon-14 beta decay has been of interest in the context neutrino mass experiments\cite{C14_Wietfeldt}, where the goal is to measure the precise endpoint, and in liquid scintillator experiments, which have $^{14}$C as a major background and so need to model the spectrum with high precision\cite{C14_Borexino, C14_Bergeron}. This  decay also is of interest in theoretical nuclear physics because it has an abnormally long half life\cite{C14_Kuzminov,C14_Genz,C14_Garcia}. The transition of $^{14}$C to the ground state of $^{14}$N is an allowed Gamow-Teller $(0^+ \rightarrow 1^+)$ transition. The 5730 year half-life, and corresponding comparative half life, $\log_{10}(f_t)=9.04$, makes it empirically consistent with second-forbidden transitions\cite{C14_Kuzminov,C14_Wietfeldt}.
 
 This extended half life indicates an anomalously small Gamow-Teller nuclear matrix element of $\langle GT \rangle \approx 2 \times 10^{-3}$. This points to cancellation in the lowest order terms of the nuclear matrix element and means that higher order terms must be taken into consideration. These higher-order terms may introduce momentum-dependent deviations from the allowed spectral shape. There have been several experiments\cite{C14_Sonntag, C14_Wietfeldt, C14_Borexino, C14_Kuzminov, C14_Bergeron} which have made measurements of the spectral shape which are consistent with non-statistical corrections to the allowed shape. These results are in some tension with each other, as well as with previous measurements which show a purely allowed spectral shape\cite{C14_Curran}. 
@@ -525,7 +529,7 @@ The smearing corrections are obtained in the same way as for carbon-14. The effe
 \end{figure}
 
 
-\subsection{Preliminary Energy- and Field-Dependent Charge Yield Model}\label{sec:qyprelim}
+\subsection{Preliminary Energy- and Field-Dependent Charge Yield Model}\label{sec:qyprelim_fit}
 The first step in finding an expression for $QY_{NEST}(E,\mathcal{E})$ is to choose a functional form. Historically, NEST has relied heavily on sigmoids to express the energy and field dependence of physical quantities:
 \begin{equation}\label{eq:sigmoid}
 F(x)=p_1+\frac{p_2-p_1}{1+(x/p_3)^{p_4}}
@@ -758,7 +762,7 @@ We also repeated these fits for the ``dcm'' data. We set $m_8=4.29$, $m_9= 0.334
 \end{figure}
 
 \clearpage
-\section{Measurement of Recombination Fluctuations from $^{14}$C}
+\section{Measurement of Recombination Fluctuations from $^{14}$C}\label{sec:sigr}
 For an event with energy, $E$, and electric field, $\mathcal{E}$, is given by a certain number of electrons, $N_R$, will recombine with an ion. These electrons will be subtracted from the initial number of ions, $N_{i}$, and added to the number of excitons, resulting in the net number of electrons and photons produced by the event:
 \begin{equation} 
 \begin{split}
@@ -1005,7 +1009,7 @@ We find that the results for ``z'' and ``dcm'' data are identical. The best-fit 
 \clearpage
 
 \section{Results from Post-Run04 $^{14}$C and $^{3}$H Calibrations}\label{sec:finalresults}
-\subsection{Yields and Recombination}
+\subsection{Yields and Recombination}\label{sec:qyfinal}
 We now have all of the ingredients we need to measure the charge and light yields using the post-Run4 carbon-14 and tritium data. The preliminary measurements of the charge yield obtained in section \ref{sec:qyprelim} are combined with the new model for recombination fluctuations derived in section \ref{sec:sigrupdate}, and both are input into the libNEST code. We then reapply the Metropolis fits for the S2 tail parameter fits from section \ref{sec:s2tails} in order to account for any changes due to the updated parameters. The yields for gamma-type events are known to be different from beta-yields, so we use the existing set of yields when fitting the $^{131m}$Xe peak. The results of these fits, which are shown in table \ref{tab:s2bestfit_new}, are consistent with those found previously.
 \begin{table}[h!]
 \centering
@@ -1091,8 +1095,8 @@ These measurements are also shown in figures \ref{fig:C14_rho_final} and \ref{fi
 \end{figure}
 
 \clearpage
-\subsection{Measurement of the Shape of the $^{14}$C Beta-Spectrum}
-The updated libNEST model can also be used to test the measured carbo-14 beta spectrum for a non-statistical spectral shape. We assume a Kuzminoz-style shape factor\cite{C14_kuzminov} which was presented in section \ref{sec:shape_factor}:
+\subsection{Measurement of the Shape of the $^{14}$C Beta-Spectrum}\label{sec:shape_fit}
+The updated libNEST model can also be used to test the measured carbon-14 beta spectrum for a non-statistical spectral shape. We assume a Kuzminoz-style shape factor\cite{C14_Kuzminov} which was presented in section \ref{sec:shape_factor}:
 \begin{equation}
 C(E_{true})=1+\beta\cdot(Q-E_{true})
 \end{equation}
@@ -1133,9 +1137,9 @@ Where we have adjusted our measurement in the full dataset by the slope of the c
 
 We would like to further test that this disagreement is not due to error in our S2 tail model. To do this we again fit a libNEST model of the carbon-14 spectrum to the spectrum measured in data. For this fit, we float the tail parameters and hold the shape factor constant at the value measured by Kuzminov, accounting for the slope of the single scatter cut ($\beta = \ 1.24-0.17$ MeV$^{-1}$). We also include the xenon-131m line in our simulation. We do not fit to xenon-131m spectrum but instead use it to constrain G2$_{true}$ by only accepting parameters for which the peak of the simulated xenon-131m spectrum is within 1 keV of the data. 
 
-We compare the resulting best-fit carbon-14 spectrum to one generated using the existing tail parameters and assuming a purely statistical spectral shape. The reduced chi-squared difference between data and the Kuzminov best-fit spectrum is 1.16, which gives a p-value of 0.05. This is roughly equivalent to the comparison to the statistical spectrum with standard tail parameters, which yields a chi-square of 1.12 and a p-value of 0.09. The fact that we are not able to find a set of tail parameters for which the Kuzminov spectrum outperforms the statistical spectrum is notable because while the former is tuned specifically to the carbon-14 spectrum itself, the latter was generated using parameters that were only fit to the argon-37 and xenon-131m lines. This, together with the fact that the Kuzminov parameters do not reproduce the shape xenon-131m peak tells us that our data is not consistent with $\beta = \ 1.24$ MeV$^{-1}$.
+In figure \ref{fig:C14_shape}, we compare the resulting best-fit carbon-14 spectrum to one generated using the existing tail parameters and assuming a purely statistical spectral shape. The reduced chi-squared difference between data and the Kuzminov best-fit spectrum is 1.16, which gives a p-value of 0.05. This is roughly equivalent to the comparison to the statistical spectrum with standard tail parameters, which yields a chi-square of 1.12 and a p-value of 0.09. The fact that we are not able to find a set of tail parameters for which the Kuzminov spectrum outperforms the statistical spectrum is notable because while the former is tuned specifically to the carbon-14 spectrum itself, the latter was generated using parameters that were only fit to the argon-37 and xenon-131m lines. This, together with the fact that the Kuzminov parameters do not reproduce the shape xenon-131m peak tells us that our data is not consistent with $\beta = \ 1.24$ MeV$^{-1}$.
 
-In conclusion, we have characterized the systematic effects due to the S2 tails, as well as the energy-dependence of our selection cut. Using conservative estimates for our systematic errors we find that our data disagrees with the shape factor measured by Kuzminov by about 2-$\sigma$. In fact, we find that our data is consistent with a purely statistical shape. 
+In conclusion, we have characterized the systematic effects due to the S2 tails, as well as the energy-dependence of our selection cut. Using conservative estimates for our systematic errors we find that our data disagrees with the shape factor measured by Kuzminov by about 2-$\sigma$. In fact, we find that our data is consistent with a purely statistical shape. However, with an altered tail model we are able to fit the data to the Kuzminov spectral shape, albeit at the expense of the $^{131m}$Xe model. We are therefore prevented from making any strong claims on this topic.
 \begin{figure}[!h]
 \centering
   \includegraphics[width=\textwidth]{Figures/C14_spectrum_shapecomp.pdf}
@@ -1168,7 +1172,7 @@ We have also included a set of high-field measurements from Akimov et. al.\cite{
 We use three sets of data to create a collection of 0-field measurements. The paper from Doke et. al. quotes a 0-field value for LY, so we again use this measurement as our high-field constraint. Manalaysay et. al. and Aprile et. al. both made measurements of scintillation yield relative to the 32.1 keV gamma from the $^{83m}$Kr decay at 0-field\cite{zerofield1,zerofield2}. Matthew Szadagis and Vetri Velan provided us with a formula for the absolute value of the $^{83m}$Kr light yield, which was developed for the NEST v2.0 model,\cite{matthew}. This dataset will not be used in the fits for QY, but will rather serve as a cross-check.
 
 \subsection{QY Model Fits}
-The procedure for this will be similar to what was introduced in section \ref{sec:qyprelim}, where we derived a preliminary model of QY in order to improve our measurements of the smearing corrections. The primary difference here is that we will be including more data in our fits. We will again restrict our fits to QY only, allowing LY to be defined as equal to $1/W-QY$. The functional form for $QY(E,\mathcal{E})$, at a constant electric field, $\mathcal{E}_1$ will again be a double-asymmetric sigmoid:
+The procedure for this will be similar to what was introduced in section \ref{sec:qyprelim_fit}, where we derived a preliminary model of QY in order to improve our measurements of the smearing corrections. The primary difference here is that we will be including more data in our fits. We will again restrict our fits to QY only, allowing LY to be defined as equal to $1/W-QY$. The functional form for $QY(E,\mathcal{E})$, at a constant electric field, $\mathcal{E}_1$ will again be a double-asymmetric sigmoid:
 \begin{equation}
 QY(E,\mathcal{E})|_{\mathcal{E}_1}=m_1+\frac{m_2-m_1}{(1+(E/m_3)^{m_4})^{m_9}}+m_5+\frac{0-m_5}{(1+(E/m_7)^{m_8})^{m_{10}}},
 \end{equation}
@@ -1184,7 +1188,7 @@ QY=\frac{1}{W}\frac{1}{1+\rho}\\
 \end{equation}
 where $\sigma_{\rho,tot}$ and $\sigma_{E,tot}$ are the combined systematic uncertainties on the $\rho$ and $E_{true}$ measurements. Unless otherwise specified, we use only ``gfdcm'' corrected data.
 
-Just as in section \ref{sec:qyprelim} we will to each collection individually, initially floating all of the parameters for all of the collections. We will iterate this process, selecting one parameter to hold constant after each iteration until we are left with only parameters which cannot be approximated as being constant in $\mathcal{E}$. At this point we will characterize the remaining parameters as functions of $\mathcal{E}$. 
+Just as in section \ref{sec:qyprelim_fit} we will to each collection individually, initially floating all of the parameters for all of the collections. We will iterate this process, selecting one parameter to hold constant after each iteration until we are left with only parameters which cannot be approximated as being constant in $\mathcal{E}$. At this point we will characterize the remaining parameters as functions of $\mathcal{E}$. 
 \begin{figure}[!h]
 \centering
 \begin{subfigure}{0.33\linewidth}
@@ -1273,7 +1277,7 @@ The collection at 0-field is also an outlier as is shown in figure  \ref{fig:bet
 \label{fig:betamod_run03comp}
 \end{figure}
 
-The LUX post-Run04 data holds together extremely well with previous measurements from LUX Run03, as we see in figure \ref{fig:betamod_run03comp}. There is one caveat; the Run03 measurements all use the standard summed pulse-finder area to measure S2 size, while the ``gfdcm'' measurements use the area under a Gaussian fit to the pulse-finder area. We have found that in post-Run04 data, this Gaussian best fit area is likely a better measure of the S2 size. If we compare Run03 data to the ``dcm'' measurements, which also use the summed pulse-finder area, we find that it is still in agreement with post-Run04 within about 1-sigma (see figure \ref{figbetamod_run03comp_dcm}.
+The LUX post-Run04 data holds together extremely well with previous measurements from LUX Run03, as we see in figure \ref{fig:betamod_run03comp}. There is one caveat; the Run03 measurements all use the standard summed pulse-finder area to measure S2 size, while the ``gfdcm'' measurements use the area under a Gaussian fit to the pulse-finder area. We have found that in post-Run04 data, this Gaussian best fit area is likely a better measure of the S2 size. If we compare Run03 data to the ``dcm'' measurements, which also use the summed pulse-finder area, we find that it is still in agreement with post-Run04 within about 1-sigma (see figure \ref{fig:betamod_run03comp_dcm}).
 \begin{figure}[!h]
 \centering
 \begin{subfigure}{0.5\linewidth}
@@ -1387,13 +1391,11 @@ Figures \ref{fig:betamod_lowfield} and \ref{fig:betamod_midfield} show the remai
 \end{figure}
 
 \clearpage
+\section{Summary}
+In this chapter, we applied the signal corrections derived in chapter \ref{chap:4} to the carbon-14 and tritium calibration data in order to measure the energy deposition properties of betas in liquid xenon. A model of the recombination fluctuations was developed and presented in section \ref{sec:sigrupdate}. Figure \ref{fig:sigR_wRun03pDahl} shows that our new model of recombination fluctuations fits the LUX Run03 data better than the model presented in \cite{attila} and is consistent with the $^{57}$Co measurements from \cite{dahl} in the high-field (low-recombination) region. 
 
+In section \ref{sec:finalresults} we presented the main results from the carbon-14 injection. In addition to the measurements of the recombination properties in section \ref{sec:qyfinal}, we also conducted an analysis of the shape of the carbon-14 spectrum in section \ref{sec:shape_fit}. In this analysis we found no evidence of a non-statistical shape factor; a result that disagrees with previous results by about 2-$\sigma$\cite{C14_Kuzminov}.
 
-
-
-
-
-
-
+In section \ref{sec:NESTbeta}, we compared our charge-yield results against a comprehensive collection of past measurements. We have developed a model that is able to capture all of the world data to within about 1-$\sigma$, with only a few minor exceptions.
 
 

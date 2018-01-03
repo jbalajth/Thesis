@@ -1,49 +1,62 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{101}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{dahl}
-PhD thesis.
-
-\bibitem{getter}
-
-
-\bibitem{nuclide}
-Live chart of nuclides.
-\newblock \url{https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html}.
-\newblock Accessed: 2017-11-21.
-
-\bibitem{metropolis_2}
-Mcmc and fitting models to data.
-\newblock
-  \url{https://sciencehouse.wordpress.com/2010/06/23/mcmc-and-fitting-models-to-data/}.
-\newblock Accessed: 2017-11-25.
-
-\bibitem{planck2015}
+\bibitem[Ade et~al.(2016)]{planck2015}
 P.~A.~R. Ade et~al.
 \newblock {Planck 2015 results. XIII. Cosmological parameters}.
-\newblock {\em Astron. Astrophys.}, 594:A13, 2016.
+\newblock \emph{Astron. Astrophys.}, 594:\penalty0 A13, 2016.
+\newblock \doi{10.1051/0004-6361/201525830}.
 
-\bibitem{cdms}
-R.~Agnese, A.~J. Anderson, T.~Aramaki, I.~Arnquist, W.~Baker, D.~Barker,
-  R.~Basu~Thakur, D.~A. Bauer, A.~Borgland, M.~A. Bowles, P.~L. Brink,
-  R.~Bunker, B.~Cabrera, D.~O. Caldwell, R.~Calkins, C.~Cartaro, D.~G.
-  Cerde\~no, H.~Chagani, Y.~Chen, J.~Cooley, B.~Cornell, P.~Cushman, M.~Daal,
-  P.~C.~F. Di~Stefano, T.~Doughty, L.~Esteban, S.~Fallows,
-  E.~Figueroa-Feliciano, M.~Fritts, G.~Gerbier, M.~Ghaith, G.~L. Godfrey, S.~R.
-  Golwala, J.~Hall, H.~R. Harris, T.~Hofer, D.~Holmgren, Z.~Hong, E.~Hoppe,
-  L.~Hsu, M.~E. Huber, V.~Iyer, D.~Jardin, A.~Jastram, M.~H. Kelsey,
-  A.~Kennedy, A.~Kubik, N.~A. Kurinsky, A.~Leder, B.~Loer, E.~Lopez~Asamar,
-  P.~Lukens, R.~Mahapatra, V.~Mandic, N.~Mast, N.~Mirabolfathi, R.~A. Moffatt,
-  J.~D. Morales~Mendoza, J.~L. Orrell, S.~M. Oser, K.~Page, W.~A. Page,
-  R.~Partridge, M.~Pepin, A.~Phipps, S.~Poudel, M.~Pyle, H.~Qiu, W.~Rau,
-  P.~Redl, A.~Reisetter, A.~Roberts, A.~E. Robinson, H.~E. Rogers, T.~Saab,
-  B.~Sadoulet, J.~Sander, K.~Schneck, R.~W. Schnee, B.~Serfass, D.~Speller,
-  M.~Stein, J.~Street, H.~A. Tanaka, D.~Toback, R.~Underwood, A.~N. Villano,
-  B.~von Krosigk, B.~Welliver, J.~S. Wilson, D.~H. Wright, S.~Yellin, J.~J.
-  Yen, B.~A. Young, X.~Zhang, and X.~Zhao.
-\newblock Projected sensitivity of the supercdms snolab experiment.
-\newblock {\em Phys. Rev. D}, 95:082002, Apr 2017.
+\bibitem[Salucci and Persic(1996)]{persic}
+P.~Salucci and M.~Persic.
+\newblock {Dark matter halos around galaxies}.
+\newblock 1996.
+\newblock [ASP Conf. Ser.117,1(1997)].
 
-\bibitem{lux_2017}
+\bibitem[Markevitch et~al.(2004)Markevitch, Gonzalez, Clowe, Vikhlinin, David,
+  Forman, Jones, Murray, and Tucker]{markevitch}
+Maxim Markevitch, A.~H. Gonzalez, D.~Clowe, A.~Vikhlinin, L.~David, W.~Forman,
+  C.~Jones, S.~Murray, and W.~Tucker.
+\newblock {Direct constraints on the dark matter self-interaction cross-section
+  from the merging galaxy cluster 1E0657-56}.
+\newblock \emph{Astrophys. J.}, 606:\penalty0 819--824, 2004.
+\newblock \doi{10.1086/383178}.
+
+\bibitem[Stern(2014)]{ADMX}
+Ian~P. Stern.
+\newblock {Axion Dark Matter Searches}.
+\newblock \emph{AIP Conf. Proc.}, 1604:\penalty0 456--461, 2014.
+\newblock \doi{10.1063/1.4883465}.
+
+\bibitem[Feng(2010)]{wimp2}
+Jonathan~L. Feng.
+\newblock Dark matter candidates from particle physics and methods of
+  detection.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 48\penalty0
+  (1):\penalty0 495--545, 2010.
+\newblock \doi{10.1146/annurev-astro-082708-101659}.
+\newblock URL \url{https://doi.org/10.1146/annurev-astro-082708-101659}.
+
+\bibitem[{Akerib} et~al.(2017){Akerib}, {Alsum}, {Ara{\'u}jo}, {Bai}, {Bailey},
+  {Balajthy}, {Beltrame}, {Bernard}, {Bernstein}, {Biesiadzinski}, {Boulton},
+  {Bramante}, {Br{\'a}s}, {Byram}, {Cahn}, {Carmona-Benitez}, {Chan},
+  {Chiller}, {Chiller}, {Currie}, {Cutter}, {Davison}, {Dobi}, {Dobson},
+  {Druszkiewicz}, {Edwards}, {Faham}, {Fiorucci}, {Gaitskell}, {Gehman},
+  {Ghag}, {Gibson}, {Gilchriese}, {Hall}, {Hanhardt}, {Haselschwardt},
+  {Hertel}, {Hogan}, {Horn}, {Huang}, {Ignarra}, {Ihm}, {Jacobsen}, {Ji},
+  {Kamdin}, {Kazkaz}, {Khaitan}, {Knoche}, {Larsen}, {Lee}, {Lenardo}, {Lesko},
+  {Lindote}, {Lopes}, {Manalaysay}, {Mannino}, {Marzioni}, {McKinsey}, {Mei},
+  {Mock}, {Moongweluwan}, {Morad}, {Murphy}, {Nehrkorn}, {Nelson}, {Neves},
+  {O'Sullivan}, {Oliver-Mallory}, {Palladino}, {Pease}, {Phelps}, {Reichhart},
+  {Rhyne}, {Shaw}, {Shutt}, {Silva}, {Solmaz}, {Solovov}, {Sorensen},
+  {Stephenson}, {Sumner}, {Szydagis}, {Taylor}, {Taylor}, {Tennyson}, {Terman},
+  {Tiedt}, {To}, {Tripathi}, {Tvrznikova}, {Uvarov}, {Verbus}, {Webb}, {White},
+  {Whitis}, {Witherell}, {Wolfs}, {Xu}, {Yazdani}, {Young}, {Zhang}, and {LUX
+  Collaboration}]{lux_2017}
 D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai}, A.~J. {Bailey},
   J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard}, A.~{Bernstein}, T.~P.
   {Biesiadzinski}, E.~M. {Boulton}, R.~{Bramante}, P.~{Br{\'a}s}, D.~{Byram},
@@ -67,399 +80,26 @@ D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai}, A.~J. {Bailey},
   T.~J. {Whitis}, M.~S. {Witherell}, F.~L.~H. {Wolfs}, J.~{Xu}, K.~{Yazdani},
   S.~K. {Young}, C.~{Zhang}, and {LUX Collaboration}.
 \newblock {Results from a Search for Dark Matter in the Complete LUX Exposure}.
-\newblock {\em Physical Review Letters}, 118(2):021303, January 2017.
+\newblock \emph{Physical Review Letters}, 118\penalty0 (2):\penalty0 021303,
+  January 2017.
+\newblock \doi{10.1103/PhysRevLett.118.021303}.
 
-\bibitem{lux_fiducial}
-D.~S. Akerib et~al.
-\newblock {Radiogenic and Muon-Induced Backgrounds in the LUX Dark Matter
-  Detector}.
-\newblock {\em Astropart. Phys.}, 62:33--46, 2015.
-
-\bibitem{lux_dd2}
-D.~S. Akerib et~al.
-\newblock {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark
-  matter experiment using D-D neutron scattering kinematics}.
-\newblock 2016.
-
-\bibitem{lux_tritium}
-D.~S. Akerib et~al.
-\newblock {Tritium calibration of the LUX dark matter experiment}.
-\newblock {\em Phys. Rev.}, D93(7):072009, 2016.
-
-\bibitem{lux_efield}
-D.~S. Akerib et~al.
-\newblock {3D Modeling of Electric Fields in the LUX Detector}.
-\newblock 2017.
-
-\bibitem{Evanyields}
-D.~S. Akerib et~al.
-\newblock {Signal yields, energy resolution, and recombination fluctuations in
-  liquid xenon}.
-\newblock {\em Phys. Rev.}, D95(1):012008, 2017.
-
-\bibitem{DQyields}
-D.~S. Akerib et~al.
-\newblock {Ultra-Low Energy Calibration of LUX Detector using $^{127}$Xe
-  Electron Capture}.
-\newblock 2017.
-
-\bibitem{lux_krremoval}
-D.~S. Akerib et~al.
-\newblock {Chromatographic separation of radioactive noble gases from xenon}.
-\newblock {\em Astropart. Phys.}, 97:80--87, 2018.
-
-\bibitem{lux2012}
-D.S. Akerib, X.~Bai, S.~Bedikian, E.~Bernard, A.~Bernstein, A.~Bolozdynya,
-  A.~Bradley, D.~Byram, S.B. Cahn, C.~Camp, M.C. Carmona-Benitez, D.~Carr, J.J.
-  Chapman, A.~Chiller, C.~Chiller, K.~Clark, T.~Classen, T.~Coffey, A.~Curioni,
-  E.~Dahl, S.~Dazeley, L.~de~Viveiros, A.~Dobi, E.~Dragowsky, E.~Druszkiewicz,
-  B.~Edwards, C.H. Faham, S.~Fiorucci, R.J. Gaitskell, K.R. Gibson,
-  M.~Gilchriese, C.~Hall, M.~Hanhardt, B.~Holbrook, M.~Ihm, R.G. Jacobsen,
-  L.~Kastens, K.~Kazkaz, R.~Knoche, S.~Kyre, J.~Kwong, R.~Lander, N.A. Larsen,
-  C.~Lee, D.S. Leonard, K.T. Lesko, A.~Lindote, M.I. Lopes, A.~Lyashenko, D.C.
-  Malling, R.~Mannino, Z.~Marquez, D.N. McKinsey, D.-M. Mei, J.~Mock,
-  M.~Moongweluwan, M.~Morii, H.~Nelson, F.~Neves, J.A. Nikkel, M.~Pangilinan,
-  P.D. Parker, E.K. Pease, K.~Pech, P.~Phelps, A.~Rodionov, P.~Roberts,
-  A.~Shei, T.~Shutt, C.~Silva, W.~Skulski, V.N. Solovov, C.J. Sofka,
-  P.~Sorensen, J.~Spaans, T.~Stiegler, D.~Stolp, R.~Svoboda, M.~Sweany,
-  M.~Szydagis, D.~Taylor, J.~Thomson, M.~Tripathi, S.~Uvarov, J.R. Verbus,
-  N.~Walsh, R.~Webb, D.~White, J.T. White, T.J. Whitis, M.~Wlasenko, F.L.H.
-  Wolfs, M.~Woods, and C.~Zhang.
-\newblock The large underground xenon (lux) experiment.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  704(Supplement C):111 -- 126, 2013.
-
-\bibitem{akimov}
-D.~{\relax Yu}. Akimov et~al.
-\newblock {Experimental study of ionization yield of liquid xenon for electron
-  recoils in the energy range 2.8 - 80 keV}.
-\newblock {\em JINST}, 9(11):P11014, 2014.
-
-\bibitem{C14_Borexino}
-G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
-  S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
-  A.~De~Bari, M.~Deutsch, F.~Elisei, F.~Von~Feilitzsch, C.~Galbiati, F.~Gatti,
-  M.G. Giammarchi, D.~Giugni, T.~Goldbrunner, A.~Golubchikov, A.~Goretti,
-  T.~Hagner, F.X. Hartmann, R.~Von~Hentig, G.~Heusser, A.~Ianni, J.~Jochum,
-  M.~Johnson, M.~Laubenstein, P.~Lombardi, S.~Magni, S.~Malvezzi, I.~Manno,
-  G.~Manuzio, F.~Masetti, U.~Mazzucato, E.~Meroni, M.~Neff, A.~Nostro,
-  L.~Oberauer, A.~Perotti, A.~Preda, R.S. Raghavan, G.~Ranucci, E.~Resconi,
-  M.~Ruscitti, R.~Scardaoni, S.~Schönert, O.~Smirnov, R.~Tartaglia,
-  G.~Testera, P.~Ullucci, R.B. Vogelaar, S.~Vitale, and O.~Zaimidoroga.
-\newblock Measurement of the 14c abundance in a low-background liquid
-  scintillator.
-\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
-  High-Energy Physics}, 422(1-4):349--358, 1998.
-\newblock cited By 73.
-
-\bibitem{zerofield2}
-E.~Aprile, R.~Budnik, B.~Choi, H.~A. Contreras, K.-L. Giboni, L.~W. Goetzke,
-  J.~E. Koglin, R.~F. Lang, K.~E. Lim, A.~J. Melgarejo~Fernandez, R.~Persiani,
-  G.~Plante, and A.~Rizzo.
-\newblock Measurement of the scintillation yield of low-energy electrons in
-  liquid xenon.
-\newblock {\em Phys. Rev. D}, 86:112004, Dec 2012.
-
-\bibitem{nedm}
-C.~A. Baker et~al.
-\newblock {An Improved experimental limit on the electric dipole moment of the
-  neutron}.
-\newblock {\em Phys. Rev. Lett.}, 97:131801, 2006.
-
-\bibitem{zerofield1}
-Laura Baudis, Hrvoje Dujmovic, Christopher Geis, Andreas James, Alexander Kish,
-  Aaron Manalaysay, Teresa Marrodan~Undagoitia, and Marc Schumann.
-\newblock {Response of liquid xenon to Compton electrons down to 1.5 keV}.
-\newblock {\em Phys. Rev.}, D87(11):115015, 2013.
-
-\bibitem{bekenstein}
-Jacob~D. Bekenstein and Robert~H. Sanders.
-\newblock {A primer to relativistic MOND theory}.
-\newblock 2005.
-\newblock [EAS Publ. Ser.20,225(2006)].
-
-\bibitem{C14_Bergeron}
-Denis~E. Bergeron, Raphael Galea, Lizbeth Laureano-Pérez, and Brian~E.
-  Zimmerman.
-\newblock Comparison of 14c liquid scintillation counting at \{NIST\} and
-  \{NRC\} canada.
-\newblock {\em Applied Radiation and Isotopes}, 109:30 -- 35, 2016.
-\newblock Proceedings of the 20th International Conference on Radionuclide
-  Metrology and its Applications 8–11 June 2015, Vienna, Austria.
-
-\bibitem{wimp1}
-Lars Bergstr�m.
-\newblock {Nonbaryonic dark matter: Observational evidence and detection
-  methods}.
-\newblock {\em Rept. Prog. Phys.}, 63:793, 2000.
-
-\bibitem{dama}
-R.~Bernabei, P.~Belli, F.~Cappella, V.~Caracciolo, S.~Castellano, R.~Cerulli,
-  C.~J. Dai, A.~d'Angelo, S.~d'Angelo, A.~Di~Marco, H.~L. He, A.~Incicchitti,
-  H.~H. Kuang, X.~H. Ma, F.~Montecchia, D.~Prosperi, X.~D. Sheng, R.~G. Wang,
-  and Z.~P. Ye.
-\newblock Final model independent result of dama/libra--phase1.
-\newblock {\em The European Physical Journal C}, 73(12):2648, Nov 2013.
-
-\bibitem{bethe}
-H.~A. Bethe and R.~F. Bacher.
-\newblock Nuclear physics a. stationary states of nuclei.
-\newblock {\em Rev. Mod. Phys.}, 8:82--229, Apr 1936.
-
-\bibitem{thermosyphon}
-A.~Bolozdynya, A.~Bradley, S.~Bryan, K.~Clark, C.~E. Dahl, J.~Kwong, J.~Mock,
-  P.~Phelps, T.~Shutt, and M.~Usowicz.
-\newblock Cryogenics for the lux detector.
-\newblock {\em IEEE Transactions on Nuclear Science}, 56(4):2309--2312, Aug
-  2009.
-
-\bibitem{clean1}
-M.~G. Boulay, A.~Hime, and J.~Lidgard.
-\newblock {Design constraints for a WIMP dark matter and pp solar neutrino
-  liquid neon scintillation detector}.
-\newblock 2004.
-
-\bibitem{pixey_ar37}
-E.M. Boulton, E.~Bernard, N.~Destefano, B.N.V. Edwards, M.~Gai, S.A. Hertel,
-  M.~Horn, N.A. Larsen, B.P. Tennyson, C.~Wahl, and D.N. McKinsey.
-\newblock Calibration of a two-phase xenon time projection chamber with a 37 ar
-  source.
-\newblock {\em Journal of Instrumentation}, 12(08):P08004, 2017.
-
-\bibitem{beta_Calaprice}
-F.~P. {Calaprice} and B.~R. {Holstein}.
-\newblock {Weak magnetism and the beta spectra of $^{12}$B and $^{12}$N}.
-\newblock {\em Nuclear Physics A}, 273:301--325, November 1976.
-
-\bibitem{laplace}
-W.~Craig Carter.
-\newblock 3.21 spring 2002: Lecture 08, February 2002.
-\newblock Accessed: 2017-07-03.
-
-\bibitem{chaichiana}
-Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
-\newblock {Can TeVeS be a viable theory of gravity?}
-\newblock {\em Phys. Lett.}, B735:322--326, 2014.
-
-\bibitem{bbn}
-Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
-  Steidel.
-\newblock {Precision measures of the primordial abundance of deuterium}.
-\newblock {\em Astrophys. J.}, 781(1):31, 2014.
-
-\bibitem{alternatecrystalball}
-Souvik Das.
-\newblock {A simple alternative to the Crystal Ball function}.
-\newblock 2016.
-
-\bibitem{sampling_EXO}
-A.~Dobi et~al.
-\newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
-\newblock {\em Nucl. Instrum. Meth.}, A675:40--46, 2012.
-
-\bibitem{attila}
-Attila Dobi.
-\newblock {\em Measurement of the Electron Recoil Band of the LUX Dark Matter
-  Detector with a Tritium Calibration Source}.
-\newblock PhD thesis, Uniersity of Maryland, 2014.
-
-\bibitem{sampling_dm}
-Attila Dobi, Clayton~G Davis, Carter Hall, Thomas Langford, Simon Slutsky, and
-  Yung-Ruey Yen.
-\newblock {Detection of krypton in xenon for dark matter applications}.
-\newblock {\em Nucl. Instrum. Meth.}, A665:1--6, 2011.
-
-\bibitem{doke2002}
-Tadayoshi Doke, Akira Hitachi, Jun Kikuchi, Kimiaki Masuda, Hiroyuki Okada, and
-  Eido Shibamura.
-\newblock Absolute scintillation yields in liquid argon and xenon for various
-  particles.
-\newblock {\em Japanese Journal of Applied Physics}, 41(3R):1538, 2002.
-
-\bibitem{axion_DM}
-Leanne~D Duffy and Karl van Bibber.
-\newblock Axions as dark matter particles.
-\newblock {\em New Journal of Physics}, 11(10):105008, 2009.
-
-\bibitem{beta_screening}
-Loyal Durand.
-\newblock Electron screening corrections to beta-decay spectra.
-\newblock {\em Phys. Rev.}, 135:B310--B313, Jul 1964.
-
-\bibitem{pixey_extraction}
-B.~N.~V. Edwards et~al.
-\newblock {Extraction efficiency of drifting electrons in a two-phase xenon
-  time projection chamber}.
-\newblock 2017.
-
-\bibitem{DPE}
-C.~H. Faham, V.~M. Gehman, A.~Currie, A.~Dobi, P.~Sorensen, and R.~J.
-  Gaitskell.
-\newblock {Measurements of wavelength-dependent double photoelectron emission
-  from single photons in VUV-sensitive photomultiplier tubes}.
-\newblock {\em JINST}, 10(09):P09010, 2015.
-
-\bibitem{carlos}
-Carlos~H. Faham.
-\newblock {\em Prototype, Surface Commissioning and Photomultiplier
-  sacterization for the Large Underground Xenon (LUX) Direct Dark Matter Search
-  Experiment}.
-\newblock PhD thesis, Brown University, Providence, Rhode Island, 2014.
-
-\bibitem{wimp2}
-Jonathan~L. Feng.
-\newblock Dark matter candidates from particle physics and methods of
-  detection.
-\newblock {\em Annual Review of Astronomy and Astrophysics}, 48(1):495--545,
-  2010.
-
-\bibitem{vaporpressure}
-A.G.M. Ferreira and L.Q. Lobo.
-\newblock The sublimation of argon, krypton, and xenon.
-\newblock {\em The Journal of Chemical Thermodynamics}, 40(12):1621 -- 1626,
-  2008.
-
-\bibitem{axion_photon}
-A.~K. Ganguly.
-\newblock {\em Introduction to Axion Photon Interaction in Particle Physics and
-  Photon Dispersion in Magnetized Media}.
-\newblock Part.\ Phys.\, 2012.
-
-\bibitem{C14_Garcia}
-A.~Garc\'{\i}a and B.~A. Brown.
-\newblock Shape of the \ensuremath{\beta} spectra in the a=14 system.
-\newblock {\em Phys. Rev. C}, 52:3416--3427, Dec 1995.
-
-\bibitem{C14_Genz}
-H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
-\newblock Phenomenological wave functions for the massa=14 system and a
-  consistent description of beta decay observables.
-\newblock {\em Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341(1):9--24,
-  Mar 1991.
-
-\bibitem{nerix}
-L.~W. Goetzke, E.~Aprile, M.~Anthony, G.~Plante, and M.~Weber.
-\newblock Measurement of light and charge yield of low-energy electronic
-  recoils in liquid xenon.
-\newblock {\em Phys. Rev. D}, 96:103007, Nov 2017.
-
-\bibitem{he_dm}
-W.~Guo and D.~N. McKinsey.
-\newblock Concept for a dark matter detector using liquid helium-4.
-\newblock {\em Phys. Rev. D}, 87:115001, Jun 2013.
-
-\bibitem{ar371}
-W.~C. Haxton.
-\newblock $^{37}\mathrm{Ar}$.
-\newblock {\em Phys. Rev. C}, 38:2474--2477, Nov 1988.
-
-\bibitem{helm}
-Richard~H. Helm.
-\newblock {Inelastic and Elastic Scattering of 187-Mev Electrons from Selected
-  Even-Even Nuclei}.
-\newblock {\em Phys. Rev.}, 104:1466--1475, 1956.
-
-\bibitem{rectime}
-Akira Hitachi, Tan Takahashi, Nobutaka Funayama, Kimiaki Masuda, Jun Kikuchi,
-  and Tadayoshi Doke.
-\newblock Effect of ionization density on the time dependence of luminescence
-  from liquid argon and xenon.
-\newblock {\em Phys. Rev. B}, 27:5279--5285, May 1983.
-
-\bibitem{scipy}
-Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
-\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
-
-\bibitem{susyDM}
-Gerard Jungman, Marc Kamionkowski, and Kim Griest.
-\newblock {Supersymmetric dark matter}.
-\newblock {\em Phys. Rept.}, 267:195--373, 1996.
-
-\bibitem{lux_kr1}
-L.~W. {Kastens}, S.~{Bedikian}, S.~B. {Cahn}, A.~{Manzur}, and D.~N.
-  {McKinsey}.
-\newblock {A $^{83}$Kr$^{m}$ source for use in low-background liquid Xenon time
-  projection chambers}.
-\newblock {\em Journal of Instrumentation}, 5:5006, May 2010.
-
-\bibitem{lux_kr2}
-L.~W. Kastens, S.~B. Cahn, A.~Manzur, and D.~N. McKinsey.
-\newblock {Calibration of a Liquid Xenon Detector with Kr-83m}.
-\newblock {\em Phys. Rev.}, C80:045809, 2009.
-
-\bibitem{richard}
-Richard Knoche.
-\newblock {\em Signal Corrections and Calibrations in the LUX Dark Matter
-  Detector}.
-\newblock PhD thesis, University of Maryland, College Park, Maryland, 2016.
-
-\bibitem{wimp_nucleon}
-Andriy Kurylov and Marc Kamionkowski.
-\newblock {Generalized analysis of weakly interacting massive particle
-  searches}.
-\newblock {\em Phys. Rev.}, D69:063503, 2004.
-
-\bibitem{C14_Kuzminov}
-V.~V. Kuzminov and N.~Ja. Osetrova.
-\newblock Precise measurement of 14c beta spectrum by using a wall-less
-  proportional counter.
-\newblock {\em Physics of Atomic Nuclei}, 63(7):1292--1296, Jul 2000.
-
-\bibitem{nist}
-E.W. Lemmon, M.O. McLinden, and D.G. Friend.
-\newblock {\em ``Thermophysical Properties of Fluid Systems" in NIST Chemistry
-  WebBook, NIST Standard Reference Database Number 69}.
-\newblock National Institute of Standards and Technology, Gaithersburg MD,
-  20899.
-\newblock Accessed: 2017-07-13.
-
-\bibitem{lenardo}
-B.~Lenardo, K.~Kazkaz, A.~Manalaysay, J.~Mock, M.~Szydagis, and M.~Tripathi.
-\newblock A global analysis of light and charge yields in liquid xenon.
-\newblock {\em IEEE Transactions on Nuclear Science}, 62(6):3387--3396, Dec
-  2015.
-
-\bibitem{sampling_doug}
-D.~S. Leonard, A.~Dobi, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
-  Yen.
-\newblock {A simple high-sensitivity technique for purity analysis of xenon
-  gas}.
-\newblock {\em Nucl. Instrum. Meth.}, A621:678--684, 2010.
-
-\bibitem{bubble}
-C.~Levy, S.~Fallon, J.~Genovesi, D.~Khaitan, K.~Klimov, J.~Mock, and
-  M.~Szydagis.
-\newblock {Xenon Bubble Chambers for Direct Dark Matter Detection}.
-\newblock {\em JINST}, 11(03):C03003, 2016.
-
-\bibitem{Lewin}
-John Lewin and P~F~Smith.
-\newblock Review of mathematics, numerical factors, and corrections for dark
-  matter experiments based on elastic nuclear recoil.
-\newblock 6, 12 1996.
-
-\bibitem{xenon_tritium}
-Qing Lin, Jialing Fei, Fei Gao, Jie Hu, Yuehuan Wei, Xiang Xiao, Hongwei Wang,
-  and Kaixuan Ni.
-\newblock Scintillation and ionization responses of liquid xenon to low energy
-  electronic and nuclear recoils at drift fields from $236\text{ }\text{
-  }\mathrm{V}/\mathrm{cm}$ to $3.93\text{ }\mathrm{kV}/\mathrm{cm}$.
-\newblock {\em Phys. Rev. D}, 92:032005, Aug 2015.
-
-\bibitem{lindhard}
-Jens Lindhard, V~Nielsen, M~Scharff, and PV~Thomsen.
-\newblock Integral equations governing radiation effects.
-\newblock {\em Mat. Fys. Medd. Dan. Vid. Selsk}, 33(10):1--42, 1963.
-
-\bibitem{clean2}
-W.~H. Lippincott, K.~J. Coakley, D.~Gastler, E.~Kearns, D.~N. McKinsey, and
-  J.~A. Nikkel.
-\newblock {Scintillation yield and time dependence from electronic and nuclear
-  recoils in liquid neon}.
-\newblock {\em Phys. Rev.}, C86:015807, 2012.
-
-\bibitem{lux_sd}
+\bibitem[{LUX Collaboration} et~al.(2017){LUX Collaboration}, {Akerib},
+  {Alsum}, {Ara{\'u}jo}, {Bai}, {Bailey}, {Balajthy}, {Beltrame}, {Bernard},
+  {Bernstein}, {Biesiadzinski}, {Boulton}, {Br{\'a}s}, {Byram}, {Cahn},
+  {Carmona-Benitez}, {Chan}, {Chiller}, {Chiller}, {Currie}, {Cutter},
+  {Davison}, {Dobi}, {Dobson}, {Druszkiewicz}, {Edwards}, {Faham}, {Fallon},
+  {Fiorucci}, {Gaitskell}, {Gehman}, {Ghag}, {Gilchriese}, {Hall}, {Hanhardt},
+  {Haselschwardt}, {Hertel}, {Hogan}, {Horn}, {Huang}, {Ignarra}, {Jacobsen},
+  {Ji}, {Kamdin}, {Kazkaz}, {Khaitan}, {Knoche}, {Larsen}, {Lee}, {Lenardo},
+  {Lesko}, {Lindote}, {Lopes}, {Manalaysay}, {Mannino}, {Marzioni}, {McKinsey},
+  {Mei}, {Mock}, {Moongweluwan}, {Morad}, {Murphy}, {Nehrkorn}, {Nelson},
+  {Neves}, {O'Sullivan}, {Oliver-Mallory}, {Palladino}, {Pease}, {Reichhart},
+  {Rhyne}, {Shaw}, {Shutt}, {Silva}, {Solmaz}, {Solovov}, {Sorensen},
+  {Stephenson}, {Sumner}, {Szydagis}, {Taylor}, {Taylor}, {Tennyson}, {Terman},
+  {Tiedt}, {To}, {Tripathi}, {Tvrznikova}, {Uvarov}, {Velan}, {Verbus}, {Webb},
+  {White}, {Whitis}, {Witherell}, {Wolfs}, {Xu}, {Yazdani}, {Young}, and
+  {Zhang}]{lux_sd}
 {LUX Collaboration}, D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai},
   A.~J. {Bailey}, J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard},
   A.~{Bernstein}, T.~P. {Biesiadzinski}, E.~M. {Boulton}, P.~{Br{\'a}s},
@@ -484,188 +124,774 @@ W.~H. Lippincott, K.~J. Coakley, D.~Gastler, E.~Kearns, D.~N. McKinsey, and
   {Young}, and C.~{Zhang}.
 \newblock {Limits on spin-dependent WIMP-nucleon cross section obtained from
   the complete LUX exposure}.
-\newblock {\em ArXiv e-prints}, May 2017.
+\newblock \emph{ArXiv e-prints}, May 2017.
 
-\bibitem{markevitch}
-Maxim Markevitch, A.~H. Gonzalez, D.~Clowe, A.~Vikhlinin, L.~David, W.~Forman,
-  C.~Jones, S.~Murray, and W.~Tucker.
-\newblock {Direct constraints on the dark matter self-interaction cross-section
-  from the merging galaxy cluster 1E0657-56}.
-\newblock {\em Astrophys. J.}, 606:819--824, 2004.
+\bibitem[{Weber} and {de Boer}(2010)]{weber}
+M.~{Weber} and W.~{de Boer}.
+\newblock {Determination of the local dark matter density in our Galaxy}.
+\newblock \emph{aap}, 509:\penalty0 A25, January 2010.
+\newblock \doi{10.1051/0004-6361/200913381}.
 
-\bibitem{vac_eq}
-N.~Marquardt.
-\newblock {Introduction to the principles of vacuum physics}.
-\newblock 1999.
+\bibitem[Faham(2014)]{carlos}
+Carlos~H. Faham.
+\newblock \emph{Prototype, Surface Commissioning and Photomultiplier
+  sacterization for the Large Underground Xenon (LUX) Direct Dark Matter Search
+  Experiment}.
+\newblock PhD thesis, Brown University, Providence, Rhode Island, 2014.
 
-\bibitem{dmvelocity}
-Christopher McCabe.
-\newblock The earth's velocity for direct detection experiments.
-\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2014(02):027,
-  2014.
+\bibitem[Akerib et~al.(2015)]{lux_fiducial}
+D.~S. Akerib et~al.
+\newblock {Radiogenic and Muon-Induced Backgrounds in the LUX Dark Matter
+  Detector}.
+\newblock \emph{Astropart. Phys.}, 62:\penalty0 33--46, 2015.
+\newblock \doi{10.1016/j.astropartphys.2014.07.009}.
 
-\bibitem{metropolis_1}
-Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
-  Teller, and Edward Teller.
-\newblock Equation of state calculations by fast computing machines.
-\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
-
-\bibitem{milgrom}
-M.~{Milgrom}.
-\newblock {A modification of the Newtonian dynamics as a possible alternative
-  to the hidden mass hypothesis}.
-\newblock {\em apj}, 270:365--370, July 1983.
-
-\bibitem{pulseshape}
-J~Mock, N~Barry, K~Kazkaz, D~Stolp, M~Szydagis, M~Tripathi, S~Uvarov, M~Woods,
-  and N~Walsh.
-\newblock Modeling pulse characteristics in xenon with nest.
-\newblock {\em Journal of Instrumentation}, 9(04):T04002, 2014.
-
-\bibitem{C14_Curran}
-A.~Moljk and S.~C. Curran.
-\newblock Beta spectra of ${\mathrm{c}}^{14}$ and ${\mathrm{s}}^{35}$.
-\newblock {\em Phys. Rev.}, 96:395--398, Oct 1954.
-
-\bibitem{lz_tdr}
+\bibitem[Mount et~al.(2017)]{lz_tdr}
 B.~J. Mount et~al.
 \newblock {LUX-ZEPLIN (LZ) Technical Design Report}.
 \newblock 2017.
 
-\bibitem{navarro}
-Julio~F. Navarro, Carlos~S. Frenk, and Simon D.~M. White.
-\newblock {The Structure of cold dark matter halos}.
-\newblock {\em Astrophys. J.}, 462:563--575, 1996.
+\bibitem[Akerib et~al.(2013)Akerib, Bai, Bedikian, Bernard, Bernstein,
+  Bolozdynya, Bradley, Byram, Cahn, Camp, Carmona-Benitez, Carr, Chapman,
+  Chiller, Chiller, Clark, Classen, Coffey, Curioni, Dahl, Dazeley,
+  de~Viveiros, Dobi, Dragowsky, Druszkiewicz, Edwards, Faham, Fiorucci,
+  Gaitskell, Gibson, Gilchriese, Hall, Hanhardt, Holbrook, Ihm, Jacobsen,
+  Kastens, Kazkaz, Knoche, Kyre, Kwong, Lander, Larsen, Lee, Leonard, Lesko,
+  Lindote, Lopes, Lyashenko, Malling, Mannino, Marquez, McKinsey, Mei, Mock,
+  Moongweluwan, Morii, Nelson, Neves, Nikkel, Pangilinan, Parker, Pease, Pech,
+  Phelps, Rodionov, Roberts, Shei, Shutt, Silva, Skulski, Solovov, Sofka,
+  Sorensen, Spaans, Stiegler, Stolp, Svoboda, Sweany, Szydagis, Taylor,
+  Thomson, Tripathi, Uvarov, Verbus, Walsh, Webb, White, White, Whitis,
+  Wlasenko, Wolfs, Woods, and Zhang]{lux2012}
+D.S. Akerib, X.~Bai, S.~Bedikian, E.~Bernard, A.~Bernstein, A.~Bolozdynya,
+  A.~Bradley, D.~Byram, S.B. Cahn, C.~Camp, M.C. Carmona-Benitez, D.~Carr, J.J.
+  Chapman, A.~Chiller, C.~Chiller, K.~Clark, T.~Classen, T.~Coffey, A.~Curioni,
+  E.~Dahl, S.~Dazeley, L.~de~Viveiros, A.~Dobi, E.~Dragowsky, E.~Druszkiewicz,
+  B.~Edwards, C.H. Faham, S.~Fiorucci, R.J. Gaitskell, K.R. Gibson,
+  M.~Gilchriese, C.~Hall, M.~Hanhardt, B.~Holbrook, M.~Ihm, R.G. Jacobsen,
+  L.~Kastens, K.~Kazkaz, R.~Knoche, S.~Kyre, J.~Kwong, R.~Lander, N.A. Larsen,
+  C.~Lee, D.S. Leonard, K.T. Lesko, A.~Lindote, M.I. Lopes, A.~Lyashenko, D.C.
+  Malling, R.~Mannino, Z.~Marquez, D.N. McKinsey, D.-M. Mei, J.~Mock,
+  M.~Moongweluwan, M.~Morii, H.~Nelson, F.~Neves, J.A. Nikkel, M.~Pangilinan,
+  P.D. Parker, E.K. Pease, K.~Pech, P.~Phelps, A.~Rodionov, P.~Roberts,
+  A.~Shei, T.~Shutt, C.~Silva, W.~Skulski, V.N. Solovov, C.J. Sofka,
+  P.~Sorensen, J.~Spaans, T.~Stiegler, D.~Stolp, R.~Svoboda, M.~Sweany,
+  M.~Szydagis, D.~Taylor, J.~Thomson, M.~Tripathi, S.~Uvarov, J.R. Verbus,
+  N.~Walsh, R.~Webb, D.~White, J.T. White, T.J. Whitis, M.~Wlasenko, F.L.H.
+  Wolfs, M.~Woods, and C.~Zhang.
+\newblock The large underground xenon (lux) experiment.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  704\penalty0 (Supplement C):\penalty0 111 -- 126, 2013.
+\newblock ISSN 0168-9002.
+\newblock \doi{https://doi.org/10.1016/j.nima.2012.11.135}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900212014829}.
 
-\bibitem{ptfe_ref}
-F.~Neves, A.~Lindote, A.~Morozov, V.~Solovov, C.~Silva, P.~Bras, J.P.
-  Rodrigues, and M.I. Lopes.
-\newblock Measurement of the absolute reflectance of polytetrafluoroethylene
-  (ptfe) immersed in liquid xenon.
-\newblock {\em Journal of Instrumentation}, 12(01):P01017, 2017.
+\bibitem[Akerib et~al.(2017{\natexlab{a}})]{lux_efield}
+D.~S. Akerib et~al.
+\newblock {3D Modeling of Electric Fields in the LUX Detector}.
+\newblock 2017{\natexlab{a}}.
 
-\bibitem{oort}
-J.~H. {Oort}.
-\newblock {The force exerted by the stellar system in the direction
-  perpendicular to the galactic plane and some related problems}.
-\newblock {\em bain}, 6:249, August 1932.
+\bibitem[Dobi(2014)]{attila}
+Attila Dobi.
+\newblock \emph{Measurement of the Electron Recoil Band of the LUX Dark Matter
+  Detector with a Tritium Calibration Source}.
+\newblock PhD thesis, Uniersity of Maryland, 2014.
+\newblock URL \url{https://drum.lib.umd.edu/handle/1903/16206}.
 
-\bibitem{crystalball}
-M.~Oreglia.
-\newblock {\em {A Study of the Reactions $\psi^\prime \to \gamma \gamma
-  \psi$}}.
-\newblock PhD thesis, SLAC, 1980.
-
-\bibitem{peccei_quinn}
-R.~D. Peccei and Helen~R. Quinn.
-\newblock $\mathrm{CP}$.
-\newblock {\em Phys. Rev. Lett.}, 38:1440--1443, Jun 1977.
-
-\bibitem{LNheatflux}
-Eric Roth.
-\newblock {\em Nucleation and Heat Transfer in Liquid Nitrogen}.
-\newblock PhD thesis, Portland State University, 1993.
-
-\bibitem{rubin}
-V.~C. {Rubin}, W.~K. {Ford}, Jr., and N.~{Thonnard}.
-\newblock {Rotational properties of 21 SC galaxies with a large range of
-  luminosities and radii, from NGC 4605 /R = 4kpc/ to UGC 2885 /R = 122 kpc/}.
-\newblock {\em apj}, 238:471--487, June 1980.
-
-\bibitem{ryden}
-B.~Ryden.
-\newblock {\em Introduction to cosmology}.
-\newblock Addison-Wesley, San Francisco, USA, 2003.
-
-\bibitem{persic}
-P.~Salucci and M.~Persic.
-\newblock {Dark matter halos around galaxies}.
-\newblock 1996.
-\newblock [ASP Conf. Ser.117,1(1997)].
-
-\bibitem{dmintro}
-Richard~W. Schnee.
-\newblock {Introduction to dark matter experiments}.
-\newblock pages 775--829, 2011.
-
-\bibitem{C14_Sonntag}
-Ch. Sonntag, H.~Rebel, B.~Ribbat, S.~K. Thio, and W.~R. Gramm.
-\newblock Experimental evidence for the nonstatistical shape of the beta
-  spectrum of14c.
-\newblock {\em Lettere al Nuovo Cimento (1969-1970)}, 4(15):717--719, Oct 1970.
-
-\bibitem{tib2}
-Peter Sorensen and Carl~Eric Dahl.
-\newblock {Nuclear recoil energy scale in liquid xenon with application to the
-  direct detection of dark matter}.
-\newblock {\em Phys. Rev.}, D83:063501, 2011.
-
-\bibitem{ADMX}
-Ian~P. Stern.
-\newblock {Axion Dark Matter Searches}.
-\newblock {\em AIP Conf. Proc.}, 1604:456--461, 2014.
-
-\bibitem{nest1}
-M~Szydagis, N~Barry, K~Kazkaz, J~Mock, D~Stolp, M~Sweany, M~Tripathi, S~Uvarov,
-  N~Walsh, and M~Woods.
-\newblock Nest: a comprehensive model for scintillation yield in liquid xenon.
-\newblock {\em Journal of Instrumentation}, 6(10):P10002, 2011.
-
-\bibitem{matthew}
-Matthew Szydagis.
-\newblock personal communication.
-
-\bibitem{nest2}
+\bibitem[Szydagis et~al.(2013)Szydagis, Fyhrie, Thorngren, and Tripathi]{nest2}
 Matthew Szydagis, Adalyn Fyhrie, Daniel Thorngren, and Mani Tripathi.
 \newblock Enhancement of nest capabilities for simulating low-energy recoils in
   liquid xenon.
-\newblock {\em Journal of Instrumentation}, 8(10):C10003, 2013.
+\newblock \emph{Journal of Instrumentation}, 8\penalty0 (10):\penalty0 C10003,
+  2013.
 
-\bibitem{tib1}
-J.~Thomas and D.~A. Imel.
-\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
-\newblock {\em Phys. Rev. A}, 36:614--616, Jul 1987.
+\bibitem[Dobi et~al.(2011)Dobi, Davis, Hall, Langford, Slutsky, and
+  Yen]{sampling_dm}
+Attila Dobi, Clayton~G Davis, Carter Hall, Thomas Langford, Simon Slutsky, and
+  Yung-Ruey Yen.
+\newblock {Detection of krypton in xenon for dark matter applications}.
+\newblock \emph{Nucl. Instrum. Meth.}, A665:\penalty0 1--6, 2011.
+\newblock \doi{10.1016/j.nima.2011.11.043}.
 
-\bibitem{macho}
-P.~Tisserand et~al.
-\newblock {Limits on the Macho Content of the Galactic Halo from the EROS-2
-  Survey of the Magellanic Clouds}.
-\newblock {\em Astron. Astrophys.}, 469:387--404, 2007.
+\bibitem[Akerib et~al.(2016{\natexlab{a}})]{lux_dd2}
+D.~S. Akerib et~al.
+\newblock {Low-energy (0.7-74 keV) nuclear recoil calibration of the LUX dark
+  matter experiment using D-D neutron scattering kinematics}.
+\newblock 2016{\natexlab{a}}.
 
-\bibitem{beta_fermi}
-P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
-\newblock A simple relation for the fermi function.
-\newblock {\em Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+\bibitem[Boulton et~al.(2017)Boulton, Bernard, Destefano, Edwards, Gai, Hertel,
+  Horn, Larsen, Tennyson, Wahl, and McKinsey]{pixey_ar37}
+E.M. Boulton, E.~Bernard, N.~Destefano, B.N.V. Edwards, M.~Gai, S.A. Hertel,
+  M.~Horn, N.A. Larsen, B.P. Tennyson, C.~Wahl, and D.N. McKinsey.
+\newblock Calibration of a two-phase xenon time projection chamber with a 37 ar
+  source.
+\newblock \emph{Journal of Instrumentation}, 12\penalty0 (08):\penalty0 P08004,
+  2017.
+\newblock URL \url{http://stacks.iop.org/1748-0221/12/i=08/a=P08004}.
 
-\bibitem{lux_dd1}
-J.~R. Verbus et~al.
-\newblock {Proposed low-energy absolute calibration of nuclear recoils in a
-  dual-phase noble element TPC using D-D neutron scattering kinematics}.
-\newblock {\em Nucl. Instrum. Meth.}, A851:68--81, 2017.
+\bibitem[Sonntag et~al.(1970)Sonntag, Rebel, Ribbat, Thio, and
+  Gramm]{C14_Sonntag}
+Ch. Sonntag, H.~Rebel, B.~Ribbat, S.~K. Thio, and W.~R. Gramm.
+\newblock Experimental evidence for the nonstatistical shape of the beta
+  spectrum of14c.
+\newblock \emph{Lettere al Nuovo Cimento (1969-1970)}, 4\penalty0
+  (15):\penalty0 717--719, Oct 1970.
+\newblock ISSN 1827-613X.
+\newblock \doi{10.1007/BF02755335}.
+\newblock URL \url{https://doi.org/10.1007/BF02755335}.
 
-\bibitem{weber}
-M.~{Weber} and W.~{de Boer}.
-\newblock {Determination of the local dark matter density in our Galaxy}.
-\newblock {\em aap}, 509:A25, January 2010.
-
-\bibitem{C14_Wietfeldt}
+\bibitem[Wietfeldt et~al.(1995)Wietfeldt, Norman, Chan, da~Cruz, Garc\'{\i}a,
+  Haller, Hansen, Hindi, Larimer, Lesko, Luke, Stokstad, Sur, and
+  \ifmmode~\check{Z}\else \v{Z}\fi{}limen]{C14_Wietfeldt}
 F.~E. Wietfeldt, E.~B. Norman, Y.~D. Chan, M.~T.~F. da~Cruz, A.~Garc\'{\i}a,
   E.~E. Haller, W.~L. Hansen, M.~M. Hindi, R.-M. Larimer, K.~T. Lesko, P.~N.
   Luke, R.~G. Stokstad, B.~Sur, and I.~\ifmmode~\check{Z}\else \v{Z}\fi{}limen.
 \newblock Further studies on the evidence for a 17-kev neutrino in a
   $^{14}\mathrm{doped}$ germanium detector.
-\newblock {\em Phys. Rev. C}, 52:1028--1040, Aug 1995.
+\newblock \emph{Phys. Rev. C}, 52:\penalty0 1028--1040, Aug 1995.
+\newblock \doi{10.1103/PhysRevC.52.1028}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.52.1028}.
 
-\bibitem{wilkinson}
-DH~Wilkinson.
-\newblock Evaluation of beta-decay: I. the traditional phase space factors.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  275(2):378--386, 1989.
+\bibitem[Alimonti et~al.(1998)Alimonti, Angloher, Arpesella, Balata, Bellini,
+  Benziger, Bonetti, Cadonati, Calaprice, Cecchet, Chen, Darnton, De~Bari,
+  Deutsch, Elisei, Von~Feilitzsch, Galbiati, Gatti, Giammarchi, Giugni,
+  Goldbrunner, Golubchikov, Goretti, Hagner, Hartmann, Von~Hentig, Heusser,
+  Ianni, Jochum, Johnson, Laubenstein, Lombardi, Magni, Malvezzi, Manno,
+  Manuzio, Masetti, Mazzucato, Meroni, Neff, Nostro, Oberauer, Perotti, Preda,
+  Raghavan, Ranucci, Resconi, Ruscitti, Scardaoni, Schönert, Smirnov,
+  Tartaglia, Testera, Ullucci, Vogelaar, Vitale, and Zaimidoroga]{C14_Borexino}
+G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
+  S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
+  A.~De~Bari, M.~Deutsch, F.~Elisei, F.~Von~Feilitzsch, C.~Galbiati, F.~Gatti,
+  M.G. Giammarchi, D.~Giugni, T.~Goldbrunner, A.~Golubchikov, A.~Goretti,
+  T.~Hagner, F.X. Hartmann, R.~Von~Hentig, G.~Heusser, A.~Ianni, J.~Jochum,
+  M.~Johnson, M.~Laubenstein, P.~Lombardi, S.~Magni, S.~Malvezzi, I.~Manno,
+  G.~Manuzio, F.~Masetti, U.~Mazzucato, E.~Meroni, M.~Neff, A.~Nostro,
+  L.~Oberauer, A.~Perotti, A.~Preda, R.S. Raghavan, G.~Ranucci, E.~Resconi,
+  M.~Ruscitti, R.~Scardaoni, S.~Schönert, O.~Smirnov, R.~Tartaglia,
+  G.~Testera, P.~Ullucci, R.B. Vogelaar, S.~Vitale, and O.~Zaimidoroga.
+\newblock Measurement of the 14c abundance in a low-background liquid
+  scintillator.
+\newblock \emph{Physics Letters, Section B: Nuclear, Elementary Particle and
+  High-Energy Physics}, 422\penalty0 (1-4):\penalty0 349--358, 1998.
+\newblock URL
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-0040843577&partnerID=40&md5=e7792ad2cfab37b6aa48a03f6faadaaa}.
+\newblock cited By 73.
 
-\bibitem{zwicky}
+\bibitem[Kuzminov and Osetrova(2000)]{C14_Kuzminov}
+V.~V. Kuzminov and N.~Ja. Osetrova.
+\newblock Precise measurement of 14c beta spectrum by using a wall-less
+  proportional counter.
+\newblock \emph{Physics of Atomic Nuclei}, 63\penalty0 (7):\penalty0
+  1292--1296, Jul 2000.
+\newblock ISSN 1562-692X.
+\newblock \doi{10.1134/1.855786}.
+\newblock URL \url{https://doi.org/10.1134/1.855786}.
+
+\bibitem[Genz et~al.(1991)Genz, K{\"u}hner, Richter, and Behrens]{C14_Genz}
+H.~Genz, G.~K{\"u}hner, A.~Richter, and H.~Behrens.
+\newblock Phenomenological wave functions for the massa=14 system and a
+  consistent description of beta decay observables.
+\newblock \emph{Zeitschrift f{\"u}r Physik A Hadrons and Nuclei}, 341\penalty0
+  (1):\penalty0 9--24, Mar 1991.
+\newblock ISSN 0939-7922.
+\newblock \doi{10.1007/BF01281270}.
+\newblock URL \url{https://doi.org/10.1007/BF01281270}.
+
+\bibitem[Garc\'{\i}a and Brown(1995)]{C14_Garcia}
+A.~Garc\'{\i}a and B.~A. Brown.
+\newblock Shape of the \ensuremath{\beta} spectra in the a=14 system.
+\newblock \emph{Phys. Rev. C}, 52:\penalty0 3416--3427, Dec 1995.
+\newblock \doi{10.1103/PhysRevC.52.3416}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.52.3416}.
+
+\bibitem[Das(2016)]{alternatecrystalball}
+Souvik Das.
+\newblock {A simple alternative to the Crystal Ball function}.
+\newblock 2016.
+
+\bibitem[dah()]{dahl}
+PhD thesis.
+
+\bibitem[Akerib et~al.(2016{\natexlab{b}})]{lux_tritium}
+D.~S. Akerib et~al.
+\newblock {Tritium calibration of the LUX dark matter experiment}.
+\newblock \emph{Phys. Rev.}, D93\penalty0 (7):\penalty0 072009,
+  2016{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevD.93.072009}.
+
+\bibitem[Dobi()]{attila_sol}
+Attila Dobi.
+\newblock personal communication.
+
+\bibitem[Ryden(2003)]{ryden}
+B.~Ryden.
+\newblock \emph{Introduction to cosmology}.
+\newblock Addison-Wesley, San Francisco, USA, 2003.
+
+\bibitem[{Zwicky}(1937)]{zwicky}
 F.~{Zwicky}.
 \newblock {On the Masses of Nebulae and of Clusters of Nebulae}.
-\newblock {\em apj}, 86:217, October 1937.
+\newblock \emph{apj}, 86:\penalty0 217, October 1937.
+\newblock \doi{10.1086/143864}.
+
+\bibitem[{Oort}(1932)]{oort}
+J.~H. {Oort}.
+\newblock {The force exerted by the stellar system in the direction
+  perpendicular to the galactic plane and some related problems}.
+\newblock \emph{bain}, 6:\penalty0 249, August 1932.
+
+\bibitem[{Rubin} et~al.(1980){Rubin}, {Ford}, and {Thonnard}]{rubin}
+V.~C. {Rubin}, W.~K. {Ford}, Jr., and N.~{Thonnard}.
+\newblock {Rotational properties of 21 SC galaxies with a large range of
+  luminosities and radii, from NGC 4605 /R = 4kpc/ to UGC 2885 /R = 122 kpc/}.
+\newblock \emph{apj}, 238:\penalty0 471--487, June 1980.
+\newblock \doi{10.1086/158003}.
+
+\bibitem[Navarro et~al.(1996)Navarro, Frenk, and White]{navarro}
+Julio~F. Navarro, Carlos~S. Frenk, and Simon D.~M. White.
+\newblock {The Structure of cold dark matter halos}.
+\newblock \emph{Astrophys. J.}, 462:\penalty0 563--575, 1996.
+\newblock \doi{10.1086/177173}.
+
+\bibitem[{Milgrom}(1983)]{milgrom}
+M.~{Milgrom}.
+\newblock {A modification of the Newtonian dynamics as a possible alternative
+  to the hidden mass hypothesis}.
+\newblock \emph{apj}, 270:\penalty0 365--370, July 1983.
+\newblock \doi{10.1086/161130}.
+
+\bibitem[Bekenstein and Sanders(2005)]{bekenstein}
+Jacob~D. Bekenstein and Robert~H. Sanders.
+\newblock {A primer to relativistic MOND theory}.
+\newblock 2005.
+\newblock \doi{10.1051/eas:2006075}.
+\newblock [EAS Publ. Ser.20,225(2006)].
+
+\bibitem[Chaichian et~al.(2014)Chaichian, Kluso?, Oksanen, and
+  Tureanu]{chaichiana}
+Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
+\newblock {Can TeVeS be a viable theory of gravity?}
+\newblock \emph{Phys. Lett.}, B735:\penalty0 322--326, 2014.
+\newblock \doi{10.1016/j.physletb.2014.06.036}.
+
+\bibitem[Tisserand et~al.(2007)]{macho}
+P.~Tisserand et~al.
+\newblock {Limits on the Macho Content of the Galactic Halo from the EROS-2
+  Survey of the Magellanic Clouds}.
+\newblock \emph{Astron. Astrophys.}, 469:\penalty0 387--404, 2007.
+\newblock \doi{10.1051/0004-6361:20066017}.
+
+\bibitem[Cooke et~al.(2014)Cooke, Pettini, Jorgenson, Murphy, and Steidel]{bbn}
+Ryan Cooke, Max Pettini, Regina~A. Jorgenson, Michael~T. Murphy, and Charles~C.
+  Steidel.
+\newblock {Precision measures of the primordial abundance of deuterium}.
+\newblock \emph{Astrophys. J.}, 781\penalty0 (1):\penalty0 31, 2014.
+\newblock \doi{10.1088/0004-637X/781/1/31}.
+
+\bibitem[Baker et~al.(2006)]{nedm}
+C.~A. Baker et~al.
+\newblock {An Improved experimental limit on the electric dipole moment of the
+  neutron}.
+\newblock \emph{Phys. Rev. Lett.}, 97:\penalty0 131801, 2006.
+\newblock \doi{10.1103/PhysRevLett.97.131801}.
+
+\bibitem[Duffy and van Bibber(2009)]{axion_DM}
+Leanne~D Duffy and Karl van Bibber.
+\newblock Axions as dark matter particles.
+\newblock \emph{New Journal of Physics}, 11\penalty0 (10):\penalty0 105008,
+  2009.
+\newblock URL \url{http://stacks.iop.org/1367-2630/11/i=10/a=105008}.
+
+\bibitem[Peccei and Quinn(1977)]{peccei_quinn}
+R.~D. Peccei and Helen~R. Quinn.
+\newblock $\mathrm{CP}$.
+\newblock \emph{Phys. Rev. Lett.}, 38:\penalty0 1440--1443, Jun 1977.
+\newblock \doi{10.1103/PhysRevLett.38.1440}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.38.1440}.
+
+\bibitem[Ganguly(2012)]{axion_photon}
+A.~K. Ganguly.
+\newblock \emph{Introduction to Axion Photon Interaction in Particle Physics
+  and Photon Dispersion in Magnetized Media}.
+\newblock Part.\ Phys.\, 2012.
+\newblock \doi{10.5772/35788}.
+
+\bibitem[Jungman et~al.(1996)Jungman, Kamionkowski, and Griest]{susyDM}
+Gerard Jungman, Marc Kamionkowski, and Kim Griest.
+\newblock {Supersymmetric dark matter}.
+\newblock \emph{Phys. Rept.}, 267:\penalty0 195--373, 1996.
+\newblock \doi{10.1016/0370-1573(95)00058-5}.
+
+\bibitem[Bergstr�m(2000)]{wimp1}
+Lars Bergstr�m.
+\newblock {Nonbaryonic dark matter: Observational evidence and detection
+  methods}.
+\newblock \emph{Rept. Prog. Phys.}, 63:\penalty0 793, 2000.
+\newblock \doi{10.1088/0034-4885/63/5/2r3}.
+
+\bibitem[Schnee(2011)]{dmintro}
+Richard~W. Schnee.
+\newblock {Introduction to dark matter experiments}.
+\newblock pages 775--829, 2011.
+\newblock \doi{10.1142/9789814327183_0014}.
+\newblock URL
+  \url{https://inspirehep.net/record/885795/files/arXiv:1101.5205.pdf}.
+
+\bibitem[Kurylov and Kamionkowski(2004)]{wimp_nucleon}
+Andriy Kurylov and Marc Kamionkowski.
+\newblock {Generalized analysis of weakly interacting massive particle
+  searches}.
+\newblock \emph{Phys. Rev.}, D69:\penalty0 063503, 2004.
+\newblock \doi{10.1103/PhysRevD.69.063503}.
+
+\bibitem[McCabe(2014)]{dmvelocity}
+Christopher McCabe.
+\newblock The earth's velocity for direct detection experiments.
+\newblock \emph{Journal of Cosmology and Astroparticle Physics}, 2014\penalty0
+  (02):\penalty0 027, 2014.
+\newblock URL \url{http://stacks.iop.org/1475-7516/2014/i=02/a=027}.
+
+\bibitem[Bernabei et~al.(2013)Bernabei, Belli, Cappella, Caracciolo,
+  Castellano, Cerulli, Dai, d'Angelo, d'Angelo, Di~Marco, He, Incicchitti,
+  Kuang, Ma, Montecchia, Prosperi, Sheng, Wang, and Ye]{dama}
+R.~Bernabei, P.~Belli, F.~Cappella, V.~Caracciolo, S.~Castellano, R.~Cerulli,
+  C.~J. Dai, A.~d'Angelo, S.~d'Angelo, A.~Di~Marco, H.~L. He, A.~Incicchitti,
+  H.~H. Kuang, X.~H. Ma, F.~Montecchia, D.~Prosperi, X.~D. Sheng, R.~G. Wang,
+  and Z.~P. Ye.
+\newblock Final model independent result of dama/libra--phase1.
+\newblock \emph{The European Physical Journal C}, 73\penalty0 (12):\penalty0
+  2648, Nov 2013.
+\newblock ISSN 1434-6052.
+\newblock \doi{10.1140/epjc/s10052-013-2648-7}.
+\newblock URL \url{https://doi.org/10.1140/epjc/s10052-013-2648-7}.
+
+\bibitem[Helm(1956)]{helm}
+Richard~H. Helm.
+\newblock {Inelastic and Elastic Scattering of 187-Mev Electrons from Selected
+  Even-Even Nuclei}.
+\newblock \emph{Phys. Rev.}, 104:\penalty0 1466--1475, 1956.
+\newblock \doi{10.1103/PhysRev.104.1466}.
+
+\bibitem[Lewin and F~Smith(1996)]{Lewin}
+John Lewin and P~F~Smith.
+\newblock Review of mathematics, numerical factors, and corrections for dark
+  matter experiments based on elastic nuclear recoil.
+\newblock 6, 12 1996.
+
+\bibitem[Levy et~al.(2016)Levy, Fallon, Genovesi, Khaitan, Klimov, Mock, and
+  Szydagis]{bubble}
+C.~Levy, S.~Fallon, J.~Genovesi, D.~Khaitan, K.~Klimov, J.~Mock, and
+  M.~Szydagis.
+\newblock {Xenon Bubble Chambers for Direct Dark Matter Detection}.
+\newblock \emph{JINST}, 11\penalty0 (03):\penalty0 C03003, 2016.
+\newblock \doi{10.1088/1748-0221/11/03/C03003}.
+
+\bibitem[Agnese et~al.(2017)Agnese, Anderson, Aramaki, Arnquist, Baker, Barker,
+  Basu~Thakur, Bauer, Borgland, Bowles, Brink, Bunker, Cabrera, Caldwell,
+  Calkins, Cartaro, Cerde\~no, Chagani, Chen, Cooley, Cornell, Cushman, Daal,
+  Di~Stefano, Doughty, Esteban, Fallows, Figueroa-Feliciano, Fritts, Gerbier,
+  Ghaith, Godfrey, Golwala, Hall, Harris, Hofer, Holmgren, Hong, Hoppe, Hsu,
+  Huber, Iyer, Jardin, Jastram, Kelsey, Kennedy, Kubik, Kurinsky, Leder, Loer,
+  Lopez~Asamar, Lukens, Mahapatra, Mandic, Mast, Mirabolfathi, Moffatt,
+  Morales~Mendoza, Orrell, Oser, Page, Page, Partridge, Pepin, Phipps, Poudel,
+  Pyle, Qiu, Rau, Redl, Reisetter, Roberts, Robinson, Rogers, Saab, Sadoulet,
+  Sander, Schneck, Schnee, Serfass, Speller, Stein, Street, Tanaka, Toback,
+  Underwood, Villano, von Krosigk, Welliver, Wilson, Wright, Yellin, Yen,
+  Young, Zhang, and Zhao]{cdms}
+R.~Agnese, A.~J. Anderson, T.~Aramaki, I.~Arnquist, W.~Baker, D.~Barker,
+  R.~Basu~Thakur, D.~A. Bauer, A.~Borgland, M.~A. Bowles, P.~L. Brink,
+  R.~Bunker, B.~Cabrera, D.~O. Caldwell, R.~Calkins, C.~Cartaro, D.~G.
+  Cerde\~no, H.~Chagani, Y.~Chen, J.~Cooley, B.~Cornell, P.~Cushman, M.~Daal,
+  P.~C.~F. Di~Stefano, T.~Doughty, L.~Esteban, S.~Fallows,
+  E.~Figueroa-Feliciano, M.~Fritts, G.~Gerbier, M.~Ghaith, G.~L. Godfrey, S.~R.
+  Golwala, J.~Hall, H.~R. Harris, T.~Hofer, D.~Holmgren, Z.~Hong, E.~Hoppe,
+  L.~Hsu, M.~E. Huber, V.~Iyer, D.~Jardin, A.~Jastram, M.~H. Kelsey,
+  A.~Kennedy, A.~Kubik, N.~A. Kurinsky, A.~Leder, B.~Loer, E.~Lopez~Asamar,
+  P.~Lukens, R.~Mahapatra, V.~Mandic, N.~Mast, N.~Mirabolfathi, R.~A. Moffatt,
+  J.~D. Morales~Mendoza, J.~L. Orrell, S.~M. Oser, K.~Page, W.~A. Page,
+  R.~Partridge, M.~Pepin, A.~Phipps, S.~Poudel, M.~Pyle, H.~Qiu, W.~Rau,
+  P.~Redl, A.~Reisetter, A.~Roberts, A.~E. Robinson, H.~E. Rogers, T.~Saab,
+  B.~Sadoulet, J.~Sander, K.~Schneck, R.~W. Schnee, B.~Serfass, D.~Speller,
+  M.~Stein, J.~Street, H.~A. Tanaka, D.~Toback, R.~Underwood, A.~N. Villano,
+  B.~von Krosigk, B.~Welliver, J.~S. Wilson, D.~H. Wright, S.~Yellin, J.~J.
+  Yen, B.~A. Young, X.~Zhang, and X.~Zhao.
+\newblock Projected sensitivity of the supercdms snolab experiment.
+\newblock \emph{Phys. Rev. D}, 95:\penalty0 082002, Apr 2017.
+\newblock \doi{10.1103/PhysRevD.95.082002}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.95.082002}.
+
+\bibitem[Boulay et~al.(2004)Boulay, Hime, and Lidgard]{clean1}
+M.~G. Boulay, A.~Hime, and J.~Lidgard.
+\newblock {Design constraints for a WIMP dark matter and pp solar neutrino
+  liquid neon scintillation detector}.
+\newblock 2004.
+
+\bibitem[Lippincott et~al.(2012)Lippincott, Coakley, Gastler, Kearns, McKinsey,
+  and Nikkel]{clean2}
+W.~H. Lippincott, K.~J. Coakley, D.~Gastler, E.~Kearns, D.~N. McKinsey, and
+  J.~A. Nikkel.
+\newblock {Scintillation yield and time dependence from electronic and nuclear
+  recoils in liquid neon}.
+\newblock \emph{Phys. Rev.}, C86:\penalty0 015807, 2012.
+\newblock \doi{10.1103/PhysRevC.86.015807}.
+
+\bibitem[Guo and McKinsey(2013)]{he_dm}
+W.~Guo and D.~N. McKinsey.
+\newblock Concept for a dark matter detector using liquid helium-4.
+\newblock \emph{Phys. Rev. D}, 87:\penalty0 115001, Jun 2013.
+\newblock \doi{10.1103/PhysRevD.87.115001}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.87.115001}.
+
+\bibitem[Akerib et~al.(2018)]{lux_krremoval}
+D.~S. Akerib et~al.
+\newblock {Chromatographic separation of radioactive noble gases from xenon}.
+\newblock \emph{Astropart. Phys.}, 97:\penalty0 80--87, 2018.
+\newblock \doi{10.1016/j.astropartphys.2017.10.014}.
+
+\bibitem[Leonard et~al.(2010)Leonard, Dobi, Hall, Kaufman, Langford, Slutsky,
+  and Yen]{sampling_doug}
+D.~S. Leonard, A.~Dobi, C.~Hall, L.~Kaufman, T.~Langford, S.~Slutsky, and Y.~R.
+  Yen.
+\newblock {A simple high-sensitivity technique for purity analysis of xenon
+  gas}.
+\newblock \emph{Nucl. Instrum. Meth.}, A621:\penalty0 678--684, 2010.
+\newblock \doi{10.1016/j.nima.2010.04.152}.
+
+\bibitem[Neves et~al.(2017)Neves, Lindote, Morozov, Solovov, Silva, Bras,
+  Rodrigues, and Lopes]{ptfe_ref}
+F.~Neves, A.~Lindote, A.~Morozov, V.~Solovov, C.~Silva, P.~Bras, J.P.
+  Rodrigues, and M.I. Lopes.
+\newblock Measurement of the absolute reflectance of polytetrafluoroethylene
+  (ptfe) immersed in liquid xenon.
+\newblock \emph{Journal of Instrumentation}, 12\penalty0 (01):\penalty0 P01017,
+  2017.
+\newblock URL \url{http://stacks.iop.org/1748-0221/12/i=01/a=P01017}.
+
+\bibitem[Bolozdynya et~al.(2009)Bolozdynya, Bradley, Bryan, Clark, Dahl, Kwong,
+  Mock, Phelps, Shutt, and Usowicz]{thermosyphon}
+A.~Bolozdynya, A.~Bradley, S.~Bryan, K.~Clark, C.~E. Dahl, J.~Kwong, J.~Mock,
+  P.~Phelps, T.~Shutt, and M.~Usowicz.
+\newblock Cryogenics for the lux detector.
+\newblock \emph{IEEE Transactions on Nuclear Science}, 56\penalty0
+  (4):\penalty0 2309--2312, Aug 2009.
+\newblock ISSN 0018-9499.
+\newblock \doi{10.1109/TNS.2009.2023443}.
+
+\bibitem[get()]{getter}
+
+
+\bibitem[{Kastens} et~al.(2010){Kastens}, {Bedikian}, {Cahn}, {Manzur}, and
+  {McKinsey}]{lux_kr1}
+L.~W. {Kastens}, S.~{Bedikian}, S.~B. {Cahn}, A.~{Manzur}, and D.~N.
+  {McKinsey}.
+\newblock {A $^{83}$Kr$^{m}$ source for use in low-background liquid Xenon time
+  projection chambers}.
+\newblock \emph{Journal of Instrumentation}, 5:\penalty0 5006, May 2010.
+\newblock \doi{10.1088/1748-0221/5/05/P05006}.
+
+\bibitem[Knoche(2016)]{richard}
+Richard Knoche.
+\newblock \emph{Signal Corrections and Calibrations in the LUX Dark Matter
+  Detector}.
+\newblock PhD thesis, University of Maryland, College Park, Maryland, 2016.
+
+\bibitem[Lindhard et~al.(1963)Lindhard, Nielsen, Scharff, and
+  Thomsen]{lindhard}
+Jens Lindhard, V~Nielsen, M~Scharff, and PV~Thomsen.
+\newblock Integral equations governing radiation effects.
+\newblock \emph{Mat. Fys. Medd. Dan. Vid. Selsk}, 33\penalty0 (10):\penalty0
+  1--42, 1963.
+
+\bibitem[Doke et~al.(2002)Doke, Hitachi, Kikuchi, Masuda, Okada, and
+  Shibamura]{doke2002}
+Tadayoshi Doke, Akira Hitachi, Jun Kikuchi, Kimiaki Masuda, Hiroyuki Okada, and
+  Eido Shibamura.
+\newblock Absolute scintillation yields in liquid argon and xenon for various
+  particles.
+\newblock \emph{Japanese Journal of Applied Physics}, 41\penalty0
+  (3R):\penalty0 1538, 2002.
+\newblock URL \url{http://stacks.iop.org/1347-4065/41/i=3R/a=1538}.
+
+\bibitem[Mock et~al.(2014)Mock, Barry, Kazkaz, Stolp, Szydagis, Tripathi,
+  Uvarov, Woods, and Walsh]{pulseshape}
+J~Mock, N~Barry, K~Kazkaz, D~Stolp, M~Szydagis, M~Tripathi, S~Uvarov, M~Woods,
+  and N~Walsh.
+\newblock Modeling pulse characteristics in xenon with nest.
+\newblock \emph{Journal of Instrumentation}, 9\penalty0 (04):\penalty0 T04002,
+  2014.
+\newblock URL \url{http://stacks.iop.org/1748-0221/9/i=04/a=T04002}.
+
+\bibitem[Hitachi et~al.(1983)Hitachi, Takahashi, Funayama, Masuda, Kikuchi, and
+  Doke]{rectime}
+Akira Hitachi, Tan Takahashi, Nobutaka Funayama, Kimiaki Masuda, Jun Kikuchi,
+  and Tadayoshi Doke.
+\newblock Effect of ionization density on the time dependence of luminescence
+  from liquid argon and xenon.
+\newblock \emph{Phys. Rev. B}, 27:\penalty0 5279--5285, May 1983.
+\newblock \doi{10.1103/PhysRevB.27.5279}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.27.5279}.
+
+\bibitem[Faham et~al.(2015)Faham, Gehman, Currie, Dobi, Sorensen, and
+  Gaitskell]{DPE}
+C.~H. Faham, V.~M. Gehman, A.~Currie, A.~Dobi, P.~Sorensen, and R.~J.
+  Gaitskell.
+\newblock {Measurements of wavelength-dependent double photoelectron emission
+  from single photons in VUV-sensitive photomultiplier tubes}.
+\newblock \emph{JINST}, 10\penalty0 (09):\penalty0 P09010, 2015.
+\newblock \doi{10.1088/1748-0221/10/09/P09010,
+  10.1088/1748-0221/2015/9/P09010}.
+
+\bibitem[Szydagis et~al.(2011)Szydagis, Barry, Kazkaz, Mock, Stolp, Sweany,
+  Tripathi, Uvarov, Walsh, and Woods]{nest1}
+M~Szydagis, N~Barry, K~Kazkaz, J~Mock, D~Stolp, M~Sweany, M~Tripathi, S~Uvarov,
+  N~Walsh, and M~Woods.
+\newblock Nest: a comprehensive model for scintillation yield in liquid xenon.
+\newblock \emph{Journal of Instrumentation}, 6\penalty0 (10):\penalty0 P10002,
+  2011.
+
+\bibitem[Lenardo et~al.(2015)Lenardo, Kazkaz, Manalaysay, Mock, Szydagis, and
+  Tripathi]{lenardo}
+B.~Lenardo, K.~Kazkaz, A.~Manalaysay, J.~Mock, M.~Szydagis, and M.~Tripathi.
+\newblock A global analysis of light and charge yields in liquid xenon.
+\newblock \emph{IEEE Transactions on Nuclear Science}, 62\penalty0
+  (6):\penalty0 3387--3396, Dec 2015.
+\newblock ISSN 0018-9499.
+\newblock \doi{10.1109/TNS.2015.2481322}.
+
+\bibitem[Thomas and Imel(1987)]{tib1}
+J.~Thomas and D.~A. Imel.
+\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
+\newblock \emph{Phys. Rev. A}, 36:\penalty0 614--616, Jul 1987.
+\newblock \doi{10.1103/PhysRevA.36.614}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevA.36.614}.
+
+\bibitem[Sorensen and Dahl(2011)]{tib2}
+Peter Sorensen and Carl~Eric Dahl.
+\newblock {Nuclear recoil energy scale in liquid xenon with application to the
+  direct detection of dark matter}.
+\newblock \emph{Phys. Rev.}, D83:\penalty0 063501, 2011.
+\newblock \doi{10.1103/PhysRevD.83.063501}.
+
+\bibitem[Akerib et~al.(2017{\natexlab{b}})]{Evanyields}
+D.~S. Akerib et~al.
+\newblock {Signal yields, energy resolution, and recombination fluctuations in
+  liquid xenon}.
+\newblock \emph{Phys. Rev.}, D95\penalty0 (1):\penalty0 012008,
+  2017{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevD.95.012008}.
+
+\bibitem[Dobi et~al.(2012)]{sampling_EXO}
+A.~Dobi et~al.
+\newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
+\newblock \emph{Nucl. Instrum. Meth.}, A675:\penalty0 40--46, 2012.
+\newblock \doi{10.1016/j.nima.2012.01.066}.
+
+\bibitem[Marquardt(1999)]{vac_eq}
+N.~Marquardt.
+\newblock {Introduction to the principles of vacuum physics}.
+\newblock 1999.
+
+\bibitem[Ferreira and Lobo(2008)]{vaporpressure}
+A.G.M. Ferreira and L.Q. Lobo.
+\newblock The sublimation of argon, krypton, and xenon.
+\newblock \emph{The Journal of Chemical Thermodynamics}, 40\penalty0
+  (12):\penalty0 1621 -- 1626, 2008.
+\newblock ISSN 0021-9614.
+\newblock \doi{http://dx.doi.org/10.1016/j.jct.2008.07.023}.
+
+\bibitem[Roth(1993)]{LNheatflux}
+Eric Roth.
+\newblock \emph{Nucleation and Heat Transfer in Liquid Nitrogen}.
+\newblock PhD thesis, Portland State University, 1993.
+\newblock URL \url{http://pdxscholar.library.pdx.edu/open_access_etds/1370/}.
+
+\bibitem[Carter(2002)]{laplace}
+W.~Craig Carter.
+\newblock 3.21 spring 2002: Lecture 08, February 2002.
+\newblock Accessed: 2017-07-13.
+
+\bibitem[Lemmon et~al.()Lemmon, McLinden, and Friend]{nist}
+E.W. Lemmon, M.O. McLinden, and D.G. Friend.
+\newblock \emph{``Thermophysical Properties of Fluid Systems" in NIST Chemistry
+  WebBook, NIST Standard Reference Database Number 69}.
+\newblock National Institute of Standards and Technology, Gaithersburg MD,
+  20899.
+\newblock \doi{doi:10.18434/T4D303}.
+
+\bibitem[Kastens et~al.(2009)Kastens, Cahn, Manzur, and McKinsey]{lux_kr2}
+L.~W. Kastens, S.~B. Cahn, A.~Manzur, and D.~N. McKinsey.
+\newblock {Calibration of a Liquid Xenon Detector with Kr-83m}.
+\newblock \emph{Phys. Rev.}, C80:\penalty0 045809, 2009.
+\newblock \doi{10.1103/PhysRevC.80.045809}.
+
+\bibitem[Verbus et~al.(2017)]{lux_dd1}
+J.~R. Verbus et~al.
+\newblock {Proposed low-energy absolute calibration of nuclear recoils in a
+  dual-phase noble element TPC using D-D neutron scattering kinematics}.
+\newblock \emph{Nucl. Instrum. Meth.}, A851:\penalty0 68--81, 2017.
+\newblock \doi{10.1016/j.nima.2017.01.053}.
+
+\bibitem[nuc()]{nuclide}
+Live chart of nuclides.
+\newblock \url{https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html}.
+\newblock Accessed: 2017-11-21.
+
+\bibitem[Jones et~al.(2001--)Jones, Oliphant, Peterson, et~al.]{scipy}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
+\newblock URL \url{http://www.scipy.org/}.
+
+\bibitem[Haxton(1988)]{ar371}
+W.~C. Haxton.
+\newblock $^{37}\mathrm{Ar}$.
+\newblock \emph{Phys. Rev. C}, 38:\penalty0 2474--2477, Nov 1988.
+\newblock \doi{10.1103/PhysRevC.38.2474}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.38.2474}.
+
+\bibitem[Metropolis et~al.(1953)Metropolis, Rosenbluth, Rosenbluth, Teller, and
+  Teller]{metropolis_1}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock \emph{The Journal of Chemical Physics}, 21\penalty0 (6):\penalty0
+  1087--1092, 1953.
+\newblock \doi{10.1063/1.1699114}.
+\newblock URL \url{https://doi.org/10.1063/1.1699114}.
+
+\bibitem[met()]{metropolis_2}
+Mcmc and fitting models to data.
+\newblock
+  \url{https://sciencehouse.wordpress.com/2010/06/23/mcmc-and-fitting-models-to-data/}.
+\newblock Accessed: 2017-11-25.
+
+\bibitem[Bergeron et~al.(2016)Bergeron, Galea, Laureano-Pérez, and
+  Zimmerman]{C14_Bergeron}
+Denis~E. Bergeron, Raphael Galea, Lizbeth Laureano-Pérez, and Brian~E.
+  Zimmerman.
+\newblock Comparison of 14c liquid scintillation counting at \{NIST\} and
+  \{NRC\} canada.
+\newblock \emph{Applied Radiation and Isotopes}, 109:\penalty0 30 -- 35, 2016.
+\newblock ISSN 0969-8043.
+\newblock \doi{https://doi.org/10.1016/j.apradiso.2015.11.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0969804315302360}.
+\newblock Proceedings of the 20th International Conference on Radionuclide
+  Metrology and its Applications 8–11 June 2015, Vienna, Austria.
+
+\bibitem[Moljk and Curran(1954)]{C14_Curran}
+A.~Moljk and S.~C. Curran.
+\newblock Beta spectra of ${\mathrm{c}}^{14}$ and ${\mathrm{s}}^{35}$.
+\newblock \emph{Phys. Rev.}, 96:\penalty0 395--398, Oct 1954.
+\newblock \doi{10.1103/PhysRev.96.395}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.96.395}.
+
+\bibitem[Wilkinson(1989)]{wilkinson}
+DH~Wilkinson.
+\newblock Evaluation of beta-decay: I. the traditional phase space factors.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  275\penalty0 (2):\penalty0 378--386, 1989.
+
+\bibitem[Venkataramaiah et~al.(1985)Venkataramaiah, Gopala, Basavaraju,
+  Suryanarayana, and Sanjeeviah]{beta_fermi}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock \emph{Journal of Physics G: Nuclear Physics}, 11\penalty0
+  (3):\penalty0 359, 1985.
+\newblock URL \url{http://stacks.iop.org/0305-4616/11/i=3/a=014}.
+
+\bibitem[Bethe and Bacher(1936)]{bethe}
+H.~A. Bethe and R.~F. Bacher.
+\newblock Nuclear physics a. stationary states of nuclei.
+\newblock \emph{Rev. Mod. Phys.}, 8:\penalty0 82--229, Apr 1936.
+\newblock \doi{10.1103/RevModPhys.8.82}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.8.82}.
+
+\bibitem[Durand(1964)]{beta_screening}
+Loyal Durand.
+\newblock Electron screening corrections to beta-decay spectra.
+\newblock \emph{Phys. Rev.}, 135:\penalty0 B310--B313, Jul 1964.
+\newblock \doi{10.1103/PhysRev.135.B310}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.135.B310}.
+
+\bibitem[{Calaprice} and {Holstein}(1976)]{beta_Calaprice}
+F.~P. {Calaprice} and B.~R. {Holstein}.
+\newblock {Weak magnetism and the beta spectra of $^{12}$B and $^{12}$N}.
+\newblock \emph{Nuclear Physics A}, 273:\penalty0 301--325, November 1976.
+\newblock \doi{10.1016/0375-9474(76)90593-5}.
+
+\bibitem[Oreglia(1980)]{crystalball}
+M.~Oreglia.
+\newblock \emph{{A Study of the Reactions $\psi^\prime \to \gamma \gamma
+  \psi$}}.
+\newblock PhD thesis, SLAC, 1980.
+\newblock URL
+  \url{http://www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=slac-r-236.html}.
+
+\bibitem[Akerib et~al.(2017{\natexlab{c}})]{DQyields}
+D.~S. Akerib et~al.
+\newblock {Ultra-Low Energy Calibration of LUX Detector using $^{127}$Xe
+  Electron Capture}.
+\newblock 2017{\natexlab{c}}.
+
+\bibitem[Goetzke et~al.(2017)Goetzke, Aprile, Anthony, Plante, and
+  Weber]{nerix}
+L.~W. Goetzke, E.~Aprile, M.~Anthony, G.~Plante, and M.~Weber.
+\newblock Measurement of light and charge yield of low-energy electronic
+  recoils in liquid xenon.
+\newblock \emph{Phys. Rev. D}, 96:\penalty0 103007, Nov 2017.
+\newblock \doi{10.1103/PhysRevD.96.103007}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.96.103007}.
+
+\bibitem[Edwards et~al.(2017)]{pixey_extraction}
+B.~N.~V. Edwards et~al.
+\newblock {Extraction efficiency of drifting electrons in a two-phase xenon
+  time projection chamber}.
+\newblock 2017.
+
+\bibitem[Akimov et~al.(2014)]{akimov}
+D.~{\relax Yu}. Akimov et~al.
+\newblock {Experimental study of ionization yield of liquid xenon for electron
+  recoils in the energy range 2.8 - 80 keV}.
+\newblock \emph{JINST}, 9\penalty0 (11):\penalty0 P11014, 2014.
+\newblock \doi{10.1088/1748-0221/9/11/P11014}.
+
+\bibitem[Baudis et~al.(2013)Baudis, Dujmovic, Geis, James, Kish, Manalaysay,
+  Marrodan~Undagoitia, and Schumann]{zerofield1}
+Laura Baudis, Hrvoje Dujmovic, Christopher Geis, Andreas James, Alexander Kish,
+  Aaron Manalaysay, Teresa Marrodan~Undagoitia, and Marc Schumann.
+\newblock {Response of liquid xenon to Compton electrons down to 1.5 keV}.
+\newblock \emph{Phys. Rev.}, D87\penalty0 (11):\penalty0 115015, 2013.
+\newblock \doi{10.1103/PhysRevD.87.115015}.
+
+\bibitem[Aprile et~al.(2012)Aprile, Budnik, Choi, Contreras, Giboni, Goetzke,
+  Koglin, Lang, Lim, Melgarejo~Fernandez, Persiani, Plante, and
+  Rizzo]{zerofield2}
+E.~Aprile, R.~Budnik, B.~Choi, H.~A. Contreras, K.-L. Giboni, L.~W. Goetzke,
+  J.~E. Koglin, R.~F. Lang, K.~E. Lim, A.~J. Melgarejo~Fernandez, R.~Persiani,
+  G.~Plante, and A.~Rizzo.
+\newblock Measurement of the scintillation yield of low-energy electrons in
+  liquid xenon.
+\newblock \emph{Phys. Rev. D}, 86:\penalty0 112004, Dec 2012.
+\newblock \doi{10.1103/PhysRevD.86.112004}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.86.112004}.
+
+\bibitem[Szydagis()]{matthew}
+Matthew Szydagis.
+\newblock personal communication.
+
+\bibitem[Lin et~al.(2015)Lin, Fei, Gao, Hu, Wei, Xiao, Wang, and
+  Ni]{xenon_tritium}
+Qing Lin, Jialing Fei, Fei Gao, Jie Hu, Yuehuan Wei, Xiang Xiao, Hongwei Wang,
+  and Kaixuan Ni.
+\newblock Scintillation and ionization responses of liquid xenon to low energy
+  electronic and nuclear recoils at drift fields from $236\text{ }\text{
+  }\mathrm{V}/\mathrm{cm}$ to $3.93\text{ }\mathrm{kV}/\mathrm{cm}$.
+\newblock \emph{Phys. Rev. D}, 92:\penalty0 032005, Aug 2015.
+\newblock \doi{10.1103/PhysRevD.92.032005}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.92.032005}.
 
 \end{thebibliography}

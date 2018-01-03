@@ -1,98 +1,100 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mainthesis.aux
-The style file: plain.bst
+The style file: unsrtnat.bst
 A level-1 auxiliary file: chapters/Advancement_paper.aux
 A level-1 auxiliary file: chapters/LXe_TPCs.aux
 A level-1 auxiliary file: chapters/Sampling_Manual.aux
 A level-1 auxiliary file: chapters/Post_Run04_Calibrations.aux
 A level-1 auxiliary file: chapters/C14_Calibration.aux
-Case mismatch error between cite keys C14_kuzminov and C14_Kuzminov
----line 306 of file chapters/C14_Calibration.aux
- : \citation{C14_kuzminov
- :                       }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/Appendix_results.aux
+Illegal, another \bibstyle command---line 70 of file mainthesis.aux
+ : \bibstyle
+ :          {unsrtnat}
+I'm skipping whatever remains of this command
 Database file #1: main.bib.bib
-You're missing a field part---line 1207 of file main.bib.bib
+You're missing a field part---line 1204 of file main.bib.bib
  :       pages = 
  :               ''184''
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1293 of file main.bib.bib
+You're missing a field part---line 1290 of file main.bib.bib
  :  author=
  :         ''Carl Eric Dahl'',
 I'm skipping whatever remains of this entry
-Repeated entry---line 1300 of file main.bib.bib
+Repeated entry---line 1297 of file main.bib.bib
  : @article{nerix
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1587 of file main.bib.bib
+You're missing a field part---line 1584 of file main.bib.bib
  :  author= 
  :          ''{SAES Pure Gas, Inc}'',
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "henriquae"
-Warning--to sort, need author or key in dahl
-Warning--to sort, need author or key in getter
-Warning--to sort, need author or key in nuclide
-Warning--to sort, need author or key in metropolis_2
+Warning--empty journal in persic
+Warning--empty journal in lz_tdr
+Warning--empty journal in lux_efield
+Warning--empty journal in lux_dd2
+Warning--empty journal in alternatecrystalball
 Warning--empty author in dahl
 Warning--empty title in dahl
 Warning--empty school in dahl
 Warning--empty year in dahl
-Warning--empty journal in lux_dd2
-Warning--empty journal in lux_efield
-Warning--empty journal in DQyields
+Warning--empty year in dahl
+Warning--empty year in attila_sol
 Warning--empty journal in bekenstein
-Warning--empty journal in clean1
-Warning--empty journal in alternatecrystalball
-Warning--empty journal in pixey_extraction
 Warning--can't use both author and editor fields in axion_photon
+Warning--empty journal in dmintro
+Warning--empty journal in Lewin
+Warning--empty journal in clean1
+Warning--empty year in getter
+Warning--empty journal in vac_eq
 Warning--can't use both author and editor fields in nist
 Warning--empty year in nist
-Warning--empty journal in Lewin
-Warning--empty journal in vac_eq
-Warning--empty journal in lz_tdr
-Warning--empty journal in persic
-Warning--empty journal in dmintro
-You've used 100 entries,
-            2118 wiz_defined-function locations,
-            1076 strings with 28370 characters,
-and the built_in function-call counts, 47224 in all, are:
-= -- 4026
-> -- 4149
-< -- 1
-+ -- 1657
-- -- 1552
-* -- 4399
-:= -- 8510
-add.period$ -- 299
-call.type$ -- 100
-change.case$ -- 1049
-chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 1064
-empty$ -- 2369
-format.name$ -- 1552
-if$ -- 8906
-int.to.chr$ -- 0
-int.to.str$ -- 100
+Warning--empty year in nist
+Warning--empty year in nuclide
+Warning--empty year in metropolis_2
+Warning--empty journal in DQyields
+Warning--empty journal in pixey_extraction
+Warning--empty year in matthew
+You've used 101 entries,
+            2481 wiz_defined-function locations,
+            1237 strings with 32244 characters,
+and the built_in function-call counts, 51197 in all, are:
+= -- 3304
+> -- 4905
+< -- 56
++ -- 1759
+- -- 1554
+* -- 5081
+:= -- 9247
+add.period$ -- 407
+call.type$ -- 101
+change.case$ -- 190
+chr.to.int$ -- 98
+cite$ -- 131
+duplicate$ -- 1857
+empty$ -- 3435
+format.name$ -- 1698
+if$ -- 10058
+int.to.chr$ -- 4
+int.to.str$ -- 102
 missing$ -- 91
-newline$ -- 502
-num.names$ -- 192
-pop$ -- 976
+newline$ -- 617
+num.names$ -- 291
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 960
+purify$ -- 101
 quote$ -- 0
-skip$ -- 750
+skip$ -- 1066
 stack$ -- 0
-substring$ -- 1933
-swap$ -- 98
+substring$ -- 1607
+swap$ -- 236
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 394
-warning$ -- 23
+type$ -- 698
+warning$ -- 26
 while$ -- 280
-width$ -- 103
-write$ -- 1064
+width$ -- 0
+write$ -- 1490
 (There were 5 error messages)

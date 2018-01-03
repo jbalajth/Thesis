@@ -35,6 +35,10 @@
 
 % Natbib citation package is probably most elegant
 \usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{unsrtnat}
+
+%\usepackage[sorting=none]{biblatex}
+%\bibliography{main.bib}
 
 
 \usepackage{afterpage}
@@ -76,7 +80,7 @@
 \numberwithin{definition}{chapter}
 
 % Plain is the standard choice
-\bibliographystyle{plain}
+%\bibliographystyle{plain}
 
 % Everything here is reasonably obvious
 \title{Purity  Monitoring  Techniques  and  Electronic Energy Deposition Properties  in Liquid Xenon Time Projection  Chambers}
@@ -119,7 +123,8 @@
 
 % Type the abstract below
 \begin{abstract}
-\lipsum[1]
+Currently, one of the most well motivated models of dark matter is the weakly interacting massive particle (WIMP), and the detector technology that is in the best position to observe these WIMPs is the liquid xenon time projection chamber (TPC). As liquid-xenon WIMP detectors grow larger and more sensitive, the requirements placed on their signals and backgrounds become more and more stringent. In this document, we develop a technique for measuring the concentration of one of the more problematic radioactive backgrounds, $^{85}$Kr, in xenon. We show that with this technique we are able to detect natural krypton concentrations down to 7.7 $\pm$2.0 parts per quadrillion (ppQ). On the signals side, we provide a measurement of the charge and light yields of beta deposits in liquid xenon. For these measurements, we use $^{14}$C calibration data collected in the LUX detector after the 2014-2016 WIMP-search run was completed. We also look for a non-statistical shape factor in the $^{14}$C spectrum. We show that the spectral shape observed in the LUX calibration data is consistent with a purely statistical shape, and disagrees with a recent measurement by Kuzminov et. al. by 2-$\sigma$. However, pathologies in the LUX signals prevent us from making any strong claims on this topic.
+
 \end{abstract} 
 
 % This is the frontmatter and can include the preface, foreword, dedication, and acknowledgements. Any
@@ -154,9 +159,34 @@
 \include{chapters/Post_Run04_Calibrations}
 \include{chapters/C14_Calibration}
 
+
+
+\chapter{Conclusions}
+Direct detection dark matter experiments are fast approaching the solar neutrino limit, with LZ projected to reach within about an order of magnitude of this floor. To reach this limit, experimenters must understand the backgrounds of their detectors better than ever before. In chapter \ref{chap:sampling} of this document, we have presented a technique for monitoring the amount of the radioactive $^{85}$Kr and $^{39}$Ar isotopes dissolved in a xenon detector. We showed that this technique is able to measure the concentration of natural krypton down to 7.7 $\pm$2.0 ppQ (grams of krypton per gram of xenon). This corresponds to a $^{85}$Kr activity of about 0.002 events years$^{-1}$ kg$^{-1}$ keV$^{-1}$, which is below the LZ goal.
+
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{Figures/Kr.eps}
+  \caption{Measurements of the LUX krypton concentration from the initial fill before Run03. The solid black line shows the average gram per gram concentration or krypton measured during storage, when all of the xenon was in the gas phase. The dashed lines and markers show measurements of the gas above the liquid xenon after the detector was filled. At this point, the mass of xenon in the gas phase is negligible compared to the liquid, so the concentration of krypton in the liquid should be equal to the concentration measured during storage. These later gas samples see an enhancement over this concentration of roughly a factor of 5 to 8, depending on which port they were collected from. We know this is a result of solubility rather than contamination because after Run03 all of the xenon was collected back into the storage cylinders, and the measured concentration went back to its pre-fill level. Figure taken from \cite{attila_sol}. }
+  \label{fig:krsol}
+\end{figure}
+This new purity assay method can allow the next generation of liquid xenon dark matter experiments, such as LZ, to measure the krypton concentration contained in their target material. In order to reach the solar neutrino threshold, the exposure time will have to be increased by another factor of 10, and therefore the krypton content will have to decrease by about the same amount, down to about 1.5 ppQ. It should, in fact, be possible to achieve this goal using a cold-trap sampling system as described in chapter \ref{chap:sampling} with no further modifications. Some in-situ measurements of xenon in dark matter detectors are conducted by collecting gas-phase xenon from above the liquid. In these samples, the solubility of krypton in liquid xenon will enhance the gram per gram concentration in the gas by about a factor of 5 (see figure \ref{fig:krsol})\cite{attila_sol}. This means that the concentration in a gas sample which was collected from above liquid with a concentration of 1.5 ppQ would be roughly 7.5 ppQ, which is within error of the threshold of detection shown in figure \ref{fig:linplot2017}.
+
+In section \ref{sec:shape_fit}, we attempted to measure the non-statistical shape factor of the $^{14}$C beta spectrum. We were not able to reproduce the results from \cite{C14_Kuzminov}, and instead found that our measured spectrum is consistent with a purely statistical shape. Pathologies in the $S2$ signal prevent us from making any strong claims about this topic, however. These pathologies, which we described and modeled in section \ref{sec:s2tails}, may in fact limit the ability of any 2-phase xenon TPC from making meaningful nuclear physics measurements that require precise knowledge of the energy resolution over a wide range of energies. For these measurements, it may be that the single phase detectors possess inherent advantages over their two-phase counterparts.
+
+These next generations of dark matter detectors will also need a field and energy dependent understanding of the energy deposition properties in liquid xenon. In section \ref{sec:NESTbeta} we presented an empirical model of the recombination process for beta deposits in liquid xenon. To fit this model, we take into account data from 8 different experiments, at 18 different field values from 0 to 4050 V/cm, and spanning energies from 0.27 keV up to 1 MeV. This model can be further developed by using more physically motivated fitting functions. As it stands, it is a powerful tool that can be used to predict the response of a xenon detector to an ER beta event.
+
+
+
+
+
 \appendix
 \include{chapters/Appendix_results}
 
+\bibliographystyle{unsrtnat}
 \bibliography{main.bib}
+
+
+%\printbibliography
+
 
 \end{document}
