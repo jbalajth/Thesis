@@ -1,15 +1,8 @@
-
-
-%\begin{sciabstract}
-%In recent decades, liquid xenon time projection chambers (TPCs) have placed the most stringent limits on the cross-section of particulate dark matter in the form of weakly interacting massive particles (WIMPs). One of the largest factors in the success of these detectors is the purity of the xenon used as the WIMP target material. It is therefore important for the outgassing of impurities from plastic internals of these detectors to be quantified and if necessary mitigated. 
-
-%The LUX and LZ dark matter detectors use polyethylene (HDPE), Teflon (PTFE), and Viton in various parts that contact the target xenon. Measured values of the constants of permeation for suspect impurities such as krypton, argon, nitrogen, and methane can be used to predict impurity loads and optimize mitigation measures
-%\end{sciabstract}
-
-
 \chapter{Cosmology Overview}
+The mystery of the missing matter has persisted since the first hints of its existence in the 1930's. The current evidence shows that the most likely solution to this mystery is some undiscovered type sterile or nearly sterile particle, or particles, referred to as ``dark matter''. Analysis of the kinetic properties and density profiles of dark matter shows that a massive particle that interacts through the weak nuclear force would solve the missing matter problem. The past several decades has seen a race between experimenters to unveil these weakly interacting massive particles, or WIMPs. 
+
 \section{Standard Model of Cosmology}
-The standard model (SM) ties together observations and theories of particle physics into a coherent and predictive picture that is well verified by experiment. In the same way, the standard model of cosmology ($\Lambda$-CDM) combines the observations of astronomers and cosmologists in the context of general relativity. Although the standard model paints a comprehensive picture of particles that have been observed, it accounts for only 4.9\%\cite{planck2015} of the mass-energy content of the $\Lambda$-CDM model. 
+The standard model of particle physics (SM) ties together observations and theories into a coherent and predictive picture that is well verified by experiment. In the same way, the standard model of cosmology ($\Lambda$-CDM) combines the observations of astronomers and cosmologists in the context of general relativity. Although the standard model paints a comprehensive picture of particles that have been observed, it accounts for only 4.9\%\cite{planck2015} of the mass-energy content of the $\Lambda$-CDM model. 
 
 The $\Lambda$-CDM model is built on the foundation of the Robertson-Walker metric:
 \begin{equation} \label{eq:rwmetric}
@@ -25,11 +18,11 @@ R_0sin(r/R_0)   & \text{for } \kappa = -1
 \end{equation}
 This metric assumes an isotropic and homogenous universe, but allows for both time dependent expansion and uniform curvature. The unitless ``scale factor'', $a(t)$, describes the expansion and contraction of the spatial part of the metric. The curvature of space is characterized by a radius of curvature $R_0$ and the parameter $\kappa$, which is 0 if the universe is flat and otherwise indicates the sign of the curvature.
 
-The time-dependence in the scale factor can now be described to first and second order. The Friedmann equation is a solution to Einstein's field equations that relates the rate of change in the scale factor to the energy density of the universe, $\varepsilon$:
+The time-dependence in the scale factor can be described to first and second order. The Friedmann equation is a solution to Einstein's field equations that relates the rate of change in the scale factor to the energy density of the universe, $\varepsilon$:
 \begin{equation}\label{eq:friedmann}
 H^2 \equiv \left( \frac{\dot{a}}{a} \right)^2 = \frac{8\pi G}{3c^2}\varepsilon - \frac{\kappa c^2}{R_{0}^{2}a^2},
 \end{equation}
-where $G$ is the gravitational constant. Equation \ref{eq:friedmann} also introduces the Hubble constant, $H$, which describes the expansion rate of the scale factor. The second order equation is obtained through an application of the first law of thermodynamics for an adiabatically expanding universe. This gives the fluid equation, which connects the change in energy density to pressure:
+where $G$ is the gravitational constant. Equation \ref{eq:friedmann} also introduces the Hubble constant, $H$, which describes the expansion rate of the scale factor. A second order equation is obtained through an application of the first law of thermodynamics for an adiabatically expanding universe. This gives the fluid equation, which connects the change in energy density to pressure:
 \begin{equation}\label{eq:fluid}
 \dot{\varepsilon} + 3 \frac{\dot{a}}{a}(\varepsilon +P)=0 
 \end{equation}
@@ -65,7 +58,7 @@ Matter, radiation, and $\Lambda$ themselves have different dependences on $a(t)$
 The most widely accepted and best supported model for the current universe has no curvature, is old enough that the radiation component has become negligible, and contains a comparable density of matter and $\Lambda$. This model is referred to as the $\Lambda$-CDM model. 
 
 \section{The Cosmic Microwave Background}
-The various parameters for the $\Lambda$-CDM model are best constrained by measurements of the cosmic microwave background by the Planck experiment, which constrains $\Omega_{matter}$ to $0.3089 \pm 0.0062$ and $\Omega_{\Lambda}$ to $0.6911 \pm 0.0062$\cite{planck2015}. The Planck experiment, along with its predecessors, aimed to create a detailed map of the cosmic microwave background. This background is a snapshot of the universe from only 350,000 years after the big bang.\cite{ryden} Before that time, the universe was hot enough that electrons could not bind to protons to form atoms, and the scattering rate of photons off of this plasma was high enough for them to thermalize into a blackbody spectrum. Once the scattering rate of high energy photons dropped below the expansion rate of the universe, electrons and protons began forming atoms, which in turn lowered the scattering rate even more. This caused the blackbody photons to rapidly become decoupled from the matter, thus preserving their blackbody spectrum. These photons are what today form the cosmic microwave background (CMB).
+The various parameters for the $\Lambda$-CDM model are best constrained by measurements of the cosmic microwave background by the Planck experiment, which constrains $\Omega_{matter}$ to $0.3089 \pm 0.0062$ and $\Omega_{\Lambda}$ to $0.6911 \pm 0.0062$\cite{planck2015}. The Planck experiment, along with its predecessors, aimed to create a detailed map of the cosmic microwave background. This background is a snapshot of the universe from only 380,000 years after the big bang\cite{wmap_decoupling}. Before that time, the universe was hot enough that electrons could not bind to protons to form atoms, and the scattering rate of photons off of this plasma was high enough for them to thermalize into a blackbody spectrum. Once the scattering rate of high energy photons dropped below the expansion rate of the universe, electrons and protons began forming atoms, which in turn lowered the scattering rate even more. This caused the blackbody photons to rapidly become decoupled from the matter, thus preserving their blackbody spectrum. These photons are what today form the cosmic microwave background (CMB).
 
 Due to random fluctuations, there were anisotropies in the primordial plasma, which tended to fall toward areas with higher densities. This caused the over-densities to become amplified until eventually the increased radiation pressure would overtake the force of gravity, causing the plasma to rebound and expand until the now falling pressure was overtaken the gravitational pull of the over-density. This process led to a ``ringing'' in the primordial plasma, which is referred to as baryon acoustic oscillations (BAO). BAO began at the end of the inflationary period and ended after the epoch of recombination, when photons decoupled from protons and electrons. 
 
@@ -127,7 +120,7 @@ M_{h}(x)=G^{-1}V^{2}(1)R_{opt}(1-\beta)(1+a^{2}) \frac{x^{3}}{x^{2}+a^{2}}.
 Both $\beta$, the fraction of disk mass inside of the optical radius, and a, the radius of the halo core are completely determined by the luminosity in this model. The URC fits the observed data very well (on average fitting errors are within 1\%).
 
 
-More recently, models based on n-body simulations of cold dark matter have become more popular. The most well known of these is the Navarro-Frenk-White (NFW) model. These models produce good fits to high-luminosity galaxies such as the Milky Way, but tend to produce cusps at the galactic center and have trouble replicating the flat cores observed in dwarf galaxies. It is possible that this tension could be resolved by gravitational fluctuations or by substructure within the halo at the center of these dwarf galaxies, but the ``Cusp-Core'' problem remains an active area of study\cite{weber, navarro}.
+More recently, models based on n-body simulations of cold dark matter have become more popular. The most well known of these is the Navarro-Frenk-White (NFW) model. These models produce good fits to high-luminosity galaxies such as the Milky Way, but tend to produce cusps at the galactic center and have trouble replicating the flat cores observed in dwarf galaxies. One solution to this would be a non-zero self-interaction between dark matter particles. It is also possible that this tension could be resolved by gravitational fluctuations, substructure within the halo at the center of these dwarf galaxies, but the ``Cusp-Core'' problem remains an active area of study\cite{weber, navarro}.
 
 
 
@@ -138,9 +131,13 @@ The agreement between observation of galactic rotation curves and cluster dynami
 \begin{equation}\label{eq:interp_func}
 m_{g}\mu(a/a_{0})\vec{a}=\vec{F}
 \end{equation}
-This interpolating function would be $\approx 1$ at large accelerations, $a\gg a_{0}$, reproducing the classical equation of motion, but would approach $\mu{x}=x$ when $a\ll a_{0}$, where $a_{0}=2 \times 10^{-8} cm\cdot s^{-2}$ is a fundamental constant\cite{milgrom, bekenstein}. 
+This interpolating function would be $\approx 1$ at large accelerations, $a\gg a_{0}$, reproducing the classical equation of motion, but would approach $\mu(x)=x$ when $a\ll a_{0}$, where $a_{0}=2 \times 10^{-8} cm\cdot s^{-2}$ is a fundamental constant\cite{milgrom, bekenstein}. 
 
-Following their initial paper in 1983, M. Milgrom and J. Bekenstein reformulated MOND as a classical, lagrangian based field theory, known as AQUAL. In 2004 Bekenstein again reformulated MOND in the context of general relativity. This new tensor-vector-scalar covariant theory is referred to as TeVeS\cite{bekenstein}. Both of these theories can produce good fits to galactic rotation data in many cases, but among other problems, neither can fully describe cluster dynamics without the addition of some dark matter\cite{bekenstein, chaichiana}.
+Following their initial paper in 1983, M. Milgrom and J. Bekenstein reformulated MOND as a classical, lagrangian based field theory, known as AQUAL. In 2004 Bekenstein again reformulated MOND in the context of general relativity. This new tensor-vector-scalar covariant theory is referred to as TeVeS\cite{bekenstein}. 
+
+These theories can produce good fits to galactic rotation data in many cases, but cannot fully describe cluster dynamics without the addition of some dark matter\cite{bekenstein, chaichiana}. Additionally, modified theories of gravity that emulate dark matter have the property that gravitational waves (GW) will travel on different geodesics than photons. In these models, photons will have to travel along a geodesic that mimics the potential well of a dark matter halo, while GW's will not see these imitation potential wells. The recent observation of a neutron star merger has falsified this prediction by showing that gamma rays and GW's travel along nearly identical geodesics. The TeVeS model predicts that the arrival of the gamma ray and GW signals from this event would be about 1,000 days, but the observed delay was only about 2 seconds\cite{teves_false}.
+
+
 
 \subsection{Gravitational Lensing}
 One of the single most compelling pieces of evidence for dark matter, especially in relation to MOND theories, comes from gravitational lensing data of galactic cluster 1E 0657-56, more commonly known as the bullet cluster. This cluster consists of two subclusters that recently collided and passed through each other. One of these subclusters displays a distinct bow shock that enabled researchers to make a precise measurement of its Mach number, thereby also measuring its velocity. The measured Mach number, $3.2_{-0.6}^{+0.8}$ corresponds to a velocity of $4500_{-800}^{+1100}km/s$\cite{markevitch}. 
@@ -171,7 +168,7 @@ In order for the CNB to fit the mass density requirement for dark matter, the ma
 
 
 \subsection{Axions}
-Currently, the two most popular CDM candidates are Axions and WIMPs. Axions are particularly interesting because they were first theorized as part of a solution to the strong CP problem, and so could simultaneously solve two unsolved problems in physics. Charge-parity (CP) is only conserved by QCD if the vacuum angle, $\theta$, is 0. However,  $\theta$ should be able to take any value, so CP is not predicted to be conserved. Experimental measurements of the neutron electric dipole moment (nEDM) show that CP is, in fact, a good symmetry of QCD. The current limit on nEDM is about $2 \times 10^{-26} \ e \cdot cm$, which in turn limits $\theta$ to $\leq \ 10^{-9}$\cite{nedm,axion_DM}. This unexpectedly small value of $\theta$ points to a tension within QCD. To relieve this tension, R. Peccei and H. Quinn proposed a new spontaneously broken global symmetry, $U_{PQ}(1)$, and showed that if the Higgs potential for at least one quark is invariant under $U_{PQ}(1)$, then $\theta$ is guaranteed to relax to 0. The pseudo-Nambu-Goldstone boson that is associated with the spontaneous breaking of $U_{PQ}(1)$ is known as the axion \cite{peccei_quinn, axion_DM}.
+Currently, the two most well-motivated CDM candidates are Axions and WIMPs. Axions are particularly interesting because they were first theorized as part of a solution to the strong CP problem, and so could simultaneously solve two unsolved problems in physics. Charge-parity (CP) is only conserved by QCD if the vacuum angle, $\theta$, is 0. However,  $\theta$ should be able to take any value, so CP is not predicted to be conserved. Experimental measurements of the neutron electric dipole moment (nEDM) show that CP is, in fact, a good symmetry of QCD. The current limit on nEDM is about $2 \times 10^{-26} \ e \cdot cm$, which in turn limits $\theta$ to $\leq \ 10^{-9}$\cite{nedm,axion_DM}. This unexpectedly small value of $\theta$ points to a tension within QCD. To relieve this tension, R. Peccei and H. Quinn proposed a new spontaneously broken global symmetry, $U_{PQ}(1)$, and showed that if the Higgs potential for at least one quark is invariant under $U_{PQ}(1)$, then $\theta$ is guaranteed to relax to 0. The pseudo-Nambu-Goldstone boson that is associated with the spontaneous breaking of $U_{PQ}(1)$ is known as the axion \cite{peccei_quinn, axion_DM}.
 
 The axion as a candidate for CDM is compelling in that it interacts only very weakly with standard model particles. Axions are expected to be have mass, but be light enough that those produced thermally in the big bang would be too hot to fill the role of CDM. However, populations of axions can be formed non-relativistically in the early universe through vacuum realignment and topological effects in string theory. Axion dark matter created through realignment would be expected to have a mass $m_{a} >6 \ \mu eV$, assuming the initial value of $\theta$ was of order unity. If the initial value of $\theta$ was much smaller than 1, the axion mass could be less than $6 \ \mu eV$\cite{axion_DM}.
 
@@ -212,7 +209,7 @@ The creation of the relic density is described by the Boltzmann equation:
 \end{equation}
 In equation \ref{eq:boltz}, the first term on the right hand side is from the expansion of the universe, the $n_{\chi}^{2}$ term is from self annihilation, and the $n_{eq}^{2}$ is the creation of WIMPs from standard model particles.\cite{susyDM,wimp2} The value of $n_{eq}$ is what the number density of WIMPs would be in thermal equilibrium in a static universe. Equation \ref{eq:boltz} has no closed form solution and is solved numerically. There is, however, some insight that can be drawn from some rough analysis\cite{wimp1,wimp2}.
 
-The equilibrium number density for non-relativistic dark matter is given by a simple Boltzmann distribution, $n_{\chi}=g_{\chi}\frac{m_{\chi} T}{2 \pi}e^{-m_{\chi}/T}$.\cite{wimp1} Freeze out will occur when the expansion rate of the universe, $H$, exceeds the annihilation rate of WIMPs, $\Gamma =  n_{\chi} \langle \sigma_{A}v \rangle $. In rough terms, the freeze out temperature can be defined as the temperature at  which $H$ and $\Gamma$ are equal.\cite{wimp1,wimp2}  In the early universe, it is appropriate to make the approximation $H \approx 1.66 g_{*}^{1/2}T^{2}$\cite{susyDM}. In this case the equation $H=\Gamma$ can be rewritten to give the WIMP density at freezeout:
+The equilibrium number density for non-relativistic dark matter is given by a simple Boltzmann distribution, $n_{\chi}=g_{\chi}\frac{m_{\chi} T}{2 \pi}e^{-m_{\chi}/T}$.\cite{wimp1} Freeze out will occur when the expansion rate of the universe, $H$, exceeds the annihilation rate of WIMPs, $\Gamma =  n_{\chi} \langle \sigma_{A}v \rangle $. In rough terms, the freeze out temperature can be defined as the temperature at  which $H$ and $\Gamma$ are equal.\cite{wimp1,wimp2}  In the early universe, it is appropriate to make the approximation $H \approx 1.66 g_{*}^{1/2}T^{2}$\cite{susyDM}. In this case the equation $H=\Gamma$ can be rewritten to give the WIMP density at freeze out:
 
 \begin{equation}\label{eq}
 n_{\chi,f}
@@ -222,7 +219,7 @@ g_{\chi}\frac{m_{\chi} T_{f}}{2 \pi}e^{-m_{\chi}/T_{f}}
 \frac{1.66 g_{*}^{1/2}T_{f}^{2}}{\langle \sigma_{A}v \rangle }
 \end{equation}
 
-The ratio of $x_{f} \equiv m_{\chi}/T_{f}$ remains roughly constant between different WIMP models and has a value of about $1/20$. After freeze out, the ratio of $n_{\chi}$ to entropy density, $s$, is constant. In the early universe, $s \approx 0.4 g_{*}T^{3}$. Holding $(n_{\chi}/s)$ constant from freeze out to the present day yields the following expression for the current energy density, $n_{\chi,0}$:
+The ratio of $x_{f} \equiv m_{\chi}/T_{f}$ remains roughly constant between different WIMP models and has a value of about $1/20$. After freeze out, the ratio of $n_{\chi}$ to entropy density, $s$, is constant. In the early universe, $s \approx 0.4 g_{*}T_f^{3}$. Holding $(n_{\chi}/s)$ constant from freeze out to the present day yields the following expression for the current energy density, $n_{\chi,0}$:
 
 \begin{equation}
 n_{\chi,0} 
@@ -232,13 +229,12 @@ n_{\chi,0}
 \frac{s_{0}}{0.4 g_{*}T_{f}^{3}}
 \end{equation} 
 
-Taking the current entropy density to be $s_{0}=4000 cm^{-3}$ yields the following energy density for relic WIMPs:
+Taking the current entropy density to be $s_{0}=4000 cm^{-3}$\cite{susyDM} yields the following energy density for relic WIMPs:
 \begin{equation}
 \Omega_{\chi} h^{2}
 \approx
 \frac{3 \cdot 10^{-27} \ GeV \ cm^{3}}{\langle \sigma_{A}v \rangle}
 \end{equation}
-
 Plugging in a typical weak annihilation cross section of about $10^{-25} \ cm^{3} \ s^{-1}$ for $\langle \sigma_{A}v \rangle$ gives $\Omega_{\chi} h^{2} \approx 0.03 \ GeV \ s$ which is close enough to the expected value CDM, $\Omega_{CDM} h^{2} = 0.1188 \ GeV \ s$\cite{planck2015} to make WIMPs an extremely exciting candidate to explain much, if not all, of the non-baryonic dark matter in the universe\cite{susyDM,wimp2}.
 
 
@@ -271,7 +267,7 @@ Here, $f_{p,n}$ and $a_{p,n}$ are the SI and SD coupling constants of WIMPs to p
 
 The $\mu_A^2A^2$ dependence in equation \ref{eq:sics} is a result of the non-relativistic nature of the interaction leading the incident WIMP to scatter coherently off of the nucleus as a whole as opposed to the individual nucleons. This is an important result because it indicates a large benefit to using heavy nuclei as experimental target media. For instance, a detector which uses xenon as its target medium (A$\approx$131) will be over 10 times more sensitive to a 100 GeV WIMP than an argon based detector (A$\approx$40) with the same mass of target material. 
 
-Another important result is that the SD cross section does not have the same $\mu_A^2A^2$ dependence, and in many nuclei the nucleon spins cancel entirely leaving that isotope insensitive to WIMP interactions. In the case of xenon, the only isotopes that have non-zero spin and a non-negligible natural abundance are $^{131}$Xe (J=3/2) and $^{129}$Xe (J=1/2), which together make up just under half of the natural xenon abundance. Since for xenon has an even number of protons, $\langle S_p \rangle$ is very close to zero (-0.009 for $^{131}$Xe and 0.028 for $^{129}$Xe). The neutron part of the SD cross section in $^{129}$Xe and $^{131}$Xe is about 2,000 and 400 times that of a single-neutron, respectively. We can compare this to the SI cross section of xenon, which is $>5\times 10^7$ times larger than the single-nucleon cross section. This suppression of the SD cross section in comparison with the SI cross section has led to much less stringent limits on spin independent interactions than on spin dependent interactions as can be seen in the results from the LUX detector in figure \ref{fig:wimplimits}.
+Another important result is that the SD cross section does not have the same $\mu_A^2A^2$ dependence. In many nuclei, the nucleon spins, and therefore the SD cross sections, cancel entirely. In the case of xenon, the only isotopes that have non-zero spin and a non-negligible natural abundance are $^{131}$Xe (J=3/2) and $^{129}$Xe (J=1/2), which together make up just under half of the natural xenon abundance. Since xenon has an even number of protons, $\langle S_p \rangle$ is very close to zero (-0.009 for $^{131}$Xe and 0.028 for $^{129}$Xe). The neutron part of the SD cross section in $^{129}$Xe and $^{131}$Xe is about 2,000 and 400 times that of a single-neutron, respectively\cite{dmintro}. We can compare this to the SI cross section of xenon, which is $>5\times 10^7$ times larger than the single-nucleon cross section for a 100 GeV/c$^2$ WIMP. This suppression of the SD cross section in comparison with the SI cross section has led to much less stringent limits on spin independent interactions than on spin dependent interactions as can be seen in the results from the LUX detector in figure \ref{fig:wimplimits}.
 \begin{figure*}
         \centering
         \begin{subfigure}[b]{0.475\textwidth}
@@ -316,7 +312,7 @@ dR(v_i)=\frac{N_A}{A}n_{\chi}f(\vec{v}_i-\vec{v}_E)\sigma v_i d^3\vec{v}_i,
 \end{equation}
 with $N_A$ being Avagadro's number and $n_{\chi}$ being the local number density of WIMPS.
 
-The velocity of a WIMP in the lab frame is is about  highly non-relativistic. This being the case, collisions between WIMPs and the target nuclei of earth-bound detectors can be well modeled by classical elastic scattering. The recoil energy, $E_R$, for elastic scattering of a non-relativistic WIMP of mass $M_{\chi}$ off of a nucleus of mass $M_A$ is given by\cite{dmintro}:
+The velocity of a WIMP in the lab frame is highly non-relativistic. This being the case, collisions between WIMPs and the target nuclei of earth-bound detectors can be well modeled by classical elastic scattering. The recoil energy, $E_R$, for elastic scattering of a non-relativistic WIMP of mass $M_{\chi}$ off of a nucleus of mass $M_A$ is given by\cite{dmintro}:
 \begin{equation}\label{eq:recoilE}
 E_R=\frac{E_ir}{2}[1-cos(\theta)],
 \end{equation}
@@ -341,7 +337,7 @@ for constant cross section. Equation \ref{eq:recoilspec1} then becomes:
 \begin{equation} \label{eq:recoilspec2}
 \frac{dR}{dE_{r}}= \frac{R_0}{E_0 r}\frac{2}{v_0^2} \int_{E_R/r}^{\infty}   e^{-v_i^2/v_0^2}v_idv_i.
 \end{equation}
-If make make a change of variables to energy space, this integral becomes:
+If we make a change of variables to energy space, this integral becomes:
 \begin{equation} \label{eq:recoilspec3}
 \frac{dR}{dE_{r}}= \frac{R_0}{E_0 r} \int_{E_R/r}^{\infty}   e^{-E_i/E_0}dE_i,
 \end{equation}
@@ -357,14 +353,14 @@ Here we see that $R_0$ will give the total scattering rate.
 \caption{Various theoretical halo profiles. The sun is at about 8 kpc. The significant variance of $\rho_{\chi}$ for the different models limits the accuracy of scattering rate estimates for direct detection experiments. Figure from \cite{weber}.}
 \label{fig:WIMPprofiles} 
 \end{figure}
-From measurements of the galactic rotation curve, the local dark matter density is expected to be approximately 0.2-0.4 GeV cm$^{-3}$. This value is highly dependent on theoretical profile model and could be as high as 0.7 GeV cm$^{-3}$ given a nonuniform halo density\cite{weber}. Here we assume a middling value of 0.4 GeV cm$^{-3}$. If we take $M_{\chi}$ 100 GeV/c$^2$, and $M_A$=122 GeV/c$^2$ (xenon atomic mass), we have $r=0.99$ and $E_0=27$ keV. In this case the total scattering rate in counts$\cdot$ day$^{-1}\cdot$kg$^{-1}$ will be:
+From measurements of the rotation curve of the Milky Way, the local dark matter density is expected to be approximately 0.2-0.4 GeV cm$^{-3}$. This value is highly dependent on theoretical profile model and could be as high as 0.7 GeV cm$^{-3}$ given a nonuniform halo density\cite{weber}. Here we assume a middling value of 0.3 GeV cm$^{-3}$. If we take $M_{\chi}$ 100 GeV/c$^2$, and $M_A$=122 GeV/c$^2$ (xenon atomic mass), we have $r=0.99$ and $E_0=27$ keV. In this case the total scattering rate in counts$\cdot$ day$^{-1}\cdot$kg$^{-1}$ will be:
 \begin{equation}
 \begin{split}
-R_0=& \frac{2}{\sqrt{\pi}}\frac{(1000 \text{\ g/kg})\times (6.022\times 10^{23}\text{\ atoms/mole})}{131 \text{\ g/mole}}\frac{0.4 \text{\ GeV/cc}}{100 \text{\ GeV}/c^2}\sigma_0 (7.34 \times 10^{-4}c)\\
-\approx&\left( \frac{131}{A} \right)\left( \frac{\sigma_0}{1 \text{\ pb}} \right)(0.4 \text{\ counts/kg/day}).
+R_0=& \frac{2}{\sqrt{\pi}}\frac{(1000 \text{\ g/kg})\times (6.022\times 10^{23}\text{\ atoms/mole})}{131 \text{\ g/mole}}\frac{0.3 \text{\ GeV/cc}}{100 \text{\ GeV}/c^2}\sigma_0 (7.34 \times 10^{-4}c)\\
+\approx&\left( \frac{131}{A} \right)\left( \frac{\sigma_0}{1 \text{\ pb}} \right)(0.3 \text{\ counts/kg/day}).
 \end{split}
 \end{equation}
-So for a xenon detector and a WIMP-nucleus cross section of 1 picobarn, there would be about one event every 25 days per kilogram of detector material.
+So for a xenon detector and a WIMP-nucleus cross section of 1 picobarn, there would be about one event every 33 days per kilogram of detector material.
 
 The effect of the finite galactic escape velocity, $V_{esc}=540$ km/s, can me approximated by introducing a cutoff to equation \ref{eq:recoilspec4}. Very nearly all of the WIMPs with velocity greater than $V_{esc}$ should have left the halo, so maximum recoil energy will be $E_{max}=\frac{r}{2}M_{\chi}v_{esc}^2$. For xenon detectors:
 \begin{equation}
@@ -396,7 +392,7 @@ When the de Broglie wavelength, $h/q$, becomes comparable to the nuclear radius,
 \begin{figure}[h!]
 \centering
 \includegraphics[width=150mm]{Figures/recoil_spec.pdf}
-\caption{WIMP scattering rate as a function of energy taking into account the nuclear form factor. Xenon's large size is a double edge sword. At low energy, the $A^2$ dependence of $\sigma_{0,SI}$ wins out and xenon has a significant advantage over competing media. At large momentum transfers, however, decoherence dominates, forcing xenon to fall much more quickly than argon, neon, or germanium. Figure from \cite{henriquae}.}
+\caption{WIMP scattering rate as a function of energy taking into account the nuclear form factor. Xenon's large size is a double edge sword. At low energy, the $A^2$ dependence of $\sigma_{0,SI}$ wins out and xenon has a significant advantage over competing media. At large momentum transfers, however, decoherence dominates, forcing xenon to fall much more quickly than argon, neon, or germanium. Figure from \cite{henrique}.}
 \label{fig:helm} 
 \end{figure}
 

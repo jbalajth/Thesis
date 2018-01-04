@@ -39,7 +39,7 @@ The system should have 100\% metal-seals such as VCR or CF. Elastomer internals 
 
 \subsection{Operational Outline}
 \label{sec:outline}
-The exact steps required for a particular analysis can be quite complex, and some detailed example procedures can be found in  appendix \ref{ap:procedures}. A general outline of the operation of a cold trap sampling system is as follows:
+A general outline of the operation of a cold trap sampling system is as follows:
 \begin{enumerate}
 \item A xenon sample is collected and stored in the sample volume until the beginning of analysis.
 \item The system begins with all the valves closed.
@@ -101,9 +101,9 @@ In the molecular flow regime the impedance of a system element will depend on th
 Z=\sqrt{\frac{2\pi M}{8kTA^{2}}}.
 \end{equation}
 
-In the intermediate regime, the impedance picks up a complicated pressure dependance that can not be exactly calculated. Xenon gas inside the cold trap is at $1.8\times 10^{-3}$ Torr and 77 Kelvin.\cite{vaporpressure} In a $0.5"$ diameter cold trap the xenon has a Knudsen number of 0.6. This puts this section of plumbing in the intermediate gas flow regime rather than the molecular flow regime, and limits the accuracy of any results calculated using the molecular flow approximation. The role of vacuum equations in this document is to provide qualitative predicts on how the krypton pressure at the RGA will behave in response to changes in system parameters. The exact response of the system is always characterized empirically, as will be described in section \ref{sec:calibrations}. For this purpose, the molecular flow approximation will suffice to motivate and direct our empirical investigations.\cite{vac_eq}
+In the intermediate regime, the impedance picks up a complicated pressure dependance that can not be exactly calculated. Xenon gas inside the cold trap is at $1.8\times 10^{-3}$ Torr and 77 Kelvin.\cite{vaporpressure} In a $0.5"$ diameter cold trap the xenon has a Knudsen number of 0.6. This puts this section of plumbing in the intermediate gas flow regime rather than the molecular flow regime, and limits the accuracy of any results calculated using the molecular flow approximation. The role of vacuum equations in this document is to provide qualitative predicts on how the krypton pressure at the RGA will behave in response to changes in system parameters. The exact response of the system is always characterized empirically, as will be described in section \ref{sec:actualresponse}. For this purpose, the molecular flow approximation will suffice to motivate and direct our empirical investigations\cite{vac_eq}.
 
-The particular impedances of interest here are impedance between the cold-trap and the RGA ($Z_1$) and the impedance between the RGA and TP1 ($Z_2$). IV1 and IV2 are in place so that $Z_1$ and $Z_2$ can be fine tuned to an optimal arrangement. This optimization will be described further in section \ref{sec:impedance}, but first there is a hard constraint that must be placed on the relative values of $Z_1$ and $Z_2$.
+The particular impedances of interest here are impedance between the cold-trap and the RGA ($Z_1$) and the impedance between the RGA and TP1 ($Z_2$). IV1 and IV2 are in place so that $Z_1$ and $Z_2$ can be fine tuned to an optimal arrangement. This optimization will be described further in section \ref{sec:impedance_real}, but first there is a hard constraint that must be placed on the relative values of $Z_1$ and $Z_2$.
 
 The RGA has a maximum operating pressure of $1\times 10^{-6}$ Torr, although we have found that operating at about $1\times 10^{-5}$ Torr is possible with minimal degradation of the CDEM. When analyzing xenon samples with a concentration of about one part per million or less, the xenon partial pressure, $PP_{Xe}$,  will dominate the absolute pressure at the RGA. $PP_{Xe}$ is the sourced by the vapor of the xenon ice in the cold trap, which is $P_{ICE}=1.8\times 10^{-3}$ Torr, and so needs to be reduced by a factor of about 100 or more between the cold-trap and the RGA\cite{vaporpressure}. 
 
@@ -121,7 +121,7 @@ where $1/S_{RGA}=1/S_{TP1}+Z_2$. This gives,
 \label{eq:impconstraint}
 S_{RGA}\cdot Z_1= \frac{P_{ICE}}{PP_{Xe}} = 180.
 \end{equation}
-$S_{RGA}$ is usually dominated by $Z_2$. Depending on the model of pump used, the speed of the turbo pump for xenon is around 50 liters per second. The impedance of cylindrical plumbing with a diameter of 1.5 inches is about $\frac{1}{320} s/L$ per centimeter of plumbing.\cite{vac_eq} In a typical system there will be the equivalent of about 5 feet of plumbing between the RGA and TP1, so the nominal value of $Z_2$ will be roughly 0.48 seconds per liters for xenon, indicating a maximum $S_{RGA}$ of 2.1 liters per second.\cite{vac_eq} This means the fully-open value of $Z_1$ should be about 85 seconds per liter for xenon. The exact numerical value of $S_{RGA}$ and $Z_1$ are largely unimportant, and when optimizing the system impedances as described in section \ref{sec:impedance}, we will work in units relative to the fully open state, rather than liters per second.
+$S_{RGA}$ is usually dominated by $Z_2$. Depending on the model of pump used, the speed of the turbo pump for xenon is around 50 liters per second. The impedance of cylindrical plumbing with a diameter of 1.5 inches is about $\frac{1}{320} s/L$ per centimeter of plumbing.\cite{vac_eq} In a typical system there will be the equivalent of about 5 feet of plumbing between the RGA and TP1, so the nominal value of $Z_2$ will be roughly 0.48 seconds per liters for xenon, indicating a maximum $S_{RGA}$ of 2.1 liters per second.\cite{vac_eq} This means the fully-open value of $Z_1$ should be about 85 seconds per liter for xenon. The exact numerical value of $S_{RGA}$ and $Z_1$ are largely unimportant, and when optimizing the system impedances as described in section \ref{sec:impedance_real}, we will work in units relative to the fully open state, rather than liters per second.
 
 
 
@@ -241,7 +241,7 @@ Equation \ref{eq:CTresponse} does a good job in predicting the shape of $PP_{Kr}
 
 
 
-\section{Actual Behavior of a Cold Trap System}
+\section{Actual Behavior of a Cold Trap System}\label{sec:actualresponse}
 Equation \ref{eq:CTresponse} will prove itself powerful in characterizing $PP_{Kr}(t)$, as well as in providing motivation for the direction of our attempts at optimizing the cold trap system for the measurement of trace krypton contamination. It is, however an idealized equation that relies on some tenuous assumptions. 
 
 The vacuum approximation is not perfect, and there are large deviations from the molecular flow model presented in the previous section. We postulate that these deviations arise from interactions between the flow of krypton and the formation of the xenon ice. The input of the trap has viscous xenon flow where the krypton is interacting primarily gaseous xenon atoms, while at the output of the trap, the xenon is closer to the molecular flow regime where the krypton atoms will be interacting more often with the stainless steel plumbing. More importantly, there is a transition region where the xenon is actively being frozen. This rapid phase transition of the xenon has complicated effects on the flow of krypton through the trap which result in krypton getting trapped inside the ice. 
@@ -263,7 +263,7 @@ We started by making variations of the our then-standard 1.5 inch U trap. We mad
 
 Moving on from the 1.5 inch U trap modifications, we decided to use 0.5 in plumbing in the construction of our traps. It sees about half of the krypton entrapment as the 1.5 inch trap and does not clog after $<10g$ of flow, as we found with the 3/8 inch trap. We did have some trouble with warm xenon gas breaking through to the output of the cold trap at higher flow rates. We welded a series of five traps with adding bends in the plumbing in order to increase the length of plumbing immersed in the LN. These traps are shown in \ref{fig:geometries}. We measure $\alpha$ for each of these cold traps, this time regulating the xenon flow with an MFC set to 3.3 SLM. 3.3 SLM is in the high-flow regime, so $\alpha$ will be decreased from the low-flow values. These measured values of $\alpha$ are shown in table \ref{tab:geo}. Refer to figure \ref{fig:geometries} for the description of the numbered cold traps. The results show that, while the additional bends do add more capacity to the trap, they can also reduce the krypton throughput.
 \begin{table}
- \label{tab:geo}
+ \centering
  \begin{tabular}{c || c c c c c}
  \hline
  \hline
@@ -273,6 +273,7 @@ Moving on from the 1.5 inch U trap modifications, we decided to use 0.5 in plumb
 \hline
 \end{tabular}
 \caption{Throughput parameters measured for various cold trap geometries.}
+\label{tab:geo}
 \end{table}
 
 Table \ref{tab:geo} indicates that trap \#2 has the best throughput apart from the U trap (trap 4\#). We have dubbed this the ``stocking trap" because of it's resemblance to a stocking, as well as because we first installed it on the system on Christmas, 2015. The stocking trap is capable of freezing about 120 grams of xenon before break-through, and only retains about 50\% more krypton than the 0.5 inch U trap. For the rest of this document, when we refer to ``the 0.5 inch diameter cold trap'', we will in fact be referencing the stocking trap, whereas when we refer to ``the 1.5 inch diameter cold trap'', we will be referring to the 1.5 inch U trap.
@@ -416,7 +417,7 @@ At low flow rates, the extrapolated values of $PP_{Kr,eq}$ are equal to the flat
 \label{sec:impedance_real}
 The predictions of equation \ref{eq:CTresponse} also break down at high system impedances, although perhaps in a more well-behaved way than in the case of high xenon flow rates. Just as with increased xenon flow rate, the $\alpha$ parameter will increase at higher impedance settings. However, as opposed to its turn-over induced, effective dependence on flow rate, $\alpha$ appears to have a more fundamental relation to impedance that can be used to characterize the physical basis of the entrapment of krypton in the cold trap.
 
-Consider the pressure trace shown in figure \ref{fig:RGAtrace_slow}; the xenon flow rate, $Q_0$ and krypton concentration, $\Phi$ were identical to the krypton trace in figure \ref{fig:RGAtrace_fast}, and the impedance, $Z_1$ was set to be 45 time higher. This trace deviates significantly from what would be expected by increasing $Z_1$ in equation \ref{fig:CTresponse}. Both the system response time and equilibrium pressure are expected to increase proportional to $Z_1$ from equations \ref{eq:CTtime} and \ref{eq:krpres2}, but had a significantly smaller increase. $PP_{Kr,eq}$ increased from $50.8 \pm 0.4$ to $399.9\pm 1.7$ pTorr; a factor of 7.9. The overall response time, $\tau$, increased from $12.7 \pm 0.7$ to $93.4 \pm 1.8$ seconds; a factor of 7.4. 
+Consider the pressure trace shown in figure \ref{fig:RGAtrace_slow}; the xenon flow rate, $Q_0$ and krypton concentration, $\Phi$ were identical to the krypton trace in figure \ref{fig:RGAtrace_fast}, and the impedance, $Z_1$ was set to be 45 time higher. This trace deviates significantly from what would be expected by increasing $Z_1$ in equation \ref{eq:CTresponse}. Both the system response time and equilibrium pressure are expected to increase proportional to $Z_1$ from equations \ref{eq:CTtime} and \ref{eq:krpres2}, but had a significantly smaller increase. $PP_{Kr,eq}$ increased from $50.8 \pm 0.4$ to $399.9\pm 1.7$ pTorr; a factor of 7.9. The overall response time, $\tau$, increased from $12.7 \pm 0.7$ to $93.4 \pm 1.8$ seconds; a factor of 7.4. 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{Figures/RGAtrace_fit_slow_wexp.png}
@@ -758,7 +759,7 @@ In terms of the discrete RGA measurements, $PP_{Kr,i}$ this becomes:
 \Phi=\frac{1}{F_{Q,t_1,t_2}C}\sum_{i=1}^{N} (PP_{Kr,i}-\overline{PP}_{Kr,0})\Delta t_i.
 %\Phi=\frac{1}{CV\Delta P_{Xe}}\sum_{i=1}^{N} (PP_{Kr,i}-\overline{PP}_{Kr,0})\Delta t_i
 \end{equation}
-$F_{Q,t_1,t_2}C$ is a constant of proportionality which can be measured by analyzing a xenon sample with a known $\Phi$. However, this constant will only hold so long as $Q_{Xe,CT}(t)$, $t_1$, and $t_2$ are identical between the analysis and calibration runs. To ensure consistency, it is best practice to calibrate after every sample analysis. These calibrations should follow the procedure described in section \ref{sec:calibrations} and should use the left-over sample xenon which is recovered from the cold trap as the base ``clean'' xenon. This can be done as long as the initial concentration of krypton in the xenon sample is much less than the target concentration of the calibration xenon.
+$F_{Q,t_1,t_2}C$ is a constant of proportionality which can be measured by analyzing a xenon sample with a known $\Phi$. However, this constant will only hold so long as $Q_{Xe,CT}(t)$, $t_1$, and $t_2$ are identical between the analysis and calibration runs. To ensure consistency, it is best practice to calibrate after every sample analysis. These calibrations should follow the procedure described in section \ref{sec:calprep} and should use the left-over sample xenon which is recovered from the cold trap as the base ``clean'' xenon. This can be done as long as the initial concentration of krypton in the xenon sample is much less than the target concentration of the calibration xenon.
 
 \begin{figure}[h!]
 \centering
@@ -779,11 +780,10 @@ $F_{Q,t_1,t_2}C$ is a constant of proportionality which can be measured by analy
 \end{figure}
 
 The random uncertainty of purity results calculated using equation \ref{eq:int_analysis} are harder to estimate than those calculated using equation \ref{eq:average_analysis}. The fluctuations around each datapoint cannot be measured directly, so they are estimated using the baseline data collected in region I. The fluctuations of the RGA tend to increase at higher partial pressure, as shown in figure \ref{fig:RGAnoise}. We take the baseline fluctuations, $\sigma_0$, to be equal to the standard deviation of the region I data points. The random uncertainty of each data point, $PP_{Kr,i}$, is then taken to be:
-{\color{red}
 \begin{equation}
 \label{eq:preserr}
 \sigma_i=\sigma_{0}*(1+0.009*PP_{Kr,i}).
-\end{equation}}
+\end{equation}
 The propagation of this error to $\Phi$ is then:
 \begin{equation}
 \sigma_{\Phi}^2=\frac{1}{F_{Q,t_1,t_2}^2C^2}\sum_{i=1}^{N}(\sigma_i^2+\sigma_0^2/N_B)\Delta t_i^2,
@@ -805,7 +805,7 @@ The first and simplest adjustments to be made are to the RGA electronics. These 
 
 The noise floor sets the scan speed of the RGA; the lower the noise floor setting, the longer the RGA will spend integrating current on a single mass point. The practical effects are threefold. The obvious first implication is that with a low noise floor, it will take much longer to to collect a single data point. At a noise floor setting of 0 the RGA will sit on a mass point for more than 5 seconds, and at a noise floor setting of 3 it will sit for less than 0.5 seconds per mass. For high-sensitivity analysis, it is better to have the noise floor set as low as possible, which will give you fewer data points which have a smaller variance. This will reduce the amount of time spent communicating with the RGA, as well as the amount of down time between communications. 
 
-{\color{red}At higher noise floors, there tends to be an offset in the baseline. While we usually try to account for this by using baseline-subtracted pressures in purity calculations, it is possible that the shifted baseline is not additive to the pressure signal. This is indicated by the krypton signal in the LUX run04 data decreasing artificially. There is also evidence from the SLAC system that the baseline is not strictly additive to a physical pressure signal.}
+At higher noise floors, there tends to be an offset in the baseline. While we usually try to account for this by using baseline-subtracted pressures in purity calculations, it is possible that the shifted baseline is not additive to the pressure signal. This is indicated by the krypton signal in the LUX run04 data decreasing artificially. There is also evidence from the SLAC system that the baseline is not strictly additive to a physical pressure signal.
 
 Setting the voltage on the CDEM is a balancing act. Increasing the voltage increased the signal amplification. Above a certain CDEM voltage, however, the random fluctuations in the RGA baseline rise faster than the gain, and if the voltage is set too high, the xenon ice vapor pressure will begin saturate the CDEM, degrading and possibly damaging it. The CDEM voltage should be high enough that the largest xenon peaks such as 132 and 133 should be at saturation but not so high that the doubly ionized peaks such as 66 amu saturate. 
 \begin{figure}[h]
@@ -907,7 +907,7 @@ With our system optimized to the best of our ability, we predict that we will be
 
 For all of the tests in this demonstration we used a single sample of xenon. To initially prepare this sample, we filled our 4073 $\pm 5$ cc sample volume (the green section in figure \ref{fig:CTpid}) with 2720 $\pm 14$ Torr of xenon. Using the method described in section \ref{sec:calprep}, we cleaned this xenon to the point where were were no longer able to detect krypton. Into this clean xenon we mixed very small amounts of xenon which was previously-prepared with 274 ppB ``cocktail xenon''. After every analysis run, we would refreeze this xenon into SB, and then do whatever combination of cleaning and mixing was necessary to prepare for the next desired test.
 
-\subsection{Blank Runs}
+\subsection{Blank Runs}\label{sec:blankruns}
 We analyze the RGA data from the 84 amu peak ($PP_{Kr,i}$) according to equation \ref{eq:int_analysis}, leaving off the constant term:
 \begin{equation}
 \label{eq:SLACintan}
@@ -929,7 +929,7 @@ There was one significant outlier in our blank data which had a value of 118 $\p
 \end{figure}
 
 
-\subsection{Mixing of ppQ Level Samples}
+\subsection{Mixing of ppQ Level Samples}\label{sec:ppqprep}
 The previously mention 274 ppB cocktail xenon' was prepared using a separate system at the University of Maryland. The volumes of this system were measured by volume sharing as described in section \ref{sec:calprep}. The pressure gauge used was an MKS Baratron 722b capacitance manometer The accuracy of the 722b pressure gauge is 0.5\% of the reading. We also observe a constant zero offset of the gauge to be $0.8\pm0.5$ Torr which will be subtracted from the pressure readings. The absolute reference volume was a 500cc Swagelok DOT-compliant sample cylinder. The output of this bottle was modified to accommodate a 1/4 inch VCR B-series bellows valve. We take the volume of this space to be $500 \pm10$cc. This reference volume doubled as the xenon space. 
 
 The volume of the injection space was measured to be $16.00 \pm 0.25$cc. The expansion ratio is $a=0.0261 \pm0.0008$. The starting xenon pressure was $841\pm4$ Torr in the 500cc xenon space. We injected an initial krypton pressure of $638\pm3$ Torr in the injection space. We expanded three times before mixing it with the xenon yielding a mixture with $276\pm25$ ppB (g Kr)/(g Xe).
@@ -942,7 +942,6 @@ The volume of the injection space was measured to be $16.00 \pm 0.25$cc. The exp
 The second-order mixings to dilute the 276 ppB cocktail xenon were done in-situ in the SLAC system. The SLAC sampling system is diagramed in figure \ref{fig:SLACpid}. The blue boxes and corresponding arrows indicate the various isolated spaces in the system, the volumes for which are listed in table \ref{tab:SLACvols}. The spaces of interest for mixing are spaces 1, 3, 4, 5, 6, and 7. The cocktail xenon is stored in space 6, the clean xenon is held in spaces 1, and the injection volume is space 5. As our primary expansion volume we used space 4 and used spaces 7 and 3 to increase the volume as needed.
 \begin{table}[h!]
 \centering
- \label{tab:SLACvols}
  \begin{tabular}{ c | c | c }
  \hline
  \hline
@@ -960,12 +959,12 @@ The second-order mixings to dilute the 276 ppB cocktail xenon were done in-situ 
  \hline
 \end{tabular}
 \caption{List of SLAC system volumes. Refer to figure \ref{fig:SLACpid} for descriptions of spaces.}
+\label{tab:SLACvols}
 \end{table}
 
 The cocktail xenon was initially at a pressure of $128.0\pm0.6$ Torr. Since we do not have a pressure gauge on space 6, every time we volume share with the injection volume, we calculate the new pressure contained in space 6. This calculation is simply the old pressure multiplied by the volume ratio (4.9 cc)/(4.9 cc+1000 cc)=0.0049.
  \begin{table}[h!]
  \centering
- \label{tab:concentrations}
  \begin{tabular}{ c | c | c | c | c | c}
  \hline
  \hline
@@ -983,6 +982,7 @@ The cocktail xenon was initially at a pressure of $128.0\pm0.6$ Torr. Since we d
  \hline
 \end{tabular}
 \caption{Parameters of the sample concentrations used to demonstrate the sensitivity of the SLAC system. The indicated uncertainties do not include the 7\% systematic uncertainty from the cocktail xenon concentration.}
+\label{tab:concentrations}
 \end{table}
 
 The procedure for mixing follows the same outline as in section \ref{sec:calprep}. We select a desired sample concentration ($\Phi_{Kr}$), choose the appropriate expansion space ($V_{exp}$), expand the required number of times ($N_{exp}$), and then mix the remaining cocktail xenon into the clean sample xenon. The resulting concentration will be given by:
@@ -1011,7 +1011,7 @@ With the measurability of 0 established, and low-concentration xenon samples in 
   \caption{Overall linearity.}
   %\label{fig:intlin}
 \end{subfigure}
-\caption{}
+\caption{Demonstration of 7.7 $\pm$2.0 ppQ sensitivity. The red line indicates the best fit response of the sampling system, and the dashed line indicates the response after altering the parameters by 1-sigma. The left plot is a zoomed-in version of the right plot. The blue region indicates the threshold of detection calculated using blank runs described in section \ref{sec:blankruns}. The black markers show the measurements of xenon samples with know krypton concentration, prepared according to section \ref{sec:ppqprep}.}
 \label{fig:linplot2017}
 \end{figure}
 

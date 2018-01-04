@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{104}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -41,90 +41,20 @@ Jonathan~L. Feng.
 \newblock \doi{10.1146/annurev-astro-082708-101659}.
 \newblock URL \url{https://doi.org/10.1146/annurev-astro-082708-101659}.
 
-\bibitem[{Akerib} et~al.(2017){Akerib}, {Alsum}, {Ara{\'u}jo}, {Bai}, {Bailey},
-  {Balajthy}, {Beltrame}, {Bernard}, {Bernstein}, {Biesiadzinski}, {Boulton},
-  {Bramante}, {Br{\'a}s}, {Byram}, {Cahn}, {Carmona-Benitez}, {Chan},
-  {Chiller}, {Chiller}, {Currie}, {Cutter}, {Davison}, {Dobi}, {Dobson},
-  {Druszkiewicz}, {Edwards}, {Faham}, {Fiorucci}, {Gaitskell}, {Gehman},
-  {Ghag}, {Gibson}, {Gilchriese}, {Hall}, {Hanhardt}, {Haselschwardt},
-  {Hertel}, {Hogan}, {Horn}, {Huang}, {Ignarra}, {Ihm}, {Jacobsen}, {Ji},
-  {Kamdin}, {Kazkaz}, {Khaitan}, {Knoche}, {Larsen}, {Lee}, {Lenardo}, {Lesko},
-  {Lindote}, {Lopes}, {Manalaysay}, {Mannino}, {Marzioni}, {McKinsey}, {Mei},
-  {Mock}, {Moongweluwan}, {Morad}, {Murphy}, {Nehrkorn}, {Nelson}, {Neves},
-  {O'Sullivan}, {Oliver-Mallory}, {Palladino}, {Pease}, {Phelps}, {Reichhart},
-  {Rhyne}, {Shaw}, {Shutt}, {Silva}, {Solmaz}, {Solovov}, {Sorensen},
-  {Stephenson}, {Sumner}, {Szydagis}, {Taylor}, {Taylor}, {Tennyson}, {Terman},
-  {Tiedt}, {To}, {Tripathi}, {Tvrznikova}, {Uvarov}, {Verbus}, {Webb}, {White},
-  {Whitis}, {Witherell}, {Wolfs}, {Xu}, {Yazdani}, {Young}, {Zhang}, and {LUX
-  Collaboration}]{lux_2017}
-D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai}, A.~J. {Bailey},
-  J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard}, A.~{Bernstein}, T.~P.
-  {Biesiadzinski}, E.~M. {Boulton}, R.~{Bramante}, P.~{Br{\'a}s}, D.~{Byram},
-  S.~B. {Cahn}, M.~C. {Carmona-Benitez}, C.~{Chan}, A.~A. {Chiller},
-  C.~{Chiller}, A.~{Currie}, J.~E. {Cutter}, T.~J.~R. {Davison}, A.~{Dobi},
-  J.~E.~Y. {Dobson}, E.~{Druszkiewicz}, B.~N. {Edwards}, C.~H. {Faham},
-  S.~{Fiorucci}, R.~J. {Gaitskell}, V.~M. {Gehman}, C.~{Ghag}, K.~R. {Gibson},
-  M.~G.~D. {Gilchriese}, C.~R. {Hall}, M.~{Hanhardt}, S.~J. {Haselschwardt},
-  S.~A. {Hertel}, D.~P. {Hogan}, M.~{Horn}, D.~Q. {Huang}, C.~M. {Ignarra},
-  M.~{Ihm}, R.~G. {Jacobsen}, W.~{Ji}, K.~{Kamdin}, K.~{Kazkaz}, D.~{Khaitan},
-  R.~{Knoche}, N.~A. {Larsen}, C.~{Lee}, B.~G. {Lenardo}, K.~T. {Lesko},
-  A.~{Lindote}, M.~I. {Lopes}, A.~{Manalaysay}, R.~L. {Mannino}, M.~F.
-  {Marzioni}, D.~N. {McKinsey}, D.-M. {Mei}, J.~{Mock}, M.~{Moongweluwan},
-  J.~A. {Morad}, A.~S.~J. {Murphy}, C.~{Nehrkorn}, H.~N. {Nelson}, F.~{Neves},
-  K.~{O'Sullivan}, K.~C. {Oliver-Mallory}, K.~J. {Palladino}, E.~K. {Pease},
-  P.~{Phelps}, L.~{Reichhart}, C.~{Rhyne}, S.~{Shaw}, T.~A. {Shutt},
-  C.~{Silva}, M.~{Solmaz}, V.~N. {Solovov}, P.~{Sorensen}, S.~{Stephenson},
-  T.~J. {Sumner}, M.~{Szydagis}, D.~J. {Taylor}, W.~C. {Taylor}, B.~P.
-  {Tennyson}, P.~A. {Terman}, D.~R. {Tiedt}, W.~H. {To}, M.~{Tripathi},
-  L.~{Tvrznikova}, S.~{Uvarov}, J.~R. {Verbus}, R.~C. {Webb}, J.~T. {White},
-  T.~J. {Whitis}, M.~S. {Witherell}, F.~L.~H. {Wolfs}, J.~{Xu}, K.~{Yazdani},
-  S.~K. {Young}, C.~{Zhang}, and {LUX Collaboration}.
+\bibitem[{LUX Collaboration} et~al.(2017{\natexlab{a}}){LUX Collaboration},
+  {Akerib}, et~al.]{lux_2017}
+{LUX Collaboration}, D.~S. {Akerib}, et~al.
 \newblock {Results from a Search for Dark Matter in the Complete LUX Exposure}.
 \newblock \emph{Physical Review Letters}, 118\penalty0 (2):\penalty0 021303,
-  January 2017.
+  January 2017{\natexlab{a}}.
 \newblock \doi{10.1103/PhysRevLett.118.021303}.
 
-\bibitem[{LUX Collaboration} et~al.(2017){LUX Collaboration}, {Akerib},
-  {Alsum}, {Ara{\'u}jo}, {Bai}, {Bailey}, {Balajthy}, {Beltrame}, {Bernard},
-  {Bernstein}, {Biesiadzinski}, {Boulton}, {Br{\'a}s}, {Byram}, {Cahn},
-  {Carmona-Benitez}, {Chan}, {Chiller}, {Chiller}, {Currie}, {Cutter},
-  {Davison}, {Dobi}, {Dobson}, {Druszkiewicz}, {Edwards}, {Faham}, {Fallon},
-  {Fiorucci}, {Gaitskell}, {Gehman}, {Ghag}, {Gilchriese}, {Hall}, {Hanhardt},
-  {Haselschwardt}, {Hertel}, {Hogan}, {Horn}, {Huang}, {Ignarra}, {Jacobsen},
-  {Ji}, {Kamdin}, {Kazkaz}, {Khaitan}, {Knoche}, {Larsen}, {Lee}, {Lenardo},
-  {Lesko}, {Lindote}, {Lopes}, {Manalaysay}, {Mannino}, {Marzioni}, {McKinsey},
-  {Mei}, {Mock}, {Moongweluwan}, {Morad}, {Murphy}, {Nehrkorn}, {Nelson},
-  {Neves}, {O'Sullivan}, {Oliver-Mallory}, {Palladino}, {Pease}, {Reichhart},
-  {Rhyne}, {Shaw}, {Shutt}, {Silva}, {Solmaz}, {Solovov}, {Sorensen},
-  {Stephenson}, {Sumner}, {Szydagis}, {Taylor}, {Taylor}, {Tennyson}, {Terman},
-  {Tiedt}, {To}, {Tripathi}, {Tvrznikova}, {Uvarov}, {Velan}, {Verbus}, {Webb},
-  {White}, {Whitis}, {Witherell}, {Wolfs}, {Xu}, {Yazdani}, {Young}, and
-  {Zhang}]{lux_sd}
-{LUX Collaboration}, D.~S. {Akerib}, S.~{Alsum}, H.~M. {Ara{\'u}jo}, X.~{Bai},
-  A.~J. {Bailey}, J.~{Balajthy}, P.~{Beltrame}, E.~P. {Bernard},
-  A.~{Bernstein}, T.~P. {Biesiadzinski}, E.~M. {Boulton}, P.~{Br{\'a}s},
-  D.~{Byram}, S.~B. {Cahn}, M.~C. {Carmona-Benitez}, C.~{Chan}, A.~A.
-  {Chiller}, C.~{Chiller}, A.~{Currie}, J.~E. {Cutter}, T.~J.~R. {Davison},
-  A.~{Dobi}, J.~E.~Y. {Dobson}, E.~{Druszkiewicz}, B.~N. {Edwards}, C.~H.
-  {Faham}, S.~R. {Fallon}, S.~{Fiorucci}, R.~J. {Gaitskell}, V.~M. {Gehman},
-  C.~{Ghag}, M.~G.~D. {Gilchriese}, C.~R. {Hall}, M.~{Hanhardt}, S.~J.
-  {Haselschwardt}, S.~A. {Hertel}, D.~P. {Hogan}, M.~{Horn}, D.~Q. {Huang},
-  C.~M. {Ignarra}, R.~G. {Jacobsen}, W.~{Ji}, K.~{Kamdin}, K.~{Kazkaz},
-  D.~{Khaitan}, R.~{Knoche}, N.~A. {Larsen}, C.~{Lee}, B.~G. {Lenardo}, K.~T.
-  {Lesko}, A.~{Lindote}, M.~I. {Lopes}, A.~{Manalaysay}, R.~L. {Mannino}, M.~F.
-  {Marzioni}, D.~N. {McKinsey}, D.~M. {Mei}, J.~{Mock}, M.~{Moongweluwan},
-  J.~A. {Morad}, A.~S.~J. {Murphy}, C.~{Nehrkorn}, H.~N. {Nelson}, F.~{Neves},
-  K.~{O'Sullivan}, K.~C. {Oliver-Mallory}, K.~J. {Palladino}, E.~K. {Pease},
-  L.~{Reichhart}, C.~{Rhyne}, S.~{Shaw}, T.~A. {Shutt}, C.~{Silva},
-  M.~{Solmaz}, V.~N. {Solovov}, P.~{Sorensen}, S.~{Stephenson}, T.~J. {Sumner},
-  M.~{Szydagis}, D.~J. {Taylor}, W.~C. {Taylor}, B.~P. {Tennyson}, P.~A.
-  {Terman}, D.~R. {Tiedt}, W.~H. {To}, M.~{Tripathi}, L.~{Tvrznikova},
-  S.~{Uvarov}, V.~{Velan}, J.~R. {Verbus}, R.~C. {Webb}, J.~T. {White}, T.~J.
-  {Whitis}, M.~S. {Witherell}, F.~L.~H. {Wolfs}, J.~{Xu}, K.~{Yazdani}, S.~K.
-  {Young}, and C.~{Zhang}.
+\bibitem[{LUX Collaboration} et~al.(2017{\natexlab{b}}){LUX Collaboration},
+  {Akerib}, et~al.]{lux_sd}
+{LUX Collaboration}, D.~S. {Akerib}, et~al.
 \newblock {Limits on spin-dependent WIMP-nucleon cross section obtained from
   the complete LUX exposure}.
-\newblock \emph{ArXiv e-prints}, May 2017.
+\newblock \emph{ArXiv e-prints}, May 2017{\natexlab{b}}.
 
 \bibitem[{Weber} and {de Boer}(2010)]{weber}
 M.~{Weber} and W.~{de Boer}.
@@ -139,6 +69,13 @@ Carlos~H. Faham.
   Experiment}.
 \newblock PhD thesis, Brown University, Providence, Rhode Island, 2014.
 
+\bibitem[Chepel and Araujo(2013)]{henrique}
+V~Chepel and H~Araujo.
+\newblock Liquid noble gas detectors for low energy particle physics.
+\newblock \emph{Journal of Instrumentation}, 8\penalty0 (04):\penalty0 R04001,
+  2013.
+\newblock URL \url{http://stacks.iop.org/1748-0221/8/i=04/a=R04001}.
+
 \bibitem[Akerib et~al.(2015)]{lux_fiducial}
 D.~S. Akerib et~al.
 \newblock {Radiogenic and Muon-Induced Backgrounds in the LUX Dark Matter
@@ -151,34 +88,8 @@ B.~J. Mount et~al.
 \newblock {LUX-ZEPLIN (LZ) Technical Design Report}.
 \newblock 2017.
 
-\bibitem[Akerib et~al.(2013)Akerib, Bai, Bedikian, Bernard, Bernstein,
-  Bolozdynya, Bradley, Byram, Cahn, Camp, Carmona-Benitez, Carr, Chapman,
-  Chiller, Chiller, Clark, Classen, Coffey, Curioni, Dahl, Dazeley,
-  de~Viveiros, Dobi, Dragowsky, Druszkiewicz, Edwards, Faham, Fiorucci,
-  Gaitskell, Gibson, Gilchriese, Hall, Hanhardt, Holbrook, Ihm, Jacobsen,
-  Kastens, Kazkaz, Knoche, Kyre, Kwong, Lander, Larsen, Lee, Leonard, Lesko,
-  Lindote, Lopes, Lyashenko, Malling, Mannino, Marquez, McKinsey, Mei, Mock,
-  Moongweluwan, Morii, Nelson, Neves, Nikkel, Pangilinan, Parker, Pease, Pech,
-  Phelps, Rodionov, Roberts, Shei, Shutt, Silva, Skulski, Solovov, Sofka,
-  Sorensen, Spaans, Stiegler, Stolp, Svoboda, Sweany, Szydagis, Taylor,
-  Thomson, Tripathi, Uvarov, Verbus, Walsh, Webb, White, White, Whitis,
-  Wlasenko, Wolfs, Woods, and Zhang]{lux2012}
-D.S. Akerib, X.~Bai, S.~Bedikian, E.~Bernard, A.~Bernstein, A.~Bolozdynya,
-  A.~Bradley, D.~Byram, S.B. Cahn, C.~Camp, M.C. Carmona-Benitez, D.~Carr, J.J.
-  Chapman, A.~Chiller, C.~Chiller, K.~Clark, T.~Classen, T.~Coffey, A.~Curioni,
-  E.~Dahl, S.~Dazeley, L.~de~Viveiros, A.~Dobi, E.~Dragowsky, E.~Druszkiewicz,
-  B.~Edwards, C.H. Faham, S.~Fiorucci, R.J. Gaitskell, K.R. Gibson,
-  M.~Gilchriese, C.~Hall, M.~Hanhardt, B.~Holbrook, M.~Ihm, R.G. Jacobsen,
-  L.~Kastens, K.~Kazkaz, R.~Knoche, S.~Kyre, J.~Kwong, R.~Lander, N.A. Larsen,
-  C.~Lee, D.S. Leonard, K.T. Lesko, A.~Lindote, M.I. Lopes, A.~Lyashenko, D.C.
-  Malling, R.~Mannino, Z.~Marquez, D.N. McKinsey, D.-M. Mei, J.~Mock,
-  M.~Moongweluwan, M.~Morii, H.~Nelson, F.~Neves, J.A. Nikkel, M.~Pangilinan,
-  P.D. Parker, E.K. Pease, K.~Pech, P.~Phelps, A.~Rodionov, P.~Roberts,
-  A.~Shei, T.~Shutt, C.~Silva, W.~Skulski, V.N. Solovov, C.J. Sofka,
-  P.~Sorensen, J.~Spaans, T.~Stiegler, D.~Stolp, R.~Svoboda, M.~Sweany,
-  M.~Szydagis, D.~Taylor, J.~Thomson, M.~Tripathi, S.~Uvarov, J.R. Verbus,
-  N.~Walsh, R.~Webb, D.~White, J.T. White, T.J. Whitis, M.~Wlasenko, F.L.H.
-  Wolfs, M.~Woods, and C.~Zhang.
+\bibitem[Akerib et~al.(2013)]{lux2012}
+D.S. Akerib et~al.
 \newblock The large underground xenon (lux) experiment.
 \newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
@@ -254,24 +165,8 @@ F.~E. Wietfeldt, E.~B. Norman, Y.~D. Chan, M.~T.~F. da~Cruz, A.~Garc\'{\i}a,
 \newblock \doi{10.1103/PhysRevC.52.1028}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevC.52.1028}.
 
-\bibitem[Alimonti et~al.(1998)Alimonti, Angloher, Arpesella, Balata, Bellini,
-  Benziger, Bonetti, Cadonati, Calaprice, Cecchet, Chen, Darnton, De~Bari,
-  Deutsch, Elisei, Von~Feilitzsch, Galbiati, Gatti, Giammarchi, Giugni,
-  Goldbrunner, Golubchikov, Goretti, Hagner, Hartmann, Von~Hentig, Heusser,
-  Ianni, Jochum, Johnson, Laubenstein, Lombardi, Magni, Malvezzi, Manno,
-  Manuzio, Masetti, Mazzucato, Meroni, Neff, Nostro, Oberauer, Perotti, Preda,
-  Raghavan, Ranucci, Resconi, Ruscitti, Scardaoni, Schönert, Smirnov,
-  Tartaglia, Testera, Ullucci, Vogelaar, Vitale, and Zaimidoroga]{C14_Borexino}
-G.~Alimonti, G.~Angloher, C.~Arpesella, M.~Balata, G.~Bellini, J.~Benziger,
-  S.~Bonetti, L.~Cadonati, F.P. Calaprice, G.~Cecchet, M.~Chen, N.~Darnton,
-  A.~De~Bari, M.~Deutsch, F.~Elisei, F.~Von~Feilitzsch, C.~Galbiati, F.~Gatti,
-  M.G. Giammarchi, D.~Giugni, T.~Goldbrunner, A.~Golubchikov, A.~Goretti,
-  T.~Hagner, F.X. Hartmann, R.~Von~Hentig, G.~Heusser, A.~Ianni, J.~Jochum,
-  M.~Johnson, M.~Laubenstein, P.~Lombardi, S.~Magni, S.~Malvezzi, I.~Manno,
-  G.~Manuzio, F.~Masetti, U.~Mazzucato, E.~Meroni, M.~Neff, A.~Nostro,
-  L.~Oberauer, A.~Perotti, A.~Preda, R.S. Raghavan, G.~Ranucci, E.~Resconi,
-  M.~Ruscitti, R.~Scardaoni, S.~Schönert, O.~Smirnov, R.~Tartaglia,
-  G.~Testera, P.~Ullucci, R.B. Vogelaar, S.~Vitale, and O.~Zaimidoroga.
+\bibitem[Alimonti et~al.(1998)]{C14_Borexino}
+G.~Alimonti et~al.
 \newblock Measurement of the 14c abundance in a low-background liquid
   scintillator.
 \newblock \emph{Physics Letters, Section B: Nuclear, Elementary Particle and
@@ -312,8 +207,11 @@ Souvik Das.
 \newblock {A simple alternative to the Crystal Ball function}.
 \newblock 2016.
 
-\bibitem[dah()]{dahl}
-PhD thesis.
+\bibitem[Dahl(2009)]{dahl}
+Carl~Eric Dahl.
+\newblock \emph{The physics of background discrimination in liquid xenon, and
+  first results from Xenon10 in the hunt for WIMP dark matter.}
+\newblock PhD thesis, Princeton University, 2009.
 
 \bibitem[Akerib et~al.(2016{\natexlab{b}})]{lux_tritium}
 D.~S. Akerib et~al.
@@ -322,14 +220,27 @@ D.~S. Akerib et~al.
   2016{\natexlab{b}}.
 \newblock \doi{10.1103/PhysRevD.93.072009}.
 
-\bibitem[Dobi()]{attila_sol}
+\bibitem[Dobi(2013)]{attila_sol}
 Attila Dobi.
-\newblock personal communication.
+\newblock personal communication, November 2013.
 
 \bibitem[Ryden(2003)]{ryden}
 B.~Ryden.
 \newblock \emph{Introduction to cosmology}.
 \newblock Addison-Wesley, San Francisco, USA, 2003.
+
+\bibitem[Hinshaw et~al.(2009)Hinshaw, Weiland, Hill, Odegard, Larson, Bennett,
+  Dunkley, Gold, Greason, Jarosik, Komatsu, Nolta, Page, Spergel, Wollack,
+  Halpern, Kogut, Limon, Meyer, Tucker, and Wright]{wmap_decoupling}
+G.~Hinshaw, J.~L. Weiland, R.~S. Hill, N.~Odegard, D.~Larson, C.~L. Bennett,
+  J.~Dunkley, B.~Gold, M.~R. Greason, N.~Jarosik, E.~Komatsu, M.~R. Nolta,
+  L.~Page, D.~N. Spergel, E.~Wollack, M.~Halpern, A.~Kogut, M.~Limon, S.~S.
+  Meyer, G.~S. Tucker, and E.~L. Wright.
+\newblock Five-year wilkinson microwave anisotropy probe observations: Data
+  processing, sky maps, and basic results.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 180\penalty0
+  (2):\penalty0 225, 2009.
+\newblock URL \url{http://stacks.iop.org/0067-0049/180/i=2/a=225}.
 
 \bibitem[{Zwicky}(1937)]{zwicky}
 F.~{Zwicky}.
@@ -370,12 +281,17 @@ Jacob~D. Bekenstein and Robert~H. Sanders.
 \newblock \doi{10.1051/eas:2006075}.
 \newblock [EAS Publ. Ser.20,225(2006)].
 
-\bibitem[Chaichian et~al.(2014)Chaichian, Kluso?, Oksanen, and
+\bibitem[Chaichian et~al.(2014)Chaichian, Kluso, Oksanen, and
   Tureanu]{chaichiana}
-Masud Chaichian, Josef Kluso?, Markku Oksanen, and Anca Tureanu.
+Masud Chaichian, Josef Kluso, Markku Oksanen, and Anca Tureanu.
 \newblock {Can TeVeS be a viable theory of gravity?}
 \newblock \emph{Phys. Lett.}, B735:\penalty0 322--326, 2014.
 \newblock \doi{10.1016/j.physletb.2014.06.036}.
+
+\bibitem[Boran et~al.(2017)Boran, Desai, Kahya, and Woodard]{teves_false}
+S.~Boran, S.~Desai, E.~O. Kahya, and R.~P. Woodard.
+\newblock {GW170817 Falsifies Dark Matter Emulators}.
+\newblock 2017.
 
 \bibitem[Tisserand et~al.(2007)]{macho}
 P.~Tisserand et~al.
@@ -489,35 +405,8 @@ C.~Levy, S.~Fallon, J.~Genovesi, D.~Khaitan, K.~Klimov, J.~Mock, and
 \newblock \emph{JINST}, 11\penalty0 (03):\penalty0 C03003, 2016.
 \newblock \doi{10.1088/1748-0221/11/03/C03003}.
 
-\bibitem[Agnese et~al.(2017)Agnese, Anderson, Aramaki, Arnquist, Baker, Barker,
-  Basu~Thakur, Bauer, Borgland, Bowles, Brink, Bunker, Cabrera, Caldwell,
-  Calkins, Cartaro, Cerde\~no, Chagani, Chen, Cooley, Cornell, Cushman, Daal,
-  Di~Stefano, Doughty, Esteban, Fallows, Figueroa-Feliciano, Fritts, Gerbier,
-  Ghaith, Godfrey, Golwala, Hall, Harris, Hofer, Holmgren, Hong, Hoppe, Hsu,
-  Huber, Iyer, Jardin, Jastram, Kelsey, Kennedy, Kubik, Kurinsky, Leder, Loer,
-  Lopez~Asamar, Lukens, Mahapatra, Mandic, Mast, Mirabolfathi, Moffatt,
-  Morales~Mendoza, Orrell, Oser, Page, Page, Partridge, Pepin, Phipps, Poudel,
-  Pyle, Qiu, Rau, Redl, Reisetter, Roberts, Robinson, Rogers, Saab, Sadoulet,
-  Sander, Schneck, Schnee, Serfass, Speller, Stein, Street, Tanaka, Toback,
-  Underwood, Villano, von Krosigk, Welliver, Wilson, Wright, Yellin, Yen,
-  Young, Zhang, and Zhao]{cdms}
-R.~Agnese, A.~J. Anderson, T.~Aramaki, I.~Arnquist, W.~Baker, D.~Barker,
-  R.~Basu~Thakur, D.~A. Bauer, A.~Borgland, M.~A. Bowles, P.~L. Brink,
-  R.~Bunker, B.~Cabrera, D.~O. Caldwell, R.~Calkins, C.~Cartaro, D.~G.
-  Cerde\~no, H.~Chagani, Y.~Chen, J.~Cooley, B.~Cornell, P.~Cushman, M.~Daal,
-  P.~C.~F. Di~Stefano, T.~Doughty, L.~Esteban, S.~Fallows,
-  E.~Figueroa-Feliciano, M.~Fritts, G.~Gerbier, M.~Ghaith, G.~L. Godfrey, S.~R.
-  Golwala, J.~Hall, H.~R. Harris, T.~Hofer, D.~Holmgren, Z.~Hong, E.~Hoppe,
-  L.~Hsu, M.~E. Huber, V.~Iyer, D.~Jardin, A.~Jastram, M.~H. Kelsey,
-  A.~Kennedy, A.~Kubik, N.~A. Kurinsky, A.~Leder, B.~Loer, E.~Lopez~Asamar,
-  P.~Lukens, R.~Mahapatra, V.~Mandic, N.~Mast, N.~Mirabolfathi, R.~A. Moffatt,
-  J.~D. Morales~Mendoza, J.~L. Orrell, S.~M. Oser, K.~Page, W.~A. Page,
-  R.~Partridge, M.~Pepin, A.~Phipps, S.~Poudel, M.~Pyle, H.~Qiu, W.~Rau,
-  P.~Redl, A.~Reisetter, A.~Roberts, A.~E. Robinson, H.~E. Rogers, T.~Saab,
-  B.~Sadoulet, J.~Sander, K.~Schneck, R.~W. Schnee, B.~Serfass, D.~Speller,
-  M.~Stein, J.~Street, H.~A. Tanaka, D.~Toback, R.~Underwood, A.~N. Villano,
-  B.~von Krosigk, B.~Welliver, J.~S. Wilson, D.~H. Wright, S.~Yellin, J.~J.
-  Yen, B.~A. Young, X.~Zhang, and X.~Zhao.
+\bibitem[Agnese et~al.(2017)]{cdms}
+R.~Agnese et~al.
 \newblock Projected sensitivity of the supercdms snolab experiment.
 \newblock \emph{Phys. Rev. D}, 95:\penalty0 082002, Apr 2017.
 \newblock \doi{10.1103/PhysRevD.95.082002}.
@@ -580,8 +469,9 @@ A.~Bolozdynya, A.~Bradley, S.~Bryan, K.~Clark, C.~E. Dahl, J.~Kwong, J.~Mock,
 \newblock ISSN 0018-9499.
 \newblock \doi{10.1109/TNS.2009.2023443}.
 
-\bibitem[get()]{getter}
-
+\bibitem[SAES Pure~Gas()]{getter}
+Inc SAES Pure~Gas.
+\newblock URL \url{http://www.saespuregas.com/default.aspx?idPage=1113}.
 
 \bibitem[{Kastens} et~al.(2010){Kastens}, {Bedikian}, {Cahn}, {Manzur}, and
   {McKinsey}]{lux_kr1}
@@ -879,9 +769,9 @@ E.~Aprile, R.~Budnik, B.~Choi, H.~A. Contreras, K.-L. Giboni, L.~W. Goetzke,
 \newblock \doi{10.1103/PhysRevD.86.112004}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevD.86.112004}.
 
-\bibitem[Szydagis()]{matthew}
+\bibitem[Szydagis(2017)]{matthew}
 Matthew Szydagis.
-\newblock personal communication.
+\newblock personal communication, December 2017.
 
 \bibitem[Lin et~al.(2015)Lin, Fei, Gao, Hu, Wei, Xiao, Wang, and
   Ni]{xenon_tritium}
