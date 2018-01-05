@@ -1028,7 +1028,7 @@ We now have all of the ingredients we need to measure the charge and light yield
 
 The addition of the newly fit tail parameters gives us a fully armed and operational model which we input into the libNEST infrastructure in order to recalculate the tritium and $^{14}$C spectra. The newly simulated spectra are used to un-smear the $E_{rec}$, $n_{\gamma}$, and $n_e$ using the method laid out in section \ref{sec:desmearprelim}. We thereby obtain final values for $\langle E_{true} \rangle_{ij}$, $\langle N_{\gamma} \rangle_{ij}$ and $\langle N_{e} \rangle_{ij}$. The ``$i$'' refers to the reconstructed energy bins described in section  \ref{sec:desmearprelim}, and the ``$j$'' subscripts refer to the electric field bins laid out in section \ref{sec:fieldbins}.
 
-In order to calculate the light yield ($LY$), charge yield ($QY$), and recombination fraction ($r$), we define a new parameter which will be equal to the ratio of photons to electrons:
+In order to calculate the light yield ($LY$), charge yield ($QY$), and recombination probaility ($P_R$), we define a new parameter which will be equal to the ratio of photons to electrons:
 \begin{equation}
 \rho \equiv \frac{N_{\gamma}}{N_e}=\frac{LY}{QY}
 \end{equation}
@@ -1037,7 +1037,7 @@ Using $1/W=LY+QY$, the three parameters of interest can then be calculated:
 \begin{split}
 LY&=\frac{1}{W}\frac{1}{1+\rho}\\[1em]
 QY&=\frac{1}{W}\frac{\rho}{1+\rho}\\[1em]
-r&=\frac{\rho-\alpha}{1+\rho}
+P_R&=\frac{\rho-\alpha}{1+\rho}
 \end{split}
 \end{equation}
 
@@ -1126,18 +1126,34 @@ $250<dT<300$ & 0.25 & 0.26\\
 To divide the data by event rate, we select two groups of events, one before the median event time and the other after the median event time. Since the radio-labeled methane is being purified away at a constant rate, the first group will have a maximum event rate that is double that of the second group. We find that there is a small systematic effect due to event rate. The high event rate grouping had a best fit slope of 0.16 $\pm$0.36 MeV$^{-1}$ while the low event rate grouping had a best fit slope of -0.36 $\pm$0.31 MeV$^{-1}$, a separation of about 1.5 times the fitting error. The most likely source of this systematic is a rate dependence in either the single-scatter cut or the $S2$ tails. Regardless of its origin, we accept an additional systematic error equal to $\frac{1}{2}|\beta_{low \ rate}-\beta_{high \ rate}|=0.26$ MeV$^{-1}$. 
 
 We would also like to characterize the size of the systematic effect due to the $S2$ tails. We turn off the tail parameters in libNEST and again float $\beta$ to find the effective slope induced by our tail model. We find that the the best fit value of $\beta$ when no model of the $S2$ tails is included is -0.85 $\pm$0.24 Mev$^{-1}$. We see from this that, if not accounted for correctly, the $S2$ tails will seriously degrade the measurement of the non-statistical shape factor. To put a conservative limit on our measurement, we well accept half of this induced slope (0.43 MeV$^{-1}$) as a systematic error.
+\begin{table}
+\centering
+\begin{tabular}{c | c }
+\hline
+source of error & $\sigma$ (MeV$^{-1}$)\\
+\hline\hline
+statistical & 0.34 \\
+$S2$ tails model & 0.43 \\
+event rate dependence & 0.26 \\
+single scatter cut acceptance & 0.17 \\
+depth dependence & 0.17\\
+\hline
+\end{tabular}
+\caption{Contributions to the experimental uncertainty on the $^{14}$C shape factor measurement.}
+\label{tab:shape_errors}
+\end{table}
 
-Combining all of our statistical and systematic errors in quadrature, our best fit shape factor is:
+Accounting for statistical uncertainty and combining all of the systematic errors shown in table \ref{tab:shape_errors} in quadrature, our best fit shape factor is:
 \begin{equation}
-C(T)=1+(0.09 \ \pm0.57 \ \text{MeV}^{-1})\cdot(Q-T),
+C(T)=1+(0.09 \ \pm0.34 \pm0.56 \ \text{MeV}^{-1})\cdot(Q-T),
 \end{equation}
-Where we have adjusted our measurement in the full dataset by the slope of the cut acceptance, as well as including it in the systematic error. This result is not in agreement with the Kuzminov result of $\beta=1.24 \ \pm0.04$ MeV$^{-1}$. 
+where we have adjusted our measurement in the full dataset by the slope of the cut acceptance, as well as including it in the systematic error. This result is not in agreement with the Kuzminov result of $\beta=1.24 \ \pm0.04$ MeV$^{-1}$. 
 
 We would like to further test that this disagreement is not due to error in our $S2$ tail model. To do this we again fit a libNEST model of the $^{14}$C spectrum to the spectrum measured in data. For this fit, we float the tail parameters and hold the shape factor constant at the value measured by Kuzminov, accounting for the slope of the single scatter cut ($\beta = \ 1.24-0.17$ MeV$^{-1}$). We also include the $^{131m}$Xe line in our simulation. We do not fit to $^{131m}$Xe spectrum but instead use it to constrain G2$_{true}$ by only accepting parameters for which the peak of the simulated $^{131m}$Xe spectrum is within 1 keV of the data. 
 
 In figure \ref{fig:C14_shape}, we compare the resulting best-fit $^{14}$C spectrum to one generated using the existing tail parameters and assuming a purely statistical spectral shape. The reduced chi-squared difference between data and the Kuzminov best-fit spectrum is 1.16, which gives a p-value of 0.05. This is roughly equivalent to the comparison to the statistical spectrum with standard tail parameters, which yields a chi-square of 1.12 and a p-value of 0.09. The fact that we are not able to find a set of tail parameters for which the Kuzminov spectrum outperforms the statistical spectrum is notable because while the former is tuned specifically to the $^{14}$C spectrum itself, the latter was generated using parameters that were only fit to the $^{37}$Ar and $^{131m}$Xe lines. This, together with the fact that the Kuzminov parameters do not reproduce the shape $^{131m}$Xe peak tells us that our data is not consistent with $\beta = \ 1.24$ MeV$^{-1}$.
 
-In conclusion, we have characterized the systematic effects due to the $S2$ tails, as well as the energy-dependence of our selection cut. Using conservative estimates for our systematic errors we find that our data disagrees with the shape factor measured by Kuzminov by about 2-$\sigma$. In fact, we find that our data is consistent with a purely statistical shape. However, with an altered tail model we are able to fit the data to the Kuzminov spectral shape, albeit at the expense of the $^{131m}$Xe model. We are therefore prevented from making any strong claims on this topic.
+In conclusion, we have characterized the systematic effects due to the $S2$ tails, as well as the energy-dependence of our selection cut. Using conservative estimates for our systematic errors we find that our data disagrees with the shape factor measured by Kuzminov by about 1.8-$\sigma$. In fact, we find that our data is consistent with a purely statistical shape. However, with an altered tail model we are able to fit the data to the Kuzminov spectral shape, albeit at the expense of the $^{131m}$Xe model. We are therefore prevented from making any strong claims on this topic.
 \begin{figure}[!h]
 \centering
   \includegraphics[width=\textwidth]{Figures/C14_spectrum_shapecomp.pdf}

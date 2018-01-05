@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{106}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -459,6 +459,13 @@ F.~Neves, A.~Lindote, A.~Morozov, V.~Solovov, C.~Silva, P.~Bras, J.P.
   2017.
 \newblock URL \url{http://stacks.iop.org/1748-0221/12/i=01/a=P01017}.
 
+\bibitem[Aprile and Doke(2010)]{aprile_doke_LXe}
+E.~Aprile and T.~Doke.
+\newblock Liquid xenon detectors for particle physics and astrophysics.
+\newblock \emph{Rev. Mod. Phys.}, 82:\penalty0 2053--2097, Jul 2010.
+\newblock \doi{10.1103/RevModPhys.82.2053}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/RevModPhys.82.2053}.
+
 \bibitem[Bolozdynya et~al.(2009)Bolozdynya, Bradley, Bryan, Clark, Dahl, Kwong,
   Mock, Phelps, Shutt, and Usowicz]{thermosyphon}
 A.~Bolozdynya, A.~Bradley, S.~Bryan, K.~Clark, C.~E. Dahl, J.~Kwong, J.~Mock,
@@ -542,13 +549,22 @@ M~Szydagis, N~Barry, K~Kazkaz, J~Mock, D~Stolp, M~Sweany, M~Tripathi, S~Uvarov,
 \newblock \emph{Journal of Instrumentation}, 6\penalty0 (10):\penalty0 P10002,
   2011.
 
-\bibitem[Lenardo et~al.(2015)Lenardo, Kazkaz, Manalaysay, Mock, Szydagis, and
-  Tripathi]{lenardo}
+\bibitem[Lenardo et~al.(2015{\natexlab{a}})Lenardo, Kazkaz, Manalaysay, Mock,
+  Szydagis, and Tripathi]{lenardo}
 B.~Lenardo, K.~Kazkaz, A.~Manalaysay, J.~Mock, M.~Szydagis, and M.~Tripathi.
 \newblock A global analysis of light and charge yields in liquid xenon.
 \newblock \emph{IEEE Transactions on Nuclear Science}, 62\penalty0
-  (6):\penalty0 3387--3396, Dec 2015.
+  (6):\penalty0 3387--3396, Dec 2015{\natexlab{a}}.
 \newblock ISSN 0018-9499.
+\newblock \doi{10.1109/TNS.2015.2481322}.
+
+\bibitem[Lenardo et~al.(2015{\natexlab{b}})Lenardo, Kazkaz, Manalaysay, Mock,
+  Szydagis, and Tripathi]{nest3}
+Brian Lenardo, Kareem Kazkaz, Aaron Manalaysay, Jeremy Mock, Matthew Szydagis,
+  and Mani Tripathi.
+\newblock {A Global Analysis of Light and Charge Yields in Liquid Xenon}.
+\newblock \emph{IEEE Trans. Nucl. Sci.}, 62\penalty0 (6):\penalty0 3387--3396,
+  2015{\natexlab{b}}.
 \newblock \doi{10.1109/TNS.2015.2481322}.
 
 \bibitem[Thomas and Imel(1987)]{tib1}
